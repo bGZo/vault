@@ -19,7 +19,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build
-        uses: konstfish/quartz-build-action@v1
+        uses: konstfish/quartz-build-action@v2
         with:
           quartz_config: quartz.config.ts
           quartz_layout: quartz.layout.ts
