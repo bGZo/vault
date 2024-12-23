@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
     },
     locale: "en-US",
-    baseUrl: "bgzo.github.io/wiki/",
+    baseUrl: "bgzo.github.io/notes/",
     ignorePatterns: [".obsidian", "template", ".git", ".github"],
     defaultDateType: "created",
     generateSocialImages: false,

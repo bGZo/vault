@@ -10,6 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/bGZo/wiki",
       Telegram: "https://t.me/imbGZo",
+      RSS: "https://bgzo.github.io/notes/index.xml"
     },
   }),
 }
