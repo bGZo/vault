@@ -2,7 +2,7 @@
 tags:
   - operating-system
 created: 2024-09-22T09:26:22
-modified: 2024-12-23T10:14:14
+modified: 2024-12-24T07:33:25
 ---
 
 ## Install
@@ -18,8 +18,8 @@ modified: 2024-12-23T10:14:14
 ## Package management
 
 > [!IMPORTANT]
-`winget` is required by following command.
-Luckily, `winget` has supported for proxy, with unstable network..[^proxy_winget] So Choose one way to use proxy:
+> `winget` is required by following command.
+> Luckily, `winget` has supported for proxy, with unstable network..[^proxy_winget] So Choose one way to use proxy:
 
 ```bash
 # Set Proxy for winget
@@ -70,7 +70,7 @@ $ scoop config proxy 127.0.0.1:10800
 ## Components build-in
 ### Remove: Ads
 
-[GitHub - xM4ddy/OFGB: GUI Tool To Removes Ads From Various Places Around Windows 11](https://github.com/xM4ddy/OFGB) ![https://github.com/xM4ddy/OFGB ](https://img.shields.io/github/stars/xM4ddy/OFGB)
+Run as `.ps1`:
 
 ```powershell
 # 设置下载的目标目录
@@ -241,16 +241,10 @@ powercfg -a
 If shown only support S0, run following as `kill-s0-sleep.bat` to delete sleep mode.[^windows_modern_standby]
 
 ```bat
-@echo off
-rem  set __COMPAT_LAYER=RunAsInvoker
-REGEDIT.EXE  /S  "%~dp0\scripts\sleep-s0-kill.reg"
+Windows Registry Editor Version 5.00
 
-if %ERRORLEVEL%==0 (
-  echo Registration successful.
-) else (
-  echo Registration failed. Please check your .reg file.
-)
-pause
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power]
+"PlatformAoAcOverride"=dword:00000000
 ```
 
 > [!NOTE]
@@ -258,6 +252,15 @@ pause
 
 ```shell
 powercfg /hibernate on
+```
+
+Recovery sleep mood run following as `reg`:
+
+```bat
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power]
+"PlatformAoAcOverride"=-
 ```
 
 ## SubSystem
