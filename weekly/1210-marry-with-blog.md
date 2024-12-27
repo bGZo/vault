@@ -1,6 +1,6 @@
 ---
 aliases: 以文会友，用笔相亲
-created: 2024-10-19T12:00:00
+created: 2024-10-13T12:00:00
 status: writing/draft
 modified: 2024-12-26T09:03:39
 ---
