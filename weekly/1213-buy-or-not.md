@@ -1,6 +1,6 @@
 ---
-aliases:
-  - 要不要买呢？
+title: 消费补贴与二手市场
+aliases: 消费补贴与二手市场
 created: 2024-11-09T12:00:00
 modified: 2024-12-24T09:18:24
 status:

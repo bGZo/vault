@@ -1,6 +1,6 @@
 ---
-aliases:
-  - 还是买了 iPad (mini)
+title: 还是买了 iPad (mini)
+aliases: 还是买了 iPad (mini)
 created: 2024-10-26T12:00:00
 status:
   - writing/draft

@@ -1,6 +1,6 @@
 ---
-aliases:
-  - 小说就是要看到转折点才好看啊
+title: 小说就是要看到转折点才好看啊
+aliases: 小说就是要看到转折点才好看啊
 created: 2024-08-03T12:00:00
 status:
   - writing/draft

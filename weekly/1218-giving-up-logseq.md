@@ -1,4 +1,6 @@
 ---
+title: 放弃 Logseq
+aliases: 放弃 Logseq
 created: 2024-12-09T12:00:00
 modified: 2024-12-24T09:54:17
 type: writing

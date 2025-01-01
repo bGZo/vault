@@ -1,6 +1,6 @@
 ---
-aliases:
-  - 致某某
+title: 致某某
+aliases: 致某某
 created: 2024-11-23T12:00:00
 modified: 2024-12-24T09:16:37
 status:
