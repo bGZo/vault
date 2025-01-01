@@ -1,9 +1,11 @@
 ---
 aliases: 湿疹复发
+title: 湿疹复发
 created: 2024-05-25T12:00:00
 status: writing/published
-tags: [[self-healing]]
+tags: self-healing
 modified: 2024-12-26T08:28:13
+type: writing
 ---
 
 <iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=zABLecsR5UE' target='_blank' class='external-link'>https://www.youtube.com/watch?v=zABLecsR5UE</a></div>

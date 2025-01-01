@@ -4,13 +4,11 @@ aliases:
 created: 2024-10-26T12:00:00
 status:
   - writing/draft
-tags: []
-modified: 2024-12-24T09:27:40
+modified: 2024-12-29T10:39:24
+type: writing
 ---
 
-## Previous
-
-[[1154-your-next-pc-is-never-being-an-ipad-pro]]
+## Previous: [你的下台电脑，不可能是 iPad Pro](1154-your-next-pc-is-never-being-an-ipad-pro)
 
 ## 理由
 ### 教育优惠
@@ -32,6 +30,12 @@ modified: 2024-12-24T09:27:40
 ### 硬件规格：8G 内存
 
 过去只有 M 芯片才会搭载的 8G 内存，首次下放到了 iPad mini 中，虽然 A17 Pro 是短板，但也无伤大雅。
+
+## Option < 18.2
+
+### iPad mini7 开启台前调度
+
+https://github.com/leminlimez/Nugget
 
 ## Waiting: TrollStore
 

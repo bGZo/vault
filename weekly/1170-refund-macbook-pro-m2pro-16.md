@@ -1,9 +1,14 @@
 ---
-aliases: Macbook Pro 祛魅  
+aliases: 
+  - Macbook Pro 祛魅
+title: Macbook Pro 祛魅
 created: 2024-01-13T12:00:00
 modified: 2024-12-21T05:19:15
-status: writing/draft
-tags: macbook
+status:
+  - writing/draft
+tags:
+  - macbook
+type: writing
 ---
 
 > [!note]

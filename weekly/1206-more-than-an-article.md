@@ -1,8 +1,10 @@
 ---
 aliases: 超越文章
+title: 超越文章
 created: 2024-09-21T12:00:00
 status: writing/draft
 modified: 2024-12-24T09:29:12
+type: writing
 ---
 
 我很喜欢记东西，用过非常多的工具，当然积累了非常大的比计量，就像 [[weekly/1198-wrong-second-brain]] 里面提到的，笔记不应该是如此廉价的东西，要不然就会像现在的我一样，信息过载，淹没在自己的文字地狱中，更加难以回顾，加以输出利用。

@@ -1,6 +1,7 @@
 ---
 created: 2024-12-09T12:00:00
 modified: 2024-12-24T09:54:17
+type: writing
 ---
 
 Okey, I know it's ridiculous and hard to say: **I give up [[logseq]]**, ending up the 3 years usage career. Honestly, I'm not good enough using this tool, such as IDK when they add the support of markdown YAML properties, even though I always read changelog of it. [^earier-logseq]

@@ -1,8 +1,9 @@
 ---
 created: 2024-06-01T12:00:00
 status: writing/published
-tags: [[self-care]]
+tags: self-care
 modified: 2024-12-26T08:30:20
+type: writing
 ---
 
 <iframe src="https://www.youtube.com/embed/YJkOxWVn0SU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=YJkOxWVn0SU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=YJkOxWVn0SU</a></div>

@@ -1,8 +1,10 @@
 ---
-created: 2023-09-23T12:00:00
+title: 你的下一台电脑，不可能会是 iPad Pro
+created: 2023-09-18T12:00:00
 modified: 2024-12-26T08:48:25
 status:
   - writing/draft
+type: writing
 ---
 
 今天下午，EMS 取走了武汉寄过来的快递，寄去了北京。Apple 退货算是告一段落，这让我不禁开始重新想一个问题：**我真正的需求到底是什么**？

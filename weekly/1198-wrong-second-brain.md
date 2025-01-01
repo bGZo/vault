@@ -5,6 +5,7 @@ status:
 aliases:
   - 错误的第二大脑
 modified: 2024-12-26T08:44:24
+type: writing
 ---
 
 Hello, again. This week is special for me, which is my birthday week, after 8390 days, 1198 weeks and 276 month past, I am 23 years old.

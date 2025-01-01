@@ -1,9 +1,11 @@
 ---
 aliases: 归来还是苹果
+title: 归来还是苹果
 created: 2024-08-31T12:00:00
 modified: 2024-12-21T05:36:53
 status: writing/draft
 tags: macbook
+type: writing
 ---
 
 okey，因为之前义正严辞地喷过 ([[1170-refund-macbook-pro-m2pro-16]])，但现在仍然选择入手，让我感觉自己是个小丑 🤡

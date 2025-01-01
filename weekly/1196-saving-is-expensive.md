@@ -1,10 +1,11 @@
 ---
+title: 数字移民：生存多艰
+aliases: 数字移民：生存多艰
 created: 2024-07-13T12:00:00
 status:
   - writing/draft
-aliases:
-  - 数字移民：生存多艰
 modified: 2024-12-26T08:36:03
+type: writing
 ---
 
 > 那时她还太年轻，不知道所有命运馈赠的礼物，早已在暗中*标好了价格*

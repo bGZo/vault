@@ -1,8 +1,9 @@
 ---
 created: 2024-05-18T12:00:00
 status: writing/published
-tags: [[life]]
+tags: life
 modified: 2024-12-26T08:26:03
+type: writing
 ---
 
 <iframe src="https://www.youtube.com/embed/UtF6Jej8yb4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=UtF6Jej8yb4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=UtF6Jej8yb4</a></div>

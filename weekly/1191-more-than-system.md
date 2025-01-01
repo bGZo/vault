@@ -1,11 +1,12 @@
 ---
+title: 超越系统
+aliases: 超越系统
 created: 2024-06-08T12:00:00
+tags: 
 status:
   - writing/published
-tags: 
-aliases:
-  - 超越系统
 modified: 2024-12-26T08:30:28
+type: writing
 ---
 
 <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></div>

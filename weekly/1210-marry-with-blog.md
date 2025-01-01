@@ -1,8 +1,10 @@
 ---
-aliases: 以文会友，用笔相亲
+aliases: 写信吧爱人
+title: 写信吧爱人
 created: 2024-10-13T12:00:00
 status: writing/draft
 modified: 2024-12-26T09:03:39
+type: writing
 ---
 
 最近 V 站有很多吐槽婚姻生活的帖子 [^v2ex-posts-marry]，有讲两个人同甘共苦的，也有讲大难临头撇清关系，各自飞的。
