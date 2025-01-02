@@ -1,11 +1,11 @@
 ---
 created: 2024-07-28T12:00:00
+modified: 2024-12-28T11:09:23
 created-link: "[[20240728]]"
 document: 
 status: tool/star
 tags: browser 
 type: tool
-modified: 2024-12-23T11:15:40
 ---
 
 ## Profile
@@ -105,14 +105,32 @@ default location is `%APPDATA%\Mozilla\Firefox\Profiles\`[^windows-profile]
 
 #### Limit memory using
 
+```yaml
+browser.cache.memory.capacity: 8192000
+```
+
 #### History max to be keep
 
-### nightly/beta on [[android]]
-#### useragent (UA)
+https://superuser.com/questions/1269516/what-exactly-does-the-number-listed-under-places-history-expiration-transient-c
+
+```yaml
+places.history.expiration.transient_current_max_pages
+# https://support.mozilla.org/en-US/questions/1039372
+
+browser.migrate.chrome.history.limit
+browser.migrate.chrome.history.maxAgeInDays
+# https://superuser.com/questions/1635171/firefox-doesnt-import-all-history-from-chrome
+
+places.history.expiration.max_pages
+# https://www.reddit.com/r/firefox/comments/u417w8/how_long_does_firefox_keep_history_for/
+```
+
+### User Agent (UA)
 
 Go `about:config` to create a String named ` general.useragent.override` [^create-custom-ua]
 
 Value could be an iPad:
+
 ```
 Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10
 ```
