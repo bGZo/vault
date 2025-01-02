@@ -1,7 +1,7 @@
 ---
 title: 中国互联网外链之死
 aliases: 中国互联网外链之死
-created: 2025-01-01T11:09:43
+created: 2023-04-08T11:09:43
 modified: 2025-01-01T11:10:50
 description: 
 status:
