@@ -1,5 +1,5 @@
 ---
-title: 周报
+title: Weekly
 aliases:
   - 周报
 titile: 

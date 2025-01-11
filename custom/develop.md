@@ -1,7 +1,7 @@
 ---
 created: 2024-12-08T09:26:21
 created-link: "[[20241208]]"
-modified: 2024-12-22T02:20:19
+modified: 2025-01-06T09:58:29
 ---
 
 ## Environment
@@ -54,3 +54,32 @@ brew install go
 #windows
 scoop install go
 ```
+
+Download portable version via: https://go.dev/dl/
+
+### [[ruby]]
+
+[Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/#installers)
+
+#### jekyll
+
+- https://jekyllrb.com/docs/installation/other-linux/
+- https://jekyllrb.com/docs/installation/ubuntu/
+
+## Jetbrains
+
+### Activated using `ja-netfilter`
+
+Go https://3.jetbra.in download the `ja-netfilter.zip`.
+
+Unzip file to the specific location. Append the following config if on China:
+
+```shell
+# https://zhile.io/2024/09/05/jetbrains-2024-2-region.html
+[URL]
+PREFIX,https://account.jetbrains.com.cn/lservice/rpc/validateKey.action
+```
+
+ Run `script/install.sh` on unix, or `install-current-user.vbs` on windows.
+
+Copy code and paste on IDE. Enjoy!

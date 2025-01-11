@@ -1,8 +1,16 @@
 ---
-aliases: 索引
+aliases: 首页
+title: Home
 created: 2024-08-14T12:00:00
-modified: 2024-12-23T10:00:31
+modified: 2025-01-10T08:27:57
 ---
+
+## TL;DR
+
+- Work
+	- [Skills](/skills)
+	- [Projects](/projects)
+- Life
 
 ## PKM announcement
 
@@ -15,7 +23,7 @@ Whatever you're using, half life of something (rules) is not changed. I would tr
 
 The hard truth is, we're spending the most time of life to work.[^as-non-work-flow] During this time, solving business problems is main problem, which needs:
 
-- Skills
+- [Skills](/skills)
 	- Hard
 		- Tech stack
 			- programming language
@@ -25,10 +33,11 @@ The hard truth is, we're spending the most time of life to work.[^as-non-work-fl
 		- Languages
 		- Communication
 		- Speech
-  - Projects
-    ![](https://raw.githack.com/bGZo/assets/dev/2024/20241214214634.png)
-	  - Big main project
-	  - Side project
+- [Projects](/projects)
+    - Side project
+    - Big main project
+
+![](https://raw.githack.com/bGZo/assets/dev/2024/20241214214634.png)
 
 #### Free time wasting for better life
 
@@ -104,7 +113,7 @@ Hierarchy/Namespace is not silver bullet. Delay your use of namespaces until you
 
 Copyright 2022 - 2024 [bGZo](https://github.com/bGZo). All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.
 
-<div class="text-center"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="http://creativecommons.org/licenses/by-sa/4.0/"/><img src="https://raw.githack.com/bGZo/assets/dev/2024/Written-By-Human-Not-By-AI-Badge-white.svg" alt="https://notbyai.fyi"/></div>
+<center><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="http://creativecommons.org/licenses/by-sa/4.0/"/><img src="https://raw.githack.com/bGZo/assets/dev/2024/Written-By-Human-Not-By-AI-Badge-white.svg" alt="https://notbyai.fyi"/></center>
 
 [^maintain-soft-rules]: Maybe the flow you have to change in next version, or the problem maybe solved, it's really not have too much value.
 [^as-non-work-flow]: If you are a student, or someone else, the work could be something you worked for living. Whether they should separate with space time, there are a thousand Hamlets in a thousand people's eyes. At least in China, space time always conflicts with work, so talking about that is always ambiguous...

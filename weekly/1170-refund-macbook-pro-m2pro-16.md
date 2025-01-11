@@ -161,7 +161,7 @@ https://zhuanlan.zhihu.com/p/354385629
 
 ## Conculision
 
-关于最后 [[the-second-pc]]，我还是放弃了购买 MacbookPro M1Pro 64GB 的版本，大概需要 2 万，感觉不需要。
+关于最后 [[1180-the-second-pc]]，我还是放弃了购买 MacbookPro M1Pro 64GB 的版本，大概需要 2 万，感觉不需要。
 
 也有人推荐用 MBA 丐版 SSH 到服务器做开发，不知道是为了什么？为什么我一万块钱买了一台电脑还用不爽？
 

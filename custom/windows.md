@@ -2,8 +2,32 @@
 tags:
   - operating-system
 created: 2024-09-22T09:26:22
-modified: 2024-12-24T07:33:25
+modified: 2025-01-11T05:05:36
 ---
+
+## Prior to purchase
+
+### Standard
+- [ ] 力度触控板
+- [ ] 键盘按键的触发力度
+- [ ] 自动亮度调节
+- [ ] 风扇（性能）控制
+- [ ] 轻 (中) 度负载的噪音
+- [ ] 电池续航
+- [ ] 性能释放
+- [ ] 镜面屏
+
+There is no silver bullet for computer, via [[1180-the-second-pc]]
+
+### Bypass connect Wi-Fi
+
+`shift + f12` 弹出命令行后，输入
+
+```shell
+oobe\bypassnro
+```
+
+重启进入系统即可跳过联网激活
 
 ## Install
 
@@ -15,7 +39,15 @@ modified: 2024-12-24T07:33:25
 - Write it on U Disk via:
     - https://github.com/pbatard/rufus
 
-## Package management
+## Activate
+
+Thanks for https://github.com/massgravel/Microsoft-Activation-Scripts
+
+```
+irm https://massgrave.dev/get | iex
+```
+
+## Package management / Software recover
 
 > [!IMPORTANT]
 > `winget` is required by following command.
@@ -366,6 +398,12 @@ See [[proxy]], then go https://github.com/bGZo/proxy
 #### Like Mac
 
 - BitDock: http://www.bitdock.cn/bbs/forum.php
+
+## Waiting features
+
+### Unlock windows hello without PIN
+
+Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-setup-fingerprint-without-pin-windows/10692b78-a60a-4208-9c97-b9ec27809cea
 
 ## Reference
 

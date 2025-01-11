@@ -2,7 +2,7 @@
 title: 放弃 Logseq
 aliases: 放弃 Logseq
 created: 2024-12-09T12:00:00
-modified: 2024-12-24T09:54:17
+modified: 2025-01-12T12:13:58
 type: writing
 ---
 
@@ -74,6 +74,10 @@ But there is something worth to try
 - no use break line
 ^-\n
 \n---\n[^\n ]
+
+- attachments
+! \[(.*)\]\(\.\./assets
+![$1](../assets
 ```
 
 ### Properties
@@ -189,10 +193,10 @@ Save as `import.json` to import.
 > via: https://forum.obsidian.md/t/youtube-video-unavailable/61107
 > https://stackoverflow.com/questions/44839312/disable-auto-play-in-youtube-embeded-code
 
-
 #### Code block with no wrap
 
 - https://forum.obsidian.md/t/disable-word-wrap-for-code-blocks/13210/16
+
 ### Query
 
 #### Exclude some folder
@@ -209,6 +213,20 @@ More Query
 - https://publish.obsidian.md/tasks/Queries/About+Queries
 - https://forum.obsidian.md/t/dataview-how-to-specify-the-order-of-properties/69721
 
+### Embed files
+
+Only support local embed [^embed-file]
+
+```
+![[demo.pdf]]
+```
+
+Not support http embed.
+
+```
+![](https://github.com/assets/demo.pdf)
+```
+
 ### Others
 - Use spaces instead of tab: https://forum.obsidian.md/t/use-tabs-off-only-replaces-tabs-with-spaces-in-lists/3583
 - [Show location of currently open file - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/show-location-of-currently-open-file/41903)
@@ -216,3 +234,4 @@ More Query
 
 [^earier-logseq]: in earlier version, they released fast,  I used to learn feature via changelog. the hierachy is using via twitter, the macros via community discuss. and even someone analyze the logic of language, break it into pieces, and try explain it with Logseq.
 [^announced]:[Why the database version and how it's going? - Announcements - Logseq](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744/25)
+[^embed-file]:https://help.obsidian.md/Linking+notes+and+files/Embed+files
