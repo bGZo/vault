@@ -2,8 +2,12 @@
 aliases: 首页
 title: Home
 created: 2024-08-14T12:00:00
-modified: 2025-01-10T08:27:57
+modified: 2025-01-12T03:16:25
 ---
+
+This is the second brain I tried to build.
+
+Recently I was [[1218-giving-up-logseq]], so two formats would be existed on here. Maybe some kind of mess. Wish you have a fun time. That would be my pleasure.
 
 ## TL;DR
 
