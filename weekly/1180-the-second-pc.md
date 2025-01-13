@@ -41,7 +41,7 @@ status: writing/idea
     - [联想yoga14s 翻车指北 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/351879268)
 
 ### 小新
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1N64y1E7nE&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1N64y1E7nE' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1N64y1E7nE</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1N64y1E7nE&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1N64y1E7nE' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1N64y1E7nE</a></center>
 
 线下买不到的 Air14，也没必要单独看
 
@@ -59,18 +59,18 @@ status: writing/idea
 
 看了这个视频，直接快递都没有拆，直接退回去了，太容易撞功耗墙，U5 足够，U7 浪费；
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kc41127GY&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1kc41127GY' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kc41127GY</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kc41127GY&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1kc41127GY' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kc41127GY</a></center>
 
 ### 幻 14
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1YP411q7rL&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1YP411q7rL' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1YP411q7rL</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1YP411q7rL&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1YP411q7rL' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1YP411q7rL</a></center>
 
 真的受不了华硕家祖传的叠叠乐；
 
 ## 微星
 
 ### 绝影
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kK411b75u&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1kK411b75u' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kK411b75u</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kK411b75u&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1kK411b75u' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kK411b75u</a></center>
 
 > [!NOTE]
 > 不是每个人上图吧的，买二线的都是钱少的
@@ -113,7 +113,7 @@ https://www.youtube.com/watch?v=CdzctCUxnTE&t=6s
 
 最开始纠结 SD，发觉 $549 折合人民币差不多 3900 的样子，含税差不多是 4400 左右的样子，现在的价格水分很高，没过一个月就已经降价近 500 块了，不保值是第一点，再者就是 Steam 去年大刀阔斧地把阿区、土区干没了
 
-<iframe src="https://www.youtube.com/embed/m7FPXLuOY3A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=m7FPXLuOY3A' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m7FPXLuOY3A</a></div>
+<iframe src="https://www.youtube.com/embed/m7FPXLuOY3A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=m7FPXLuOY3A' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m7FPXLuOY3A</a></center>
 6:40 ：我知道，我不是 SD 的目标用户，我在意这几百美元的差价，我也在意升级换代的时间，这些别人口中不那么在意的点，并不会真正成为我的需求，他们是他们，我是我，我在意，所以我不买。
 
 ### ROG Ally
@@ -128,7 +128,7 @@ https://www.youtube.com/watch?v=CdzctCUxnTE&t=6s
 - [在 Steam Deck 和 ROG ALLY 中纠结，有没有买过的进来说说看法？ - V2EX](https://v2ex.com/t/966485)
 
 ### 拯救者
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1nh4y1i7pi&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1nh4y1i7pi' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1nh4y1i7pi</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1nh4y1i7pi&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1nh4y1i7pi' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1nh4y1i7pi</a></center>
 
 无论对拯救者心动多少次，用过一次前端之后，就直接劝退了。还是算了
 
@@ -153,7 +153,7 @@ Ayaneo Air 1s，7840U 定价 5k，比 SD 还贵，很自信，不愿意尝试；
   - [什么是OEM产品？ OME固态硬盘为什么这么便宜？OEM固态硬盘有什么优劣势？ - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv2501883/)
   - [[硬件求助]为什么sn740价格差这么多？ NGA玩家社区 (ngabbs.com)](https://ngabbs.com/read.php?tid=35687004&rand=494)
 - [求推荐稳点的硬盘，两块希捷酷鱼 4T 同时挂了 - V2EX](https://www.v2ex.com/t/830555)
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV12N4y1S7AK&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV12N4y1S7AK' target='_blank' class='external-link'>https://www.bilibili.com/video/BV12N4y1S7AK</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV12N4y1S7AK&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV12N4y1S7AK' target='_blank' class='external-link'>https://www.bilibili.com/video/BV12N4y1S7AK</a></center>
 
   - 看了他的视频才发现，原来最便宜的 SN740 是 OEM 产品；
 
@@ -161,7 +161,7 @@ Ayaneo Air 1s，7840U 定价 5k，比 SD 还贵，很自信，不愿意尝试；
 
 ### 零刻
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1vV411M7U9&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://www.bilibili.com/video/BV1vV411M7U9' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1vV411M7U9</a></div>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1vV411M7U9&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1vV411M7U9' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1vV411M7U9</a></center>
 
 ### 铭凡
 

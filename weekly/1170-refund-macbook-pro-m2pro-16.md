@@ -62,7 +62,7 @@ Mac 默认用充电器功率限制处理器功耗，14 寸的功耗墙在 60w �
 
 16 寸的边角过渡非常硌手。尤其是触控板下方的凹槽处，给人一种能被划伤的感觉。很难想象这是两万块的笔记本所带来的用户体验，如果你在膝盖，或者肚皮上码字，配合 2.1 kg 的压强，你将获得在钉板上打字的体验。胳膊会被勒出显而易见的红印，并且非常难受。
 
-<iframe src="https://www.youtube.com/embed/NnGAlf1hjs4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=NnGAlf1hjs4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=NnGAlf1hjs4</a></div>
+<iframe src="https://www.youtube.com/embed/NnGAlf1hjs4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=NnGAlf1hjs4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=NnGAlf1hjs4</a></center>
 
 ## 统一内存焦虑
 

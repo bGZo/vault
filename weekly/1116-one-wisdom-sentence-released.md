@@ -10,9 +10,9 @@ tags:
 type: writing
 ---
 
-<iframe src='https://one.bgzo.cc' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://one.bgzo.cc' target='_blank' class='external-link'>https://one.bgzo.cc</a></div>
+<iframe src='https://one.bgzo.cc' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://one.bgzo.cc' target='_blank' class='external-link'>https://one.bgzo.cc</a></center>
 
-<iframe src='https://blog.bgzo.cc/one-wisdom-sentence-released.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><div class='text-center'>via: <a href='https://blog.bgzo.cc/one-wisdom-sentence-released.html' target='_blank' class='external-link'>https://blog.bgzo.cc/one-wisdom-sentence-released.html</a></div>
+<iframe src='https://blog.bgzo.cc/one-wisdom-sentence-released.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://blog.bgzo.cc/one-wisdom-sentence-released.html' target='_blank' class='external-link'>https://blog.bgzo.cc/one-wisdom-sentence-released.html</a></center>
 
 2023 新年伊始，整理 2022 的陈年笔记时发现有很多不知名，但是又舍不得丢弃的句子，想着干脆把他们做成引用得了。连着建仓库，设计页面，写脚本一套下来也没花太多时间，一个简单的静态自动部署的网站就建好了: [One](https://one.bgzo.cc/).[^2]
 

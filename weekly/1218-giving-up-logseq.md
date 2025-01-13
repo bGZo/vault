@@ -78,6 +78,10 @@ But there is something worth to try
 - attachments
 ! \[(.*)\]\(\.\./assets
 ![$1](../assets
+
+- properties
+([ ]*)- title: \[(.*?)\]\((.*)\)
+$1- title: $2\n$1  source: $3
 ```
 
 ### Properties

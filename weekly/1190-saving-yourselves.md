@@ -8,7 +8,7 @@ modified: 2024-12-26T08:30:20
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/YJkOxWVn0SU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=YJkOxWVn0SU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=YJkOxWVn0SU</a></div>
+<iframe src="https://www.youtube.com/embed/YJkOxWVn0SU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=YJkOxWVn0SU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=YJkOxWVn0SU</a></center>
 
 > [!note]
 > Could someone save my life?

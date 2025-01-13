@@ -39,7 +39,7 @@ okey，因为之前义正严辞地喷过 ([[1170-refund-macbook-pro-m2pro-16]])�
 
 ### M4 设计思路的转变
 
-<iframe src="https://www.youtube.com/embed/EbDPvcbilCs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><div class='text-center'>via: <a href='https://www.youtube.com/watch?v=EbDPvcbilCs' target='_blank' class='external-link'>https://www.youtube.com/watch?v=EbDPvcbilCs</a></div>
+<iframe src="https://www.youtube.com/embed/EbDPvcbilCs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=EbDPvcbilCs' target='_blank' class='external-link'>https://www.youtube.com/watch?v=EbDPvcbilCs</a></center>
 
 8:20 时，M4 用 60% 的功耗，去跑 20% 的性能提升？跟 M1 和 M2 的设计思路完全背道而驰。
 
