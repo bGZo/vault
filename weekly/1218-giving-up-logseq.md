@@ -82,6 +82,9 @@ But there is something worth to try
 - properties
 ([ ]*)- title: \[(.*?)\]\((.*)\)
 $1- title: $2\n$1  source: $3
+
+<div class='text-center'>via: <a href='(.*?)' target='_blank' class='external-link'>(.*?)</a></div>
+<center>via: <a href='$1' target='_blank' class='external-link'>$1</a></center>
 ```
 
 ### Properties
@@ -97,44 +100,222 @@ That not impossible with `![]()` as value. Yet use link and format it on datavie
 https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-metadata-value/54011
 
 ### Plugins
-#### Web Cliper
-
-Save as `import.json` to import.
-
+#### Web Cliper template
+##### Web Pages
 ```json
 {
-	"schemaVersion": "0.1.0",
-	"name": "Default",
-	"behavior": "create",
-	"noteContentFormat": "{{content}}",
-	"properties": [
-		{
-			"name": "created",
-			"value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
-			"type": "date"
-		},
-		{
-			"name": "created-link",
-			"value": "[[{{date|date:YYYYMMDD}}]]",
-			"type": "text"
-		},
-		{
-			"name": "source",
-			"value": "{{url}}",
-			"type": "text"
-		},
-		{
-			"name": "type",
-			"value": "archive-web",
-			"type": "text"
-		}
-	],
-	"triggers": [],
-	"noteNameFormat": "~{{title}}",
-	"path": "archives/clippings"
+  "schemaVersion": "0.1.0",
+  "name": "Web Page",
+  "behavior": "create",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"-\\\":\\\" \\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"/[ ]+/g\\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "date"
+    },
+    {
+      "name": "created-link",
+      "value": "[[{{date|date:YYYYMMDD}}]]",
+      "type": "text"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "text"
+    },
+    {
+      "name": "pagse",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "todo",
+      "type": "multitext"
+    },
+    {
+      "name": "tags-link",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "archive-web",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "~{{title|safe_name|replace:\"_哔哩哔哩_bilibili\":\"\"|replace:\"-\":\" \"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"/[ ]+/g\":\" \"|replace:\" \":\"-\"}}",
+  "path": "archives/clip-webpages"
 }
 ```
 
+##### Youtube
+
+```json
+{
+  "schemaVersion": "0.1.0",
+  "name": "YouTube",
+  "behavior": "create",
+  "noteContentFormat": "## Source\n\n<iframe src=\"https://www.youtube.com/embed/{{url|replace:'/.*v=([^&]+).*/g':'$1'}}\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}' target='_blank' class='external-link'>https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}</a></center>\n\n## Notes\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{schema:name|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "cover",
+      "value": "{{schema:thumbnailUrl|slice:0}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{schema:author}}",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "date"
+    },
+    {
+      "name": "created-link",
+      "value": "[[{{date|date:YYYYMMDD}}]]",
+      "type": "text"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{schema:uploadDate|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "date"
+    },
+    {
+      "name": "description",
+      "value": "{{description}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "youtube",
+      "type": "multitext"
+    },
+    {
+      "name": "tags-link",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "video",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://www.youtube.com/watch?v="
+  ],
+  "noteNameFormat": "{{url|replace:'/.*v=([^&]+).*/g':'$1'}}-{{schema:name|safe_name|replace:\"_哔哩哔哩_bilibili\":\"\"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"  \":\" \"|replace:\" \":\"-\"}}",
+  "path": "archives/clip-youtube"
+}
+```
+
+##### Bilibili
+```json
+{
+  "schemaVersion": "0.1.0",
+  "name": "Bilibili",
+  "behavior": "create",
+  "noteContentFormat": "## Source\n\n<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid={{url|replace:'/.*video/([^&]+).*//g':'$1'}}&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}' target='_blank' class='external-link'>https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}</a></center>\n\n\n## Notes\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "cover",
+      "value": "{{schema:thumbnailUrl|slice:0}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "date"
+    },
+    {
+      "name": "created-link",
+      "value": "[[{{date|date:YYYYMMDD}}]]",
+      "type": "text"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{schema:uploadDate|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "date"
+    },
+    {
+      "name": "description",
+      "value": "{{description|replace: \\\"/(.*), 视频播放量.*/g\\\":\\\"$1\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "bilibili",
+      "type": "multitext"
+    },
+    {
+      "name": "tags-link",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "video",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://www.bilibili.com/video/"
+  ],
+  "noteNameFormat": "{{url|replace:'/.*video/(\\w+).*[/]*/g':'$1'}}-{{title|safe_name|replace:\"_哔哩哔哩_bilibili\":\"\"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"  \":\" \"|replace:\" \":\"-\"}}",
+  "path": "archives/clip-bilibili"
+}
+
+```
 #### Reminder
 
 #### Chinese Tools
