@@ -5,10 +5,11 @@ aliases:
   - kiwi
   - chrome
   - 浏览器
+  - chromium
 titile: 
 created: 2024-07-28T12:00:00
 created-link: "[[20240728]]"
-modified: 2025-01-02T08:15:55
+modified: 2025-01-15T09:14:03
 description: 
 tags:
   - tool
@@ -173,7 +174,121 @@ More UA check via: https://www.whatismybrowser.com/guides/the-latest-user-agent/
 - Set RAM limit
     - https://discussions.apple.com/thread/1510907?sortBy=rank
 
-## Brave #deprecated
+## (Ungoogled) Chromium
+
+### Install
+
+- https://github.com/ungoogled-software/ungoogled-chromium
+- https://github.com/Hibbiki/chromium-win64
+
+### Chrome Extensions 无法使用
+1. `chrome://flags/#extension-mime-request-handling` -> **Always prompt for ins**
+2. Download Crx [NeverDecaf/chromium-web-store: Allows adding extensions from chrome web store on ungoogled-chromium. Also adds semi-automatic extension updating.](https://github.com/NeverDecaf/chromium-web-store) ![](https://img.shields.io/github/stars/NeverDecaf/chromium-web-store)
+
+via: [How to Manually Install Extensions (Ungoogled Chromium) | avoidthehack!](https://avoidthehack.com/manually-install-extensions-ungoogled-chromium)
+
+### New tab setting
+- `chrome://flags/#custom-ntp`
+- `chrome://new-tab-page`
+- `chrome://newtab`
+
+I really love Brave's homepage with RSS, so I found some alternatives:
+
+- https://github.com/deepjyoti30/startpage
+- https://chrome.google.com/webstore/detail/manganum-1-new-tab-for-ch/jbfeongihppeenfnaofmdeikahaefljd?hl=en-US
+- https://github.com/deepjyoti30/startpage
+    - ==这个拓展的配置文件不会刷新, 因为他的配置没有写在 Manifest 里面, 默认他是需要在页面内进行配置的, 也很合理==
+
+### wontfix: playback of protected content
+
+[spotify doesn't work · Issue #1849 · ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium/issues/1849)
+
+### wontfix: notifications
+1. Native windows notifications
+2. Web push application offline
+    - depend on Google Cloud Message / Firebase Cloud Messaging
+
+> Push Notifications used GCM service for client notification.For example user get unique ID for future notifications. In chrome/browser/push_messaging is located Push notifications implementation. Impossible to have client Push API notification without cloud services by Google (or Mozilla in case of Firefox browser)
+> By the way, currently they migrate to FCM.
+> https://github.com/ungoogled-software/ungoogled-chromium/issues/589
+
+> Rather than use Mozilla servers, [roll your own](https://github.com/mozilla-services/autopush). I don't know if anyone has audited the source for connections to other Mozilla services.
+> https://github.com/ungoogled-software/ungoogled-chromium/issues/1020
+
+You can test notification using https://web-push-book.gauntface.com/demos/notification-examples, go `User Data\Default\Platform Notifications` to cat log for them. [^noti-log]
+
+### Value path
+
+- `User Data/Default`
+    - Cache 大头
+        - `Service Worker\CacheStorage`
+        - `Cache`
+        - `Code Cache`
+        - `IndexedDB`
+        - ...
+    - `History`
+    - `Bookmarks`
+
+### Cookie manage #deprecated
+##### Always
+
+```html
+[*.]leetcode.cn
+[*.]bilibili.com
+[*.]discord.com
+[*.]duolingo.com
+[*.]github.com
+[*.]gmgard.com
+[*.]google.com
+[*.]inoreader.com
+[*.]leetcode.com
+[*.]live.com
+[*.]logseq.com
+[*.]nowcoder.com
+[*.]openai.com
+[*.]spotify.com
+[*.]steampowered.com
+[*.]v2ex.com
+[*.]youtube.com
+[*.]player.fm
+[*.]steamdb.info
+[*.]raindrop.io
+[*.]gmgard.moe
+[*.]anki.net
+[*.]pixiv.net
+[*.]south-plus.net
+[*.]mastodon.social
+[*.]zodgame.xyz
+```
+
+##### Never
+
+```
+[*.]twitter.com
+[*.]mastodon.social
+[*.]bgm.tv
+```
+
+##### Garbage
+
+```
+[*.]jp
+[*.]csdn.net
+[*.]weibo.com
+[*.]zhihu.com
+[*.]youdao.com
+[*.]toutiao.com
+[*.]qq.com
+[*.]douban.com
+[*.]baidu.com
+[*.]aliyundrive.com
+[*.]alipay.com
+[*.]51cto.com
+[*.]163.com
+[*.]sina.com.cn
+```
+
+## Chromium: Brave #deprecated
 
 除了设计得好一点, 没有一点用处, 在 Chromium 的基础上绑定了 Brave Coins 的全套插件, 然后打包释出, 可以说真正的技术点就仅仅是表面套壳的几个插件罢了, 对比 `User Data` 下产生的数据, 多出来的目录屈指可数
 
@@ -265,7 +380,7 @@ More UA check via: https://www.whatismybrowser.com/guides/the-latest-user-agent/
 
 Notification not for GCM/FCM, via: [Notification problem for some web sites - Browser Support / Desktop Support - Brave Community](https://community.brave.com/t/notification-problem-for-some-web-sites/223966/17)
 
-## Kiwi (Android)
+## Chromium: Kiwi (Android)
 
 ### Fullscreen
 
@@ -283,14 +398,18 @@ Notification not for GCM/FCM, via: [Notification problem for some web sites - Br
 
 via: https://github1s.com/xieby1/fullscreen/blob/HEAD/fullscreen.js#L1-L9, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
 
-## Chrome
+## Chromium: Chrome #deprecated
 
-### Notifications
-- Windows 无法转换为 Native Notifications
-- 需要去 `User Data\Default\Platform Notifications` 看 log
-- debug
-    - https://web-push-book.gauntface.com/demos/notification-examples/
-    - https://superuser.com/questions/1035042/is-there-any-way-to-view-chrome-browser-notifications-history
+### Privacy Problem
+
+### Extension Version
+
+- [3 月 15 日谷歌就要停止第三方 chrome 浏览器的同步功能了，我该怎么办？ - V2EX](https://www.v2ex.com/t/761099)
+- [Will my organization's Chrome extensions with manifest v2 run after Jan 2023? - Chrome Enterprise Community](https://support.google.com/chrome/a/thread/175260822/will-my-organization-s-chrome-extensions-with-manifest-v2-run-after-jan-2023?hl=en)
+- [巨坑：chrome extensions绝对不要升级到V3 - 掘金](https://juejin.cn/post/7094545901967900686)
+
+## Chrome: Edge
 
 [^windows-profile]: via: [MZHistoryView: View the list of visited web sites in Firefox / Mozilla browsers](http://www.nirsoft.net/utils/mozilla_history_view.html) & https://support.mozilla.org/bm/questions/754699
 [^create-custom-ua]: [Is there any way to change user agent string on Firefox 80.1.3 for Android? : r/firefox](https://www.reddit.com/r/firefox/comments/it7jqx/is_there_any_way_to_change_user_agent_string_on/)
+[^noti-log]:https://superuser.com/questions/1035042/is-there-any-way-to-view-chrome-browser-notifications-history
