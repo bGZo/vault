@@ -5,7 +5,17 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'bGZo/notes',
+        repoId: 'R_kgDOM-7h7w',
+        category: 'comments',
+        categoryId: 'DIC_kwDOM-7h784CmFf2',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/bGZo/wiki",
@@ -28,12 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes()),
+    Component.TableOfContents(),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.RecentNotes()),
   ],
 }
 
