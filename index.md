@@ -3,6 +3,7 @@ aliases: Home
 title: Home
 created: 2024-08-14T12:00:00
 modified: 2025-01-12T03:16:25
+comments: false
 ---
 
 > [!NOTE] TL;DR

@@ -12,7 +12,7 @@ tags:
 type:
 ---
 
-## Why: [[gfw]]
+## Why: [[censor]]
 
 > [!tip]
 > 世界之大，付费可及；
