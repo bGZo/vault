@@ -90,8 +90,9 @@ Unzip file to the specific location. Append the following config if on China:
 PREFIX,https://account.jetbrains.com.cn/lservice/rpc/validateKey.action
 ```
 
- Run `script/install.sh` on unix, or `install-current-user.vbs` on windows.
+Run `script/install.sh` on unix, or `install-current-user.vbs` on windows[^core-jetbra].
 
 Copy code and paste on IDE. Enjoy!
 
 [^ruby]:via: https://jekyllrb.com/docs/installation/ubuntu, https://jekyllrb.com/docs/installation/other-linux/, https://jekyllrb.com/docs/installation/ubuntu/
+[^core-jetbra]: 在环境变量中添加 JAR，启动的时候加载破解补丁 via: https://www.exception.site/essay/idea-reset-eval

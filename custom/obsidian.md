@@ -11,14 +11,29 @@ status:
   - tool/star
 tags:
   - close-source
+  - electron
 type: tool
 ---
 
-## Why
+## Why: [[1218-giving-up-logseq]]
 
-Since [[1218-giving-up-logseq]].
+## How
 
-## What
+### Is there portable version for obsidian?
+
+No, official not provide this way to install obsidian.
+
+But obsidian build with electron, so unzip `setup.exe`, then you will get the portable version of obsidian[^unzip-way]
+
+### How setting proxy  for obsidian?
+
+We get the portable version above, proxy as well. Electron could launch with following to use proxy address:
+
+```shell
+./Obsidian.exe --proxy-server=http://127.0.0.1:7890
+```
+
+## What (The function of obsidian)
 
 ### Frontmatter 前页/扉页/版权页/目次
 
@@ -31,6 +46,7 @@ The **ribbon** functions as a container for frequently used action icons.
 ### Obsidian flavored [[markdown]]
 
 #### Callout
+
 ```
 > [!note] note
 > > [!tldr] abstract / summary / tldr
@@ -91,3 +107,5 @@ Hosted on `publish.obsidian.md/your-site` build-in with $10/month pricing.
 - [Templates - Obsidian Help](https://help.obsidian.md/Plugins/Templates)
 - [About Queries - Tasks User Guide - Obsidian Publish](https://publish.obsidian.md/tasks/Queries/About+Queries)
 <iframe src="https://www.youtube.com/embed/LrQVQ37y6IU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=LrQVQ37y6IU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=LrQVQ37y6IU</a></center>
+
+[^unzip-way]: via: https://www.reddit.com/r/ObsidianMD/comments/pyfin2/obsidian_portable/

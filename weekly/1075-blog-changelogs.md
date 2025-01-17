@@ -1,12 +1,14 @@
 ---
-title: 重启博客
-aliases: 重启博客
+title: Blog Changelogs
+aliases:
+  - 重启博客
 created: 2022-03-17T11:34:54
 modified: 2025-01-01T11:35:17
 description: 
 status:
   - writing/draft
-tags: blog
+tags:
+  - blog
 type: writing
 ---
 

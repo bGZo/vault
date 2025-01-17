@@ -1,9 +1,15 @@
 ---
-aliases: 第二台电脑
+title: 第二台电脑
+aliases:
+  - 第二台电脑
 created: 2024-07-14T12:00:00
 created-link: "[[20240714]]"
 modified: 2025-01-11T05:45:59
-status: writing/idea
+description: 
+status:
+  - writing/draft
+tags: 
+type: writing
 ---
 
 ## Macbook
@@ -37,10 +43,12 @@ status: writing/idea
 > 显卡吧不让说联想的坏话
 
 ### Yoga
+
   - [YOGA Pro14s轻盈版R7-7840HS (youtube.com)](https://www.youtube.com/watch?v=p53Hd-fK6Kw)
     - [联想yoga14s 翻车指北 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/351879268)
 
 ### 小新
+
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1N64y1E7nE&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1N64y1E7nE' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1N64y1E7nE</a></center>
 
 线下买不到的 Air14，也没必要单独看
@@ -70,6 +78,7 @@ status: writing/idea
 ## 微星
 
 ### 绝影
+
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kK411b75u&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1kK411b75u' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kK411b75u</a></center>
 
 > [!NOTE]
@@ -128,6 +137,7 @@ https://www.youtube.com/watch?v=CdzctCUxnTE&t=6s
 - [在 Steam Deck 和 ROG ALLY 中纠结，有没有买过的进来说说看法？ - V2EX](https://v2ex.com/t/966485)
 
 ### 拯救者
+
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1nh4y1i7pi&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1nh4y1i7pi' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1nh4y1i7pi</a></center>
 
 无论对拯救者心动多少次，用过一次前端之后，就直接劝退了。还是算了

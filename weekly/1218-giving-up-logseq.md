@@ -1,22 +1,36 @@
 ---
-title: 放弃 Logseq
-aliases: 放弃 Logseq
+title: Giving up Logseq
+aliases:
+  - giving up logseq
+  - why giving up logseq
+  - logseq problem
 created: 2024-12-09T12:00:00
 modified: 2025-01-12T12:13:58
 type: writing
 ---
 
-Okey, I know it's ridiculous and hard to say: **I give up [[logseq]]**, ending up the 3 years usage career. Honestly, I'm not good enough using this tool, such as IDK when they add the support of markdown YAML properties, even though I always read changelog of it. [^earier-logseq]
+Okey, I know it's ridiculous and hard to say: **I give up [[logseq]]**.
 
-## Problems
+I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released very fast, I even don't know when they add the support of markdown YAML properties.[^earier-logseq]
 
-### Markdown version (following using MV as abbr)
+## Fatal Problem: hard to build a huge system
 
-#### Hard to build huge system
+What part of logseq annoy me following:
 
-Based on several features applied, the whole construction of PKM also changed several times, which means **downward compatibility** is huge and difficult. It's something kind of wasting time.
 
-I break my PKM three times, and finally I give up it. Since enabled telegram inbox + telegram RSS bot, I was fell into the hell of poor performance.
+### The performance never come to usable in a large page.
+
+
+### Outline render 
+
+### Historical baggage
+
+As I said above, features applied again and again, which break the the whole construction of PKM as well. That means, the **downward compatibility** of system is impossible and difficult. 
+
+
+I need to break my PKM three times, and finally I give up it. Since enabled telegram inbox + telegram RSS bot, I was fell into the hell of poor performance.
+
+In a word, it's wasting time and no worth any more.
 
 #### Hard to share & read with raw format
 
