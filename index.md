@@ -26,12 +26,6 @@ comments: false
 > 			- [Weekly](weekly)
 > 			- drawing pixel [[illustration]] 
 
-```dataview
-list  
-from -"template" 
-where type = "hobby"
-```
-
 Welcome my second brain I tried to build with [obsidian](obsidian) & [quartz](https://quartz.jzhao.xyz). I used [logseq](logseq) before and now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired[^giving-up-logseq].
 
 Anyway, wish you have a fun time. That would be my pleasure.
