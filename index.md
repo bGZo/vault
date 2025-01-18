@@ -9,14 +9,7 @@ comments: false
 > [!NOTE] TL;DR
 > -  [Configuration](custom/index)
 > - Work
-> 	- [Skills](/skills): hard & soft skills for working business.
-> 		- [Base](/skills/fundamantal): for all stuff I would recommend you. #skill/hard
-> 		- [Common](/common): prerequisite for professional content. #skill/soft #skill/hard
-> 			- Languages #skill/soft
-> 			- Communication #skill/soft
-> 			- Speech #skill/soft
-> 		- Tech stack #skill/hard
-> 			- Programming Language
+> 	- [Skills](skills/index)
 > 	- [Projects](/projects): for long terms goals.
 > 		- Experiences
 > - Life: free time wasting for a better life
