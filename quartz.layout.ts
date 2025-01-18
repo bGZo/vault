@@ -39,11 +39,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.TableOfContents(),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
     Component.Graph(),
     Component.Backlinks(),
+    Component.MobileOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.RecentNotes()),
   ],
 }
