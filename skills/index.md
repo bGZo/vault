@@ -1,5 +1,5 @@
 ---
-titile: Skills
+title: Skills
 aliases:
   - Skill Stack
   - 技能树

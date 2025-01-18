@@ -1,5 +1,5 @@
 ---
-titile: {{title}}
+title: {{title}}
 aliases: {{title}}
 author: 
 cover: 

@@ -1,5 +1,5 @@
 ---
-titile: Projects
+title: Projects
 aliases:
   - 项目
 created: 2025-01-17T16:03:33

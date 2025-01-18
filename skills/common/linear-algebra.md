@@ -1,5 +1,5 @@
 ---
-titile: 线性代数
+title: 线性代数
 aliases:
   - 线性代数
   - 线代

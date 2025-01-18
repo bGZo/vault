@@ -1,5 +1,5 @@
 ---
-titile: {{title}}
+title: {{title}}
 aliases: {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
 created-link: '[[{{date:YYYYMMDD}}]]'

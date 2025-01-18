@@ -1,5 +1,5 @@
 ---
-titile: proxy
+title: proxy
 aliases:
   - proxy
   - 代理

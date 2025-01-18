@@ -1,5 +1,5 @@
 ---
-titile: Common
+title: Common
 aliases:
   - 前置知识
 created: 2025-01-18T14:58:41

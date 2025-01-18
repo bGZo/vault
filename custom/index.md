@@ -1,5 +1,5 @@
 ---
-titile: Custom
+title: Custom
 aliases:
   - 自定义
 created: 2025-01-17T16:03:33

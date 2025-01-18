@@ -1,5 +1,5 @@
 ---
-titile: {{title}}
+title: {{title}}
 aliases: {{title}}
 released: 
 created: {{date:YYYY-MM-DDTHH:mm:ss}}

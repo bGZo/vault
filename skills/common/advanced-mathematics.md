@@ -1,5 +1,5 @@
 ---
-titile: 高等数学
+title: 高等数学
 aliases:
   - 高等数学
   - 高数

@@ -1,5 +1,5 @@
 ---
-titile: Privacy
+title: Privacy
 aliases:
   - 隐私
 created: 2023-08-06T07:58:30

@@ -1,5 +1,5 @@
 ---
-titile: biases
+title: biases
 aliases:
   - biases
   - 偏见
