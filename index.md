@@ -7,11 +7,10 @@ comments: false
 ---
 
 > [!NOTE] TL;DR
-> -  [Configuration](/custom): for custom settings for [[productivity]] [[tools]] I used.
+> -  [Configuration](custom/index)
 > - Work
-> 	- [Skills](/skills)  hard & soft skills for working business.
-> 		- [Base](/skills/fundamental): for all stuff I would recommend you. #skill/hard
-> 			- Privacy
+> 	- [Skills](/skills): hard & soft skills for working business.
+> 		- [Base](/skills/fundamantal): for all stuff I would recommend you. #skill/hard
 > 		- [Common](/common): prerequisite for professional content. #skill/soft #skill/hard
 > 			- Languages #skill/soft
 > 			- Communication #skill/soft
