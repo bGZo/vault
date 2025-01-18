@@ -46,6 +46,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install --lts
 ```
 
+Go https://nodejs.org/en/download to get the specific version you want and download / install it.
+
 ### [Python](python)
 
 ### [Golang](golang)

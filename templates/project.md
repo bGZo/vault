@@ -1,10 +1,10 @@
 ---
 title: {{title}}
 aliases: {{title}}
-released: 
-created: Invalid date
+created: {{date:YYYY-MM-DDTHH:mm:ss}}
 created-link: '[[{{date:YYYYMMDD}}]]'
-modified: 2025-01-13T08:48:29
+deadline: {{date:YYYY-MM-DDTHH:mm:ss}}
+modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 description: 
 tags: 
 type: project

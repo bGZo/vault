@@ -42,9 +42,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
+    Component.MobileOnly(Component.TableOfContents()),
     Component.Graph(),
     Component.Backlinks(),
-    Component.MobileOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.RecentNotes()),
   ],
 }

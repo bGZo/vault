@@ -10,8 +10,7 @@ comments: false
 > -  [Configuration](custom/index)
 > - Work
 > 	- [Skills](skills/index)
-> 	- [Projects](/projects): for long terms goals.
-> 		- Experiences
+> 	- [Projects](projects/index)
 > - Life: free time wasting for a better life
 > 	- Living (\* required absolutely)
 > 		- Health
@@ -23,9 +22,9 @@ comments: false
 > 			- playing [[games]]
 > 			 - reading [[books]] / [[galgame]]
 > 			 - listening to [[musics]] / [[podcasts]]
-> 		- [Creation](/creation)
-> 			- drawing [[illustration]] with [[plex]]
-> - [Inbox](inbox): collect, classify, link and **delete** info you token.
+> 		- Creation
+> 			- [Weekly](weekly)
+> 			- drawing pixel [[illustration]] 
 
 ```dataview
 list  
@@ -33,7 +32,7 @@ from -"template"
 where type = "hobby"
 ```
 
-Welcome my second brain I tried to build with [obsidian](https://obsidian.md/) & [quartz](https://quartz.jzhao.xyz). I used logseq before and now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired[^giving-up-logseq].
+Welcome my second brain I tried to build with [obsidian](obsidian) & [quartz](https://quartz.jzhao.xyz). I used [logseq](logseq) before and now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired[^giving-up-logseq].
 
 Anyway, wish you have a fun time. That would be my pleasure.
 
