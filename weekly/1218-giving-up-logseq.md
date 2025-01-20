@@ -115,7 +115,153 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 
 ### Plugins
 #### Web Cliper template
+
+##### Github
+
+```json
+{
+  "schemaVersion": "0.1.0",
+  "name": "Github: Repo",
+  "behavior": "create",
+  "noteContentFormat": "## Meta\n\n![](https://img.shields.io/github/stars/{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$1/$2'}}?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$1/$2'}}?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$1/$2'}}?style=for-the-badge&label=date)\n\n## Notes\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$1/$2'}}",
+      "type": "text"
+    },
+    {
+      "name": "aliases",
+      "value": "{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$2'}}",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "description",
+      "value": "{{title|replace:'/.*/.*\\: /g':''}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "star",
+      "type": "multitext"
+    },
+    {
+      "name": "type",
+      "value": "repo",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://github.com/"
+  ],
+  "noteNameFormat": "{{url|replace:'/.*github.com/([^&]+)/([^&]+).*/g':'$1-$2'}}",
+  "path": "archives/clip-repo"
+}
+```
+
+##### Douban
+```json
+
+{
+  "schemaVersion": "0.1.0",
+  "name": "Douban",
+  "behavior": "create",
+  "noteContentFormat": "\n## Comments\n\n## References\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{schema:@Movie:name}}",
+      "type": "text"
+    },
+    {
+      "name": "cover",
+      "value": "{{schema:@Movie:image}}",
+      "type": "text"
+    },
+    {
+      "name": "alias",
+      "value": "{{schema:@Movie:name}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "multitext"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "published",
+      "value": "{{published}}",
+      "type": "datetime"
+    },
+    {
+      "name": "description",
+      "value": "{{schema:@Movie:description}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "douban",
+      "type": "multitext"
+    },
+    {
+      "name": "type",
+      "value": "movie",
+      "type": "text"
+    },
+    {
+      "name": "douban",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "imdb",
+      "value": "https://www.imdb.com/title/",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://movie.douban.com/subject/"
+  ],
+  "noteNameFormat": "~{{title|uncamel|safe_name|replace:\"_哔哩哔哩_bilibili\":\"\"|replace:\"-\":\" \"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"/[ ]+/g\":\" \"|replace:\" \":\"-\"}}",
+  "path": "archives/clip-douban"
+}
+```
 ##### Web Pages
+
+正则适配网站：
+
+
+1. https://wufazhuce.com
+2. https://sspai.com
+3. 
+4. 包含所有中英文特殊字符的替换（`-`）
+
+
 ```json
 {
   "schemaVersion": "0.1.0",
@@ -254,6 +400,7 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 ```
 
 ##### Bilibili
+
 ```json
 {
   "schemaVersion": "0.1.0",
@@ -330,6 +477,7 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 }
 
 ```
+
 #### Reminder
 
 #### Chinese Tools

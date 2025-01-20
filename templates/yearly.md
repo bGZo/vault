@@ -2,7 +2,6 @@
 title: '{{title}} Awards'
 aliases: years/{{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
-created-link: '[[{{date:YYYYMMDD}}]]'
 modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 description: 
 tags: 

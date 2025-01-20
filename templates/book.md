@@ -4,7 +4,6 @@ aliases: {{title}}
 author: 
 cover: 
 created: {{date:YYYY-MM-DDThh:mm:ss}}
-created-link: '[[{{date:YYYYMMDD}}]]'
 modified: {{date:YYYY-MM-DDThh:mm:ss}}
 isbn: 
 lang: 

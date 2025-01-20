@@ -49,7 +49,7 @@ Hello, again. This week is special for me, which is my birthday week, after 8390
 
 最近，我学了一些简单的知识管理框架 [^podcast]，我发现，没有任何一种是完美的，但你一定得从个中发现适合你自己的 Workflow，社区可以分享 Graph，可以分享用例，但最终如何运用，完全取决于你。
 
-- [[project-area-resource-archive]]
+- [[para-project-area-resource-archive]]
   - #[[ignored-problem]]
     - boundaries clear on paper, but not in reality.
     - ~~reuse information~~ => not work on logseq, just use link

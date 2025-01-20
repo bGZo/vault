@@ -12,7 +12,7 @@ cssclasses:
 
 ```dataview
 table  
-from "" 
+from -"templates"  
 where type = "project" or type="product"
 ```
 
@@ -91,8 +91,43 @@ table
 	( "![](" + cover +")" ) as Cover
 from -"templates"
 where type = "video" 
+    and !contains(tags, "NSFW")
 sort created desc
 ```
+
+### Movies
+```dataview
+table 
+	( "![](" + cover +")" ) as Cover
+from -"templates"
+where type = "video" 
+    and contains(tags, "movie")
+sort created desc
+```
+
+
+
+### Podcasts
+```dataview
+table 
+	( "![](" + cover +")" ) as Cover
+from -"templates"
+where type = "podcast-episode" 
+sort created desc
+```
+
+### AVs
+```dataview
+table 
+	( "![](" + cover +")" ) as Cover,
+	description,
+	telegram
+from -"templates"
+where type = "video" 
+    and contains(tags, "NSFW")
+sort created desc
+```
+
 ## Archives
 
 ### Webpages
@@ -108,14 +143,27 @@ sort created desc
 
 ```dataview
 table  
-from "" 
+from -"templates" 
 where type = "project/done" or type="product/done"
+```
+
+
+### Star Repo
+```dataview
+table 
+    description,
+	( "![](https://img.shields.io/github/stars/" + title + "?style=for-the-badge&label=stars)" ) as Star,
+	( "![](https://img.shields.io/github/repo-size/" + title + "?style=for-the-badge&label=size)" ) as Size,
+    ( "![](https://img.shields.io/github/created-at/" + title + "?style=for-the-badge&label=date)" ) as Created-at,
+    "#"+tags
+from -"templates" 
+where type = "repo"
 ```
 
 ## Others
 
 ```dataview
-list  
+list 
 from -"templates" 
 where type = "hobby"
 ```

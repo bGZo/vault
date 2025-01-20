@@ -58,6 +58,6 @@ type: writing
     - [ ] #todo #pref 当后期引用数量激增，如何保证页面流畅，稳定？[^3]
       - Jekyll 天然支持分页较差（或者我不会写查询？）
 
-[^2]: Name inspired by [「ONE · 一个」](https://wufazhuce.com/);
+[^2]: Name inspired by https://wufazhuce.com, https://wordsofwisdom.app/;
 [^1]: Page design parody for [Words of Wisdom](https://wordsofwisdom.app/);
 [^3]: Jekyll is just a static website generation. Seem like impossible to deliver value from jekyll to js. More discuss via: [Jekyll - display a random chosen post in index - Stack Overflow](https://stackoverflow.com/questions/31490789);
