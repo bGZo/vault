@@ -6,20 +6,77 @@ aliases:
   - 翻墙
   - 科学上网
 created: 2023-06-02T07:29:17
-modified: 2025-01-15T08:23:10
+modified: 2025-01-26T20:34:41
 description: 
 tags: 
 type:
 ---
 
-## Why: [[censor]]
-
 > [!tip]
-> 世界之大，付费可及；
->
-> 上机 3h，测试网络 2h，刚敲代码没半个小时，下课了，草 🤯
+> 世界之大，付钱可及。
+
+## Why
+
+### Great Firewall
+
+1987 年 9 月 20 日 20 时 55 分，中国的第一封 Email 发往德国，内容是：
+
+> Across the Great Wall we can reach every corner of the world.
+> 越过长城，走向世界
+
+似乎这和后来实施的全境防火墙形成了 Callback，因为现任的名字就是：Great Firewall。
+
+有人说这是属于中国的柏林墙，有人试图拍打他，但渐渐声音都消失了 https://www.zhihu.com/question/25150310/answer/30229095 。这里阳光明媚，无论是处于密不透风的墙内外，都无事发生。
+
+我对「墙」的认识，最早从 Google 退出中国开始：
+
+https://www.google.com/press/new-approach-to-china/update.html
+
+Google Search 无法在中国运营的原因众说纷纭，我们不得而知，但我喜欢用 Google Search，它比 Baidu Search 更加高效，仅此而已。后者为了商业化无所不用其极，我相信每个有良知的国人都希望它早日倒闭。
+
+墙是属于 [[censor|审查]] 的一部分，任何国家都有审查，都有他们的「政治正确」。而中国只是审查发展的最终形态，它比任何国家都要严格。
+
+### Block services
+
+既然他会审查一切新颖，而我们对审查的名单一无所知，那么毫无疑问，有时候我们想访问的服务，就在 404 的提示词背后。
+
+有意思的是，我们可以通过小红书曾泄露出的审查文件（日志）， https://chinadigitaltimes.net/space/%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%AE%A1%E6%9F%A5%E7%99%BE%E7%A7%91, 窥见正在进行的事情。
+
+让我们看看通过代理，我们能访问哪些服务？
+
+- Social Media
+    - Twitter / X
+    - Facebook / Instagram
+    - Tiktok
+    - Mastodon / Bluesky
+    - Youtube
+    - Telegram
+    - Discord
+    - LINE
+- Steaming Media
+    - Bahamut
+    - Netflix
+    - Hulu
+    - Disney
+    - Spotify
+    - Youtube Music
+- Forum
+    - V2EX
+    - 一亩三分地
+    - Reddit
+    - Stack overflow
+- Research
+    - Google research
+- Github
+- Any new trend technology
+    - OpenAI
+- Pron ）
 
 ## How
+
+### VPN
+
+VPN 最开始发明出来是为了远程登录专用网络，好让相关人员实现异地办公，而这一行为正是可以绕过 GFW 的手段。下述会介绍具体的原理，所以这里不在赘述。
 
 ### Value your nodes / circuits
 
@@ -580,7 +637,8 @@ iOS 设备上使用 SS 客户端也会显示 VPN 图标: 是因为使用了 iOS 
 
 ## Links
 
-  - <a href='ms-settings:network-proxy'>Jump to Windows Proxy Settings</a>
+- <a href='ms-settings:network-proxy'>Jump to Windows Proxy Settings</a>
+- [[~谈谈-iOS-平台上的几款代理软件]]
 - [欢迎 - 教程WIKI](https://help.happynothings031.xyz/)
 - [关于在使用 Clash 过程中遇到的问题 - 明心的博客 | 明心 Blog](https://benjamingao.github.io/2019/03/02/%E5%85%B3%E4%BA%8E%E5%9C%A8%E4%BD%BF%E7%94%A8-Clash-%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/)
 - https://github.com/shadowsocks
