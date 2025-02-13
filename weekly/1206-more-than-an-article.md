@@ -1,6 +1,8 @@
 ---
-aliases: '1206 超越文章'
-title: 超越文章
+title: '1206 文章的更进一步'
+aliases: 
+    - 超越文章
+    - 文章的更进一步
 created: 2024-09-21T12:00:00
 status: writing/draft
 modified: 2024-12-24T09:29:12

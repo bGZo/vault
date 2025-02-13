@@ -1,6 +1,6 @@
 ---
-aliases: '#1220 强迫劳动'
-title: 强迫劳动
+title: '#1220 强迫劳动'
+aliases: 强迫劳动
 created: 2024-12-28T08:54:00
 modified: 2024-12-28T10:03:41
 type: writing
