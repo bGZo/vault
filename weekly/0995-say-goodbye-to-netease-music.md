@@ -1,7 +1,7 @@
 ---
-title: 告别网易云
+title: '#995 告别网易云'
 aliases:
-  - 995-say-goodbye-to-netease-music
+  - 告别网易云
 created: 2020-09-05T11:02:17
 modified: 2025-01-17T11:02:47
 description: 

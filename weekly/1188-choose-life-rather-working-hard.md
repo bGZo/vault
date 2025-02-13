@@ -1,5 +1,5 @@
 ---
-aliases: 生活大于工作
+aliases: '#1188 生活大于工作'
 title: 生活大于工作
 created: 2024-05-18T12:00:00
 status: writing/published

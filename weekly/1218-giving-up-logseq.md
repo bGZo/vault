@@ -1,11 +1,11 @@
 ---
-title: Giving up Logseq
+title: '#1218 Giving up Logseq'
 aliases:
   - giving up logseq
   - why giving up logseq
   - logseq problem
 created: 2024-12-09T12:00:00
-modified: 2025-01-12T12:13:58
+modified: 2025-01-31T11:46:15
 type: writing
 ---
 
@@ -17,16 +17,13 @@ I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it
 
 What part of logseq annoy me following:
 
+### The performance never comes to usable in a large context.
 
-### The performance never come to usable in a large page.
-
-
-### Outline render 
+### Outline render
 
 ### Historical baggage
 
-As I said above, features applied again and again, which break the the whole construction of PKM as well. That means, the **downward compatibility** of system is impossible and difficult. 
-
+As I said above, features applied again and again, which break the the whole construction of PKM as well. That means, the **downward compatibility** of system is impossible and difficult.
 
 I need to break my PKM three times, and finally I give up it. Since enabled telegram inbox + telegram RSS bot, I was fell into the hell of poor performance.
 
@@ -54,7 +51,7 @@ When I delete the pdf annotations, and imported most of them, I was so excited t
 	- Breaking up browser and need to be relaunched.
 - **Editing block is so difficult** as same as MV.
 
-Compared to MV, database is not solving any problems on performance. And you are losing the support of  `template`, `schedule`, sync local pure markdown file (cooperated with other tools base on pure text), and desktop plugins support.
+Compared to MV, database is not solving any problems on performance. And you are losing the support of `template`, `schedule`, sync local pure markdown file (cooperated with other tools base on pure text), and desktop plugins support.
 
 They really have a very very long way to reach. I have no time to wait them.
 
@@ -175,6 +172,7 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 ```
 
 ##### Douban
+
 ```json
 
 {
@@ -251,16 +249,15 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
   "path": "archives/clip-douban"
 }
 ```
+
 ##### Web Pages
 
 正则适配网站：
 
-
 1. https://wufazhuce.com
 2. https://sspai.com
-3. 
+3.
 4. 包含所有中英文特殊字符的替换（`-`）
-
 
 ```json
 {
@@ -544,6 +541,23 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 
 - https://forum.obsidian.md/t/disable-word-wrap-for-code-blocks/13210/16
 
+#### Full width cssclasses
+
+```css
+/*
+ * via: https://forum.obsidian.md/t/optional-full-width-note-css/15444/19
+ */
+.wide-view {
+    --custom-line-width: 100%; /* <- change this */
+    --file-line-width: var(--custom-line-width);
+}
+
+body.minimal-theme.minimal-theme .wide-view {
+    --line-width: var(--custom-line-width);
+    --max-width: 95%;
+}
+```
+
 ### Query
 
 #### Exclude some folder
@@ -579,6 +593,6 @@ Not support http embed.
 - [Show location of currently open file - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/show-location-of-currently-open-file/41903)
 - [Any way to disable line wrapping in code blocks? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/zh0ih2/any_way_to_disable_line_wrapping_in_code_blocks/)
 
-[^earier-logseq]: in earlier version, they released fast,  I used to learn feature via changelog. the hierachy is using via twitter, the macros via community discuss. and even someone analyze the logic of language, break it into pieces, and try explain it with Logseq.
+[^earier-logseq]: in earlier version, they released fast, I used to learn feature via changelog. the hierachy is using via twitter, the macros via community discuss. and even someone analyze the logic of language, break it into pieces, and try explain it with Logseq.
 [^announced]:[Why the database version and how it's going? - Announcements - Logseq](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744/25)
 [^embed-file]:https://help.obsidian.md/Linking+notes+and+files/Embed+files

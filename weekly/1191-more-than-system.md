@@ -1,5 +1,5 @@
 ---
-title: 超越系统
+title: '#1191 超越系统'
 aliases: 超越系统
 created: 2024-06-08T12:00:00
 tags: 

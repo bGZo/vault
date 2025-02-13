@@ -1,5 +1,5 @@
 ---
-aliases: 湿疹复发
+aliases: '#1189 湿疹复发'
 title: 湿疹复发
 created: 2024-05-25T12:00:00
 status: writing/published

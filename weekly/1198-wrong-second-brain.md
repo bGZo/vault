@@ -1,5 +1,5 @@
 ---
-aliases: 错误的第二大脑
+aliases: '#1198 错误的第二大脑'
 title: 错误的第二大脑
 created: 2024-07-26T12:00:00
 status:
@@ -64,7 +64,7 @@ Hello, again. This week is special for me, which is my birthday week, after 8390
         - 这很费曼：目标主题 => 用自己的语言讲述 => 填补空白 => 简化类比
       - Not classify construct => build a **self-organizing structure**.
         - convert your organizer role to a linker
-        - [ ] #todo How?
+        - [ ] #todo How? [link](https://app.todoist.com/app/task/8852794676) #todoist %%[todoist_id:: 8852794676]%%
           - template: test
             template-including-parent: yes
             ``{ ref('test/' + c.page.name)}``
@@ -118,7 +118,7 @@ Reddit 有很多人把 Life 和 Work 分开，我自己也觉得 Programming 可
     - **then** some node D has:
       - a connection of type S with node B
       - a connection of type R with node C
-- [ ] #todo 这里面讨论了一些多边形结构，完全看不懂啊
+- [ ] #todo 这里面讨论了一些多边形结构，完全看不懂啊 [link](https://app.todoist.com/app/task/8852794766) #todoist %%[todoist_id:: 8852794766]%%
 
 - **orthogonal** means 完全不相关，但是还是无法理解他说的话
 

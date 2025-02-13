@@ -1,5 +1,5 @@
 ---
-title: '夸夸月报 #1'
+title: '#1125 夸夸月报 #1'
 aliases:
   - '夸夸月报 #1'
 created: 2023-03-04T11:23:20
@@ -134,4 +134,4 @@ And the seventh time when she sang a song of praise, and deemed it a virtue.”
 
 ## 工具迷思
 
-- [ ] 不知道为什么，iOS Mastodon Web 分享到 TG 就会丧失掉文本内容，反而 Android 会好一些，导致我现在平日用 iOS 刷的时候无法快速分享，只能点击复制再转到 TG 上发出来；
+- [ ] 不知道为什么，iOS Mastodon Web 分享到 TG 就会丧失掉文本内容，反而 Android 会好一些，导致我现在平日用 iOS 刷的时候无法快速分享，只能点击复制再转到 TG 上发出来； [link](https://app.todoist.com/app/task/8852797379) #todoist %%[todoist_id:: 8852797379]%%

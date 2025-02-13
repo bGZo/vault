@@ -1,5 +1,5 @@
 ---
-title: 自救之职业焦虑
+title: '#1190 自救之职业焦虑'
 aliases: 自救之职业焦虑
 created: 2024-06-01T12:00:00
 status: writing/published

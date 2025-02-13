@@ -15,7 +15,7 @@ type: writing
 
 苹果的高价变相拉长了产品的生命周期，这也意味着，生产商能为了保准利润和价格，不必参与到其他厂商的低价促销中去。就算旧机器压在仓库也没有关系，消费浪潮褪去后，投给三方渠道去销售即可。
 
-[[1170-refund-macbook-pro-m2pro-16]]
+[[macbook-pro-m2pro-16inch]]
 
 半个月前，在实际摸过机器之后，才发现之前对苹果的种种幻想，如：
 
@@ -220,19 +220,73 @@ Ayaneo Air 1s，7840U 定价 5k，比 SD 还贵，很自信，不愿意尝试；
 
 所以现在最大的问题就是拓展 API 和市场的差异，包括 Unlimited History 等我非常喜欢的拓展。
 
-- [x] #todo  Windows 特定目录下开启大小写敏感
+- [x] #todo  Windows 特定目录下开启大小写敏感 [link](https://app.todoist.com/app/task/8852796848) #todoist %%[todoist_id:: 8852796848]%%
   - [[为什么 Windows 是用 C 语言编写的，却默认对文件大小写不敏感]]
-- [x] #todo  Windows 开启休眠模式
+- [x] #todo  Windows 开启休眠模式 [link](https://app.todoist.com/app/task/8852796933) #todoist %%[todoist_id:: 8852796933]%%
   - https://zhuanlan.zhihu.com/p/527318720
   - 为什么默认休眠模式是关闭的呢？
 
     - 今天去银行柜台休息区，终于遇到 7840H 睡死的 BUG，所以还是很后悔着急买了这个中国特供芯片的笔记本。看起来短时间不能让他休眠了，Hibernate 会更加合适一些。
-      - [ ] #todo 寻找 7840H 睡死的 BUG 的修复驱动包；
-    - [ ] #todo 优化 [[firefox]] 浏览器占用
+      - [ ] #todo 寻找 7840H 睡死的 BUG 的修复驱动包； [link](https://app.todoist.com/app/task/8852796997) #todoist %%[todoist_id:: 8852796997]%%
+    - [ ] #todo 优化 [[firefox]] 浏览器占用 [link](https://app.todoist.com/app/task/8852797014) #todoist %%[todoist_id:: 8852797014]%%
       - http://zenki2001cn.github.io/Wiki/Debian/Firefox%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E9%AB%98%E7%9A%84%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95.html
-      - [ ] #wait Reset Apple MagicTrackPad
+      - [ ] #wait Reset Apple MagicTrackPad [link](https://app.todoist.com/app/task/8852797042) #todoist %%[todoist_id:: 8852797042]%%
         - https://devicechecker.org/blog/how-to-reset-a-magic-trackpad/
         - https://discussions.apple.com/thread/2720347?sortBy=best
+
+
+
+
+- 毕业后想换一个续航好一点的电脑
+  - [ ] #canceled #做工 联想小新 14pro 7840hs [link](https://app.todoist.com/app/task/8852797071) #todoist %%[todoist_id:: 8852797071]%%
+    - [入了联想小新 14pro 7840hs，想退货了 - V2EX](https://www.v2ex.com/t/963772)
+    - [新买联想笔记本，如何防止厂商流氓？ - V2EX](https://www.v2ex.com/t/846379)
+    - [r7-7840h ==休眠睡死==的 bug 修复了吗？ - V2EX](https://www.v2ex.com/t/972937)
+    - > 买 7000 系 AMD 续航挺好，Intel 还在用 10nn ，AMD 旗舰台积电 4nm ，能效强一大截
+      — [最近想从 Macbook 切换到 Windows 笔记本，有啥坑吗 - V2EX](https://v2ex.com/t/947911)
+
+    - > 然后要买 7840hs 或者 7940hs 的迷你主机，不要买 7840h ，这个中国特供的，驱动并不友好。
+      https://www.v2ex.com/t/991646
+      - 我是准备等明年 3 月份 amd 换代，提升 30%
+
+  - [ ] #canceled #定价 Macbook Pro 14 inch M1 Pro 32 + 512 G [link](https://app.todoist.com/app/task/8852797101) #todoist %%[todoist_id:: 8852797101]%%
+    - [m1pro 还值得买吗 - V2EX](https://www.v2ex.com/t/1000503): 已经畸形的定价
+    - [M1-M3 CPU 性能对比表格 - V2EX](https://www.v2ex.com/t/989322#reply22)
+    - Apple Silicon M1 机器学习性能简单测试 - 知乎
+      https://zhuanlan.zhihu.com/p/350955566
+    - MacBook Pro (14-inch, 2021) Benchmarks - Geekbench
+      https://browser.geekbench.com/macs/macbook-pro-14-inch-2021-apple-m1-pro-10-core-cpu
+    - 来说说你买的 MacBook Pro 官翻机硬盘、电池和屏幕状况 - V2EX
+      https://www.v2ex.com/t/906513
+  - [ ] #canceled #定价 XPS Plus [link](https://app.todoist.com/app/task/8852797148) #todoist %%[todoist_id:: 8852797148]%%
+    - https://www.dell.com/zh-cn/shop/%E7%AC%94%E8%AE%B0%E6%9C%AC/sr/laptops/64-gb?appliedRefinements=37698
+      - 看了 DELL 支持 64GB 的电脑，还是选 Macbook 更有性价比
+  - [ ] #canceled #性能 保守 Zenbook Ultra 7 32 + 1T [link](https://app.todoist.com/app/task/8852797165) #todoist %%[todoist_id:: 8852797165]%%
+    - [华硕灵耀 14Pro 2023 入手一周使用体验 - V2EX](https://www.v2ex.com/t/939893)
+    - Intel Core i9-13900H vs Intel Core Ultra 7 165H Benchmark, comparison and differences
+      https://www.cpu-monkey.com/en/compare_cpu-intel_core_i9_13900h-vs-intel_core_ultra_7_165h
+  - [ ] #wait #Intel XPS Ultra 9 二合一 [link](https://app.todoist.com/app/task/8852797193) #todoist %%[todoist_id:: 8852797193]%%
+    - 前一代，性能保州暂不考虑 https://item.jd.com/10059055970873.html
+  - [ ] #wait #apple Macbook Pro M3Max 36 + 1T (丐版): 现在还没有 22000 现金流 [link](https://app.todoist.com/app/task/8852797222) #todoist %%[todoist_id:: 8852797222]%%
+    - 看了这个帖子（[m1pro 还值得买吗 - V2EX](https://v2ex.com/t/1000503#reply20)）后，下定决定退掉 M1Pro，多攒 4000 块入手 M3Max
+    - > 交过几次苹果税，发现苹果不按 CPU 分级，是因为存储与内存，最让『高端用户』不舒服，不得不掏钱。
+      其实男孩子很简单的，你不用骗他，男孩子他会自己骗自己的
+      https://cn.v2ex.com/t/909637
+
+    - > 又是老生常谈，高配 mac 应该由公司出钱购买，哪里有自己出钱给资本家购买设备的道理
+      [m2 air 还是 14 寸 pro? Java 后端 - V2EX](https://v2ex.com/t/871690)
+
+  - [ ] #wait #Alternative : Linux [link](https://app.todoist.com/app/task/8852797273) #todoist %%[todoist_id:: 8852797273]%%
+    - 最拥有生产力的 Linux 发行版本推荐
+      https://www.v2ex.com/#reply33
+  - [ ] #wait SD X Elite for PC [link](https://app.todoist.com/app/task/8852797310) #todoist %%[todoist_id:: 8852797310]%%
+    SCHEDULED: <2024-06-01 Sat 0:00>
+    - Is there a version for android? I really cannot leave away android, such as tachiyomi, termux and a lot of emulators.
+    - https://v2ex.com/t/987831
+      - 之前不是用 M2Max 做对比的吗？是 M2 吗？
+  - > 这话说的就是找茬，换手机要多少成本？大多数人都换得起。换国家要多少成本？
+    —— [看了《2023 年了，我觉得 iPhone 比安卓难用很多》之后，想问各位用 iPhone 并且觉得体验很好的朋友说一下为什么 - V2EX](https://www.v2ex.com/t/939521)
+
 
 ## References
 

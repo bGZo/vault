@@ -1,5 +1,5 @@
 ---
-aliases: 超越文章
+aliases: '1206 超越文章'
 title: 超越文章
 created: 2024-09-21T12:00:00
 status: writing/draft

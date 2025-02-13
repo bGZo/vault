@@ -1,5 +1,5 @@
 ---
-title: 1224-fat-but-sad
+title: '#1224 肥宅很难快乐'
 aliases:
   - 1224-fat-but-sad
 created: 2025-01-20T19:32:06

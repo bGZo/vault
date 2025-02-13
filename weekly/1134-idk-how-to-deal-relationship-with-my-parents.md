@@ -1,5 +1,5 @@
 ---
-title: I don't know how to deal relationship with my parents
+title: "#1134 I don't know how to deal relationship with my parents"
 aliases: I don't know how to deal relationship with my parents
 created: 2023-05-02T11:25:26
 modified: 2025-01-01T11:26:01

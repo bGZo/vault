@@ -1,5 +1,5 @@
 ---
-title: 被 ChatGPT 消解的文章
+title: '#1151 被 ChatGPT 消解的文章'
 aliases: 被 ChatGPT 消解的文章
 created: 2023-09-01T11:20:59
 modified: 2025-01-01T11:21:10

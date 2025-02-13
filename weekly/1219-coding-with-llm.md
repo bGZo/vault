@@ -1,7 +1,7 @@
 ---
+title: '#1219 用 LLM 辅助编程'
 aliases:
   - 用 LLM 辅助编程
-title: 用 LLM 辅助编程
 created: 2024-07-27T02:46:31
 modified: 2025-01-02T07:51:31
 description: 
@@ -51,7 +51,7 @@ sudo systemctl restart ollama
 ## Extension
 
 ### Continue
-high CPU usage cause multi files to build index, via: https://github.com/continuedev/continue/issues/1622, https://github.com/continuedev/continue/issues/866, https://github.com/continuedev/continue/issues/778
+high CPU usage cause multi files to build index, via: https://github.com/continuedev/continue/issues/1622, https://github.com/continuedev/continue/issues/866, https://github.com/continuedev/continue/issues/778, https://utgd.net/article/20938
 
 ## References
 

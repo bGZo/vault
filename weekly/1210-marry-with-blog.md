@@ -1,5 +1,5 @@
 ---
-aliases: 写信吧爱人
+aliases: '#1210 写信吧爱人'
 title: 写信吧爱人
 created: 2024-10-13T12:00:00
 status: writing/draft

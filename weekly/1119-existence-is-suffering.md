@@ -1,5 +1,5 @@
 ---
-title: 存在即痛苦
+title: '#1119 存在即痛苦'
 aliases: 存在即痛苦
 created: 2023-01-21T11:06:46
 modified: 2025-01-01T11:08:40
@@ -97,7 +97,7 @@ Scenario A 是一个存在的 X, 我们认为 X 感到痛苦 (Pain) 的存在是
 ![DASS-076_1674290878392_0](https://user-images.githubusercontent.com/57313137/213860438-f6ae4b6e-af2a-4fc0-b1bf-a784a2e1212c.jpeg)
 
 > Everything in the world is about sex, except sex. Sex is about power.
-― [Oscar Wilde](https://en.wikipedia.org/wiki/Oscar_Wilde)
+― [Oscar Wilde](https://en.wikipedia.org/wiki/Oscar_Wilde)
 
 我多么希望这就是句 bullshit.
 

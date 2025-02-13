@@ -1,5 +1,5 @@
 ---
-title: 命名约束
+title: '#1212 每个人都应该知道的命名约束'
 aliases: 命名约束
 created: 2024-11-02T12:00:00
 status:
