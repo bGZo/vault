@@ -3,7 +3,6 @@ title: social-media-sync
 aliases:
   - social-media-sync
 created: 2025-01-18T16:58:21
-created-link: "[[20250118]]"
 deadline: 2025-01-18T16:58:21
 modified: 2025-01-18T16:58:21
 description: 
@@ -13,7 +12,7 @@ type: project
 
 ## Project Meta
 
-- [ ] #doing #project social-media-sync
+- [ ] #doing #project social-media-sync [link](https://app.todoist.com/app/task/8852804378) #todoist %%[todoist_id:: 8852804378]%%
 
 ## Why
 
