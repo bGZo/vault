@@ -8,7 +8,8 @@ tags: self-care
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/m5_dNOK7oN8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=m5_dNOK7oN8' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m5_dNOK7oN8</a></center>
+<iframe src="https://www.youtube.com/embed/m5_dNOK7oN8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=m5_dNOK7oN8' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m5_dNOK7oN8</a></center>
 > [!note]
 > The fact that I don't feel like me no more
 > Cause I'm not who I was before

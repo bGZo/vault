@@ -25,31 +25,43 @@ G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]
 
 如果你根本提不起兴趣，那它（游戏）就不适合你。于是，我放弃并删除了如下游戏：
 
-<iframe src='https://store.steampowered.com/widget/395170' style='height:200px;width:100%' allow='fullscreen'/>
-<iframe src='https://store.steampowered.com/widget/743390' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/395170' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
+<iframe src='https://store.steampowered.com/widget/743390' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 
 这个系列完全是听小黑盒软文买的铜板价游戏，买了玩了一次，只不过第一次下错了，直接从 2 开始玩的，我直接知道了 1 的结局主角选择了堕落黑暗，而 2 的主题开始救赎之旅，我觉得游戏是好游戏，但是我不喜欢每个场景的解密，这让我每个场景都需要去搜攻略，看中文攻略是一件痛苦的事情。在满是广告和不清晰的表达之间，猜测下一步是如何，没有什么比这更糟的体验了。
 
-<iframe src='https://store.steampowered.com/widget/237930' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/237930' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 晶体管和黑帝斯是一家厂商，我不喜欢他的打斗风格，我没有被它的世界观 catch 到，总的来说，我不怎么喜欢这款游戏，但是当时并不多了解退款政策，所以一直在库里积压。
 
-<iframe src='https://store.steampowered.com/widget/1369320' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/1369320' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 这是个有趣的游戏，而且免费，好的，我知道了，我不会再打开了。
 
-<iframe src='https://store.steampowered.com/widget/651500' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/651500' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 好的，又是一个卷轴的叙事结构，我不怎么喜欢他的画风，但是大学那会儿作为一个考察二战残酷战争的游戏，我又在 UP 主的推荐下购买了这个游戏，从来都没有玩过一次，以后也不会。我不 Care。
 
-<iframe src='https://store.steampowered.com/widget/483980' style='height:200px;width:100%' allow='fullscreen'/>
-<iframe src='https://store.steampowered.com/widget/691450' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/483980' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
+<iframe src='https://store.steampowered.com/widget/691450' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 2020 年 9 月 22 日购入，算是补票。高中的时候，我喜欢看主播玩恐怖游戏，其实现在也是，只是没了什么时间，所以淡了，我自己从来不会尝试，买来一次下载都没有，我买了它，因为我觉得这个是个好游戏，现在我把它删了，因为我不适合上手玩高难度的恐怖游戏，算是单纯地支持开发者了。
 
-<iframe src='https://store.steampowered.com/widget/3590' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/3590' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 为了童年补票，但是发现成就很多，小时候通关过还多次，也许可以作为斗地主之类消磨时间的小游戏，无论如何，如今已经没有玩它的兴致了
 
-<iframe src='https://store.steampowered.com/widget/385800' style='height:200px;width:100%' allow='fullscreen'/>
-<iframe src='https://store.steampowered.com/widget/333600' style='height:200px;width:100%' allow='fullscreen'/>
-<iframe src='https://store.steampowered.com/widget/420110' style='height:200px;width:100%' allow='fullscreen'/>
-<iframe src='https://store.steampowered.com/widget/602520' style='height:200px;width:100%' allow='fullscreen'/>
+<iframe src='https://store.steampowered.com/widget/385800' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
+<iframe src='https://store.steampowered.com/widget/333600' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
+<iframe src='https://store.steampowered.com/widget/420110' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
+<iframe src='https://store.steampowered.com/widget/602520' style='height:200px;width:100%' allow='fullscreen'></iframe>
+
 
 18+ DLC 锁国区，对锁区的游戏有洁癖，表示不会再买。虽然想打补丁提取 CG，同时也想要挂卡回一点血，但考虑开完就会激活第一个成就，并且全成就之后还得快进读玩，还是直接不折腾了。滚吧。
 

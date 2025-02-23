@@ -14,7 +14,8 @@ type: writing
 
 启发于：[Title Unavailable \| Site Unreachable](https://linux.do/t/topic/126077/7)
 
-<iframe src="https://www.youtube.com/embed/AV_8czoF3PU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=AV_8czoF3PU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=AV_8czoF3PU</a></center>
+<iframe src="https://www.youtube.com/embed/AV_8czoF3PU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=AV_8czoF3PU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=AV_8czoF3PU</a></center>
 
 ## Local Server
 

@@ -8,7 +8,8 @@ modified: 2024-12-26T08:28:13
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=zABLecsR5UE' target='_blank' class='external-link'>https://www.youtube.com/watch?v=zABLecsR5UE</a></center>
+<iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=zABLecsR5UE' target='_blank' class='external-link'>https://www.youtube.com/watch?v=zABLecsR5UE</a></center>
 
  > I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I want someone who motivates me. I want someone who trusts me. I want someone who loves me for me, not what I do. I want real love.
 

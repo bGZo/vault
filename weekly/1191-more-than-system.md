@@ -9,7 +9,8 @@ modified: 2024-12-26T08:30:28
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>
+<iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>
 
 > [!cite]
 > I'm gonna swing from the chandelier, from the chandelier.

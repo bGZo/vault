@@ -8,7 +8,8 @@ modified: 2024-12-26T08:26:03
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/UtF6Jej8yb4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=UtF6Jej8yb4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=UtF6Jej8yb4</a></center>
+<iframe src="https://www.youtube.com/embed/UtF6Jej8yb4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=UtF6Jej8yb4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=UtF6Jej8yb4</a></center>
 
 > [!note]
 > When I was sixteen, my father said "You can do anything you want with your life, you just need the will to work hard and get it." ==That's when I decided when I die, all of you remember me for the life I live(d), not the money I made.==

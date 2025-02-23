@@ -33,7 +33,8 @@ type: writing
 
 ## 「3」
 
-<iframe src="https://www.youtube.com/embed/Wv9cSI4d-K4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=Wv9cSI4d-K4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Wv9cSI4d-K4</a></center>
+<iframe src="https://www.youtube.com/embed/Wv9cSI4d-K4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=Wv9cSI4d-K4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Wv9cSI4d-K4</a></center>
 
 普金有一种看待色情的视角，如果你提供出比色情网站更加有趣的东西，那么色情网站就不再是一个社会问题。
 

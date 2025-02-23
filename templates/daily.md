@@ -11,9 +11,11 @@ type:
 
 ![sm](https://img.owspace.com/Public/uploads/Download/{{date:YYYY/MMDD}}.jpg)
 
-<iframe src='https://tool.lu/article/report' style='height:40vh;width:100%' class='iframe-radius'/>
+<iframe src='https://tool.lu/article/report' style='height:40vh;width:100%' class='iframe-radius'></iframe>
 
-<iframe src='https://readhub.cn/daily' style='height:40vh;width:100%' class='iframe-radius'/>
+
+<iframe src='https://readhub.cn/daily' style='height:40vh;width:100%' class='iframe-radius'></iframe>
+
 
 ## Focus: 
 

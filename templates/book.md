@@ -1,15 +1,18 @@
 ---
-title: {{title}}
-aliases: {{title}}
+title:
+  "{ title }": 
+aliases: 
 author: 
 cover: 
-created: {{date:YYYY-MM-DDThh:mm:ss}}
-modified: {{date:YYYY-MM-DDThh:mm:ss}}
+created:
+  "{ date:YYYY-MM-DDThh:mm:ss }": 
+modified:
+  "{ date:YYYY-MM-DDThh:mm:ss }": 
 isbn: 
 lang: 
-published-date: 
+published: 
 rating: 
-status: 
+status: []
 tags: 
 type: book
 douban: https://book.douban.com/subject/

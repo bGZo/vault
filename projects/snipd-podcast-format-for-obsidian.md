@@ -3,7 +3,7 @@ title: snipd-podcast-format-for-obsidian
 aliases:
   - snipd-podcast-format-for-obsidian
 created: 2025-02-16T16:11:54
-modified: 2025-02-16T21:57:21
+modified: 2025-02-22T14:06:55
 description: https://www.snipd.com/
 source: https://github.com/bGZo/snipd-podcast-format-for-obsidian
 tags:
@@ -19,7 +19,8 @@ type: project
 
 ![](https://img.shields.io/github/stars/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=since)
 
-<iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
+<iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
 
 ## Why
 
@@ -59,3 +60,7 @@ poetry install
 # run
 poetry run snipd snipd-export.md -o /path/you/want/export
 ```
+
+## References
+
+https://www.youtube.com/watch?v=FWacanslfFM

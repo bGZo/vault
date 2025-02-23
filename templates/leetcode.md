@@ -10,7 +10,8 @@ type: programming-problem
 ---
 
 ## Description
-<iframe src='https://leetcode.cn/problems/{{title}}' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://leetcode.cn/problems/{{title}}' target='_blank' class='external-link'>https://leetcode.cn/problems/{{title}}</a></center>
+<iframe src='https://leetcode.cn/problems/{{title}}' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://leetcode.cn/problems/{{title}}' target='_blank' class='external-link'>https://leetcode.cn/problems/{{title}}</a></center>
 
 ## Solutions
 

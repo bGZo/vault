@@ -325,7 +325,8 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
   "schemaVersion": "0.1.0",
   "name": "YouTube",
   "behavior": "create",
-  "noteContentFormat": "## Source\n\n<iframe src=\"https://www.youtube.com/embed/{{url|replace:'/.*v=([^&]+).*/g':'$1'}}\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}' target='_blank' class='external-link'>https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}</a></center>\n\n## Notes\n\n",
+  "noteContentFormat": "## Source\n\n<iframe src=\"https://www.youtube.com/embed/{{url|replace:'/.*v=([^&]+).*/g':'$1'}}\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}' target='_blank' class='external-link'>https://www.youtube.com/watch?v={{url|replace:'/.*v=([^&]+).*/g':'$1'}}</a></center>\n\n## Notes\n\n",
   "properties": [
     {
       "name": "title",
@@ -403,7 +404,8 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
   "schemaVersion": "0.1.0",
   "name": "Bilibili",
   "behavior": "create",
-  "noteContentFormat": "## Source\n\n<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid={{url|replace:'/.*video/([^&]+).*//g':'$1'}}&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}' target='_blank' class='external-link'>https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}</a></center>\n\n\n## Notes\n\n",
+  "noteContentFormat": "## Source\n\n<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid={{url|replace:'/.*video/([^&]+).*//g':'$1'}}&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}' target='_blank' class='external-link'>https://www.bilibili.com/video/{{url|replace:'/.*video/([^&]+).*//g':'$1'}}</a></center>\n\n\n## Notes\n\n",
   "properties": [
     {
       "name": "title",

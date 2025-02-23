@@ -8,7 +8,8 @@ modified: 2024-12-26T08:34:14
 type: writing
 ---
 
-<iframe src="https://www.youtube.com/embed/wp43OdtAAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=wp43OdtAAk' target='_blank' class='external-link'>https://www.youtube.com/watch?v=wp43OdtAAk</a></center>
+<iframe src="https://www.youtube.com/embed/wp43OdtAAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=wp43OdtAAk' target='_blank' class='external-link'>https://www.youtube.com/watch?v=wp43OdtAAk</a></center>
 
 > And if I only could,
 > I'd make a deal with God,

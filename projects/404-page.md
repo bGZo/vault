@@ -4,7 +4,8 @@ description: 不存在的页面
 type: product/done
 ---
 
-<iframe src='http://404.bgzo.cc' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='http://404.bgzo.cc' target='_blank' class='external-link'>http://404.bgzo.cc</a></center>
+<iframe src='http://404.bgzo.cc' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='http://404.bgzo.cc' target='_blank' class='external-link'>http://404.bgzo.cc</a></center>
 ## References
   - [Getting 'blocked:other' error status from the browser - In Angular application, I made a rest api call to fetch the information from the server - Stack Overflow](https://stackoverflow.com/questions/56048166/getting-blockedother-error-status-from-the-browser-in-angular-application)
     - Fetch API is blocked by browser.
