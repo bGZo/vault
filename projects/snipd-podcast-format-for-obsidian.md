@@ -19,9 +19,7 @@ type: project
 
 ![](https://img.shields.io/github/stars/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=since)
 
-<iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
-
+[![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=snipd-podcast-format-for-obsidian&bg_color=00000000)](https://github.com/bGZo/snipd-podcast-format-for-obsidian/)
 ## Why
 
 Snipd export all snips to a singal file by default. And they cannot be queried by obsidian. That's okey when you just only have severals snips. But after two years usage, I have more than 3,000 snips on platform.
@@ -61,6 +59,12 @@ poetry install
 poetry run snipd snipd-export.md -o /path/you/want/export
 ```
 
+
 ## References
 
-https://www.youtube.com/watch?v=FWacanslfFM
+- https://www.youtube.com/watch?v=FWacanslfFM
+- 
+
+<iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
+

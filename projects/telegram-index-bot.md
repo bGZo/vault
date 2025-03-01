@@ -4,7 +4,6 @@ aliases:
 created: 2023-06-23T12:00:00
 description: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 template: project
-template-including-parent: false
 modified: 2024-12-28T10:14:43
 ---
 

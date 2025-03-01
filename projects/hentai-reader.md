@@ -18,6 +18,12 @@ modified: 2025-02-16T14:27:41
 > [!warning]
 > ⚠️ NSFW 警告：本篇文章可能包含暴力，性描写等仅供 18 岁以上阅览的内容。
 
+## Repo Meta
+
+![](https://img.shields.io/github/stars/bGZo/hentai?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/hentai?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/hentai?style=for-the-badge&label=since)
+
+[![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=hentai&bg_color=00000000)](https://github.com/bGZo/hentai)
+
 ## Why
 
 我很喜欢色情内容，但如果把它和其他订阅源放在一起，我一定不会再花时间琢磨别人的博客了，加上本人自制力差，容易被性暗示唤起性欲，所以对我来说，色情内容需要做隔离。

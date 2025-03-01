@@ -91,7 +91,7 @@ table
 	( "![](" + cover +")" ) as Cover
 from -"templates"
 where type = "video" 
-    and !contains(tags, "NSFW")
+    and !contains(tags, "NSFW")
 sort created desc
 ```
 
@@ -101,7 +101,7 @@ table
 	( "![](" + cover +")" ) as Cover
 from -"templates"
 where type = "video" 
-    and contains(tags, "movie")
+    and contains(tags, "movie")
 sort created desc
 ```
 
@@ -124,7 +124,7 @@ table
 	telegram
 from -"templates"
 where type = "video" 
-    and contains(tags, "NSFW")
+    and contains(tags, "NSFW")
 sort created desc
 ```
 
