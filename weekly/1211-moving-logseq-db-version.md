@@ -1,5 +1,5 @@
 ---
-title: '#1209 迁移 Logseq 数据库版本'
+title: '#1211 迁移 Logseq 数据库版本'
 aliases: 迁移 Logseq 数据库版本
 created: 2024-10-26T12:00:00
 modified: 2024-12-26T09:04:03
