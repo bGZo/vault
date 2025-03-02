@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
 
       - name: Build
         uses: konstfish/quartz-build-action@v2
@@ -27,30 +27,38 @@ jobs:
           quartz_config: quartz.config.ts
           quartz_layout: quartz.layout.ts
 
-      - name: Upload artifact
+      # 给 GitHub Pages 上传，默认会压缩成 .tar
+      - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site  # 确保 artifact 路径正确
+          path: ./_site  # 供 GitHub Pages 使用
 
+      # 给 Vercel 上传，确保它是一个 **文件夹**，不会被压缩
       - name: Upload artifact for Vercel
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: quartzNotes
-          path: ./_site  # Vercel 也需要访问这个构建结果
+          path: ./_site  # 供 Vercel 使用
+          compression-level: 0  # ⚠️ 关键！防止 GitHub Actions 自动压缩
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # 部署 GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Download artifact
+      # 下载 Vercel 需要的 artifact
+      - name: Download artifact for Vercel
         uses: actions/download-artifact@v4
         with:
           name: quartzNotes
-          path: ./_site  # 确保下载到正确位置
+          path: ./_site  # 需要解压到正确的目录
+
+      - name: List downloaded files (调试)
+        run: ls -R ./_site  # 确保 _site 目录是解压开的，而不是 .tar
 
       - name: Install Vercel CLI
         run: npm install -g vercel
