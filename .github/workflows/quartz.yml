@@ -33,7 +33,7 @@ jobs:
           path: ./_site  # 确保 artifact 路径正确
 
       - name: Upload artifact for Vercel
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           name: quartzNotes
           path: ./_site  # Vercel 也需要访问这个构建结果
