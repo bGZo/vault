@@ -7,4 +7,4 @@ modified: 2025-01-17T16:03:33
 comments: false
 ---
 
-The tools custom settings for [[productivity]] [[tools]] I used would be backup here instead of Github gist.
+The tools custom settings for [[productivity]] [[pages/tools]] I used would be backup here instead of Github gist.

@@ -6,9 +6,9 @@ type: product/done
 ---
 
 ## Project Meta
-  - [ ] #canceled #project Get social media about Thread.net and Weibo. [link](https://app.todoist.com/app/task/8852804562) #todoist %%[todoist_id:: 8852804562]%%
+  - [ ] #canceled #project Get social media about Thread.net and Weibo.  
     - 利用 RSSHUB + RSSTT 替代
-    - [ ] #wait [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/) [link](https://app.todoist.com/app/task/8852804597) #todoist %%[todoist_id:: 8852804597]%%
+    - [ ] #wait [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/)  
       - [New App - Threads API Documentation - 开发者帮助论坛 - Meta 开发者 (facebook.com)](https://developers.facebook.com/community/threads/1277329089818470/)
       - [Threads API (coursendy.com)](https://coursendy.com/threads-api)
   - query-table: false
@@ -50,7 +50,7 @@ type: product/done
     #+END_QUERY
 ## Why
 ## How
-  - [x] #todo  Now the main function is done, which build with [[python]]. Check [Github Gist](https://gist.github.com/bGZo/f3c4876e230308fc3d2b2bc8db9dd55e) [link](https://app.todoist.com/app/task/8852804637) #todoist %%[todoist_id:: 8852804637]%%
+  - [x] #todo  Now the main function is done, which build with [[python]]. Check [Github Gist](https://gist.github.com/bGZo/f3c4876e230308fc3d2b2bc8db9dd55e)  
 ```shell
     echo %cd%
     # Dropped to shortcut
@@ -64,7 +64,7 @@ type: product/done
     - > First, %~dp0 can only be used in bat file while %CD% can be used on command line.
       Second, for %CD%, the **current directory** means the directory when executing the command line or the batch file. For %~dp0, the __current directory__ is the directory where the bat file resides
       — [The difference between %CD% and %~dp0](https://myprogrammingnotes.com/cd-dp0.html)
-  - [ ] #wait Use JS/TS rewrite the scripts and build it in web application online. [link](https://app.todoist.com/app/task/8852804743) #todoist %%[todoist_id:: 8852804743]%%
+  - [ ] #wait Use JS/TS rewrite the scripts and build it in web application online.  
 ## What
 ### Design Notes
 #### Description / Highlights
@@ -83,7 +83,7 @@ type: product/done
           - [Tweepy Documentation — tweepy 4.12.1 documentation](https://docs.tweepy.org/en/stable/index.html)
           - [How to get Tweets using Python and Twitter API](https://blog.quantinsti.com/python-twitter-api/)
           - [Use Twitter's API and a Few Command Line Tools to Pick a Random Reply from a Tweet - YouTube](https://www.youtube.com/watch?v=OaPqV0L9kZk)
-      - [x] #todo  `[404: This page could not be found](https://tweetpik.com/api/tweets/id`) [link](https://app.todoist.com/app/task/8852804769) #todoist %%[todoist_id:: 8852804769]%%
+      - [x] #todo  `[404: This page could not be found](https://tweetpik.com/api/tweets/id`)  
 ```python
           import requests
           import re
@@ -125,7 +125,7 @@ type: product/done
           url : `${BASE_URL}/${TWEET_ID}/video`
 ```
           via: [twitter-direct-url/index.js at main · victorsouzaleal/twitter-direct-url · GitHub](https://github.com/victorsouzaleal/twitter-direct-url/blob/main/src/index.js)
-      - [ ] #todo **Build a Repo like the above api**, run with Github-Action and your token. [link](https://app.todoist.com/app/task/8852804867) #todoist %%[todoist_id:: 8852804867]%%
+      - [ ] #todo **Build a Repo like the above api**, run with Github-Action and your token.  
         - Github Action + Tweet + Readme
         - **Example**
 ```
@@ -133,7 +133,7 @@ type: product/done
             {"id":"1604623830189838337","text":"As a company from eastern Germany, we know that building a wall to try and keep people from leaving isn't a good idea. https://t.co/jxlbO9s0Pk","created_at":"2022-12-18T23:45:08.000Z","like_count":51467,"retweet_count":13773,"reply_count":551,"urls":[{"start":119,"end":142,"url":"https://t.co/jxlbO9s0Pk","expanded_url":"https://twitter.com/TwitterSupport/status/1604531261791522817","display_url":"twitter.com/TwitterSupport…"}],"name":"Mastodon (@Mastodon@mastodon.social)","username":"joinmastodon","profile_image_url":"https://pbs.twimg.com/profile_images/1542256027348918278/7FXNAQK4_normal.jpg","verified":false,"users":[{"profile_image_url":"https://pbs.twimg.com/profile_images/1542256027348918278/7FXNAQK4_normal.jpg","username":"joinmastodon","id":"875882643614814208","verified":false,"name":"Mastodon (@Mastodon@mastodon.social)"}]}
 ```
         - Search `twitter API`, there is a lot of libraries, so see that next time.
-      - [x] #todo  [[html5]] to [[markdown]] [link](https://app.todoist.com/app/task/8852804906) #todoist %%[todoist_id:: 8852804906]%%
+      - [x] #todo  [[html5]] to [[markdown]]  
         - [How to Convert HTML to Markdown in Python? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-convert-html-to-markdown-in-python/)
         - [markdownify · PyPI](https://pypi.org/project/markdownify/)]
       - 好像 Python `re.sub` 无法使用定界符，以下代码不生效

@@ -10,9 +10,9 @@ type: project
 ## Why
 ## How
 ## What
-  - [ ] #todo 语言 [link](https://app.todoist.com/app/task/8852804426) #todoist %%[todoist_id:: 8852804426]%%
-  - [ ] #todo 健康 [link](https://app.todoist.com/app/task/8852804460) #todoist %%[todoist_id:: 8852804460]%%
-  - [ ] #todo 原生家庭 [link](https://app.todoist.com/app/task/8852804503) #todoist %%[todoist_id:: 8852804503]%%
+  - [ ] #todo 语言  
+  - [ ] #todo 健康  
+  - [ ] #todo 原生家庭  
 ## Reference
   - 在 U.S. News 的「最佳国家」排行榜中，中国排在 17/78 位。
     也就是说，前面 16 个国家都值得你润。

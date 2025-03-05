@@ -2,8 +2,7 @@
 aliases:
   - 黑曜石
 created: 2024-12-14T11:52:18
-created-link: "[[20241214]]"
-modified: 2024-12-28T10:07:49
+modified: 2025-01-19T01:34:22
 changelog: https://obsidian.md/changelog
 description: Obsidian is the private and flexible writing app that adapts to the way you think.
 document: https://help.obsidian.md
@@ -25,7 +24,7 @@ No, official not provide this way to install obsidian.
 
 But obsidian build with electron, so unzip `setup.exe`, then you will get the portable version of obsidian[^unzip-way]
 
-### How setting proxy  for obsidian?
+### How setting proxy for obsidian?
 
 We get the portable version above, proxy as well. Electron could launch with following to use proxy address:
 
@@ -106,6 +105,7 @@ Hosted on `publish.obsidian.md/your-site` build-in with $10/month pricing.
     - [What is stopping you of using Obsidian Sync/Obsidian Publish? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/1cji7ym/what_is_stopping_you_of_using_obsidian/)
 - [Templates - Obsidian Help](https://help.obsidian.md/Plugins/Templates)
 - [About Queries - Tasks User Guide - Obsidian Publish](https://publish.obsidian.md/tasks/Queries/About+Queries)
-<iframe src="https://www.youtube.com/embed/LrQVQ37y6IU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=LrQVQ37y6IU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=LrQVQ37y6IU</a></center>
+<iframe src="https://www.youtube.com/embed/LrQVQ37y6IU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=LrQVQ37y6IU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=LrQVQ37y6IU</a></center>
 
 [^unzip-way]: via: https://www.reddit.com/r/ObsidianMD/comments/pyfin2/obsidian_portable/

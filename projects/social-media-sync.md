@@ -12,7 +12,7 @@ type: project
 
 ## Project Meta
 
-- [ ] #doing #project social-media-sync [link](https://app.todoist.com/app/task/8852804378) #todoist %%[todoist_id:: 8852804378]%%
+- [ ] #doing #project social-media-sync  
 
 ## Why
 

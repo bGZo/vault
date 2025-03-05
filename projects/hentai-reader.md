@@ -134,7 +134,7 @@ Considered the risk of copyright, I should not build any mirror site for busines
 - [[tailwindcss]]
     - [Tailwind CSS Tooltip - Free Examples & Tutorial (tailwind-elements.com)](https://tailwind-elements.com/docs/standard/components/tooltip/)
 - [[html]] [[pages/css|css]]
-    - [七种CSS方式让一个容器水平垂直居中_css相对容器居中_](https://blog.csdn.net/u013063153/article/details/52572489) [link](https://app.todoist.com/app/task/8852805381)
+    - [七种CSS方式让一个容器水平垂直居中_css相对容器居中_](https://blog.csdn.net/u013063153/article/details/52572489) 
     - [How do I create an HTML button that acts like a link? - Stack Overflow](https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link)
     - [A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [[javascript]]

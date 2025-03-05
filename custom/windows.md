@@ -2,22 +2,22 @@
 tags:
   - operating-system
 created: 2024-09-22T09:26:22
-modified: 2025-01-11T05:05:36
+modified: 2025-01-17T11:06:14
 ---
 
 ## Prior to purchase
 
 ### Standard
-- [ ] 力度触控板
-- [ ] 键盘按键的触发力度
-- [ ] 自动亮度调节
-- [ ] 风扇（性能）控制
-- [ ] 轻 (中) 度负载的噪音
-- [ ] 电池续航
-- [ ] 性能释放
-- [ ] 镜面屏
+- [ ] 力度触控板  
+- [ ] 键盘按键的触发力度  
+- [ ] 自动亮度调节  
+- [ ] 风扇（性能）控制  
+- [ ] 轻 (中) 度负载的噪音  
+- [ ] 电池续航  
+- [ ] 性能释放  
+- [ ] 镜面屏  
 
-There is no silver bullet for computer, via [[1180-the-second-pc]]
+There is no silver bullet for computer, via [[hp-starbook]]
 
 ### Bypass connect Wi-Fi
 
@@ -544,11 +544,29 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
 - Windows accessibility
 - High Efficiency Video Coding (HEVC) support
 
+## Close Function
+  - Close 粘滞键
+    - 设置 > 粘滞键 > 关闭所有触发方式
+    - https://blog.csdn.net/xitongzhijia_abc/article/details/125505930
+
+## References
+  - :[^china-office] https://v2ex.com/t/1048191
+  - :[^turbo-boost] https://www.youtube.com/watch?v=iWBVtXPfTB0
+    - Seem like some pc support edit on the bios
+      - Settings --> AMD OverClocking --> Precision Boost Overdrive
+        via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
+
+## TODO Remote Config
+  - Reg editor
+
+## TODO 备份 .m2 目录
+-
+
 [^proxy_winget]: https://github.com/microsoft/winget-cli/issues/190, https://github.com/microsoft/winget-cli/discussions/4428
 [^uninstall-garbage]: https://superuser.com/questions/1684005/how-do-i-prevent-widgets-exe-from-getting-automatically-started-on-windows-11, https://answers.microsoft.com/en-us/windows/forum/all/how-to-permanently-stop-the-widgets-service-from/de082ed2-81db-4074-a334-0c9ca13f15c4, https://v2ex.com/t/1048191
 [^wsn]:https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/windows-defender-security-center/wdsc-hide-notifications
 [^overheat-laptop]: https://www.youtube.com/watch?v=iWBVtXPfTB0
 [^windows_modern_standby]: via https://www.chiphell.com/thread-2460017-1-1.html to check abnormal power on count with ssd disk. more instructions you could via https://www.bilibili.com/video/BV1Pv4y1d7Ms/, solution via https://blog.csdn.net/sinat_30603081/article/details/130637807, https://www.timochan.cn/posts/any_pen/stupid_modern_standby
 [^import_export_wsl]: https://blog.csdn.net/momodosky/article/details/108102146
-[^case-sensitive]: case-sensitive via https://juejin.cn/post/7135422871735631902, https://www.zhihu.com/question/443835000/answer/1726902348↩
+[^case-sensitive]: case-sensitive via https://juejin.cn/post/7135422871735631902, https://www.zhihu.com/question/443835000/answer/1726902348↩
 [^auto_replace_in_chinese_windows]: via: https://hermit.world/post/2022/01/17/refining-windows-font-rendering/, https://www.zhihu.com/question/67196637, https://v2ex.com/t/941786
