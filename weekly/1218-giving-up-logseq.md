@@ -1,9 +1,10 @@
 ---
-title: '#1218 Giving up Logseq'
+title: "#1218 Giving up Logseq"
 aliases:
   - giving up logseq
   - why giving up logseq
   - logseq problem
+  - 放弃 Logseq
 created: 2024-12-09T12:00:00
 modified: 2025-01-31T11:46:15
 type: writing
