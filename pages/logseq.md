@@ -7,6 +7,7 @@ modified: 2025-01-19T12:48:55
 changelog: https://docs.logseq.com
 description: 
 document: https://blog.logseq.com, https://hub.logseq.com
+roadmap: https://trello.com/b/8txSM12G/roadmap
 tags: 
 - deprecated 
 type: tool
@@ -389,7 +390,11 @@ via: [Dynamic Variables](https://docs.logseq.com/#/page/Dynamic%20Variables) by 
 
 ### Export
 
-Exported files by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5)
+Exported files by default is not included plugin setting. The better way is writing it in `custom.css`/`custom.js`/`config.edn`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5)
+
+### Publish
+
+https://github.com/logseq/publish-spa
 
 ### Table
 
@@ -692,7 +697,8 @@ logseq.color: pink
 
  :macros {
        ;; leecode <url> <height> [class(iframe-radius)]
-       "leetcode" "<iframe src='https://leetcode.cn/problems/$1' class='$3' style='height:$2' allow='fullscreen'/><center>via: <a href='https://leetcode.cn/problems/$1' target='_blank' class='external-link'>https://leetcode.cn/problems/$1</a></center>"
+       "leetcode" "<iframe src='https://leetcode.cn/problems/$1' class='$3' style='height:$2' allow='fullscreen'></iframe>
+<center>via: <a href='https://leetcode.cn/problems/$1' target='_blank' class='external-link'>https://leetcode.cn/problems/$1</a></center>"
 
        "nav" "<img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/><a href='$1' target='_blank' class='external-link'>$1</a>"
        "nav-ri" "<a href='$1' target='_blank' class='external-link'>$1</a><img class='inline-right-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/>"
@@ -704,7 +710,8 @@ logseq.color: pink
        "myanimelist" "https://myanimelist.net/anime/$1"
        "doufilm" "https://book.douban.com/subject/$1"
        "image/cover" "![]($1){:width 100}"
-       "am" "<iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/cn/album/$1' />"
+       "am" "<iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/cn/album/$1' ></iframe>
+"
 
        ;; wish one day could support
        ;;"ghgist" "<script src='https://gist.github.com/bGZo/$1.js'></script>"
@@ -762,7 +769,7 @@ logseq.color: pink
                               :lang
                               :mark
                               :published
-                              :published-date
+                              :published
                               :rating
                               :schema
                               :source
@@ -1212,39 +1219,39 @@ document
 ```
 
 ## Waiting features
-- [ ] hide duplicating **aliases** on graph
+- [ ] hide duplicating **aliases** on graph  
     - issue via: https://github.com/logseq/logseq/issues/4709
     - discuss via https://discuss.logseq.com/t/enhancement-of-aliases/14466/19
-- [ ] outline **toc** for sidebar
+- [ ] outline **toc** for sidebar  
     - discuss via https://discuss.logseq.com/t/outline-overview-for-sidebar/740/30
-- [ ] **equb** view book
+- [ ] **equb** view book  
     - saving memory
     - discuss via https://discuss.logseq.com/t/support-epub-format-ebooks/2010/27
-- [ ] disable **lazy load**
+- [ ] disable **lazy load**  
     - this make search and reach impossible in huge blocks
     - discuss via https://discuss.logseq.com/t/provide-option-to-disable-lazy-load/9784/14
-- [ ] sort for **references**
+- [ ] sort for **references**  
     - discuss via: https://discuss.logseq.com/t/sort-linked-references/10391/6
-- [ ] cross platform with **plugin**
+- [ ] cross platform with **plugin**  
     - discuss via https://discuss.logseq.com/t/plugin-support-for-ios-android-apps/10109/21
         - they said the most difficult is UI library during multi platform
-- [ ] custom **icon** with image
+- [ ] custom **icon** with image  
     - discuss via https://discuss.logseq.com/t/image-asset-as-page-icon/3826/11
-- [ ] different **environment** on different graph
+- [ ] different **environment** on different graph  
     - https://discuss.logseq.com/t/different-plugins-for-each-graph/5846/4
-- [ ] **fuzzy search** is not fuzzy
+- [ ] **fuzzy search** is not fuzzy  
     - like search `windows memo` or `memo windows`, you will get different results
     - Not support fuzzy query, for example, I have a page name `widows-meme`, when you type `windows meme`, it's okey, but when you type `meme windows`, they would show nothing.
     - https://discuss.logseq.com/t/option-to-choose-between-fuzzy-search-and-precise-search/17528/1
-- [ ] **export** with plugin feature on `custom.js`
+- [ ] **export** with plugin feature on `custom.js`  
     - https://discuss.logseq.com/t/export-published-document-with-plugin-installed-in-a-dockerized-container/22603
-- [ ] open the deleted page recently directly
-- [ ] Image asset as page icon
+- [ ] open the deleted page recently directly  
+- [ ] Image asset as page icon  
     - https://discuss.logseq.com/t/image-asset-as-page-icon/3826
-- [ ] delete a unused file
+- [ ] delete a unused file  
     - Plugin I think, cause just find wiki for file name is enough.
     - via: [How to clean unlinked files in an effective way - Questions & Help - LS](https://discuss.logseq.com/t/how-to-clean-unlinked-files-in-an-effective-way/2125)
-- [ ] Default template stored in `config.edu` is not supported for page, only for journal
+- [ ] Default template stored in `config.edu` is not supported for page, only for journal  
 
 ## Alternatives
 
@@ -1275,7 +1282,7 @@ document
 
 ## Reference
   - https://discuss.logseq.com/c/look-what-i-built
-  - [Roadmap](https://trello.com/b/8txSM12G/roadmap)
+  - https://github.com/mschmidtkorth/logseq-msk-docs
   - [求推荐：知识管理-电子书阅读管理 APP？ - V2EX](https://www.v2ex.com/t/826204)
   - [知识信息组织索引工具推荐 - V2EX](https://www.v2ex.com/t/222874)
   - [有什么比较好的用于摘抄网页的工具吗 - V2EX](https://www.v2ex.com/t/797881)

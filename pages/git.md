@@ -1,12 +1,11 @@
 ---
 created: 2023-07-28T12:00:00
-created-link: "[[20230728]]"
 description: 版本管理
 document: 
 status: tool/star
 tags: 
 type: tool
-modified: 2025-01-11T04:01:04
+modified: 2025-03-02T20:28:32
 ---
 
 ## Alternatives
@@ -78,6 +77,32 @@ git commit -m "feat(xxx): xxx"
 > 3. `:tada: xxx / :books: xxx / bug: xxx` 利用 Github 实现的 Emoji 作为 tag，类似 2，并且可以在 Github 上显示更好？
 >
 > via: https://stackoverflow.com/questions/9742073/graphics-in-github-commit-messages
+
+```shell
+  feat: add hat wobble
+  ^--^  ^------------^
+  |     |
+  |     +-> Summary in present tense.
+  |
+  +-------> Type: chore, docs, feat, fix, refactor, style, or test.
+```
+
+  - `feat`
+    - 添加新特性、新功能（ feature ）
+  - `fix`
+    - 修复 bug
+  - `docs`
+    - 仅仅修改了文档
+  - `style`
+    - 仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑
+  - `refactor`
+    - 代码重构，没有加新功能或者修复 bug
+  - `perf`
+    - 性能测试
+  - `test`
+    - 测试用例
+  - `chore`
+    - 改变构建流程、或者增加依赖库、工具等
 
 ### History
 
@@ -266,7 +291,13 @@ git filter-repo --path readme.md --invert-paths --force
 Force Push
 
 ```shell
+# below is used to add a new remote:
 git remote add "origin" git@github.com:xxx/xxx.git
+# below is used to change the url of an existing remote repository:
+git remote set-url "origin" git@github.com:User/UserRepo.git
+# via: https://stackoverflow.com/questions/42830557
+
+
 git push origin dev --force
 ```
 
@@ -381,5 +412,9 @@ https://stackoverflow.com/questions/42830557/git-remote-add-origin-vs-remote-set
 
 1. https://github.com/liangzr/github-run
 2. https://github.com/sallar/github-contributions-canvas
+3. https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+4. https://www.conventionalcommits.org/
+5. https://seesparkbox.com/foundry/semantic_commit_messages
+6. http://karma-runner.github.io/1.0/dev/git-commit-msg.html
 
 [^github-emoji-refer]:https://gist.github.com/parmentf/035de27d6ed1dce0b36a, https://github.com/dannyfritz/commit-message-emoj, https://gitmoji.carloscuesta.me
