@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents({
         	maxDepth: 5,
         	minEntries: 1,
-        	collapseByDefault: true
+        	collapseByDefault: false
       }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),

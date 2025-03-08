@@ -18,10 +18,9 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      "🔙 Home": "https://bgzo.github.io/notes/",
-      "🔗 GitHub": "https://github.com/bGZo",
-      "🔗 Telegram": "https://t.me/imbGZo",
-      "🔗 Subscribe": "https://bgzo.github.io/notes/index.xml"
+      "Source": "https://github.com/bGZo/notes/",
+      "RSS": "https://bgzo.github.io/notes/index.xml",
+      "Telegram": "https://t.me/imbGZo",
     },
   }),
 }
