@@ -2,7 +2,7 @@
 description: Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable. Therefore, it is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. 静态强类型，但因为提供了类似反射等机制，也具备了部分动态类型语言的能力；
 type: lang/programming
 created: 2024-12-08T21:26:22
-modified: 2025-03-10T21:25:43
+modified: 2025-03-16T22:56:23
 ---
 
 ## Roadmap
@@ -119,66 +119,9 @@ final Consumer<Integer> simpleReference1 = App::someMethod1;
 simpleReference1.accept(1);
 ```
 
-### Working with Date and Time in Java
-
-Before Java 8 packages:
-
-- `java.util.Date`
-- `java.util.Calendar`
-- `java.text.SimpleDateFormat`
-- `java.util.TimeZone`
-
-Problems:
-
-1. `Date` 缺少小时、分钟、秒；
-2. 以零索引命名 (a zero index-based) 的月份比较混乱；
-3. 没有考虑时区的问题，而 JDBC 中处理时间有时区的概念
-
-After Java 8:
-
-- **java.time.LocalDate** — This represents only the time according to the ISO calendar.
-- **java.time.LocalTime** — This represents only the time in a human-readable manner.
-- **java.time.LocalDateTime** — Both the Date and Time without having a time zone will be handled here. This is a combination of _LocalDate_ and _LocalTime._
-- **java.time.ZonedDateTime** — _LocalDateTime_ combines with the time zone provided using _ZoneId_ class.
-- **java.time.OffsetTime** — Handles time with a corresponding time zone offset from Greenwich/UTC, without a time zone ID.
-- **java.time.OffsetDateTime** — Handles a date and time with a corresponding time zone offset from Greenwich/UTC, without a time zone ID.
-- **java.time.Clock** — Provides access to the current instant, date, and time in any given time zone.
-- **java.time.Instant** — represents the start of a nanosecond on the timeline and useful for generating a timestamp to represent machine time
-- **java.time.Duration** — Difference between two instants and measured in seconds or nanoseconds and does not use date-based constructs such as years, months, and days, though the class provides methods that convert to days, hours, and minutes.
-- **java.time.Period** — To define the difference between dates in date-based values (years, months, days).
-- **java.time.ZoneId** — specifies a time zone identifier and provides rules for converting between an _Instant_ and a _LocalDateTime_.
-- **java.time.ZoneOffset** — Specifies a time zone offset from Greenwich/UTC.
-
-```java
-import java.time.*;
-
-public class DateTimeExample {
-    public static void main(String[] args){
-        LocalDate today = LocalDate.now(); // 2021-05-04
-        LocalTime thisTime = LocalTime.now(); // 14:52:23.764490100
-        LocalDateTime currentDateTime = LocalDateTime.now(); // 2021-05-04T14:52:23.764490100
-        LocalDate someDay = LocalDate.of(2020, Month.JUNE, 12); // 2020-06-12
-        LocalTime someTime = LocalTime.of(23, 53); // 23:53
-        LocalDateTime otherDateTime = LocalDateTime.of(2021, Month.MARCH, 4, 10,51,44); // 2021-03-04T10:51:44
-    }
-}
-```
-
-Via:
-
-1. [ ] https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b #doing
-2. https://www.baeldung.com/java-8-date-time-intro
-
 ### Data structures
 
 https://www.youtube.com/watch?v=9rhT3P1MDHk&list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY
-
-### Files and APIs
-
-- `FileWriter` - this class is useful to create a file by writing characters into it
-- `FileReader` - this class is useful to read data in form of characters from file
-- `Files.lines(Paths.get("file.txt")))` - processing the files as a stream. Since Java 8
-- `Files.readString / Files.writeString` - reads the whole file and puts it into a string - since Java 11
 
 ## [[object-oriented-programming|OOP]] (Object-Oriented Programming)
 
@@ -433,11 +376,273 @@ Java Exception Handling is a mechanism to handle runtime errors such as `ClassNo
 
 There are three types of exceptions:
 
-1. Checked Exception - exceptions checked at compile time.
+1. Checked Exception / 受检查异常 / 非运行时异常 - exceptions checked at compile time.
    **Example** - IOException
-2. Unchecked Exception - exceptions checked at run time.
+2. Unchecked Exception / 不受检查异常 / 运行时异常 Runtime Exception - exceptions checked at run time.
    **Example** - NullPointerException
-3. Error - It is irrecoverable.
+3. Error - It is irrecoverable. 程序无法处理
+    1. 这些异常发生时, java 虚拟机一般会终止线程
    **Example** - OutOfMemoryError
 
-## Lambda Expressions Lambda 表达式
+![](https://raw.githack.com/bGZo/assets/dev/2025/202503162252068.png)
+
+  via: [Exception Hierarchy in Java - BenchResources.Net](https://www.benchresources.net/exception-hierarchy-in-java/)
+
+## Lambda Expressions [[java-lambda]]
+
+## Annotations
+
+Annotations are a form of metadata that provide data about a program. They are used to provide supplemental information about the code, but they are not a part of the program itself. Annotations can be used by the compiler to detect errors or suppress warnings, and they can also be used at runtime to modify the behavior of the program.
+
+Java annotations are typically used for the following purposes:
+
+- Compiler instructions  编译器指令
+- Build-time instructions  构建时说明
+- Runtime instructions  运行时指令
+
+### Annotation Elements  注释元素
+
+```java
+@Entity(tableName = "vehicles", primaryKey = "id")
+```
+
+### Annotation Placement 注释放置
+
+- classes
+- interfaces
+- methods
+- method parameters
+- fields
+- local variables
+
+### Build-in
+
+- @Deprecated
+- @Override
+- @SuppressWarnings: makes the compiler suppress warnings for a given method.
+- @Contended: help avoid False Sharing, a concurrency performance degradation problem.
+
+### Custom
+
+```java
+@Retention(RetentionPolicy.RUNTIME) // 告诉编译器和JVM注解生效于运行时
+@Target({ElementType.METHOD})       // 作用元素
+@Inherited                          // 可继承的
+@Documented                         // 文档可见
+@interface MyAnnotation {
+    String   value() default "";
+    String   name();
+    int      age();
+    String[] newNames();
+}
+@MyAnnotation(
+    name="Jakob",
+    age=37,
+    newNames={"Jenkov", "Peterson"}
+)
+public class MyClass {
+}
+```
+
+Accessing annotations at runtime is covered in my [Java Reflection and Annotations tutorial](https://jenkov.com/java-reflection/annotations.html), which is part of my [Java Reflection Tutorial](https://jenkov.com/java-reflection/index.html).
+
+- `RetentionPolicy`
+    - `RetentionPolicy.CLASS` means that the annotation is stored in the .class file, but not available at runtime.
+    - `RetentionPolicy.SOURCE` means that the annotation is only available in the source code, and not in the .class files and not a runtime.
+- `ElementType` class
+    - `ElementType.ANNOTATION_TYPE`: Java annotation definitions. Thus, the annotation can only be used to annotate other annotations. Like the `@Target` and `@Retention` annotations.
+    - ElementType.CONSTRUCTOR 
+    - ElementType.FIELD
+    - ElementType.LOCAL_VARIABLE
+    - ElementType.METHOD 
+    - ElementType.PACKAGE
+    - ElementType.PARAMETER 
+    - ElementType.TYPE
+    - ElementType.TYPE_PARAMETER
+    - ElementType.TYPE_USE
+
+https://jenkov.com/tutorials/java/annotations.html
+
+## Modules 模块
+
+Organize code into reusable and independent units. They provide a higher level of abstraction than packages, allowing you to control which parts of your code are exposed to other modules and which are kept private. This enhances encapsulation, improves security, and simplifies dependency management by explicitly declaring dependencies between modules.
+
+## Optionals 可选
+
+A container object that may or may not contain a non-null value. They are primarily used to represent the absence of a value, avoiding the need to return null, which can lead to NullPointerExceptions. Optionals provide methods to explicitly check if a value is present and to handle cases where a value is absent in a more controlled and readable manner.
+
+- [[~How-to-Use-Optionals-in-Java]]
+
+## Dependency Injection
+
+Dependency Injection (DI) is a design pattern where objects receive their dependencies from external sources rather than creating them themselves. This means a class doesn’t have to worry about how to obtain the objects it needs to function; instead, those objects are “injected” into the class, usually through its constructor, setter methods, or interface. This promotes loose coupling and makes code more testable and maintainable.
+
+> Dependency injection is an expression coined in Martin Fowler's article [Inversion of Control Containers and the Dependency Injection Pattern](http://www.martinfowler.com/articles/injection.html). This is an nice article, but it misses some of the benefits of dependency injection containers. Therefore I also disagree with the articles conclusion, but more on that in a different text.
+> [[~Dependency-Injection]]
+
+## I/O Operations
+
+Deal with how a program interacts with the outside world. This involves reading data from sources like files, network connections, or the keyboard, and writing data to destinations such as files, the console, or network sockets. Essentially, it’s the mechanism by which a program receives information and sends results.
+
+## Files and APIs
+
+Learn how to work with files i.e., reading, writing and deleting, files and folders, etc. Also, learn how to make API calls, parse the incoming response, and so on.
+
+- `FileWriter` - this class is useful to create a file by writing characters into it
+- `FileReader` - this class is useful to read data in form of characters from file
+- `Files.lines(Paths.get("file.txt")))` - processing the files as a stream. Since Java 8
+- `Files.readString / Files.writeString` - reads the whole file and puts it into a string - since Java 11
+
+## [[java-collections|Collections]]
+
+### Array vs ArrayList
+### Set
+### Map
+### Queue
+### Dequeue
+### Stack
+### Iterator
+### Generics
+## [[concurrency|Concurrency]]
+### Threads [[java-multithreading]]
+### Virtual Threads
+
+### Java Memory Model
+
+The Java Memory Model (JMM) defines how threads in Java interact with memory. It specifies how and when different threads can see writes to shared variables, addressing issues like data visibility and race conditions in concurrent programs. The JMM ensures that multithreaded Java programs behave predictably across different hardware architectures by establishing rules for memory synchronization and ordering.
+
+- [[~Java-Memory-Model]]
+
+### Volatile Keyword
+
+## [[regex|RE]]
+
+## [[networking|Network]]
+
+## Date and Time
+
+Before Java 8 packages:
+
+- `java.util.Date`
+- `java.util.Calendar`
+- `java.text.SimpleDateFormat`
+- `java.util.TimeZone`
+
+Problems:
+
+1. `Date` 缺少小时、分钟、秒；
+2. 以零索引命名 (a zero index-based) 的月份比较混乱；
+3. 没有考虑时区的问题，而 JDBC 中处理时间有时区的概念
+
+After Java 8:
+
+- **java.time.LocalDate** — This represents only the time according to the ISO calendar.
+- **java.time.LocalTime** — This represents only the time in a human-readable manner.
+- **java.time.LocalDateTime** — Both the Date and Time without having a time zone will be handled here. This is a combination of _LocalDate_ and _LocalTime._
+- **java.time.ZonedDateTime** — _LocalDateTime_ combines with the time zone provided using _ZoneId_ class.
+- **java.time.OffsetTime** — Handles time with a corresponding time zone offset from Greenwich/UTC, without a time zone ID.
+- **java.time.OffsetDateTime** — Handles a date and time with a corresponding time zone offset from Greenwich/UTC, without a time zone ID.
+- **java.time.Clock** — Provides access to the current instant, date, and time in any given time zone.
+- **java.time.Instant** — represents the start of a nanosecond on the timeline and useful for generating a timestamp to represent machine time
+- **java.time.Duration** — Difference between two instants and measured in seconds or nanoseconds and does not use date-based constructs such as years, months, and days, though the class provides methods that convert to days, hours, and minutes.
+- **java.time.Period** — To define the difference between dates in date-based values (years, months, days).
+- **java.time.ZoneId** — specifies a time zone identifier and provides rules for converting between an _Instant_ and a _LocalDateTime_.
+- **java.time.ZoneOffset** — Specifies a time zone offset from Greenwich/UTC.
+
+```java
+import java.time.*;
+
+public class DateTimeExample {
+    public static void main(String[] args){
+        LocalDate today = LocalDate.now(); // 2021-05-04
+        LocalTime thisTime = LocalTime.now(); // 14:52:23.764490100
+        LocalDateTime currentDateTime = LocalDateTime.now(); // 2021-05-04T14:52:23.764490100
+        LocalDate someDay = LocalDate.of(2020, Month.JUNE, 12); // 2020-06-12
+        LocalTime someTime = LocalTime.of(23, 53); // 23:53
+        LocalDateTime otherDateTime = LocalDateTime.of(2021, Month.MARCH, 4, 10,51,44); // 2021-03-04T10:51:44
+    }
+}
+```
+
+Via:
+
+1. https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b #doing
+2. https://www.baeldung.com/java-8-date-time-intro
+
+## Cryptography 加密
+
+## Functional Programming
+
+### Stream API
+
+### Functional Composition 功能组合
+### Functional Interfaces 函数式接口
+
+### High Order Functions 高阶函数
+
+## Build Tools 构建工具
+
+### [[mevan|Maven]]
+
+### Gradle
+
+Gradle is an open-source build automation tool that helps software engineers to test, build, and release high-performance software products. In addition, Gradle also supports multi-language development. Currently, the supported languages for Gradle include Java, Kotlin, Groovy, Scala, C/C++, and JavaScript.
+
+### Bazel
+
+Bazel is an open-source build and test tool similar to Make, Maven, and Gradle. It uses a human-readable, high-level build language. Bazel supports projects in multiple languages and builds outputs for multiple platforms. It’s designed for fast, reliable, and reproducible builds, making it suitable for large codebases and complex projects.
+
+## Web Frameworks Web 框架
+
+### [[spring-boot|Spring Boot]] (most recommened)
+
+Spring Boot is an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The microservice architecture provides developers with a fully enclosed application, including embedded application servers.
+
+### Javalin
+
+Javalin is a lightweight web framework for Java and Kotlin that’s designed to be simple, intuitive, and fun to use. It allows developers to quickly build web applications and APIs with minimal boilerplate code. Javalin focuses on providing a straightforward approach to routing, request handling, and response generation, making it a good choice for projects where speed of development and ease of understanding are important.
+
+### Quarkus
+
+Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards. It is a full-stack, Kubernetes-native Java framework made for Java virtual machines (JVMs) and native compilation, optimizing Java specifically for containers and enabling it to become an effective platform for serverless, cloud, and Kubernetes environments.
+
+### Play Framework
+
+Play Framework is a high-productivity web application framework that allows the model-view-controller pattern. It is written in Scala but can also be used for other programming languages that are compiled and run on the JVM. e.g.Java.
+
+## [[orm|ORM]] (Object-Relational Mapping)
+
+A programming method to map objects in Java to relational entities in a database. In other words, converting data between relational databases and object-oriented programming languages. Some popular ORM tools/frameworks in Java are:
+
+### [[jdbc]]
+### Ebean
+
+Ebean is an object-relational mapping tool written in Java. It supports the standard JPA annotations for declaring entities. However, it provides a much simpler API for persisting. In fact, one of the points worth mentioning about the Ebean architecture is that it is sessionless, meaning it does not fully manage entities.
+
+### Hibernate
+
+Hibernate is an open source object-relational mapping tool that provides a framework to map object-oriented domain models to relational databases for web applications. Hibernate implements the specifications of JPA. Performance is key so Hibernate supports first-level and second-level caching
+
+### Spring data jpa
+
+Spring Data JPA aims to significantly improve the implementation of data access layers by reducing the effort to the amount that’s actually needed. As a developer you write your repository interfaces, including custom finder methods, and Spring will provide the implementation automatically.
+
+## Logging Frameworks
+
+### Logback
+
+Logback is one of the most widely used logging frameworks in the Java Community. It’s a replacement for its predecessor, Log4j. Logback offers a faster implementation, provides more options for configuration, and more flexibility in archiving old log files.
+
+### Log4j2
+
+Log4j2 is the updated version of the popular and influential log4j library, used extensively throughout the Java ecosystem for so many years. Version 2. x keeps all the logging features of its predecessor and builds on that foundation with some significant improvements, especially in the area of performance.
+
+### Slf4j
+
+he SLF4J or the Simple Logging Facade for Java is an abstraction layer for various Java logging frameworks, like Log4j 2 or Logback. This allows for plugging different logging frameworks at deployment time without the need for code changes.
+
+### Tinylog
+
+Tinylog is a lightweight open-source logging framework for Java and Android, optimized for ease of use.
+
+## Testing
