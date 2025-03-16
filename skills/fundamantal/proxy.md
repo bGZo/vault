@@ -6,7 +6,7 @@ aliases:
   - 翻墙
   - 科学上网
 created: 2023-06-02T07:29:17
-modified: 2025-01-26T20:34:41
+modified: 2025-02-16T13:53:03
 description: 
 tags: 
 type:
@@ -244,6 +244,24 @@ git config --global --get http.proxy
 
 ```
 
+#### Ubuntu Gnome
+
+```shell
+host_ip=$(cat /etc/resolv.conf | grep "nameserver" |cut -f 2 -d " ")
+gsettings set org.gnome.system.proxy.http host $host_ip
+gsettings set org.gnome.system.proxy.http port 7890
+gsettings set org.gnome.system.proxy.https host $host_ip
+gsettings set org.gnome.system.proxy.https port 7890
+gsettings set org.gnome.system.proxy.socks host $host_ip
+gsettings set org.gnome.system.proxy.socks port 7890
+```
+
+via: [How to change system proxy settings from the command line on Ubuntu desktop (xmodulo.com)](https://www.xmodulo.com/change-system-proxy-settings-command-line-ubuntu-desktop.html)
+
+```shell
+gsettings set org.gnome.system.proxy mode 'none'
+```
+
 ### Update GeoIP
 
 *MAXMIND* change the access to database since 20191230, via: [Significant Changes to Accessing and Using GeoLite2 Databases](https://blog.maxmind.com/2019/12/significant-changes-to-accessing-and-using-geolite2-databases/)
@@ -400,6 +418,7 @@ It was approved by the IETF in 1996 as RFC 1928
 Since SOCKS is very detectable, a common approach is to present a SOCKS interface for more sophisticated protocols:
 
 ### Protocols
+
 #### Shadowsocks / SS
 
 Shadowsocks 分为服务器端和客户端，在使用之前，需要先将服务器端程序部署到服务器上面，然后通过客户端连接并建立本地代理。基于 Socks5[^wiki-ss]。
@@ -412,7 +431,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 
 #### SSR / ShadowsocksR
 
-#### v2rayN
+#### v2rayN V2ray(VMess/VLESS)
 
 - [2dust/v2rayN: A V2Ray client for Windows, support Xray core and v2fly core](https://github.com/2dust/v2rayN) ![](https://img.shields.io/github/stars/2dust/v2rayN)
 - 模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发
@@ -420,6 +439,8 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [v2ray](https://github.com/233boy/v2ray)
 - [v2ray 教程](https://github.com/vkuajing/v2ray).
 - Backup：[233boy-v2ray](https://github.com/PhenTse/233boy-v2ray)
+
+#### Trojan
 
 #### Others not public
 - OpenVPN
