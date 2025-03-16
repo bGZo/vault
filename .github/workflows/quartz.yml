@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 递归拉取子模块
+          fetch-depth: 1  # 仅拉取最新提交，避免获取完整历史
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
