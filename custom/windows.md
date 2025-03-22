@@ -550,11 +550,11 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
     - https://blog.csdn.net/xitongzhijia_abc/article/details/125505930
 
 ## References
-  - :[^china-office] https://v2ex.com/t/1048191
-  - :[^turbo-boost] https://www.youtube.com/watch?v=iWBVtXPfTB0
-    - Seem like some pc support edit on the bios
-      - Settings --> AMD OverClocking --> Precision Boost Overdrive
-        via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
+[^china-office]: https://v2ex.com/t/1048191
+[^turbo-boost]: https://www.youtube.com/watch?v=iWBVtXPfTB0
+- Seem like some pc support edit on the bios
+    - Settings --> AMD OverClocking --> Precision Boost Overdrive
+    via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
 
 ## TODO Remote Config
   - Reg editor

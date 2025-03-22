@@ -9,3 +9,5 @@ comments: false
 ---
 
 Hard/soft skills for working business, they should be something like:
+
+Category refer to https://roadmap.sh/roadmaps.

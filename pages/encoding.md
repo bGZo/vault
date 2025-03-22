@@ -1,7 +1,6 @@
 ---
 aliases: 编码
 created: 2024-07-13T12:00:00
-created-link: "[[20240713]]"
 wikipedia: https://en.wikipedia.org/wiki/Code
 modified: 2025-01-17T10:55:57
 ---

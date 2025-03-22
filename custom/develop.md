@@ -5,7 +5,7 @@ modified: 2025-01-12T04:26:48
 
 ## Environment
 
-### [C++](cpp)
+### [C++](cpp.md)
 
 ```shell
 # Windows
@@ -19,7 +19,7 @@ Directly download via:
 - https://www.mingw-w64.org
 - (windows) https://winlibs.com
 
-### [Java](java)
+### [Java](java.md)
 
 Manage with [Home \| SDKMAN! the Software Development Kit Manager](https://sdkman.io)
 
@@ -47,9 +47,9 @@ nvm install --lts
 
 Go https://nodejs.org/en/download to get the specific version you want and download / install it.
 
-### [Python](python)
+### [Python](python.md)
 
-### [Golang](golang)
+### [Golang](golang.md)
 
 ```shell
 # macos
