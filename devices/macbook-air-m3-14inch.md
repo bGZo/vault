@@ -157,7 +157,7 @@ https://www.v2ex.com/t/957118
 
 居然只是把应用拖入到文件夹，有够傻瓜；
 
-### 读写 EXTFS #todo extFS for Mac
+### 读写 EXTFS #gtd/todo extFS for Mac
 - https://www.paragon-software.com/zh/home/extfs-mac/&ved=2ahUKEwjvzPT4iZeIAxXQlK8BHTfiOiUQFnoECBIQAQ&usg=AOvVaw2Yjt2D6YVZHVAfAM9rqHgT
 - alternatives: [挂载/读取 ext4 格式的驱动器：r/MacOS --- Mount/read an ext4 formatted drive : r/MacOS](https://www.reddit.com/r/MacOS/comments/uw9arx/mountread_an_ext4_formatted_drive/)
 - shadma 替代

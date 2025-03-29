@@ -34,7 +34,7 @@ wikipedia:
 ### [[windows]] 调教
 
 - [x] [[~为什么 windows 是用 c 语言编写的，却默认对文件大小写不敏感]]
-- [x] #todo [Windows 开启 Hibernate](https://zhuanlan.zhihu.com/p/527318720)
+- [x] #gtd/todo [Windows 开启 Hibernate](https://zhuanlan.zhihu.com/p/527318720)
     - 今天去银行柜台休息区，终于遇到 7840H 睡死的 BUG，所以还是很后悔着急买了这个中国特供芯片的笔记本。看起来短时间不能让他休眠了，Hibernate 会更加合适一些。
     - 睡死的 BUG 的原因？
 
@@ -162,7 +162,7 @@ https://www.dell.com/zh-cn/shop/%E7%AC%94%E8%AE%B0%E6%9C%AC/sr/laptops/64-gb?app
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kc41127GY&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.bilibili.com/video/BV1kc41127GY' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kc41127GY</a></center>
 
-  - [ ] #canceled #性能 保守 Zenbook Ultra 7 32 + 1T
+  - [ ] #gtd/canceled #性能 保守 Zenbook Ultra 7 32 + 1T
     - [华硕灵耀 14Pro 2023 入手一周使用体验 - V2EX](https://www.v2ex.com/t/939893)
     - Intel Core i9-13900H vs Intel Core Ultra 7 165H Benchmark, comparison and differences
       https://www.cpu-monkey.com/en/compare_cpu-intel_core_i9_13900h-vs-intel_core_ultra_7_165h

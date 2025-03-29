@@ -64,7 +64,7 @@ modified: 2025-02-16T14:27:41
     - [x] https://www.4gamers.com.tw
     - [x] https://mingqiceping.com (Feed 地址失效)
     - [ ] Telegram
-- [ ] #todo More usable
+- [ ] #gtd/todo More usable
     - [x] Separate from RSS sources configuration from codes
 
 ### Wontfix

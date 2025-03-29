@@ -99,7 +99,7 @@ https://www.reddit.com/r/visualnovels/comments/ujpjiz/installing_patches_on_stea
 
 [[SteamDeckHomebrew-decky-loader]]
 
-### 输入法 #todo
+### 输入法 #gtd/todo
 
 待解决
 
