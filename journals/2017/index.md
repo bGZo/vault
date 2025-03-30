@@ -1,13 +1,13 @@
 ---
-title: 2017 Awards
-aliases:
-  - years/2017
-created: 2025-01-13T09:05:26
+created: 2017-01-13T09:05:26
 modified: 2025-01-13T09:12:21
-description: 
-tags: 
+comments: false
+title: 2017
+aliases:
+  - 2017
 type: year
 ---
+
 
 ## Anime Awards
 

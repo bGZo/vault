@@ -2,10 +2,7 @@
 aliases:
   - 友情链接
 created: 2024-12-15T12:21:46
-modified: 2025-01-13T09:45:42
-description: 
-tags: 
-type:
+modified: 2025-03-30T09:00:10
 ---
 
 ## [[obsidian]]
@@ -20,7 +17,6 @@ type:
 ## [[notion]]
 
 - [Notion official](https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8)
-    - Funnily, its unnecessary to find the third-party tutorial, even though the official offered the fullest version. You could find more useful usage in above url. So the level of challenge upper towards creator, especially the nice template and idea of using.
 - [活动中心](https://www.notion.so/Notion-df27d6e217584b0aa0fa2c0ea3f504b5)
 - [Jerry's Blog](https://jerryw.cn)
 - [方舟子](https://www.notion.so/Personal-Home-2426c5649b8e41f382c2c44ad07ba618)

@@ -28,5 +28,5 @@ wikipedia: https://zh.wikipedia.org/zh-cn/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6
   - [Eulerian Number](https://oi-wiki.org/math/combinatorics/eulerian/)
   - [分拆数](https://oi-wiki.org/math/combinatorics/partition/)
   - [范德蒙德卷积](https://oi-wiki.org/math/combinatorics/vandermonde-convolution/)
-- ![discrete.pdf](../assets/discrete_1650281003717_0.pdf)
+- ![[discrete_1650281003717_0.pdf]]
   via: https://www.exeter.edu/sites/default/files/documents/discrete.pdf

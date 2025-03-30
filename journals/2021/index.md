@@ -1,13 +1,13 @@
 ---
-title: 2021 Awards
-aliases:
-  - years/2021
 created: 2025-01-13T21:04:47
 modified: 2025-01-13T21:04:47
-description: 
-tags: 
+comments: false
+title: "2021"
+aliases:
+  - 2021
 type: year
 ---
+
 
 ## Anime Awards
 

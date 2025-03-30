@@ -1,13 +1,13 @@
 ---
-title: 2020 Awards
-aliases:
-  - years/2020
 created: 2025-01-13T21:04:55
 modified: 2025-01-13T21:04:55
-description: 
-tags: 
+comments: false
+title: 2020
+aliases:
+  - "2020"
 type: year
 ---
+
 
 ## Anime Awards
 

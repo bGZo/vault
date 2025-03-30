@@ -1,11 +1,9 @@
 ---
-title: 2018 Awards
-aliases:
-  - years/2018
-created: 2025-01-13T21:05:13
-modified: 2025-01-13T21:05:13
-description: 
-tags: 
+title: 2018
+created: 2018-01-13T21:05:13
+modified: 2025-03-30T09:27:55
+comments: false
+aliases: 
 type: year
 ---
 
@@ -90,7 +88,7 @@ type: year
 <iframe src='https://moe-gameaward.com/prize/2018' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://moe-gameaward.com/prize/2018' target='_blank' class='external-link'>https://moe-gameaward.com/prize/2018</a></center>
 
-###  DLsite Game Sale Ranking
+### DLsite Game Sale Ranking
 
 <iframe src='https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=game' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=game' target='_blank' class='external-link'>https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=game</a></center>
@@ -104,4 +102,3 @@ type: year
 
 <iframe src='https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=comic' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=comic' target='_blank' class='external-link'>https://www.dlsite.com/maniax/ranking/year?year=2018&sort=sale&category=comic</a></center>
-

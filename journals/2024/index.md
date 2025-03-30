@@ -1,13 +1,13 @@
 ---
-title: 2024 Awards
-aliases:
-  - years/2024
 created: 2025-01-13T21:13:15
 modified: 2025-01-13T21:13:15
-description: 
-tags: 
+comments: false
+title: "2024"
+aliases:
+  - "2024"
 type: year
 ---
+
 
 ## Anime Awards
 
