@@ -11,6 +11,11 @@
 .vscode/
 .idea/
 
+# python
+.venv/
+main.py
+
+
 
 # binaries 
 assets/

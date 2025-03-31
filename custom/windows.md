@@ -3,6 +3,8 @@ tags:
   - operating-system
 created: 2024-09-22T09:26:22
 modified: 2025-01-17T11:06:14
+aliases:
+  - Windows
 ---
 
 ## Prior to purchase
