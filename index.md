@@ -1,5 +1,4 @@
 ---
-aliases: Home
 title: Home
 created: 2024-08-14T12:00:00
 modified: 2025-03-30T09:07:28
