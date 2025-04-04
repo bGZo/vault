@@ -11,7 +11,7 @@ aliases:
   - 大脑高潮
 created: 2022-11-30T00:00:00
 tags:
-  - area/listening
+  - area/asmr
 type: hobby
 wikipedia: https://zh.wikipedia.org/zh-cn/ASMR
 modified: 2025-04-03T22:57:11

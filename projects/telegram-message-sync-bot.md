@@ -92,6 +92,20 @@ systenctl enable tg@bgzo
 
 ## Features
 
+
+### 后台运行
+
+1. NOHUB 运行
+2. SYSTEMCTL 运行
+
+
+### 内容替换
+
+替换范围
+
+- 标签，不要污染我的数字花园
+
+
 - [x] 状态检测
 - [x] 后台运行
 - [x] 日志支持

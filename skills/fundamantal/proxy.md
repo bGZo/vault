@@ -670,3 +670,9 @@ iOS 设备上使用 SS 客户端也会显示 VPN 图标: 是因为使用了 iOS 
 
 [^convert-subs]: [如何在 Linux 上优雅的使用 Clash？ · Zs's Blog](https://blog.zzsqwq.cn/posts/how-to-use-clash-on-linux/), [node.js What is the difference between npm install and npm run build?Stack Overflow](https://stackoverflow.com/questions/43664200/what-is-the-difference-between-npm-install-and-npm-run-build)
 [^wiki-ss]:https://zh.wikipedia.org/wiki/Shadowsocks
+
+## Fuck: 一辈子去哪都是做题的中国人
+
+> [!tip]
+> Proxies sucks as well, which would be identified and treated as spam by some service providers.
+> - [I got the error message "Looks like you've been doing that a lot. Take a break for 5 minutes before trying again." when posting my first thread in 8 days. : help](https://www.reddit.com/r/help/comments/nh2tsy/i_got_the_error_message_looks_like_youve_been/)
