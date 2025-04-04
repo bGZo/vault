@@ -1,0 +1,35 @@
+---
+created: 2024-12-08T09:26:22
+modified: 2025-04-03T20:53:53
+---
+
+> [!NOTE]
+>
+> 几年前立下一个原则，不会对任何试图引流的仓库点 Star。理由也比较简单:
+> 1. 浪费读者时间。引流即广告，广告并不与你检视的内容直接相关，而你可能在检视之前，拿手机扫码，关注，注意力从电脑转移到手机，很浪费时间。
+> 2. 劣币驱逐良币。如果风气盛行，所有仓库都将变成如此，圈钱玩私域流量，那就真的是中华内陆的文化输出了，这显然不是一件好事情。
+> 3. 挣钱合理，但这已经与最初目的背道而驰。如果每一个仓库的导向，从每个建设性的现实问题，变成一场场隐形消费时，这就是一场巨大的消费陷阱。而消费会带来了更多问题。 永远有比钱重要的东西，而有些人就是看不到。
+
+## [[proxy|反代]]
+
+- https://ghpro.xyz
+- https://hub.xn--p8jhe.tw
+- https://hub.xn--gzu630h.xn--kpry57d
+- https://hub.fastgit.xyz
+- https://cdn.githubjs.cf
+- https://gitclone.com
+- https://hub.gitfast.tk
+- https://hub.gitslow.tk
+- https://hub.verge.tk
+- https://raw.gitfast.tk
+- https://raw.gitslow.tk
+- https://raw.verge.tk
+
+![](https://img.shields.io/github/created-at/IceWhaleTech/CasaOS?style=for-the-badge&label=since)
+
+## Notes
+
+- Fork somebody repo cannot change to private?
+    - [What security issue is caused by changing the visibility of a fork on Github? - Stack Overflow](https://stackoverflow.com/questions/71446341/what-security-issue-is-caused-by-changing-the-visibility-of-a-fork-on-github)
+
+
