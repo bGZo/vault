@@ -6,28 +6,66 @@ from datetime import datetime
 import html2text
 
 
-def extract_metadata(html_content):
-    """从 HTML 注释中提取 URL 和保存时间"""
-    url, saved_date = "unknown", "unknown"
-    match = re.search(
-        r"url:\s*(.*?)\s+saved date:\s*(.*?)\s+-->",
-        html_content,
-        re.DOTALL | re.IGNORECASE
-    )
+def extract_datetime_from_filename(filename):
+    """从文件名提取时间戳（优先处理）"""
+    timestamp_pattern = r" \((\d+_\d+_\d{4} \d+_\d+_\d+ [AP]M)\)\.html$"
+    match = re.search(timestamp_pattern, filename, re.IGNORECASE)
+
     if match:
-        url = match.group(1).strip()
-        saved_date = match.group(2).split("(")[0].strip()  # 移除时区描述
-    return url, saved_date
+        try:
+            dt_str = match.group(1).replace("_", " ")
+            return datetime.strptime(dt_str, "%m %d %Y %I %M %S %p")
+        except:
+            pass
+    return None
 
 
-def generate_front_matter(input_path, url, saved_date):
-    """生成 Markdown Front Matter"""
-    filename = os.path.splitext(os.path.basename(input_path))[0]
-    title = urllib.parse.unquote(filename)  # 解码 URL 编码字符
+def extract_metadata(html_content, filename):
+    """混合来源提取元数据"""
+    # 优先从文件名获取时间
+    dt = extract_datetime_from_filename(filename)
+
+    # 次选从 HTML 注释获取
+    if not dt:
+        match = re.search(
+            r"saved date:\s*(.*?)\s+-->",
+            html_content,
+            re.DOTALL | re.IGNORECASE
+        )
+        if match:
+            try:
+                dt_str = match.group(1).split("(")[0].strip()
+                return datetime.strptime(dt_str, "%a %b %d %Y %H:%M:%S %Z%z")
+            except:
+                pass
+
+    # 最后使用当前时间
+    return datetime.now()
+
+
+def clean_filename(filename):
+    """清理文件名中的时间戳部分"""
+    # 移除时间戳模式
+    cleaned = re.sub(
+        r" \(\d+_\d+_\d{4} \d+_\d+_\d+ [AP]M\)\.html$",
+        "",
+        filename,
+        flags=re.IGNORECASE
+    )
+    # 移除扩展名和 URL 编码
+    return urllib.parse.unquote(cleaned.replace(".html", "")).strip()
+
+
+def generate_front_matter(input_path, url, dt):
+    """生成带清理标题的 Front Matter"""
+    filename = os.path.basename(input_path)
+    title = clean_filename(filename)
+
+    iso_date = dt.strftime("%Y-%m-%dT%H:%M:%S%z")
     return f"""---
 title: "{title}"
-created: {saved_date}
-modified: {saved_date}
+created: {iso_date}
+modified: {iso_date}
 source: {url}
 tags:
 tags-link:
@@ -37,34 +75,34 @@ type: archive-web
 """
 
 
-def convert_singlefile_html_to_md(input_path, output_path):
+def convert_singlefile_html_to_md(input_path, output_dir):
     try:
         with open(input_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
         # 提取元数据
-        url, saved_date = extract_metadata(html_content)
+        url_match = re.search(r"url:\s*(.*?)\s+saved date:", html_content)
+        url = url_match.group(1).strip() if url_match else "unknown"
+        dt = extract_metadata(html_content, os.path.basename(input_path))
 
-        # 处理高亮标记（支持任意属性的 <mark> 标签）
+        # 处理高亮
         html_content = re.sub(
             r"<mark\b[^>]*>(.*?)</mark>",
             r"==\1==",
             html_content,
-            flags=re.DOTALL | re.IGNORECASE
+            flags=re.DOTALL
         )
 
-        # 转换 HTML 为 Markdown
+        # 生成输出路径
+        clean_name = sanitize_filename(clean_filename(os.path.basename(input_path))) + ".md"
+        relative_path = os.path.relpath(input_path, input_directory)
+        output_path = os.path.join(output_dir, os.path.dirname(relative_path), clean_name)
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+
+        # 转换内容
         h = html2text.HTML2Text()
         h.body_width = 0
-        h.ignore_links = False
-        md_content = h.handle(html_content)
-
-        # 添加 Front Matter
-        front_matter = generate_front_matter(input_path, url, saved_date)
-        md_content = front_matter + md_content
-
-        # 确保输出目录存在
-        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        md_content = generate_front_matter(input_path, url, dt) + h.handle(html_content)
 
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(md_content)
@@ -78,10 +116,9 @@ def batch_convert_html_to_md(input_dir, output_dir):
         for filename in files:
             if filename.lower().endswith(".html"):
                 input_path = os.path.join(root, filename)
-                relative_path = os.path.relpath(input_path, input_dir)
-                output_path = os.path.join(output_dir, sanitize_filename(relative_path[:-5]) + ".md")
-                convert_singlefile_html_to_md(input_path, output_path)
-                print(f"已转换: {input_path} -> {output_path}")
+                convert_singlefile_html_to_md(input_path, output_dir)
+                print(f"已转换: {input_path} -> {os.path.join(output_dir, sanitize_filename(clean_filename(filename)))}.md")
+
 
 def sanitize_filename(title):
     """增强版文件名安全处理函数"""
@@ -103,10 +140,10 @@ def sanitize_filename(title):
         safe_name = 'untitled'
 
     # Step 5: 添加波浪线前缀并返回
-    return f'~{safe_name}.md'
+    return f'~{safe_name}'
 
 
 if __name__ == "__main__":
-    input_directory = "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/archives/archived_web/zmt/"  # 替换为输入目录
+    input_directory = "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/archives/archived_web/"  # 替换为输入目录
     output_directory = "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/.utils/html_convert"  # 替换为输出目录
     batch_convert_html_to_md(input_directory, output_directory)
