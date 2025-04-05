@@ -13,7 +13,8 @@
 
 # python
 .venv/
-main.py
+.utils/input.md
+.utils/output/
 
 
 
