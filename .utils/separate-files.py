@@ -42,9 +42,26 @@ def extract_content(node):
 
 
 def sanitize_filename(title):
-    """清理标题生成安全文件名"""
-    title = re.sub(r'[\\/*?:"<>|]', '_', title)
-    return title.strip() + '.md'
+    """增强版文件名安全处理函数"""
+    # Step 1: 替换所有空格和标点符号为短横线
+    safe_name = re.sub(
+        r'[\s!\"#\$%&\'\(\)\*\+,\./:;<=>\?@\[\\\]\^`\{\|\}~，。、；：‘’“”《》【】〔〕「」？〈〉…—]+',
+        '-',
+        title
+    )
+
+    # Step 2: 替换非法文件名字符
+    safe_name = re.sub(r'[\\/*?:"<>|]', '-', safe_name)
+
+    # Step 3: 合并连续短横线并去除首尾
+    safe_name = re.sub(r'-+', '-', safe_name).strip('-')
+
+    # Step 4: 处理空文件名情况
+    if not safe_name:
+        safe_name = 'untitled'
+
+    # Step 5: 添加波浪线前缀并返回
+    return f'~{safe_name}.md'
 
 
 def process_file(input_path, output_dir):
