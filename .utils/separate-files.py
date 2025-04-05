@@ -26,15 +26,18 @@ def parse_lines(lines):
     return root
 
 
-def generate_subcontent(node, base_indent):
-    """生成调整缩进后的子内容"""
+def extract_content(node):
+    """新核心逻辑：提取内容并移除列表符号"""
     lines = []
-    current_indent = node.indent - base_indent
-    if current_indent < 0:
-        current_indent = 0
-    lines.append(" " * current_indent + node.content)
+    # 移除当前节点的列表符号
+    clean_line = re.sub(r'^-\s+', '', node.content, count=1)
+    # 保留引用格式的">"
+    clean_line = re.sub(r'^>\s+', '> ', clean_line)
+    if clean_line.strip():
+        lines.append(clean_line)
+    # 递归处理子节点
     for child in node.children:
-        lines.extend(generate_subcontent(child, base_indent))
+        lines.extend(extract_content(child))
     return lines
 
 
@@ -80,17 +83,21 @@ def process_file(input_path, output_dir):
             '---\n'
         ])
 
-        # 生成内容
-        content_lines = []
+        # 生成正文内容
+        body_lines = []
         for child in node.children:
-            content_lines.extend(generate_subcontent(child, node.indent))
+            body_lines.extend(extract_content(child))
+
+        # 优化段落格式：条目间保留一个空行
+        formatted_body = '\n\n'.join(body_lines)
 
         # 写入文件
-        filename = sanitize_filename(title)
+        filename = sanitize_filename('~'+title)
         output_path = os.path.join(output_dir, filename)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(front_matter))
-            f.write('\n'.join(content_lines))
+            f.write(formatted_body)
+        #     '\n'.join(
         print(f"Created: {output_path}")
 
 
