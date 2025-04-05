@@ -1,35 +1,72 @@
 import os
 import re
-from bs4 import BeautifulSoup
-import html2text
+import urllib.parse
 from pathlib import Path
+from datetime import datetime
+import html2text
+
+
+def extract_metadata(html_content):
+    """从 HTML 注释中提取 URL 和保存时间"""
+    url, saved_date = "unknown", "unknown"
+    match = re.search(
+        r"url:\s*(.*?)\s+saved date:\s*(.*?)\s+-->",
+        html_content,
+        re.DOTALL | re.IGNORECASE
+    )
+    if match:
+        url = match.group(1).strip()
+        saved_date = match.group(2).split("(")[0].strip()  # 移除时区描述
+    return url, saved_date
+
+
+def generate_front_matter(input_path, url, saved_date):
+    """生成 Markdown Front Matter"""
+    filename = os.path.splitext(os.path.basename(input_path))[0]
+    title = urllib.parse.unquote(filename)  # 解码 URL 编码字符
+    return f"""---
+title: "{title}"
+created: {saved_date}
+modified: {saved_date}
+source: {url}
+tags:
+tags-link:
+type: archive-web
+---
+
+"""
 
 
 def convert_singlefile_html_to_md(input_path, output_path):
-    """转换单个 HTML 文件为 Markdown"""
     try:
-        with open(input_path, 'r', encoding='utf-8') as f:
+        with open(input_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
-        # 处理高亮标记（SingleFile 的高亮通常是黄色背景）
+        # 提取元数据
+        url, saved_date = extract_metadata(html_content)
+
+        # 处理高亮标记（支持任意属性的 <mark> 标签）
         html_content = re.sub(
-            r'<mark[^"]*">(.*?)</mark>',
-            r'==\1==',  # 使用 == 包裹表示高亮（部分 Markdown 解析器支持）
+            r"<mark\b[^>]*>(.*?)</mark>",
+            r"==\1==",
             html_content,
-            flags=re.IGNORECASE
+            flags=re.DOTALL | re.IGNORECASE
         )
 
-        # 使用 html2text 转换
+        # 转换 HTML 为 Markdown
         h = html2text.HTML2Text()
-        h.body_width = 0  # 禁用换行
-        h.ignore_links = False  # 保留链接
-        h.ignore_images = True  # 忽略图片（可选）
+        h.body_width = 0
+        h.ignore_links = False
         md_content = h.handle(html_content)
 
-        # 创建输出目录
+        # 添加 Front Matter
+        front_matter = generate_front_matter(input_path, url, saved_date)
+        md_content = front_matter + md_content
+
+        # 确保输出目录存在
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write(md_content)
 
     except Exception as e:
@@ -37,15 +74,36 @@ def convert_singlefile_html_to_md(input_path, output_path):
 
 
 def batch_convert_html_to_md(input_dir, output_dir):
-    """批量转换目录中的 HTML 文件"""
     for root, _, files in os.walk(input_dir):
         for filename in files:
-            if filename.lower().endswith('.html'):
+            if filename.lower().endswith(".html"):
                 input_path = os.path.join(root, filename)
                 relative_path = os.path.relpath(input_path, input_dir)
-                output_path = os.path.join(output_dir, relative_path[:-5] + '.md')
+                output_path = os.path.join(output_dir, sanitize_filename(relative_path[:-5]) + ".md")
                 convert_singlefile_html_to_md(input_path, output_path)
                 print(f"已转换: {input_path} -> {output_path}")
+
+def sanitize_filename(title):
+    """增强版文件名安全处理函数"""
+    # Step 1: 替换所有空格和标点符号为短横线
+    safe_name = re.sub(
+        r'[\s!\"#\$%&\'\(\)\*\+,\./:;<=>\?@\[\\\]\^`\{\|\}~，。、；：‘’“”《》【】〔〕「」？〈〉…—]+',
+        '-',
+        title
+    )
+
+    # Step 2: 替换非法文件名字符
+    safe_name = re.sub(r'[\\/*?:"<>|]', '-', safe_name)
+
+    # Step 3: 合并连续短横线并去除首尾
+    safe_name = re.sub(r'-+', '-', safe_name).strip('-')
+
+    # Step 4: 处理空文件名情况
+    if not safe_name:
+        safe_name = 'untitled'
+
+    # Step 5: 添加波浪线前缀并返回
+    return f'~{safe_name}.md'
 
 
 if __name__ == "__main__":
