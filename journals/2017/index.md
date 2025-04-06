@@ -1,10 +1,8 @@
 ---
+title: 2017
 created: 2017-01-13T09:05:26
 modified: 2025-01-13T09:12:21
 comments: false
-title: 2017
-aliases:
-  - 2017
 type: year
 ---
 

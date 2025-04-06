@@ -2,7 +2,7 @@
 aliases:
   - 黑曜石
 created: 2024-12-14T11:52:18
-modified: 2025-01-19T01:34:22
+modified: 2025-04-06T16:35:59
 changelog: https://obsidian.md/changelog
 description: Obsidian is the private and flexible writing app that adapts to the way you think.
 document: https://help.obsidian.md
@@ -94,6 +94,10 @@ The **ribbon** functions as a container for frequently used action icons.
 ### Publish #Paied
 
 Hosted on `publish.obsidian.md/your-site` build-in with $10/month pricing.
+
+## web-clipper
+
+![[obsidianmd-obsidian-clipper#Template 1f4ed6]]
 
 ## References
 

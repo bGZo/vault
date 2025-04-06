@@ -1,5 +1,7 @@
 ---
-alias: para
+aliases:
+  - para
+  - PARA
 created: 2024-07-30T00:00:00
 modified: 2025-04-04T20:40:15
 ---

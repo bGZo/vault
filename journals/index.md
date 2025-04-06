@@ -1,4 +1,5 @@
 ---
+title: journals
 created: 2025-03-30T09:09:12
 modified: 2025-03-31T21:48:38
 comments: false

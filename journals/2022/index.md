@@ -1,10 +1,8 @@
 ---
-created: 2025-01-13T21:04:34
+title: 2022
+created: 2022-01-13T21:04:34
 modified: 2025-01-13T21:04:34
 comments: false
-title: 2022
-aliases:
-  - 2022
 type: year
 ---
 

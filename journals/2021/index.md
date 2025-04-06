@@ -1,10 +1,8 @@
 ---
-created: 2025-01-13T21:04:47
+title: "2021"
+created: 2021-01-13T21:04:47
 modified: 2025-03-30T20:06:42
 comments: false
-title: "2021"
-aliases:
-  - 2021
 type: year
 ---
 

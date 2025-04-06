@@ -1,8 +1,6 @@
 ---
 title: 2023
-aliases:
-- 2023
-created: 2025-01-13T21:03:35
+created: 2023-01-13T21:03:35
 modified: 2025-01-13T21:03:35
 comments: false
 type: year

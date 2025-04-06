@@ -1,10 +1,8 @@
 ---
-created: 2025-01-13T21:13:15
+title: "2024"
+created: 2024-01-01T21:13:15
 modified: 2025-01-13T21:13:15
 comments: false
-title: "2024"
-aliases:
-  - "2024"
 type: year
 ---
 

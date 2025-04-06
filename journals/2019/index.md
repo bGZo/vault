@@ -1,10 +1,8 @@
 ---
+title: 2019
 created: 2019-01-13T21:05:03
 modified: 2025-03-30T09:28:42
 comments: false
-title: 2019
-aliases:
-  - 2019
 type: year
 ---
 

@@ -55,7 +55,7 @@ Hello, again. This week is special for me, which is my birthday week, after 8390
     - ~~reuse information~~ => not work on logseq, just use link
       - ~~how to deal with waiting project?~~
     - more via: https://www.reddit.com/r/Notion/comments/fx0b9u/is_paramethod_incomplete/
-- [[capture-organize-distill-express]]
+- [[capture-order-review-do]]
   - #[[ignored-problem]]
     - information **intake**.
     - distill, express is **duplicated**.
