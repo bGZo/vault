@@ -25,10 +25,11 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build
-        uses: bGZo/quartz-build-action@fix-unrecognized
+        uses: bGZo/quartz-build-action@custom-css-support
         with:
           quartz_config: .github/quartz/quartz.config.ts
           quartz_layout: .github/quartz/quartz.layout.ts
+          quartz_custom_css: .github/quartz/custom.scss
 
       # 给 GitHub Pages 上传，默认会压缩成 .tar
       - name: Upload artifact for GitHub Pages
