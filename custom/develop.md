@@ -60,7 +60,9 @@ scoop install go
 
 Download portable version via: https://go.dev/dl/
 
-### [Ruby](ruby) on ubuntu
+### [Ruby](ruby) 
+
+on ubuntu: 
 
 Running following[^ruby]
 
@@ -76,6 +78,14 @@ export PATH="$HOME/gems/bin:$PATH"
 ```
 
 Windows need install MSYS2, so not recommand
+
+Mac please use [[rvm-rvm|rvm]], running following:
+
+```shell
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install ruby@latest
+```
 
 ## Jetbrains
 

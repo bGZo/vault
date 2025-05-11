@@ -10,6 +10,11 @@ tags-link:
 type: writing
 ---
 
+
+<iframe src='https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio' target='_blank' class='external-link'>https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio</a></center>
+
+
 最近丧失一些表达欲，因为我意识到写出来也对我的生活无济于事，我可能耗费了整个下午的时间写一篇文章，但转头文章就喂给了 AI，甚至可能都不会喂给 AI，因为压根就没有人看，但这是我一开始写作的目的吗？
 
 所以当我开始不再强迫自己写作的时候，我就有大把的时间去生活了。我打手游，看剧，写代码，做之前没有时间做的任何事情，但我仍旧是一个人，我仍然在这个逼仄的房间，做着只能一个人做的事情。偶尔自慰派遣寂寞，和 6 年前没有任何区别。
