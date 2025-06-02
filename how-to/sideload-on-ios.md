@@ -2,7 +2,7 @@
 title: How to sideload on iOS
 aliases:
   - How to sideload on iOS
-  - "Make it like Android: Sideload"
+  - "Make it like Android Sideload"
   - 侧载
   - 巨魔
 created: 2025-06-02T11:50:24
