@@ -139,5 +139,13 @@ type: how-to
 ## References
 
 - [[~SideStore-安装指南-如何在-iOSiPadOS-设备上侧载应用]]
+- [[~巨魔玩家转战越狱的经历-来自-香菜真难吃Y]]
+- [How to sideload application on iOS, iPadOS : r/sideloaded](https://www.reddit.com/r/sideloaded/comments/1ak3x9t/how_to_sideload_application_on_ios_ipados/)
+- [Free Sideloading - Google Docs](https://docs.google.com/document/d/1QseJR-ZTGJO0q99l9eh1-wsR-tldtbsM6rbsti08EDQ/edit?pli=1&tab=t.0)
+- [Free Sideloading! [Any iOS!] [No Computer!] [No App Limit!] [No Revokes!] [No 7 day Resigning!] [Add Repos for quick install!] : u/PuReEnVyUs](https://www.reddit.com/user/PuReEnVyUs/comments/1cvgqi0/free_sideloading_any_ios_no_computer_no_app_limit/?share_id=oK4ALfJoN3atNuWd2X0Ef)
+- [Free Sideloading Guide for iPhone Users [Any IOS] : r/Piracy](https://www.reddit.com/u/PuReEnVyUs/s/Qr8HO7KVcN)
+- [开源 ios 软件分享，自签/巨魔使用](https://www.v2ex.com/t/1085401#reply0)
+- [iOS 越狱后插件推荐 | 始终](https://liam.page/2023/01/19/Tweaks-that-I-ve-installed-on-my-iPhone/)
+
 
 [^runing-with-live-container]: https://github.com/Predidit/Kazumi/issues/819, 一个更简单的方法是用 https://github.com/LiveContainer/LiveContainer 直接运行无签名的 IPA 文件，并且不额外占用 App IDs 和 3 个激活 App 的名额。

@@ -15,3 +15,10 @@ tags:
 type: 3c
 wikipedia:
 ---
+
+## Why iPhone SE
+
+1. Cheap
+2. Notification
+3. iCloud
+4. LCD Screen
