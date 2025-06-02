@@ -1,5 +1,5 @@
 ---
-aliases: central processing unit, 中央处理器,
+aliases: central processing unit, 中央处理器
 description: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
 created: 2023-07-19T00:00:00
 wikipedia: https://en.wikipedia.org/wiki/Central_processing_unit

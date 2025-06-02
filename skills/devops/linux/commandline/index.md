@@ -11,7 +11,7 @@ title: Command line
 >
 > — [The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/) | [zh-has](https://chinese.freecodecamp.org/news/the-linux-commands-handbook/)
 
-## [[custom/linux|Linux]] Category
+## [[pages/linux|Linux]] Category
 
 Refer to https://www.runoob.com/linux/linux-command-manual.html
 
