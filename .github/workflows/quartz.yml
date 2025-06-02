@@ -37,6 +37,14 @@ jobs:
         with:
           path: ./_site  # 供 GitHub Pages 使用
 
+      # Debug
+      - name: Upload _site for debugging
+        uses: actions/upload-artifact@v4
+        with:
+          name: githubPages-debug
+          path: ./_site 
+          retention-days: 3
+
       # 给 Vercel 上传，确保它是一个 **文件夹**，不会被压缩
       - name: Upload artifact for Vercel
         uses: actions/upload-artifact@v4
@@ -44,6 +52,7 @@ jobs:
           name: quartzNotes
           path: ./_site  # 供 Vercel 使用
           compression-level: 0  # ⚠️ 关键！防止 GitHub Actions 自动压缩
+          retention-days: 3
 
   deploy:
     runs-on: ubuntu-latest
