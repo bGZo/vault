@@ -2,12 +2,15 @@
 title: How to sideload on iOS
 aliases:
   - How to sideload on iOS
+  - "Make it like Android: Sideload"
+  - 侧载
+  - 巨魔
 created: 2025-06-02T11:50:24
 modified: 2025-06-02T12:03:17
 type: how-to
 ---
 
-## Troll Store #巨魔
+## Troll Store 
 
 #### How it works?
 
@@ -136,3 +139,5 @@ type: how-to
 ## References
 
 - [[~SideStore-安装指南-如何在-iOSiPadOS-设备上侧载应用]]
+
+[^runing-with-live-container]: https://github.com/Predidit/Kazumi/issues/819, 一个更简单的方法是用 https://github.com/LiveContainer/LiveContainer 直接运行无签名的 IPA 文件，并且不额外占用 App IDs 和 3 个激活 App 的名额。

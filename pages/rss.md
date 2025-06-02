@@ -3,7 +3,7 @@ aliases:
   - RDF Site Summary
   - Really Simple Syndication
 created: 2024-12-08T21:26:22
-modified: 2025-03-29T23:48:46
+modified: 2025-04-21T22:11:59
 description: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released: 1999-03-15
 tags:
@@ -150,6 +150,9 @@ I prefer like the brave build-in RSS reader😭
     - [HenryQW/Awesome-TTRSS: [maintainer wanted] 🐋 Awesome TTRSS, a powerful Dockerised all-in-one RSS solution. (github.com)](https://github.com/HenryQW/Awesome-TTRSS)
     - [zhaoolee/garss: Github Actions采集RSS, 打造无广告内容优质的头版头条超赞宝藏页](https://github.com/zhaoolee/garss) ![](https://img.shields.io/github/stars/zhaoolee/garss)
     - [己思](https://ohmyrss.com/#)
+
+<iframe src='https://openrss.org/rss-feed-readers' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://openrss.org/rss-feed-readers' target='_blank' class='external-link'>https://openrss.org/rss-feed-readers</a></center>
 
 ### Half-text RSS sucks, this is over-design
 

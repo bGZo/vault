@@ -3,7 +3,7 @@ title: Privacy
 aliases:
   - 隐私
 created: 2023-08-06T07:58:30
-modified: 2025-01-17T09:57:10
+modified: 2025-06-02T12:44:00
 description: 隐私一旦和政治挂钩，那么就不再是一种可有可无的东西，其事关 Everything
 tags:
   - politics
@@ -65,14 +65,14 @@ IFTTT 的定时拨号服务御用号码，是机器人
 > via: https://www.mga.edu/telework/docs/Google_Voice_Handbook.pdf
 
 #### Support status
-- [x] https://www.douban.com  
-- [x] https://telegram.org  
-- [x] https://www.wechat.com  
-- [x] https://x.com  
-- [x] https://www.bilibili.com  
-- [x] https://www.zhihu.com  
-- [x] https://leetcode.cn  
-- [ ] https://store.steampowered.com  
+- [x] https://www.douban.com
+- [x] https://telegram.org
+- [x] https://www.wechat.com
+- [x] https://x.com
+- [x] https://www.bilibili.com
+- [x] https://www.zhihu.com
+- [x] https://leetcode.cn
+- [ ] https://store.steampowered.com
     - VOIP 不符合安全策略，via: https://help.steampowered.com/zh-cn/faqs/view/7EFD-3CAE-64D3-1C31
 
 ### eSIM
@@ -95,7 +95,7 @@ Skinny 现在基本买不到了，每次都是 `eSIMs are currently out of stock
 
 #### 英国 Giff Gaff
 
-## Email
+## [[email|Email]]
 
 > [!tip]
 > 其实很多社区不会验证你的邮箱的正确性, 所以如果你不 care 未来的话, 几秒就可以拿到一个账号..
@@ -176,55 +176,55 @@ tumblr
 
 截止目前，我注销了如下服务：
 
-- [x] 20210101：[QQ Zone](https://qzone.qq.com/)  
+- [x] 20210101：[QQ Zone](https://qzone.qq.com/)
     - [Delete Page](http://imgcache.qq.com/qzone/web/qzone_submit_close.html).
     - Backup Using [chrome extension](https://chrome.google.com/webstore/detail/aofadimegphfgllgjblddapiaojbglhf?hl=zh-CN).
-- [x] 20210211：Xunlei + Ximalaya + Weibo + FB ~~+ IG~~  
-- [x] 20210301 抖音 + 最右  
-- [x] ~~20210313：拼多多分号~~  
-- [x] 20210319：Amap, Kugou.  
-- [x] 20210322：[京东白条](https://jr.jd.com/)  
+- [x] 20210211：Xunlei + Ximalaya + Weibo + FB ~~+ IG~~
+- [x] 20210301 抖音 + 最右
+- [x] ~~20210313：拼多多分号~~
+- [x] 20210319：Amap, Kugou.
+- [x] 20210322：[京东白条](https://jr.jd.com/)
     - via: [终于把京东白条网贷给注销了! - V2EX](https://www.v2ex.com/t/442257)
-- [x] ~~20210415：QQ, Wecha, Meiturn, Pindodo, Ele, Taobao to VMOS Pro~~.  
-- [x] 20210727：~~WeiBo +~~ 扇贝编程  
-- [x] 20210823：[csdn](http://csdn.com/)  
-- [x] 20210823：[vivo](https://www.vivo.com/)  
-- [x] 20210923：[Gitee](http://gitee.com/)  
+- [x] ~~20210415：QQ, Wecha, Meiturn, Pindodo, Ele, Taobao to VMOS Pro~~.
+- [x] 20210727：~~WeiBo +~~ 扇贝编程
+- [x] 20210823：[csdn](http://csdn.com/)
+- [x] 20210823：[vivo](https://www.vivo.com/)
+- [x] 20210923：[Gitee](http://gitee.com/)
     - QQ support
-- [x] 20210927：[DouBan](https://douban.com/)  
+- [x] 20210927：[DouBan](https://douban.com/)
     - Backup Using [doufen-org/tofu](https://github.com/doufen-org/tofu)
-- [x] 20221002：[Netease Music](https://music.163.com/)  
-- [x] 20211123：[Youdao Dict](http://www.youdao.com/)  
+- [x] 20221002：[Netease Music](https://music.163.com/)
+- [x] 20211123：[Youdao Dict](http://www.youdao.com/)
     - Write Letter.
-- [x] 20220201：[Teamviver](https://www.teamviewer.com/)  
-- [x] 20220501：[GitBook](https://www.gitbook.com/)  
-- [x] 20220504：[Taptap](https://www.taptap.com/)  
+- [x] 20220201：[Teamviver](https://www.teamviewer.com/)
+- [x] 20220501：[GitBook](https://www.gitbook.com/)
+- [x] 20220504：[Taptap](https://www.taptap.com/)
     - QQ support
-- [x] 20220513：[Disqus](http://disqus.com/)  
-- [x] 20220525：[MuBu, 幕布](https://mubu.com/)  
+- [x] 20220513：[Disqus](http://disqus.com/)
+- [x] 20220525：[MuBu, 幕布](https://mubu.com/)
       - [work order, 申请工单](http://t.cn/A6vmvEdU).
-- [x] 20220905：[Authy](https://authy.com/)  
+- [x] 20220905：[Authy](https://authy.com/)
     - [Authy vs 2FAS - I need help : Bitwarden](https://www.reddit.com/r/Bitwarden/comments/sexzww/authy_vs_2fas_i_need_help/)
-- [x] 20220910：[Trello](https://trello.com/)  
-- [x] 20221011：[QQ Music (+Wechat)](http://music.qq.com/)  
-- [x] 20221012：[Dribbble](https://dribbble.com/)  
-- [x] 20221031：[StackShare](https://stackshare.io/bgzocg); [GitKraken Account](https://app.gitkraken.com/goodbye);  
-- [x] 20221102：[Zotero | Your personal research assistant](https://www.zotero.org/);  
-- [x] 20221210：[Autodesk | 3D Design, Engineering & Construction Software](https://www.autodesk.com/); [ArtStation - Explore](https://www.artstation.com);  
-- [x] 20221219：[宝塔面板](https://www.bt.cn/)  
-- [x] [其乐社区](https://keylol.com/suid-1205865)  
+- [x] 20220910：[Trello](https://trello.com/)
+- [x] 20221011：[QQ Music (+Wechat)](http://music.qq.com/)
+- [x] 20221012：[Dribbble](https://dribbble.com/)
+- [x] 20221031：[StackShare](https://stackshare.io/bgzocg); [GitKraken Account](https://app.gitkraken.com/goodbye);
+- [x] 20221102：[Zotero | Your personal research assistant](https://www.zotero.org/);
+- [x] 20221210：[Autodesk | 3D Design, Engineering & Construction Software](https://www.autodesk.com/); [ArtStation - Explore](https://www.artstation.com);
+- [x] 20221219：[宝塔面板](https://www.bt.cn/)
+- [x] [其乐社区](https://keylol.com/suid-1205865)
     - 假注销, 绑定了 MjEwNA@qq.com, 来年换一个邮箱...
     - 发帖申请注销还需要绑定手机号, 简直魔幻...
-- [ ] 阿里小号注册下一堆招聘网站  
-- [ ] 网易严选  
-- [ ] 咕咪音乐  
-- [ ] 百度  
-- [ ] 京东  
-- [ ] 七牛云  
-- [ ] 米哈游  
-- [ ] osu  
-- [ ] utools  
-- [ ] 华为云会议 130  
+- [ ] 阿里小号注册下一堆招聘网站
+- [ ] 网易严选
+- [ ] 咕咪音乐
+- [ ] 百度
+- [ ] 京东
+- [ ] 七牛云
+- [ ] 米哈游
+- [ ] osu
+- [ ] utools
+- [ ] 华为云会议 130
 
 ## Phone
 
@@ -250,12 +250,12 @@ https://google.com/search?q=%s&ie=UTF-8
 
 ## ​Good habits
 
-- [ ] WiFi 随机 MAC 地址，via: https://www.v2ex.com/t/799831  
-- [ ] 查看公司口碑，是否符合 GDRP；  
-- [ ] 在电梯里，地铁里，咖啡厅等公开地方，输入密码会注意头上有没有摄像头；  
-- [ ] 电子产品离开视野，必定手动锁定；  
-- [ ] 每个账号绑定的邮箱都是独立的，采用随机 UUDI 的形式，哪里泄漏马上就知道；  
-- [ ] 定期商业投毒；  
+- [ ] WiFi 随机 MAC 地址，via: https://www.v2ex.com/t/799831
+- [ ] 查看公司口碑，是否符合 GDRP；
+- [ ] 在电梯里，地铁里，咖啡厅等公开地方，输入密码会注意头上有没有摄像头；
+- [ ] 电子产品离开视野，必定手动锁定；
+- [ ] 每个账号绑定的邮箱都是独立的，采用随机 UUDI 的形式，哪里泄漏马上就知道；
+- [ ] 定期商业投毒；
 
 > 想做个针对监听隐私的投毒软件
 > 随机播放一堆文字给智能音箱
