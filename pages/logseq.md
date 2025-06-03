@@ -1219,6 +1219,7 @@ document
 ```
 
 ## Waiting features
+
 - [ ] hide duplicating **aliases** on graph  
     - issue via: https://github.com/logseq/logseq/issues/4709
     - discuss via https://discuss.logseq.com/t/enhancement-of-aliases/14466/19
@@ -1253,28 +1254,12 @@ document
     - via: [How to clean unlinked files in an effective way - Questions & Help - LS](https://discuss.logseq.com/t/how-to-clean-unlinked-files-in-an-effective-way/2125)
 - [ ] Default template stored in `config.edu` is not supported for page, only for journal  
 
-## Alternatives
+## Alternatives via: [[publish-your-writing|How to publish your writing]]
 
-- https://www.cnblogs.com
-- https://blog.csdn.net
-- https://www.notion.so
-- https://logseq.github.io
-- https://www.onenote.com
-- https://www.yuque.com
-- https://cn.wordpress.org
-- https://note.youdao.com
-- http://typecho.org
-- https://hexo.io/zh-cn
-- https://www.gitbook.com
-- https://www.mkdocs.org
-- https://www.blogger.com
-- https://gohugo.io
-- https://obsidian.md
-- https://note.wiz.cn
-- https://blogit.io/
-- https://typlog.com
-- https://www.bitcron.com
-  - Considered Dep making the repo size increased, so clone main branch is enough.
+---
+
+
+- Considered Dep making the repo size increased, so clone main branch is enough.
 
 ```shell
     git clone --single-branch -b main git@github.com:bGZo/wiki-logseq.git
