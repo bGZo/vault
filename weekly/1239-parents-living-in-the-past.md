@@ -1,13 +1,10 @@
 ---
-title: '#1239 活在时光里的父母'
+title: "#1239 活在时光里的父母"
 aliases:
   - Parents living in the past
   - 活在时光里的父母
 created: 2025-05-11T20:34:11
 modified: 2025-05-11T20:34:13
-description: 
-tags: 
-tags-link: 
 type: writing
 ---
 

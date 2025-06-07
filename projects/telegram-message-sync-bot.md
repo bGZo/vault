@@ -19,7 +19,7 @@ type: "repo"
 
 ## Why
 
-过去用 [[logseq]] 一直搭配用一款插件 — [logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin)，用于摘取 TG 上转发的内容。说不上好用 [^not-usefiul]，后来我自己 Fork 了 [一份](https://github.com/bGZo/logseq-inbox-telegram-plugin/releases)，对主要特性修改了一些，即使仍然缺乏对超链接的支持，但也顺手了很多。
+过去用 [[logseq-logseq]] 一直搭配用一款插件 — [logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin)，用于摘取 TG 上转发的内容。说不上好用 [^not-usefiul]，后来我自己 Fork 了 [一份](https://github.com/bGZo/logseq-inbox-telegram-plugin/releases)，对主要特性修改了一些，即使仍然缺乏对超链接的支持，但也顺手了很多。
 
 可是问题仍然存在，为了在小主机上运行这个服务，必须后台同时跑一个 Logseq，要知道，Electron 可不是什么好东西。加上小主机默认没有屏幕，在启动这类 GUI 软件的时候，必须添加 `DISPLAY` 环境变量，如下：
 

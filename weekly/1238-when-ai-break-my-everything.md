@@ -2,11 +2,8 @@
 title: "#1238 当AI破坏了我的一切"
 aliases:
   - 当AI破坏了我的一切
-description: 
 created: 2025-05-02T10:35:57
 modified: 2025-05-02T10:38:34
-tags: 
-tags-link: 
 type: writing
 ---
 

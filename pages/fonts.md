@@ -3,7 +3,7 @@ title: 字体
 aliases:
   - 字体
 created: 2023-08-21T12:54:40
-modified: 2025-02-01T13:15:20
+modified: 2025-06-07T13:38:44
 description: 
 tags: 
 type:
@@ -89,6 +89,7 @@ type:
 - [中文字体 Ubuntu](https://wiki.ubuntu.org.cn/%E5%85%8D%E8%B4%B9%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93)
 - [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
 - [coding-fonts](https://github.com/chriscoyier/coding-fonts)
+- [[JetBrains-JetBrainsMono|JetBrainsMono]]
 
 > [!tip]
 > MD > FA > CODI >...
@@ -122,7 +123,7 @@ Profromence differences are related with [**CJK Unified Ideographs**](https://en
 ## References
 
 - https://fonts.google.com
-    - [ ] 创建一个在线免费字体预览网站  
+    - [ ] 创建一个在线免费字体预览网站
         - 背景：说实话中文字体界实在是太乱了, 在使用过 [Google Fonts]() 之后一直想找替代的网站, 简中 SEO 较高的总是指向诸如 xxx 下载站, pc 下载站, 第一字体网 之类的质量较低下 (缺乏**字体介绍**, **使用许可**, **作者详情**, **官方网站**等) 的网站, 这种资源德不配位真的让我有点受不了. 简中的铜臭气也渗透了出来.
         - 我们总是不把版权问题摆在前面, 总是先入为主地 " 拿来就用 ", 也不问有什么代价, 乐于做伸手党, 久而久之真的沦为了理所当然的事情. 因为每一片雪花都很小, 所以雪崩不怪任何人, 甚至伸手党们拉帮结伙开始反攻作者, 真的让人啼笑皆非.
 - http://www.fonts.net.cn

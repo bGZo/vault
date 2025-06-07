@@ -15,11 +15,11 @@ modified: 2025-04-03T21:11:22
 
 https://github.com/ellie/notes
 
-## [[logseq]]
+## [[logseq-logseq]]
 
 ### https://mschmidtkorth.github.io/logseq-msk-docs ![](https://img.shields.io/website?url=https://mschmidtkorth.github.io/logseq-msk-docs&style=for-the-badge&label=)
 
-## [[notion]]
+## Notion
 
 ### https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8 ![](https://img.shields.io/website?url=https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8&style=for-the-badge&label=)
 ### https://www.notion.so/Notion-df27d6e217584b0aa0fa2c0ea3f504b5 ![](https://img.shields.io/website?url=https://www.notion.so/Notion-df27d6e217584b0aa0fa2c0ea3f504b5&style=for-the-badge&label=)

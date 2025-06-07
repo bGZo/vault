@@ -30,7 +30,7 @@ okey，因为之前义正严辞地喷过 ([[macbook-pro-m2pro-16inch]])，但现
 
 ### 续航
 
-- 长时间 [[logseq]] 的码字，而非敲代码，或是做编译；
+- 长时间 [[logseq-logseq]] 的码字，而非敲代码，或是做编译；
 - 之前买 [[pad]] 的原因，也有一部分看重轻便和码字
   - 系统（PadOS 和 Android OS）完全限制了 Pad 的用途；
 - [[Z0tNtMwYrGA-我们找到了Windows电脑续航差的原因-苹果M2深度分析]]

@@ -5,7 +5,7 @@ modified: 2025-03-30T09:07:28
 comments: false
 ---
 
-Welcome my second brain I tried to build with [obsidian](obsidian) & [quartz](https://quartz.jzhao.xyz). I used to build with [logseq](logseq) before, but now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired.[^giving-up-logseq]
+Welcome my second brain I tried to build with [obsidian](obsidian) & [quartz](https://quartz.jzhao.xyz). I used to build with [logseq-logseq](logseq-logseq.md) before, but now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired.[^giving-up-logseq]
 
 Anyway, wish you have a fun time, with following categories by [[notes-philosophy|my category philosophy]]:
 

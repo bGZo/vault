@@ -10,7 +10,7 @@ modified: 2025-03-09T10:57:21
 type: writing
 ---
 
-Okey, I know it's ridiculous and hard to say: **I give up [[logseq]]**.
+Okey, I know it's ridiculous and hard to say: **I give up [[logseq-logseq]]**.
 
 I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released very fast, I even don't know when they add the support of markdown YAML properties.[^earier-logseq]
 

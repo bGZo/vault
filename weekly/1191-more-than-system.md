@@ -5,21 +5,23 @@ created: 2024-06-08T12:00:00
 tags: 
 status:
   - writing/published
-modified: 2024-12-26T08:30:28
+modified: 2025-06-06T23:33:27
 type: writing
 ---
 
 <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>
 
-> [!cite]
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1rW411j7ND&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/BV1rW411j7ND' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1rW411j7ND</a></center>
+
 > I'm gonna swing from the chandelier, from the chandelier.
-I'm gonna live like tomorrow doesn't exist, like it doesn't exist
-I'm gonna fly like a bird through the night, feel my tears as they dry
+> I'm gonna live like tomorrow doesn't exist, like it doesn't exist
+> I'm gonna fly like a bird through the night, feel my tears as they dry
 >
 > 我要像那摇荡吊灯，恣意摇摆
-我要放浪形骸，如同明天不复存在，明天不复存在
-我要飞过天际，做穿越黑夜的百灵，感受风干泪滴
+> 我要放浪形骸，如同明天不复存在，明天不复存在
+> 我要飞过天际，做穿越黑夜的百灵，感受风干泪滴
 
 今天是 [[20240608]]，是 2024 年高考两天中的最后一天，回想我的高考，已是五年前的事情了，时光荏苒，学生不再，真想问问五年前的自己想要在高考之后去做什么，现在的自己虽然已经开始工作，做到了经济独立，但是想做的事情已经忘得一干二净了。真是一件悲哀的事情，如果能和过去的自己对话，就好了。
 
