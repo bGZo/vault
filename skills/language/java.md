@@ -566,7 +566,7 @@ public class DateTimeExample {
 
 Via:
 
-1. https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b #doing
+1. https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b #gtd/doing
 2. https://www.baeldung.com/java-8-date-time-intro
 
 ## Cryptography 加密

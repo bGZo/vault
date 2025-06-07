@@ -7,7 +7,7 @@ modified: 2025-02-22T14:06:55
 description: https://www.snipd.com/
 source: https://github.com/bGZo/snipd-podcast-format-for-obsidian
 tags:
-  - star
+  - github/star
 tags-link: 
 type: project
 ---

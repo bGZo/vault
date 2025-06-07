@@ -6,7 +6,7 @@ modified: 2025-03-01T17:47:57
 description: "a telegram bot for archive messages"
 source: "https://github.com/bGZo/telegram-message-sync-bot"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ type: product
 ---
 
 ## Project Meta
-  - \[ ] #doing #project [[pages/page]]
+  - \[ ] #gtd/doing #project [[pages/page]]
   - query-table: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to project/closet app"]

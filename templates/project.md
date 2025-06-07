@@ -11,7 +11,7 @@ type: project
 
 ## Project Meta
 
-- [ ] #doing #project {{title}}
+- [ ] #gtd/doing #project {{title}}
 
 ## Why
 

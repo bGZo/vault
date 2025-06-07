@@ -12,7 +12,7 @@ type: project
 
 ## Project Meta
 
-- [ ] #doing #project social-media-sync  
+- [ ] #gtd/doing #project social-media-sync  
 
 ## Why
 

@@ -59,7 +59,7 @@ modified: 2025-02-16T14:27:41
 
 ### Todos
 
-- [ ] #doing Support more sources
+- [ ] #gtd/doing Support more sources
     - [x] https://www.dlsite.com
     - [x] https://www.4gamers.com.tw
     - [x] https://mingqiceping.com (Feed 地址失效)
