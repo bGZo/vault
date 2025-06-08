@@ -14,10 +14,10 @@ const config: QuartzConfig = {
     analytics: {
     },
     locale: "en-US",
-    baseUrl: "bgzo.github.io/notes/",
+    baseUrl: "bgzo.github.io/vault/",
     ignorePatterns: [".obsidian", "templates", ".git", ".github"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
