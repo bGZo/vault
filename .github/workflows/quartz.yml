@@ -17,9 +17,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: true  # 只初始化 `.gitmodules` 里配置的子模块（默认不递归 recursive）
-          fetch-depth: 1  # 仅拉取最新提交，避免获取完整历史
+        # with:
+        #   submodules: true  # 只初始化 `.gitmodules` 里配置的子模块（默认不递归 recursive）
+        #   fetch-depth: 1  # 仅拉取最新提交，避免获取完整历史
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
