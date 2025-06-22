@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-14T12:00:00
-modified: 2025-06-08T23:28:29
+modified: 2025-06-15T01:19:41
 comments: false
 ---
 
@@ -13,31 +13,26 @@ That would be my pleasure. 😊
 
 ## Structure / Design
 
-### (Submodule) Assets sepreated via: https://github.com/bGZo/assets
-
-### (Submodule) CLipper / export contents via: https://github.com/bGZo/clippers
-
-This repo only focus on individual expression. So no more other contents include any more.
-
-### [[weekly/index|Weekly]] is mean category for long writing.
-
-### [[Projects/index|Projects]] is what I now focusing.
-
-### If you also focus on productivity, maybe some [[custom/index|configuration]] is inspired.
-
-### You can check what [[devices/index|devices]] I have.
+- (Submodule) Assets sepreated via: https://github.com/bGZo/assets
+- (Submodule) CLipper / export contents via: https://github.com/bGZo/clippers
+    - This repo only focus on individual expression. So no more other contents include any more.
+- [[weekly/index|Weekly]] is mean category for long writing.
+- [[projects/index|Projects]] is what I now focusing.
+- If you also focus on productivity, maybe some [[custom/index|configuration]] is inspired.
+- You can check what [[devices/index|devices]] I have.
 
 ## Roadmap
 
-### I hope all my public expression can be centralized in this repo.
+> I hope all my public expression can be centralized in this repo.
+
 - [ ] Kill https://github.com/bgzo/blog.
 - [ ] Kill https://www.cnblogs.com
 - Weekly expression could be convert traditional Chinese.
 - MicroBlog have to use [[telegramdesktop-tdesktop|telegram]]
 
-## © Copyright
+## Copyright
 
-Copyright 2022 - 2024 [bGZo](https://github.com/bGZo). All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.
+© 2022 - 2025 [bGZo](https://github.com/bGZo). All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.
 
 <center><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="http://creativecommons.org/licenses/by-sa/4.0/"/><img src="https://raw.githack.com/bGZo/assets/dev/2024/Written-By-Human-Not-By-AI-Badge-white.svg" alt="https://notbyai.fyi"/></center>
 

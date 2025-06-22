@@ -3,7 +3,7 @@ title: How to compress photo size
 aliases:
   - How to compress photo size
 created: 2024-06-26T14:22:35
-modified: 2025-06-07T15:34:31
+modified: 2025-06-14T23:00:50
 type: how-to
 tags-link:
   - "[[photo]]"
@@ -51,3 +51,8 @@ a PNG optimizer that recompresses image files to a smaller size, without losing 
 用 optipng 压缩过的图片合成 == 未用 optipng 压缩过的图片合成（对比两个文件的哈希值都一样）
 
 ![[ShareX_39_1673338132238_0.png]]
+
+```shell
+optipng -o3 image.png -out output.png
+# `-o0`~`-o7`，级别越高压缩率越高但速度越慢
+```

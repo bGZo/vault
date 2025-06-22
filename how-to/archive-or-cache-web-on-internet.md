@@ -4,7 +4,7 @@ aliases:
   - How to archive or cache web on internet
   - How to found web archive or cache on internet
 created: 2024-07-27T15:16:08
-modified: 2025-06-14T15:16:08
+modified: 2025-06-14T16:33:18
 type: how-to
 ---
 
@@ -42,11 +42,10 @@ type: how-to
 
 ### Alternatives
 
-<iframe src='https://archive.is' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://archive.is' target='_blank' class='external-link'>https://archive.is</a></center>
-
-<iframe src='https://perma.cc' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://perma.cc' target='_blank' class='external-link'>https://perma.cc</a></center>
+- https://archive.is
+    - https://archive.today
+    - https://archive.ph
+- https://perma.cc
 
 ## Self host service
 

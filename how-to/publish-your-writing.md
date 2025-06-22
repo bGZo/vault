@@ -40,16 +40,17 @@ type: how-to
 5. [[GitbookIO-gitbook|gitbook]]
 6. [[vuejs-vuepress|vuepress]]
     1. 集成了 Google Analytics，以及基于 Git 的「最后更新时间」功能
-7. [[mkdocs-mkdocs|mkdocs]]
-8. [[NARKOZ-gitlab|gitlab]]
-9. [[sphinx-doc-sphinx|sphinx]]
-10. [[purple-force-docsite|docsite]]
-11. [[Requarks-wiki|wiki]]
-12. [[star7th-showdoc|showdoc]]
-13. [[vimwiki-vimwiki|vimwiki]]
-14. https://wikidpad.sourceforge.net/
-15. https://zim-wiki.org
-16. https://asciidoc.org
+7. [[vuejs-vitepress|vitepress]]
+8. [[mkdocs-mkdocs|mkdocs]]
+9. [[NARKOZ-gitlab|gitlab]]
+10. [[sphinx-doc-sphinx|sphinx]]
+11. [[purple-force-docsite|docsite]]
+12. [[Requarks-wiki|wiki]]
+13. [[star7th-showdoc|showdoc]]
+14. [[vimwiki-vimwiki|vimwiki]]
+15. https://wikidpad.sourceforge.net/
+16. https://zim-wiki.org
+17. https://asciidoc.org
 
 ## Apple notes to blog
 

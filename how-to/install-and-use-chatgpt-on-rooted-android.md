@@ -1,8 +1,13 @@
 ---
+title: How to install and use chatgpt on rooted android
+aliases:
+  - How to install and use chatgpt on rooted android
+  - What problem you could meet when using chatgpt on a rooted android
 created: 2025-06-12T23:41:37
-modified: 2025-06-14T10:30:28
+modified: 2025-06-14T23:41:28
 tags:
   - gtd/todo
+type: how-to
 ---
 
 ## Devices's date and time are set properly
