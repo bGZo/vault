@@ -1,6 +1,6 @@
 ---
 created: 2023-06-27T00:00:00
-modified: 2025-05-22T21:26:49
+modified: 2025-06-15T23:24:46
 ---
 
 <iframe src='https://www.dlsite.com/index.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
@@ -33,7 +33,11 @@ modified: 2025-05-22T21:26:49
 
 `https://www.dlsite.com/maniax/product/info/ajax?product_id=RJ[,RJ]`
 
+### 我们一起来翻译
+
+<iframe src='https://min-hon.net/cn/' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://min-hon.net/cn/' target='_blank' class='external-link'>https://min-hon.net/cn/</a></center>
+
 ## References
 - [[~想问一问dlsite的一些问题]]
 - https://tongren.jp/lp/home/dlsiteawards2024/vote/cn/index.html
-

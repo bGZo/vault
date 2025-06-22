@@ -5,7 +5,6 @@ aliases:
   - 偏见
   - 偏差
 created: 2025-01-15T09:18:25
-created-link: "[[20250115]]"
 modified: 2025-01-15T09:50:51
 description: 
 tags: 

@@ -313,7 +313,7 @@ The whole shorten configure is following, you could refer the official [Chinese 
 |[append_type]|用于在节点名称前插入节点类型，如 [SS],[SSR] 等|
 |[tfo]|用于开启该订阅链接的 TCPFastOpen|
 |[udp]|用于开启该订阅链接的 UDP|
-|[list]|用于输出 SurgeNodeList 或者 ClashProxyProvider 或者 [:br]Quantumult(X) 的节点订阅或者解码后的 SIP002|
+|[list]|用于输出 SurgeNodeList 或者 ClashProxyProvider 或者 <br>Quantumult(X) 的节点订阅或者解码后的 SIP002|
 |[sort]|用于对输出的节点或策略组按节点名进行再次排序|
 |[sort_script]|用于自定义排序的 js 代码|
 |[script]|用于生成 ClashScript|

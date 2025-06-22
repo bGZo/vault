@@ -3,7 +3,7 @@ aliases:
   - RDF Site Summary
   - Really Simple Syndication
 created: 2024-12-08T21:26:22
-modified: 2025-04-21T22:11:59
+modified: 2025-06-15T16:14:01
 description: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released: 1999-03-15
 tags:
@@ -51,14 +51,14 @@ https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03
 
 I devided the feed to 2 parts:
 
-- Uninstant messages, which I should read it alone. (moonight would be better)
+- **Uninstant messages**, which I should read it alone. (moonight would be better)
     - I archived article without images using rsstt telegram bot.
     - I browser social media and most blog on another channel.
-- Instant messages, which would never take much time(See ((646a045c-74f6-49d4-bbce-78ec1484d73c)))
+- **Instant messages**, which would never take much time
     - They have some general features:
         - All page just worth a share link.
         - Comments more than article
-    - What I collect it
+    - Such as:
         - [绅士之庭订阅源](https://gmgard.moe/rss)
         - [豆瓣 - 书评](https://www.douban.com/feed/review/book)
         - [Solidot](https://www.solidot.org/index.rss)
@@ -67,37 +67,9 @@ I devided the feed to 2 parts:
         - [游戏 – 琉璃神社 ★ HACG.me](https://www.hacg.mom/wp/game.html/feed)
         - [V2EX热门](https://rsshub.app/v2ex/topics/hot)
 
-### Find RSS
-
-Some websites will include element whose type is `application/atom+xml` or `application/rss+xml`. They would include RSS link.
-
-```xml
-<link rel="alternate" type="application/atom+xml" title="${source.title}" href="${source.url}">
-```
-
-And following are some address they mostly used:
-
-```xml
-./feed
-./rss.xml
-./feed.xml
-./atom.xml
-./rss/index.xml
-./index.xml
-./rss
-./rss/rss
-./rss/rss.xml
-<!-- Z-Blog via: https://bbs.zblogcn.com/thread-3527.html-->
-./feed.asp?user=userID
-./feed.asp?tags=TagID
-<!-- Youtube -->
-https://www.youtube.com/feeds/videos.xml?channel_id=<channel_id>
-https://www.youtube.com/feeds/videos.xml?playlist_id=<playlist_id>
-```
+### [[found-rss|How to found rss]]
 
 ## What
-
-- [ ] Build yourself RSS reader
 
 ### RSS standards
 
@@ -137,6 +109,10 @@ Attributes
 </opml>
 ```
 
+### [[backup]] RSS
+<iframe src='https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03' target='_blank' class='external-link'>https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03</a></center>
+
 ### What I used in past and recommend now
 
 I prefer like the brave build-in RSS reader😭
@@ -168,3 +144,13 @@ They're not solving anything, and having put the situation more complex!
 ![https://blog.skk.moe/post/say-no-to-meta-keywords/](https://raw.githack.com/bGZo/assets/dev/2024/rss_close_full_text_example.png)
 
 via: [Sukka's Blog](https://blog.skk.moe/atom.xml)
+
+## References
+
+- [ ] Build yourself RSS reader
+- [ ] 有一些博客并不支持 RSS
+    - [x] https://info.eisys.co.jp/dlsite
+    - [ ] https://plus.excalidraw.com/blog
+    - [ ] https://www.drawio.com/blog
+    - [ ] https://dify.ai/blog
+    - [ ] https://blog.google

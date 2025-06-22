@@ -269,7 +269,7 @@ HAVING SUM(point)<60
 | 函数                      | 作用                                                | 举例                                                                                                                    |
 | ----------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | IFNULL (col,a)          | 判断 col 字段是不是 NULL，是返回 a                           | `SELECT point*(p_count+IFNULL(n_count,0)) AS result_col_name FROM tb1`                                                |
-| NOW / CURDATE / CURTIME | NOW: 当前日期时间 [:br]CURDATE: 当前日期 [:br]CURTIME: 当前时间 |                                                                                                                       |
+| NOW / CURDATE / CURTIME | NOW: 当前日期时间 <br>CURDATE: 当前日期 <br>CURTIME: 当前时间 |                                                                                                                       |
 | AVG                     | 求平均                                               | `SELECT person FROM tb WHERE point>(SELECT AVG(point) FROM tb) --选择高于均值的`                                             |
 | COUNT                   | 计数                                                | `SELECT COUNT(*) FROM tb --返回行数 SELECT COUNT(col) FROM tb --返回列不为NULL数量 SELECT COUNT(DISTINCT col) FROM tb --返回不同值数量` |
 

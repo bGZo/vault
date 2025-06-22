@@ -1,6 +1,6 @@
 ---
 created: 2025-03-30T09:01:49
-modified: 2025-03-30T09:07:34
+modified: 2025-06-15T01:21:20
 ---
 
 ## Why choose work & life classify?
@@ -53,6 +53,10 @@ Using `#[[]]` instead of `#`. They would be popped menu friendly, while editing 
 ### Hierarchy
 
 Hierarchy/Namespace is not silver bullet. Delay your use of namespaces until you have refined your understanding of how they might suit your workflows. [^namespace-usage]
+
+## What should I not to do
+
+1. The link should not show on title, they would brother others.
 
 [^as-non-work-flow]: If you are a student, or someone else, the work could be something you worked for living. Whether they should separate with space time, there are a thousand Hamlets in a thousand people's eyes. At least in China, space time always conflicts with work, so talking about that is always ambiguous...
 [^maintain-soft-rules]: Maybe the flow you have to change in next version, or the problem maybe solved, it's really not have too much value.
