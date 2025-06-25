@@ -4,9 +4,8 @@ aliases:
   - escape
 created: 2020-07-15T10:45:23
 modified: 2025-03-08T10:46:44
-description: 
-tags: weekly/988
-tags-link: 
+tags:
+  - weekly/988
 type: writing
 ---
 

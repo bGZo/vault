@@ -1,12 +1,10 @@
 ---
 title: 告别网易云
-aliases:
+aliases: 
 created: 2020-09-05T11:02:17
 modified: 2025-01-17T11:02:47
-description: 
-status:
-  - writing/draft
-tags: weekly/995
+tags:
+  - weekly/995
 type: writing
 ---
 

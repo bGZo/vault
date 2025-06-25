@@ -4,9 +4,8 @@ aliases:
   - 人都是突然就长大了
 created: 2020-07-13T03:36:15
 modified: 2025-02-13T20:15:34
-status:
-  - writing/draft
-tags: weekly/987
+tags:
+  - weekly/987
 type: writing
 ---
 
