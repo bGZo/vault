@@ -1,9 +1,10 @@
 ---
-title: '#1210 写信吧爱人'
-aliases: 写信吧爱人
+title: 写信吧爱人
+aliases: 
 created: 2024-10-13T12:00:00
-status: writing/draft
 modified: 2024-12-26T09:03:39
+tags:
+  - weekly/1210
 type: writing
 ---
 

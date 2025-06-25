@@ -1,13 +1,10 @@
 ---
-title: '#1125 夸夸月报 #1'
+title: '夸夸月报 #1'
 aliases:
-  - '夸夸月报 #1'
 created: 2023-03-04T11:23:20
 modified: 2025-01-01T11:23:40
-description: 
-status:
-  - writing/draft
 tags: 
+  - weekly/1125
 type: writing
 ---
 

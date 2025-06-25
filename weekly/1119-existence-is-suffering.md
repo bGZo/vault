@@ -1,12 +1,11 @@
 ---
-title: '#1119 存在即痛苦'
-aliases: 存在即痛苦
+title: 存在即痛苦
+aliases: 
 created: 2023-01-21T11:06:46
 modified: 2025-01-01T11:08:40
-description: 
-status:
-  - writing/published
-tags: fuck-reality
+tags: 
+  - fuck-reality
+  - weekly/1119
 type: writing
 ---
 

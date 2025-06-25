@@ -1,10 +1,10 @@
 ---
-title: '#1199 小说就是要看到转折点才好看啊'
-aliases: 小说就是要看到转折点才好看啊
+title: 小说就是要看到转折点才好看啊
+aliases: 
 created: 2024-08-03T12:00:00
-status:
-  - writing/draft
 modified: 2024-12-26T08:45:39
+tags:
+  - weekly/1199
 type: writing
 ---
 

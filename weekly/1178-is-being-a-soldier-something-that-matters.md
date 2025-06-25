@@ -1,11 +1,10 @@
 ---
-title: '#1178 当兵何以自豪'
+title: 当兵何以自豪
 aliases: 政治正确之当兵
 created: 2024-03-08T11:19:01
 modified: 2025-01-01T11:19:51
-description: 
-status:
-  - writing/draft
+tags:
+  - weekly/1178
 type: writing
 ---
 

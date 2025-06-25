@@ -1,13 +1,13 @@
 ---
-title: "#1073 重新开始看漫画"
+title: 重新开始看漫画
 aliases:
-  - 重新开始看漫画
 created: 2022-03-04T10:45:31
 modified: 2025-06-08T10:58:28
 tags:
   - manga
   - copyright
   - bilibili
+  - weekly/1073
 type: writing
 ---
 

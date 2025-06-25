@@ -1,11 +1,10 @@
 ---
-title: '#1224 肥宅很难快乐'
+title: 肥宅很难快乐
 aliases:
   - 1224-fat-but-sad
 created: 2025-01-20T19:32:06
 modified: 2025-01-20T20:04:50
-description: 
-tags: 
+tags: weekly/1224
 type: writing
 ---
 

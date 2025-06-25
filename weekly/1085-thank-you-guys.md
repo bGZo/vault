@@ -1,12 +1,11 @@
 ---
-title: '#1085 我的旧友，我爱你们'
-aliases: 我的旧友，我爱你们
+title: 我的旧友，我爱你们
+aliases: 
 created: 2022-05-21T10:58:24
 modified: 2025-01-01T08:48:03
 description: 
-status:
-  - writing/draft
 tags: 
+  - weekly/1085
 type: writing
 ---
 

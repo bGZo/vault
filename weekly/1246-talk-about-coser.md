@@ -1,9 +1,10 @@
 ---
-title: "#1246 长大后再谈COSER"
+title: 长大后再谈COSER
 aliases:
-  - "#1246 长大后再谈COSER"
 created: 2025-06-22T15:49:04
 modified: 2025-06-22T15:50:00
+tags:
+- weekly/1246
 type: writing
 ---
 

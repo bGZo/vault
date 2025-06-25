@@ -1,12 +1,12 @@
 ---
-title: "#1014 简中二次元圈已死"
+title: 简中二次元圈已死
 aliases:
-  - 简中二次元圈已死
 created: 2021-01-18T18:51:22
 modified: 2025-06-10T22:20:18
 tags:
   - copyright
   - bilibili
+  - weekly/1014
 type: writing
 ---
 

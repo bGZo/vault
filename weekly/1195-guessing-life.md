@@ -1,10 +1,11 @@
 ---
-title: '#1195 摸索人生'
-aliases: 试点人生
+title: 摸索人生
+aliases: 
 created: 2024-07-06T12:00:00
 modified: 2024-12-26T08:35:36
-status: writing/draft
-tags: self-care
+tags: 
+  - self-care
+  - weekly/1195
 type: writing
 ---
 

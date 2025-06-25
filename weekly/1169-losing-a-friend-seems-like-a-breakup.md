@@ -1,13 +1,10 @@
 ---
-title: "#1169 严重似情侣讲分手"
+title: 严重似情侣讲分手
 aliases:
   - 失去朋友的滋味堪比失恋
 created: 2024-01-05T11:14:19
 modified: 2025-02-12T20:03:48
-description: 
-status:
-  - writing/draft
-tags: 
+tags: weekly/1169
 type: writing
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: '#1198 错误的第二大脑'
-aliases: 错误的第二大脑
+title: 错误的第二大脑
+aliases: 
 created: 2024-07-26T12:00:00
-status:
-  - writing/published
 modified: 2024-12-26T08:44:24
+tags: 
+  - weekly/1198
 type: writing
 ---
 

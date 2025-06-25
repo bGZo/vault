@@ -1,10 +1,10 @@
 ---
-title: '#1196 数字移民：生存多艰'
-aliases: 数字移民：生存多艰
+title: 数字移民：生存多艰
+aliases: 
 created: 2024-07-13T12:00:00
-status:
-  - writing/draft
 modified: 2024-12-26T08:36:03
+tags:
+  - weekly/1196
 type: writing
 ---
 

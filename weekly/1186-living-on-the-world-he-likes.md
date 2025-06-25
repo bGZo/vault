@@ -1,12 +1,10 @@
 ---
-title: '#1186 靠喜欢之人活着的男人'
-aliases: 靠喜欢之人活着的男人
+title: 靠喜欢之人活着的男人
+aliases: 
 created: 2024-05-03T03:52:24
 modified: 2025-03-29T10:20:26
-description: 
-status:
-  - writing/published
 tags: 
+  - weekly/1186
 type: writing
 ---
 

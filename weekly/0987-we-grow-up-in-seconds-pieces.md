@@ -1,12 +1,12 @@
 ---
-title: '#987 长大只一瞬'
+title: 长大只一瞬
 aliases:
   - 人都是突然就长大了
 created: 2020-07-13T03:36:15
 modified: 2025-02-13T20:15:34
 status:
   - writing/draft
-tags: 
+tags: weekly/987
 type: writing
 ---
 

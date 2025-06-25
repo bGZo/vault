@@ -1,12 +1,12 @@
 ---
-title: "#1218 Giving up Logseq"
+title: Giving up Logseq
 aliases:
-  - giving up logseq
   - why giving up logseq
   - logseq problem
   - 放弃 Logseq
 created: 2024-12-09T12:00:00
 modified: 2025-03-09T10:57:21
+tags: weekly/1218
 type: writing
 ---
 

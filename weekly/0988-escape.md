@@ -1,12 +1,11 @@
 ---
-title: '#988 逃离'
+title: 逃离
 aliases:
-  - 988-escape
-  - 逃离
+  - escape
 created: 2020-07-15T10:45:23
 modified: 2025-03-08T10:46:44
 description: 
-tags: 
+tags: weekly/988
 tags-link: 
 type: writing
 ---

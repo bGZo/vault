@@ -1,10 +1,10 @@
 ---
-title: "#1235 诈骗广告机"
+title: 诈骗广告机
 aliases: 
 created: 2025-04-10T21:04:39
 modified: 2025-06-07T10:46:53
 description: 
-tags: 
+tags: weekly/1235
 tags-link: 
 type: writing
 ---

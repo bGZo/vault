@@ -1,8 +1,9 @@
 ---
-title: '#1245 至少我还有写作的自由'
-aliases: 至少我还有写作的自由
+title: 至少我还有写作的自由
+aliases: 
 created: 2025-06-08T23:04:16
 modified: 2025-06-10T21:31:29
+tags: weely/1245
 type: writing
 ---
 

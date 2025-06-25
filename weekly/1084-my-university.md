@@ -1,9 +1,9 @@
 ---
-title: '#1084 我的大学'
+title: 我的大学
 created: 2022-05-21T10:58:24
 modified: 2025-02-06T17:39:02
-category: thoughts
-status: writing/published
+tags:
+  - weekly/1084
 type: writing
 ---
 

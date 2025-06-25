@@ -1,10 +1,11 @@
 ---
-title: '#1189 湿疹复发'
-aliases: 湿疹复发
+title: 湿疹复发
+aliases: 
 created: 2024-05-25T12:00:00
-status: writing/published
-tags: self-healing
 modified: 2024-12-26T08:28:13
+tags: 
+  - self-healing
+  - weekly/1189
 type: writing
 ---
 

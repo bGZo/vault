@@ -1,10 +1,11 @@
 ---
-title: '#1190 自救之职业焦虑'
-aliases: 自救之职业焦虑
+title: 自救之职业焦虑
+aliases: 
 created: 2024-06-01T12:00:00
-status: writing/published
-tags: self-care
 modified: 2024-12-26T08:30:20
+tags: 
+  - self-care
+  - weekly/1190
 type: writing
 ---
 

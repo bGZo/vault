@@ -1,11 +1,10 @@
 ---
-title: "#1215 致某某"
-aliases:
-  - 致某某
+title: 致某某
 created: 2024-11-23T12:00:00
 modified: 2024-12-24T09:16:37
 description: 我给她写信的意思是，我们能不能不要这样，但显然，我失败了，我们只能这样。
-status:
+tags:
+  - weekly/1215
   - writing/draft
 type: writing
 ---

@@ -1,12 +1,10 @@
 ---
-title: '#1115 Look back to your loved ones'
+title: Look back to your loved ones
 aliases: 还不是想有人爱
 created: 2022-12-23T11:21:37
 modified: 2025-01-01T11:22:08
-description: 
-status:
-  - writing/draft
 tags: 
+  - weekly/1115
 type: writing
 ---
 

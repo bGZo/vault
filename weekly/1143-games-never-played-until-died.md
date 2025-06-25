@@ -1,12 +1,10 @@
 ---
-title: '#1143 我都花了时间玩游戏，为什么还要花钱买它？'
-aliases: 我都花了时间玩游戏，为什么还要花钱买它？
+title: 我都花了时间玩游戏，为什么还要花钱买它？
+aliases: 
 created: 2023-07-08T11:15:56
 modified: 2025-01-01T11:16:17
-description: 
-status:
-  - writing/draft
 tags: 
+  - weekly/1143
 type: writing
 ---
 

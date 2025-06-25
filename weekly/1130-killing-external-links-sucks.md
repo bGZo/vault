@@ -1,12 +1,11 @@
 ---
-title: '#1130 中国互联网外链之死'
-aliases: 中国互联网外链之死
+title: 外链之死
+aliases: 
 created: 2023-04-08T11:09:43
 modified: 2025-01-01T11:10:50
-description: 
-status:
-  - writing/draft
-tags: 软件设计
+tags: 
+  - 软件设计
+  - weekly/1130
 type: writing
 ---
 

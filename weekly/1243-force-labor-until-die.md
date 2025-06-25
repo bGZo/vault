@@ -1,11 +1,11 @@
 ---
-title: "#1243 吃人是会上瘾的"
+title: 吃人是会上瘾的
 aliases:
-  - 吃人是会上瘾的
 created: 2025-06-06T23:24:49
 modified: 2025-06-07T23:10:43
 type: writing
 tags:
+  - weekly/1243
   - 劳动异化
 ---
 

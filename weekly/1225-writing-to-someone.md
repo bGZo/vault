@@ -1,11 +1,10 @@
 ---
-title: '#1225 致某某'
+title: 致某某
 aliases:
-  - 1225-writing-to-someone
+  - writing to someone
 created: 2025-01-30T15:39:13
 modified: 2025-02-01T12:51:56
-description: 
-tags: 
+tags: weekly/1225
 type: writing
 ---
 

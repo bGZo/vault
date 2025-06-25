@@ -1,14 +1,10 @@
 ---
-title: "#1227 未来永远不会到来"
+title: 未来永远不会到来
 aliases:
   - 1227-featurn-is-never-coming
-  - "#1227 未来永远不会到来"
-  - 未来永远不会到来
 created: 2025-02-15T18:17:14
 modified: 2025-03-01T20:50:01
-description: 
-tags: 
-tags-link: 
+tags: weekly/1227
 type: writing
 ---
 

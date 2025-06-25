@@ -1,9 +1,10 @@
 ---
-title: '#1204 自私的中国人'
-aliases: 自私的中国人
+title: 自私的中国人
+aliases: 
 created: 2024-09-07T12:00:00
-status: writing/draft
 modified: 2024-12-23T11:29:33
+tags:
+  - weekly/1204
 type: writing
 ---
 

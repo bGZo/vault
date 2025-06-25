@@ -1,9 +1,9 @@
 ---
-title: "#1244 最近离死亡最近的瞬间"
+title: 最近离死亡最近的瞬间
 aliases:
-  - 最近离死亡最近的瞬间
 created: 2025-06-07T10:31:01
 modified: 2025-06-07T10:36:27
+tags: weekly/1244
 type: writing
 ---
 

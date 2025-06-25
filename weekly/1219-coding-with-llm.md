@@ -1,14 +1,12 @@
 ---
-title: '#1219 用 LLM 辅助编程'
+title: 用 LLM 辅助编程
 aliases:
-  - 用 LLM 辅助编程
 created: 2024-12-28T02:46:31
 modified: 2025-01-02T07:51:31
 description: 
 tags:
   - llm
-status:
-  - writing/draft
+  - weekly/1219
 type: writing
 ---
 

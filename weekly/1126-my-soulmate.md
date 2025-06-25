@@ -1,12 +1,11 @@
 ---
-title: '#1126 睡不着的夜和忘不掉的梦'
-aliases: 睡不着的夜和忘不掉的梦
+title: 睡不着的夜和忘不掉的梦
+aliases: 
 created: 2023-03-11T11:11:42
 modified: 2025-03-29T10:14:47
-description: 
-status:
-  - writing/draft
-tags: feminism love
+tags: 
+  - feminism love
+  - weekly/1126
 type: writing
 ---
 

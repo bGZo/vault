@@ -1,14 +1,11 @@
 ---
-title: '#1117 自慰AI'
+title: 自慰AI
 aliases:
-  - 自慰 AI
 created: 2023-01-04T11:00:30
 modified: 2025-01-01T11:01:03
-description: 
-status:
-  - writing/draft
 tags:
   - sex
+  - weekly/1117
 type: writing
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "#1228 人是需要洗脑的"
+title: 人是需要洗脑的
 aliases:
   - 1228-life-needs-brainwashing
 created: 2025-02-18T22:06:57
 modified: 2025-02-19T21:44:26
 description: 
-tags: 
+tags: weekly/1228
 tags-link: 
 type: writing
 ---

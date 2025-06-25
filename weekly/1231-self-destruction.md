@@ -1,13 +1,10 @@
 ---
-title: "#1231 求救信号之「自我毁灭」"
+title: 求救信号之「自我毁灭」
 aliases:
   - 1231-self-destruction
-  - 求救信号之「自我毁灭」
 created: 2025-03-15T16:15:38
 modified: 2025-03-16T13:34:04
-description: 
-tags: 
-tags-link: 
+tags: weekly/1231
 type: writing
 ---
  

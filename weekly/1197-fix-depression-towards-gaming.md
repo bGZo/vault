@@ -1,11 +1,11 @@
 ---
-title: '#1197 电子阳痿治疗指南'
-aliases: 电子阳痿治疗指南
+title: 电子阳痿治疗指南
+aliases: 
 created: 2024-07-20T10:17:40
 modified: 2025-01-16T10:39:09
-description: 
-status: writing/draft
-tags:  steam
+tags:  
+  - steam
+  - weekly/1197
 type: writing
 ---
 
