@@ -12,7 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      { provider: 'google', tagId: 'G-GEBG8127FW' }
+      provider: 'google',
+      tagId: 'G-GEBG8127FW'
     },
     locale: "en-US",
     baseUrl: "bgzo.github.io/vault/",
