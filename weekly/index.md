@@ -8,7 +8,7 @@ comments: false
 ---
 
 > [!NOTE]
-> 过去几年，我构想过一些周报形式，如果你有兴趣，可以查看 [[weekly/changelog|这里]]
+> 过去几年，我构想过一些周报形式，如果你有兴趣，可以查看 [[changelog/weekly|这里]]
 
 写周报有两个目的：
 
