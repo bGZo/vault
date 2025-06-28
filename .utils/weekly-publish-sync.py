@@ -8,6 +8,23 @@ from pathlib import Path
 import opencc
 import frontmatter
 
+"""
+Global Variables:
+"""
+SENSITIVE_TAGS = {
+    'flamewar',  # 争议相关
+    'love/letter',      # 私情相关
+    'sex',              # 性相关
+    'politics',         # 政治相关
+    'religion',         # 宗教相关
+    'pointless',        # 无意义内容
+    'spam',             # 垃圾内容
+    'private',          # 私人内容
+    'relationship',     # 关系相关
+    'privacy',          # 隐私相关
+}
+
+
 def load_markdown_file(file_path):
     """
     使用frontmatter库加载Markdown文件
@@ -17,25 +34,32 @@ def load_markdown_file(file_path):
         post = frontmatter.load(f)
     return post
 
-def has_draft_tag(post):
+def filter_not_plan_article(post, filename=None):
     """
-    检查frontmatter中是否包含draft标签
-    post: frontmatter.Post对象
+    1. 如果是 INDEX 文件
+    2. 包含特定标签: SENSITIVE_TAGS
+    3. 不存在指定 title
     """
-    # 直接通过属性访问metadata
+    if filename is not None and filename.lower() == 'index.md':
+        return True
+
+    title = post.get('title', '')
+    if not title or not isinstance(title, str) or title.strip() == '':
+        return True
+
     tags = post.get('tags', [])
-    
     if not tags:
         return False
-    
+
     # tags可能是字符串或列表
     if isinstance(tags, str):
         tags = [tags]
     elif not isinstance(tags, list):
         return False
-    
-    # 检查是否包含draft标签（不区分大小写）
-    return any(str(tag).lower() == 'draft' for tag in tags)
+    tags_lower = {str(tag).lower() for tag in tags}
+
+    # 集合交集:判断是否有交集。
+    return bool(SENSITIVE_TAGS & tags_lower)
 
 def convert_to_traditional(text):
     """
@@ -45,7 +69,7 @@ def convert_to_traditional(text):
     converter = opencc.OpenCC('s2t')  # s2t: Simplified to Traditional
     return converter.convert(text)
 
-def process_markdown_file(input_path, output_dir):
+def process_markdown_file(input_path, filename, output_dir):
     """
     处理单个Markdown文件
     """
@@ -54,8 +78,8 @@ def process_markdown_file(input_path, output_dir):
         post = load_markdown_file(input_path)
         
         # 检查是否有draft标签
-        if has_draft_tag(post):
-            print(f"跳过草稿文件: {input_path}")
+        if filter_not_plan_article(post, filename):
+            print(f"跳过文件: {input_path}")
             return
         
         # 获取纯内容（不包含front matter）
@@ -65,9 +89,8 @@ def process_markdown_file(input_path, output_dir):
         traditional_content = convert_to_traditional(content_without_front_matter)
         
         # 准备输出文件路径
-        filename = os.path.basename(input_path)
-        output_path = os.path.join(output_dir, filename)
-        
+        output_path = os.path.join(output_dir, filename + '.md')
+
         # 写入输出文件
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(traditional_content)
@@ -152,12 +175,13 @@ def main():
     for file_path in markdown_files:
         try:
             post = load_markdown_file(file_path)
-            if has_draft_tag(post):
+            if filter_not_plan_article(post):
                 skipped_count += 1
-                print(f"跳过草稿文件: {file_path}")
+                print(f"跳过文件: {file_path}")
                 continue
-            
-            process_markdown_file(file_path, args.out)
+            # 提取文章标题
+            filename = post.get('title', os.path.basename(file_path))
+            process_markdown_file(file_path, filename, args.out)
             processed_count += 1
             
         except Exception as e:
@@ -165,7 +189,7 @@ def main():
     
     print(f"\n处理完成!")
     print(f"成功处理: {processed_count} 个文件")
-    print(f"跳过草稿: {skipped_count} 个文件")
+    print(f"跳过: {skipped_count} 个文件")
     print(f"总文件数: {len(markdown_files)} 个文件")
 
 if __name__ == '__main__':
