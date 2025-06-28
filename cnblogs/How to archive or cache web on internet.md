@@ -43,4 +43,4 @@
 - ArchiveBox
 - shiori
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/archive-or-cache-web-on-internet

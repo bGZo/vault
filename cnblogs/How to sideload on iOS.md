@@ -137,4 +137,4 @@
 
 [^runing-with-live-container]: https://github.com/Predidit/Kazumi/issues/819, 一個更簡單的方法是用 https://github.com/LiveContainer/LiveContainer 直接運行無簽名的 IPA 文件，並且不額外佔用 App IDs 和 3 個激活 App 的名額。
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/sideload-on-ios

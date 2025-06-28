@@ -22,4 +22,4 @@ send message via bluetooth (between iOS and Android)
 - 微信輸入法有隱私問題肯定不用
 - SwiftKey 沒有雙拼輸入法也沒辦法用
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/make-clipboard-across-devices

@@ -4,4 +4,4 @@
 - simple-http-server
 - http-server
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/start-a-local-http-server

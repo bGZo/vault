@@ -37,4 +37,4 @@
 
 我時常覺得國內成婚遊戲可笑，像是把兩個適齡異性發情小鼠放在一起，一定會發生關係，一定會出現感情一樣。說白了，感情這東西就很廉價，我們經常稱讚建立之後的感情，甚至無論對錯。卻從不對如何建立這段感情的加以審視。就像鐵鏈女如今已經不再有後續消息一樣。
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/weekly/1238-when-ai-break-my-everything

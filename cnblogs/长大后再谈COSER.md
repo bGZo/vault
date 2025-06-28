@@ -20,4 +20,4 @@
 
 這不容易，就像即使我還是會刷到閃閃亮亮 COSER 的照片，但我再也沒有之前開心了。
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/weekly/1246-talk-about-coser

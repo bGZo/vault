@@ -15,4 +15,4 @@
 
 ## References
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/play-online-game-offline

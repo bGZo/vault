@@ -12,4 +12,4 @@
 - 蘭斯
 - 命運石之門
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/unpack-game

@@ -103,4 +103,4 @@ Copy code and paste on IDE. Enjoy!
 [^ruby]:via: https://jekyllrb.com/docs/installation/ubuntu, https://jekyllrb.com/docs/installation/other-linux/, https://jekyllrb.com/docs/installation/ubuntu/
 [^core-jetbra]: 在環境變量中添加 JAR，啓動的時候加載破解補丁 via: https://www.exception.site/essay/idea-reset-eval
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/install-develop-environment

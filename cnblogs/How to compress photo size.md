@@ -44,4 +44,4 @@ optipng -o3 image.png -out output.png
 # `-o0`~`-o7`，級別越高壓縮率越高但速度越慢
 ```
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/compress-photo-size

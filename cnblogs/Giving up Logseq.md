@@ -224,4 +224,4 @@ Not support http embed.
 [^announced]:[Why the database version and how it's going? - Announcements - Logseq](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744/25)
 [^embed-file]:https://help.obsidian.md/Linking+notes+and+files/Embed+files
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/weekly/1218-giving-up-logseq

@@ -10,4 +10,4 @@
 
 ## References
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/generate-favicon

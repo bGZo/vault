@@ -45,4 +45,4 @@ high CPU usage cause multi files to build index, via: https://github.com/continu
 
 - https://medium.com/@smfraser/how-to-use-a-local-llm-as-a-free-coding-copilot-in-vs-code-6dffc053369d
 
-Source via: https://note.bgzo.cc/
+Source via: https://note.bgzo.cc/how-to/coding-with-llm
