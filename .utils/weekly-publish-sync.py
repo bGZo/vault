@@ -7,6 +7,7 @@ import glob
 from pathlib import Path
 import opencc
 import frontmatter
+import re
 
 """
 Global Variables:
@@ -25,6 +26,59 @@ SENSITIVE_TAGS = {
 }
 
 
+def process_obsidian_content(content):
+    """
+    处理Obsidian特有的双链语法，转换为通用Markdown格式
+
+    1. [[link]] -> link（纯文本）
+    2. [[link|display]] -> display（显示文本）
+    3. [[#heading]] -> heading（标题链接）
+    4. [[file#heading]] -> file > heading（文件中的标题）
+    5. [[file#heading|display]] -> display（带显示文本的文件标题链接）
+    6. ![[embed]] -> （移除嵌入内容）
+    7. [[file.png]] -> file.png（图片链接转为文本）
+    """
+
+    # 1. 处理嵌入语法 ![[...]]，直接删除
+    content = re.sub(r'!\[\[([^\]]+)\]\]', '', content)
+
+    # 2. 处理带显示文本的双链 [[link|display]]
+    def replace_display_link(match):
+        full_link = match.group(1)
+        if '|' in full_link:
+            _, display_text = full_link.split('|', 1)
+            return display_text.strip()
+        return full_link
+
+    content = re.sub(r'\[\[([^\]]+\|[^\]]+)\]\]', replace_display_link, content)
+
+    # 3. 处理文件中的标题链接 [[file#heading]]
+    def replace_file_heading_link(match):
+        link_content = match.group(1)
+        if '#' in link_content:
+            file_part, heading_part = link_content.split('#', 1)
+            if file_part.strip():
+                return f"{file_part.strip()} > {heading_part.strip()}"
+            else:
+                return heading_part.strip()
+        return link_content
+
+    content = re.sub(r'\[\[([^|\]]+#[^|\]]+)\]\]', replace_file_heading_link, content)
+
+    # 4. 处理简单的双链 [[link]]
+    content = re.sub(r'\[\[([^|\]]+)\]\]', r'\1', content)
+
+    # 5. 清理多余的空行（由于删除嵌入内容可能产生）
+    content = re.sub(r'\n\s*\n\s*\n', r'\n\n', content)
+
+    # 6. 清理行首行尾的空白
+    lines = content.split('\n')
+    cleaned_lines = [line.rstrip() for line in lines]
+    content = '\n'.join(cleaned_lines)
+
+    return content
+
+
 def load_markdown_file(file_path):
     """
     使用frontmatter库加载Markdown文件
@@ -36,6 +90,8 @@ def load_markdown_file(file_path):
 
 def filter_not_plan_article(post, filename=None):
     """
+    判断是否是需要跳过的文章
+    跳过条件:
     1. 如果是 INDEX 文件
     2. 包含特定标签: SENSITIVE_TAGS
     3. 不存在指定 title
@@ -78,16 +134,19 @@ def process_markdown_file(input_path, filename, output_dir):
         post = load_markdown_file(input_path)
         
         # 检查是否有draft标签
-        if filter_not_plan_article(post, filename):
-            print(f"跳过文件: {input_path}")
-            return
+        # if filter_not_plan_article(post, filename):
+        #     print(f"跳过文件: {input_path}")
+        #     return
         
         # 获取纯内容（不包含front matter）
         content_without_front_matter = post.content
-        
+
+        # 处理Obsidian特有的双链语法
+        content_format_without_wikilink = process_obsidian_content(content_without_front_matter)
+
         # 转换为繁体中文
-        traditional_content = convert_to_traditional(content_without_front_matter)
-        
+        traditional_content = convert_to_traditional(content_format_without_wikilink)
+
         # 准备输出文件路径
         output_path = os.path.join(output_dir, filename + '.md')
 
@@ -175,7 +234,7 @@ def main():
     for file_path in markdown_files:
         try:
             post = load_markdown_file(file_path)
-            if filter_not_plan_article(post):
+            if filter_not_plan_article(post, os.path.basename(file_path)):
                 skipped_count += 1
                 print(f"跳过文件: {file_path}")
                 continue
