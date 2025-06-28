@@ -25,8 +25,9 @@ SENSITIVE_TAGS = {
     'privacy',          # 隐私相关
 }
 
+BASE_URL = 'https://note.bgzo.cc'
 
-def process_obsidian_content(content):
+def process_obsidian_content(content, origin_url):
     """
     处理Obsidian特有的双链语法，转换为通用Markdown格式
 
@@ -75,6 +76,9 @@ def process_obsidian_content(content):
     lines = content.split('\n')
     cleaned_lines = [line.rstrip() for line in lines]
     content = '\n'.join(cleaned_lines)
+
+    content = (content +
+               '\n\nSource via: {}'.format(origin_url))
 
     return content
 
@@ -125,10 +129,14 @@ def convert_to_traditional(text):
     converter = opencc.OpenCC('s2t')  # s2t: Simplified to Traditional
     return converter.convert(text)
 
-def process_markdown_file(input_path, filename, output_dir):
+def process_markdown_file(input_path, file_path, filename, output_dir):
     """
     处理单个Markdown文件
     """
+
+    _, _, sub_path = file_path.partition('vault/')
+    sub_path = '/' + sub_path.rsplit('.', 1)[0]  # 去掉 .md 扩展名（如果需要）
+
     try:
         # 使用frontmatter库加载文件
         post = load_markdown_file(input_path)
@@ -141,8 +149,9 @@ def process_markdown_file(input_path, filename, output_dir):
         # 获取纯内容（不包含front matter）
         content_without_front_matter = post.content
 
+        origin_url = BASE_URL + sub_path
         # 处理Obsidian特有的双链语法
-        content_format_without_wikilink = process_obsidian_content(content_without_front_matter)
+        content_format_without_wikilink = process_obsidian_content(content_without_front_matter, origin_url)
 
         # 转换为繁体中文
         traditional_content = convert_to_traditional(content_format_without_wikilink)
@@ -240,7 +249,7 @@ def main():
                 continue
             # 提取文章标题
             filename = post.get('title', os.path.basename(file_path))
-            process_markdown_file(file_path, filename, args.out)
+            process_markdown_file(file_path, file_path, filename, args.out)
             processed_count += 1
             
         except Exception as e:

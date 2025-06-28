@@ -1,6 +1,6 @@
 ---
 created: 2024-12-08T09:26:22
-modified: 2025-04-03T20:53:53
+modified: 2025-06-28T14:44:49
 ---
 
 > [!NOTE]
@@ -27,9 +27,27 @@ modified: 2025-04-03T20:53:53
 
 ![](https://img.shields.io/github/created-at/IceWhaleTech/CasaOS?style=for-the-badge&label=since)
 
+## [[markdown|Markdown]]
+### Callout Support
+
+via: https://github.com/orgs/community/discussions/16925
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 ## Notes
 
 - Fork somebody repo cannot change to private?
     - [What security issue is caused by changing the visibility of a fork on Github? - Stack Overflow](https://stackoverflow.com/questions/71446341/what-security-issue-is-caused-by-changing-the-visibility-of-a-fork-on-github)
-
-
