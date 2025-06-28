@@ -6,6 +6,7 @@ created: 2020-07-13T03:36:15
 modified: 2025-02-13T20:15:34
 tags:
   - weekly/987
+  - pointless
 type: writing
 ---
 

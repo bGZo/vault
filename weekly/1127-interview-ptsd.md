@@ -7,6 +7,7 @@ tags:
   - interview
   - ptsd
   - weekly/1127
+  - pointless
 ---
 
 孤独惯了，不喜欢和人打交道，事后总是需要花费数倍的时间拼凑自己；

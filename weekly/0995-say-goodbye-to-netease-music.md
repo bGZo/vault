@@ -5,6 +5,8 @@ created: 2020-09-05T11:02:17
 modified: 2025-06-28T16:23:49
 tags:
   - weekly/995
+  - love/letter
+  - pointless
 type: writing
 ---
 
