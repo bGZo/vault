@@ -67,16 +67,16 @@ jobs:
             exit 1
           fi
 
-      # 配置 Git
-      - name: Configure Git
+      - name: Run Safe Dir
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "im@bgzo.cc"
+          git config --global --add safe.directory /github/workspace
 
       # 提交到 release 分支
       - name: Commit to release
         run: |
           if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "GitHub Actions"
+            git config user.email "im@bgzo.cc"
             git add .
             git commit -m "docs(bot): sync weekly to release branch"
             git push
