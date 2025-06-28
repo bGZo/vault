@@ -218,3 +218,5 @@ Account address,Show boosts,Notify on new posts,Languages
 
 1. https://mguhlin.org/2022/11/09/tootorial-importing-followinglist-members-for-mastodon/
 2. https://github.com/seanthegeek/mastodon-lists
+
+Source via: https://note.bgzo.cc/

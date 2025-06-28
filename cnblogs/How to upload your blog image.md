@@ -20,3 +20,5 @@ https://github.com/Molunerfinn/PicGo
 ## Pay Service — AliyunOSS
 
 > 出於安全考慮，從 2019 年 9 月 23 日起，針對之後新建的 Bucket，直接使用 OSS 提供的默認域名，從互聯網訪問 OSS 上該 Bucket 的圖片類型文件時，mimetype 爲以下值，Response Header 中會自動加上 `Content-Disposition:'attachment=filename;'`。即從瀏覽器訪問圖片類型文件時，會以附件形式進行下載。
+
+Source via: https://note.bgzo.cc/

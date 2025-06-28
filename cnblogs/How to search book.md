@@ -34,3 +34,5 @@
 - 抗戰文獻數據平臺 http://www.modernhistory.org.cn/index.htm 抗日戰爭期間報刊文獻資料
 - 中國曆代人物圖像數據庫 http://diglweb.zjlib.cn:8081/zjtsg/mingren/index.htm 從夏商周開始歷史人物畫像資料
 - zi.1lib https://zh.1lib.org/: 全球最大的數字圖書館自 2009 年起的免費圖書館. 免費下載 epub、pdf、mobi 格式電子書支持轉換爲 FBTXT、RTF 等格式
+
+Source via: https://note.bgzo.cc/

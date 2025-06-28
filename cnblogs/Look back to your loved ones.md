@@ -52,3 +52,5 @@ October 9, 2022
 [^1]: Dec. 11, 2015 by Tim Urban [The Tail End — Wait But Why](https://waitbutwhy.com/2015/12/the-tail-end.html)
 [^2]: Nov. 27 2011, Jamie Zawinski, The Netscape Dorm [Startups Are Hard. So Work More, Cry Less, And Quit All The Whining « Uncrunched](https://web.archive.org/web/20111128190028/http://uncrunched.com:80/2011/11/27/startups-are-hard-so-work-more-cry-less-and-quit-all-the-whining/)
 [^3]: April 2012, Paul Graham [The Top of My Todo List](http://www.paulgraham.com/todo.html)
+
+Source via: https://note.bgzo.cc/

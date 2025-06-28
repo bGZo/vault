@@ -223,3 +223,5 @@ Not support http embed.
 [^earier-logseq]: in earlier version, they released fast, I used to learn feature via changelog. the hierachy is using via twitter, the macros via community discuss. and even someone analyze the logic of language, break it into pieces, and try explain it with Logseq.
 [^announced]:[Why the database version and how it's going? - Announcements - Logseq](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744/25)
 [^embed-file]:https://help.obsidian.md/Linking+notes+and+files/Embed+files
+
+Source via: https://note.bgzo.cc/

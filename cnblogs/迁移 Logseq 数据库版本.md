@@ -14,3 +14,5 @@ Logseq DB 宣佈完成已經有兩個月的時間了 [^logseq-db-done]。因爲�
     - too long assets name with `%xxx`
 
 [^logseq-db-done]: https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744, https://discuss.logseq.com/t/its-hard-to-migrate-to-the-logseq-db-version-for-logseq-md-users-logically-speaking-about-the-new-tag-feature-and-removed-namespace/28558
+
+Source via: https://note.bgzo.cc/
