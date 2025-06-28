@@ -1,5 +1,4 @@
-# 为博客园同步做格式化，因为直接同步出来的文章排版非常丑
-name: Sync weekly to publish branch
+name: Sync to publish branch
 
 on:
   push:
