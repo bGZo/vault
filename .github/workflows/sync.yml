@@ -27,7 +27,6 @@ jobs:
 
       - name: Run Script
         run: |
-          python3 src/sync.py
           python3 .utils/weekly-publish-sync.py --folder ./weekly --out ./dist
 
       # 步骤3: 检出 release 分支 (单独目录)
