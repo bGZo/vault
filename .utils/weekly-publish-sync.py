@@ -13,7 +13,7 @@ import re
 Global Variables:
 """
 SENSITIVE_TAGS = {
-    'flamewar',  # 争议相关
+    'flamewar',         # 争议相关
     'love/letter',      # 私情相关
     'sex',              # 性相关
     'politics',         # 政治相关
@@ -133,9 +133,10 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
     """
     处理单个Markdown文件
     """
-
+    print('文件路径：', file_path)
     _, _, sub_path = file_path.partition('vault/')
     sub_path = '/' + sub_path.rsplit('.', 1)[0]  # 去掉 .md 扩展名（如果需要）
+    print('sub_path：', sub_path)
 
     try:
         # 使用frontmatter库加载文件
