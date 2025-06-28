@@ -1,12 +1,12 @@
 ---
 title: 面试破防时刻
-aliases:
+aliases: 
 created: 2023-03-16T12:00:00
 modified: 2025-02-13T20:21:31
-tags: 
-- interview 
-- ptsd
-- weekly/1127
+tags:
+  - interview
+  - ptsd
+  - weekly/1127
 ---
 
 孤独惯了，不喜欢和人打交道，事后总是需要花费数倍的时间拼凑自己；

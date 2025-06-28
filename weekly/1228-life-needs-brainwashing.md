@@ -5,7 +5,8 @@ aliases:
 created: 2025-02-18T22:06:57
 modified: 2025-02-19T21:44:26
 description: 
-tags: weekly/1228
+tags:
+  - weekly/1228
 tags-link: 
 type: writing
 ---

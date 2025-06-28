@@ -4,7 +4,9 @@ aliases:
   - writing to someone
 created: 2025-01-30T15:39:13
 modified: 2025-02-01T12:51:56
-tags: weekly/1225
+tags:
+  - weekly/1225
+  - love/letter
 type: writing
 ---
 

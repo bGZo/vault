@@ -2,7 +2,9 @@
 title: 为什么不问问神奇海螺呢：ChatGPT 聊天存档
 created: 2022-12-10T12:00:00
 status: 
-tags: weekly/1113
+tags:
+  - weekly/1113
+  - pointless
 modified: 2025-01-16T09:36:21
 ---
 

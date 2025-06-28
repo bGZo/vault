@@ -1,6 +1,6 @@
 ---
 title: 自慰AI
-aliases:
+aliases: 
 created: 2023-01-04T11:00:30
 modified: 2025-01-01T11:01:03
 tags:
@@ -32,12 +32,12 @@ type: writing
 15 岁那年，家里做生意的给他带来了互联网，他终于有了一个能释放青春期活力的窗口，虽然还没有连接到国际万维网，而且此时中文互联网开始收紧，但还算是比较开放，他把目光投向了童年为数不多的快乐 —— 动画片 (Anime), 他沉溺在这虚拟的世界中，甚至开始颠倒现实和虚拟
 
 > 你是我未曾拥有无法捕捉的亲暱
-我却有你的吻你的魂你的心
-载着我飞呀飞呀飞 越过了意义
-**你是我朝夕相伴触手可及的虚拟**
-陪着我像纸笔像自己像雨滴
-看着我坠啊坠啊坠落到云里. ⛅
-by 陈粒 via [虚拟](https://music.163.com/outchain/player?type=2&id=421423808&auto=1&height=66)
+> 我却有你的吻你的魂你的心
+> 载着我飞呀飞呀飞 越过了意义
+> **你是我朝夕相伴触手可及的虚拟**
+> 陪着我像纸笔像自己像雨滴
+> 看着我坠啊坠啊坠落到云里. ⛅
+> by 陈粒 via [虚拟](https://music.163.com/outchain/player?type=2&id=421423808&auto=1&height=66)
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5l9sg05BhpfsdLfRvjGsAf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

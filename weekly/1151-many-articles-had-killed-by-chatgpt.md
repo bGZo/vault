@@ -3,8 +3,9 @@ title: 被 ChatGPT 消解的文章
 aliases: 
 created: 2023-09-01T11:20:59
 modified: 2025-01-01T11:21:10
-tags: 
+tags:
   - weekly/1151
+  - pointless
 type: writing
 ---
 

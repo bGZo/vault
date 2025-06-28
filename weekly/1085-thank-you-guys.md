@@ -4,8 +4,9 @@ aliases:
 created: 2022-05-21T10:58:24
 modified: 2025-01-01T08:48:03
 description: 
-tags: 
+tags:
   - weekly/1085
+  - privacy
 type: writing
 ---
 

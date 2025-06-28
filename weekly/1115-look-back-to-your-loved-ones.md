@@ -2,7 +2,7 @@
 title: Look back to your loved ones
 aliases: 还不是想有人爱
 created: 2022-12-23T11:21:37
-modified: 2025-01-01T11:22:08
+modified: 2025-06-28T16:34:54
 tags: 
   - weekly/1115
 type: writing
@@ -10,8 +10,7 @@ type: writing
 
 Last tonight I read a tweet thread written by SahilBloom, which really sparked me.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Last year, I had a conversation that changed my life.<br>It caused me to upend everything and move across the country.<br>The lesson from it may change yours:</p>&mdash; <a href="https://twitter.com/SahilBloom/status/1571137341997318147">Sahil Bloom (@SahilBloom) September 17, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![](https://twitter.com/SahilBloom/status/1571137341997318147)
 
 Since Covid-19, little by little, I realized the precious nature of time with people I care most deeply about. When I look back, I always fail to recognize it until it's too late, almost everything, the parents, friends, events which missing is gone forever.
 
@@ -36,7 +35,7 @@ I am living in a end period of growing fast society, whose economy increasing by
 
 Those words filled my life since I birthed. But wait, does it sounds like a pre-employment training? The boss do a speech how hard his half life and create a company. As long as you do like the boss, you would be successful. Being the top1 in some competition, going the top1 university, archiving the top1 project for company.
 
-Those bullshit and lies sucks. They told us a certainty of our future, which everything would be planned prefect by someone else, as long as you have do the best right now.  Poor analogical reasoning is unrealistic. I am not saying the hard work is bad. I mean, painting a rosy picture is simple, but it's never the same.😝
+Those bullshit and lies sucks. They told us a certainty of our future, which everything would be planned prefect by someone else, as long as you have do the best right now. Poor analogical reasoning is unrealistic. I am not saying the hard work is bad. I mean, painting a rosy picture is simple, but it's never the same.😝
 
 In a tradition China, there is a proverb for a rural farmer:
 

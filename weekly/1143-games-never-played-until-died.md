@@ -53,10 +53,10 @@ Wish you have an awesome day. You will. You deserved. We are.
 
 完
 
-## 联邦宇宙
+## 看看联邦宇宙怎么说
 
 - [买了游戏，为什么放着不玩？ – 工作即生活 (tootplan.com)](https://tootplan.com/otaku/talk-about-steam-library/)
-- [[闲聊] 买游戏不玩很正常吗？？ - 看板 Steam - 批踢踢实业坊 (ptt.cc)](https://www.ptt.cc/bbs/Steam/M.1612060886.A.1EA.html)
+- [闲聊 买游戏不玩很正常吗？？ - 看板 Steam - 批踢踢实业坊 (ptt.cc)](https://www.ptt.cc/bbs/Steam/M.1612060886.A.1EA.html)
 - [【问题】在收藏库中还有多少游戏买了没玩？ @Steam 综合讨论板 哈啦板 - 巴哈姆特 (gamer.com.tw)](https://forum.gamer.com.tw/C.php?bsn=60599&snA=40205)
 - [为什么 Steam 上有些人买游戏但是不玩？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/575025061)
 - [豆瓣话题 - 你在Steam上买到过的最值的游戏 (douban.com)](https://www.douban.com/gallery/topic/65334/)

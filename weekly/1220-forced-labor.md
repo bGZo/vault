@@ -3,7 +3,8 @@ title: 强迫劳动
 aliases: 
 created: 2024-12-28T08:54:00
 modified: 2024-12-28T10:03:41
-tags: weekly/1220
+tags:
+  - weekly/1220
 type: writing
 ---
 

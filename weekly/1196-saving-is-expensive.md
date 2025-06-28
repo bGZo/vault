@@ -5,6 +5,7 @@ created: 2024-07-13T12:00:00
 modified: 2024-12-26T08:36:03
 tags:
   - weekly/1196
+  - politics
 type: writing
 ---
 

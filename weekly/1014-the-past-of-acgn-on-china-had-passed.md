@@ -1,6 +1,6 @@
 ---
 title: 简中二次元圈已死
-aliases:
+aliases: 
 created: 2021-01-18T18:51:22
 modified: 2025-06-10T22:20:18
 tags:

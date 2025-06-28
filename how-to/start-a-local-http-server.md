@@ -1,6 +1,8 @@
 ---
+title: How to start a local http server
 created: 2024-04-20T21:26:22
 modified: 2025-04-25T20:16:55
+type: how-to
 ---
 
 ## 服务器

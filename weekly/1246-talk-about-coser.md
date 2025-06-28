@@ -1,10 +1,10 @@
 ---
 title: 长大后再谈COSER
-aliases:
+aliases: 
 created: 2025-06-22T15:49:04
 modified: 2025-06-22T15:50:00
 tags:
-- weekly/1246
+  - weekly/1246
 type: writing
 ---
 

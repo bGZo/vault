@@ -3,13 +3,11 @@ title: 靠喜欢之人活着的男人
 aliases: 
 created: 2024-05-03T03:52:24
 modified: 2025-03-29T10:20:26
-tags: 
+tags:
   - weekly/1186
 type: writing
+bangumi: https://bgm.tv/blog/338114
 ---
-
-<iframe src='https://bgm.tv/blog/338114' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://bgm.tv/blog/338114' target='_blank' class='external-link'>https://bgm.tv/blog/338114</a></center>
 
 故事终于读完了，从清明假期读完共通线之后，一直沉迷在尾上的幻想中。小心翼翼保持着一个星期一条线的节奏，乃乃线留到了五一，就在昨晚，终于开启了 TRUE 线，很短，不到一个小时的时间就画上了句点。
 

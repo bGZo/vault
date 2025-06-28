@@ -1,10 +1,11 @@
 ---
-title: 文章的更进一步
-aliases: 
-    - 超越文章
+title: 比文章更远
+aliases:
+  - 超越文章
 created: 2024-09-21T12:00:00
 modified: 2024-12-24T09:29:12
-tags: weekly/1206
+tags:
+  - weekly/1206
 type: writing
 ---
 

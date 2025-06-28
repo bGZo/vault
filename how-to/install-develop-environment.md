@@ -1,6 +1,7 @@
 ---
+title: How to install develop environment
 created: 2024-12-08T09:26:21
-modified: 2025-01-12T04:26:48
+modified: 2025-06-28T17:33:57
 ---
 
 ## Environment
@@ -60,9 +61,9 @@ scoop install go
 
 Download portable version via: https://go.dev/dl/
 
-### [Ruby](ruby) 
+### [Ruby](ruby)
 
-on ubuntu: 
+on ubuntu:
 
 Running following[^ruby]
 
@@ -101,7 +102,7 @@ Unzip file to the specific location. Append the following config if on China:
 PREFIX,https://account.jetbrains.com.cn/lservice/rpc/validateKey.action
 ```
 
-Run `script/install.sh` on unix, or `install-current-user.vbs` on windows[^core-jetbra].
+Run `script/install.sh` on unix, or `install-current-user.vbs` on windows.[^core-jetbra]
 
 Copy code and paste on IDE. Enjoy!
 

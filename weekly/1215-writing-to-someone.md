@@ -5,7 +5,7 @@ modified: 2024-12-24T09:16:37
 description: 我给她写信的意思是，我们能不能不要这样，但显然，我失败了，我们只能这样。
 tags:
   - weekly/1215
-  - writing/draft
+  - love/letter
 type: writing
 ---
 
