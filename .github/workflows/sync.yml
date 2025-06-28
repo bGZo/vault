@@ -70,14 +70,12 @@ jobs:
       # 配置 Git
       - name: Configure Git
         run: |
-          cd release-branch
           git config user.name "GitHub Actions"
           git config user.email "im@bgzo.cc"
 
       # 提交到 release 分支
       - name: Commit to release
         run: |
-          cd release-branch
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "docs(bot): sync weekly to release branch"
