@@ -133,10 +133,18 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
     """
     处理单个Markdown文件
     """
-    print('文件路径：', file_path)
-    _, _, sub_path = file_path.partition('vault/')
+    # print('文件路径：', file_path)
+    _, _, sub_path = file_path.partition('./')
     sub_path = '/' + sub_path.rsplit('.', 1)[0]  # 去掉 .md 扩展名（如果需要）
-    print('sub_path：', sub_path)
+    # print('sub_path：', sub_path)
+
+    """
+    NOTE: Github 上面运行的时候，文件路径是这样的：
+
+    文件路径： ./weekly/1220-forced-labor.md
+    sub_path： /
+    处理完成: ./weekly/1220-forced-labor.md -> ./dist/强迫劳动.md
+    """
 
     try:
         # 使用frontmatter库加载文件
@@ -263,3 +271,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # str = './weekly/1220-forced-labor.md'
+    # _, _, sub_path = str.partition('./')
+    # sub_path = '/' + sub_path.rsplit('.', 1)[0]  # 去掉 .md 扩展名（如果需要）
+    # print(sub_path)
