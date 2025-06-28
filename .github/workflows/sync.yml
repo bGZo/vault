@@ -29,6 +29,7 @@ jobs:
       - name: Run Script
         run: |
           python3 .utils/weekly-publish-sync.py --folder ./weekly --out ./dist
+          python3 .utils/weekly-publish-sync.py --folder ./how-to --out ./dist
 
       # 验证处理结果
       - name: Verify processed files
