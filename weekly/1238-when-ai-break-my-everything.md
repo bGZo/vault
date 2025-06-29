@@ -1,9 +1,9 @@
 ---
-title: 当 AI 破坏了我的一切
 aliases: [当 AI 破坏了我的一切]
 created: 2025-05-02T10:35:57
-modified: 2025-06-29T21:21:00
-tags: weekly/1238
+modified: 2025-06-29T23:51:45
+tags: [weekly/1238]
+title: 当 AI 破坏了我的一切
 type: writing
 ---
 

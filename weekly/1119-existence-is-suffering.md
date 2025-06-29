@@ -1,11 +1,9 @@
 ---
-title: 存在即痛苦
 aliases: [存在即痛苦]
 created: 2023-01-21T11:06:46
-modified: 2025-06-29T21:33:26
-tags: 
-  - fuck-reality
-  - weekly/1119
+modified: 2025-06-29T23:51:44
+tags: [fuck-reality, weekly/1119]
+title: 存在即痛苦
 type: writing
 ---
 

@@ -1,10 +1,9 @@
 ---
-title: 长大后再谈 COSER
 aliases: [长大后再谈 COSER]
 created: 2025-06-22T15:49:04
-modified: 2025-06-29T21:14:47
-tags:
-  - weekly/1246
+modified: 2025-06-29T23:51:45
+tags: [weekly/1246]
+title: 长大后再谈 COSER
 type: writing
 ---
 

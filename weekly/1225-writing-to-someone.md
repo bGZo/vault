@@ -1,13 +1,9 @@
 ---
-title: 再次致某某
-aliases:
-  - 再次致某某
-  - writing to someone
+aliases: [再次致某某, writing to someone]
 created: 2025-01-30T15:39:13
-modified: 2025-06-29T21:33:27
-tags:
-  - weekly/1225
-  - love/letter
+modified: 2025-06-29T23:51:45
+tags: [love/letter, weekly/1225]
+title: 再次致某某
 type: writing
 ---
 

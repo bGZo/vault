@@ -1,13 +1,9 @@
 ---
-title: "夸夸月报 #1"
-aliases:
-  - "夸夸月报 #1"
-  - 夸夸月报
+aliases: ["夸夸月报 #1", 夸夸月报]
 created: 2023-03-04T11:23:20
-modified: 2025-06-29T21:33:26
-tags:
-  - weekly/1125
-  - pointless
+modified: 2025-06-29T23:51:44
+tags: [pointless, weekly/1125]
+title: "夸夸月报 #1"
 type: writing
 ---
 

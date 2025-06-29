@@ -1,9 +1,9 @@
 ---
-title: 至少我还有写作的自由
 aliases: [至少我还有写作的自由]
 created: 2025-06-08T23:04:16
-modified: 2025-06-29T21:15:24
-tags: weely/1245
+modified: 2025-06-29T23:51:45
+tags: [weely/1245]
+title: 至少我还有写作的自由
 type: writing
 ---
 

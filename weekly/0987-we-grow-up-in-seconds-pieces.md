@@ -1,13 +1,9 @@
 ---
-title: 长大只一瞬
-aliases:
-  - 长大只一瞬
-  - 人都是突然就长大了
+aliases: [人都是突然就长大了, 长大只一瞬]
 created: 2020-07-13T03:36:15
-modified: 2025-06-29T21:33:26
-tags:
-  - weekly/987
-  - pointless
+modified: 2025-06-29T23:51:44
+tags: [pointless, weekly/987]
+title: 长大只一瞬
 type: writing
 ---
 

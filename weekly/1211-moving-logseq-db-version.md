@@ -1,11 +1,9 @@
 ---
-title: 迁移 Logseq 数据库版本
 aliases: [迁移 Logseq 数据库版本]
 created: 2024-10-26T12:00:00
-modified: 2025-06-29T21:33:27
-tags:
-  - weekly/1211
-  - pointless
+modified: 2025-06-29T23:51:45
+tags: [pointless, weekly/1211]
+title: 迁移 Logseq 数据库版本
 type: writing
 ---
 

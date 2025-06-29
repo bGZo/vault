@@ -1,12 +1,9 @@
 ---
-title: 活在时光里的父母
-aliases:
-  - 活在时光里的父母
-  - Parents living in the past
+aliases: [活在时光里的父母, Parents living in the past]
 created: 2025-05-11T20:34:11
-modified: 2025-06-29T21:17:43
-tags:
-  - weekly/1239
+modified: 2025-06-29T23:51:45
+tags: [weekly/1239]
+title: 活在时光里的父母
 type: writing
 ---
 

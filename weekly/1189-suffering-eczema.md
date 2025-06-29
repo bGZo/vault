@@ -1,11 +1,9 @@
 ---
-title: 湿疹复发
 aliases: [湿疹复发]
 created: 2024-05-25T12:00:00
-modified: 2025-06-29T21:33:27
-tags: 
-  - self-healing
-  - weekly/1189
+modified: 2025-06-29T23:51:45
+tags: [self-healing, weekly/1189]
+title: 湿疹复发
 type: writing
 ---
 

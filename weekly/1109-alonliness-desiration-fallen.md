@@ -1,13 +1,9 @@
 ---
-title: "孤独, 渴望, 爱与沉沦"
-aliases:
-  - "孤独, 渴望, 爱与沉沦"
-  - 写于疫情居家隔离贤者模式后
+aliases: ["孤独, 渴望, 爱与沉沦", 写于疫情居家隔离贤者模式后]
 created: 2022-11-09T11:03:15
-modified: 2025-06-29T21:33:26
-tags:
-  - sex
-  - weekly/1109
+modified: 2025-06-29T23:51:44
+tags: [sex, weekly/1109]
+title: 孤独, 渴望, 爱与沉沦
 type: writing
 ---
 

@@ -1,10 +1,9 @@
 ---
-title: 自私的中国人
 aliases: [自私的中国人]
 created: 2024-09-07T12:00:00
-modified: 2025-06-29T21:33:27
-tags:
-  - weekly/1204
+modified: 2025-06-29T23:51:45
+tags: [weekly/1204]
+title: 自私的中国人
 type: writing
 ---
 
@@ -25,6 +24,7 @@ type: writing
 说实话，当时我的脑袋都要炸了。我满脑子想，第一个发明占座行为的人究竟是谁？我觉得如果这种行为发生在国外，那他们东西早就没了，哪还有现在这样肆无忌惮的行为？就是治安太好了才会养出这样长期占用公共资源的行为，太自我中心了，他们应该多想想别人。其实，别说小偷了，这样写的我都这样开始想。我看着这些被死人占了去的座位，真想把他们留下的东西也一并烧回给他们。
 
 ## Reference
+
 - https://www.quora.com/Are-Chinese-more-selfish-or-more-selfless-than-Westerners
 - https://v2ex.com/t/998429
 - https://v2ex.com/t/881426

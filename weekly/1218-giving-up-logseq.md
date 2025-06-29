@@ -1,13 +1,9 @@
 ---
-title: Giving up Logseq
-aliases:
-  - Giving up Logseq
-  - why giving up logseq
-  - logseq problem
-  - 放弃 Logseq
+aliases: [放弃 Logseq, Giving up Logseq, logseq problem, why giving up logseq]
 created: 2024-12-09T12:00:00
-modified: 2025-06-29T21:33:27
-tags: weekly/1218
+modified: 2025-06-29T23:51:45
+tags: [weekly/1218]
+title: Giving up Logseq
 type: writing
 ---
 
@@ -103,7 +99,9 @@ $1- title: $2\n$1  source: $3
 ```
 
 ### Properties
+
 #### Date not link journals
+
 #### Date format shown
 
 [Properties: let the user customize the way Dates/Times are displayed (independently from OS) - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/properties-let-the-user-customize-the-way-dates-times-are-displayed-independently-from-os/64139/34?page=3)
@@ -115,6 +113,7 @@ That not impossible with `![]()` as value. Yet use link and format it on datavie
 https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-metadata-value/54011
 
 ### Plugins
+
 #### [[obsidianmd-obsidian-clipper#^1f4ed6|Web Cliper template]]
 
 #### Reminder
@@ -138,19 +137,23 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 - [Is there a plugin for changing blocks locations? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/ydc48j/is_there_a_plugin_for_changing_blocks_locations/)
 
 ### Graph
+
 - local graph
 - global graph
 - [Global graph view: open with currently active note highlighted - Feature archive - Obsidian Forum](https://forum.obsidian.md/t/global-graph-view-open-with-currently-active-note-highlighted/245/13)
 
 ### Miss macros
+
 - [Iframe - Help - Obsidian Forum](https://forum.obsidian.md/t/iframe/14296/3)
 - [Simple macros? - Help - Obsidian Forum](https://forum.obsidian.md/t/simple-macros/44009)
 - [What are the creative ways to use iframes .... : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/1aufiav/what_are_the_creative_ways_to_use_iframes/)
 
 ### PDF annotations
+
 - [Handle PDFs Natively in Obsidian – Curtis McHale](https://curtismchale.ca/2023/11/08/handle-pdfs-natively-in-obsidian/)
 
 ### CSS
+
 #### Image size
 
 ```css
@@ -220,17 +223,18 @@ More Query
 
 Only support local embed [^embed-file]
 
-```
+```shell
 ![[demo.pdf]]
 ```
 
 Not support http embed.
 
-```
+```shell
 ![](https://github.com/assets/demo.pdf)
 ```
 
 ### Others
+
 - Use spaces instead of tab: https://forum.obsidian.md/t/use-tabs-off-only-replaces-tabs-with-spaces-in-lists/3583
 - [Show location of currently open file - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/show-location-of-currently-open-file/41903)
 - [Any way to disable line wrapping in code blocks? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/zh0ih2/any_way_to_disable_line_wrapping_in_code_blocks/)

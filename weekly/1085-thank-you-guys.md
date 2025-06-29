@@ -1,12 +1,10 @@
 ---
-title: 我的旧友，我爱你们
 aliases: [我的旧友，我爱你们]
 created: 2022-05-21T10:58:24
-modified: 2025-06-29T21:33:26
 description: 
-tags:
-  - weekly/1085
-  - privacy
+modified: 2025-06-29T23:51:44
+tags: [privacy, weekly/1085]
+title: 我的旧友，我爱你们
 type: writing
 ---
 

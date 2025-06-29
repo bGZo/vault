@@ -1,11 +1,9 @@
 ---
-title: 如有可能，你应该和本就幸福的人结婚
-aliases:
-  - 如有可能，你应该和本就幸福的人结婚
+aliases: [如有可能，你应该和本就幸福的人结婚]
 created: 2025-04-06T16:38:59
-modified: 2025-06-29T21:22:58
-tags:
-  - weekly/1234
+modified: 2025-06-29T23:51:45
+tags: [weekly/1234]
+title: 如有可能，你应该和本就幸福的人结婚
 type: writing
 ---
 

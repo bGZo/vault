@@ -1,11 +1,9 @@
 ---
-title: 未来永远不会到来
-aliases:
-  - 未来永远不会到来
-  - 1227-featurn-is-never-coming
+aliases: [1227-featurn-is-never-coming, 未来永远不会到来]
 created: 2025-02-15T18:17:14
-modified: 2025-06-29T21:33:27
-tags: weekly/1227
+modified: 2025-06-29T23:51:45
+tags: [weekly/1227]
+title: 未来永远不会到来
 type: writing
 ---
 

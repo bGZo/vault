@@ -1,14 +1,11 @@
 ---
-title: 人是需要洗脑的
-aliases:
-  - 人是需要洗脑的
-  - 1228-life-needs-brainwashing
+aliases: [1228-life-needs-brainwashing, 人是需要洗脑的]
 created: 2025-02-18T22:06:57
-modified: 2025-06-29T21:33:27
 description: 
-tags:
-  - weekly/1228
+modified: 2025-06-29T23:51:45
+tags: [weekly/1228]
 tags-link: 
+title: 人是需要洗脑的
 type: writing
 ---
 

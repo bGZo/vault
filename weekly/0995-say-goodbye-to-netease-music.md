@@ -1,12 +1,9 @@
 ---
-title: 告别网易云
 aliases: [告别网易云]
 created: 2020-09-05T11:02:17
-modified: 2025-06-29T21:33:26
-tags:
-  - weekly/995
-  - love/letter
-  - pointless
+modified: 2025-06-29T23:51:44
+tags: [love/letter, pointless, weekly/995]
+title: 告别网易云
 type: writing
 ---
 

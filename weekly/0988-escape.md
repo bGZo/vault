@@ -1,12 +1,9 @@
 ---
-title: 逃离
-aliases:
-  - 逃离
-  - escape
+aliases: [逃离, escape]
 created: 2020-07-15T10:45:23
-modified: 2025-06-29T21:33:26
-tags:
-  - weekly/988
+modified: 2025-06-29T23:51:44
+tags: [weekly/988]
+title: 逃离
 type: writing
 ---
 

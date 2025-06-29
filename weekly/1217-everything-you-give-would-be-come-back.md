@@ -1,10 +1,9 @@
 ---
-title: 让爱自己的人产生的愧疚终将回到自己身上
 aliases: [让爱自己的人产生的愧疚终将回到自己身上]
 created: 2024-12-07T02:46:31
-modified: 2025-06-29T21:33:27
-tags: 
-  - weekly/1217
+modified: 2025-06-29T23:51:45
+tags: [weekly/1217]
+title: 让爱自己的人产生的愧疚终将回到自己身上
 type: writing
 ---
 

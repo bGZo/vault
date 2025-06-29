@@ -1,13 +1,9 @@
 ---
-title: 重新开始看漫画
 aliases: [重新开始看漫画]
 created: 2022-03-04T10:45:31
-modified: 2025-06-29T21:33:26
-tags:
-  - manga
-  - copyright
-  - bilibili
-  - weekly/1073
+modified: 2025-06-29T23:51:44
+tags: [bilibili, copyright, manga, weekly/1073]
+title: 重新开始看漫画
 type: writing
 ---
 
@@ -39,6 +35,7 @@ type: writing
 有钱确实很爽，真的好像拿到着奢侈带来的简单优越感，沉溺感官，不失为一种方法。这是原本应该生下就一直保留就有的事物，但是现在却变得这样复杂，在我生活了将近 20 年才意识到这样的概念.
 
 ## Reference
+
 - [如何看待动漫之家被誉为哔哩哔哩漫画的养猪场？ - 知乎](https://www.zhihu.com/question/387851624)
 - [动漫之家最终结局会不会像b站一样洗白上岸？ - 知乎](https://www.zhihu.com/question/280272021)
 - [如何比较bilibili漫画和动漫之家？ - 知乎](https://www.zhihu.com/question/329958030)

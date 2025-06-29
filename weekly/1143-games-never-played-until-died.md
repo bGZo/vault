@@ -1,11 +1,9 @@
 ---
-title: 我都花了时间玩游戏，为什么还要花钱买它？
-aliases:
-  - 我都花了时间玩游戏，为什么还要花钱买它？
+aliases: [我都花了时间玩游戏，为什么还要花钱买它？]
 created: 2023-07-08T11:15:56
-modified: 2025-06-29T21:38:55
-tags:
-  - weekly/1143
+modified: 2025-06-29T23:51:45
+tags: [weekly/1143]
+title: 我都花了时间玩游戏，为什么还要花钱买它？
 type: writing
 ---
 
@@ -30,7 +28,7 @@ type: writing
 
 写下这些的目的也是提醒自己，这些平台只是我的一种手段，虽然我允许自己创建了 3 个 STEAM 账号，也把下面这些话写在了我的首页，但显然我依旧没有理解得很透彻。
 
-```
+```shell
 I know the shame, which buy games in a different region, with a cheaper price, even through I never hear this country before. Yet I still created this account, cause a amount of games I cared about, on my region are unavailable, with some f*cking force majeure, unchangeable political factor, platform region restrictions, or price discrimination, and more. 
       
 Maybe one day I could shut this account down, buy again in my origin account, while what's worse, platform support maybe do that in the future. IDK, in this more and more weird world. What I actually want, is a more open market, and a more sensible price. In my perspectives, buying games is to support game developer, to vote in this suck world. Not care about the go f*cking hell factors at all.

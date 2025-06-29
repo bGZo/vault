@@ -1,12 +1,10 @@
 ---
-title: 我的大学
-created: 2022-05-21T10:58:24
-modified: 2025-06-29T21:33:26
-tags:
-  - weekly/1084
-  - privacy
-type: writing
 aliases: [我的大学]
+created: 2022-05-21T10:58:24
+modified: 2025-06-29T23:51:44
+tags: [privacy, weekly/1084]
+title: 我的大学
+type: writing
 ---
 
 # 我的大学

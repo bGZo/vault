@@ -1,12 +1,10 @@
 ---
-title: "I don't know how to deal relationship with my parents"
-created: 2023-05-02T11:25:26
-modified: 2025-06-29T21:33:27
-tags:
-  - weekly/1134
-  - pointless
-type: writing
 aliases: ["I don't know how to deal relationship with my parents"]
+created: 2023-05-02T11:25:26
+modified: 2025-06-29T23:51:45
+tags: [pointless, weekly/1134]
+title: "I don't know how to deal relationship with my parents"
+type: writing
 ---
 
 # I don't know how to deal relationship with my parents

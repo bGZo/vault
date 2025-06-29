@@ -1,12 +1,10 @@
 ---
-title: 吃人是会上瘾的
 aliases: [吃人是会上瘾的]
 created: 2025-06-06T23:24:49
-modified: 2025-06-29T21:18:38
+modified: 2025-06-29T23:51:45
+tags: [劳动异化, weekly/1243]
+title: 吃人是会上瘾的
 type: writing
-tags:
-  - weekly/1243
-  - 劳动异化
 ---
 
 # 吃人是会上瘾的

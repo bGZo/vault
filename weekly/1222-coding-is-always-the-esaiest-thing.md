@@ -1,11 +1,9 @@
 ---
-title: 写代码总是最简单的
-aliases:
-  - 写代码总是最简单的
-  - 1222-coding-is-always-the-esaiest-thing
+aliases: [1222-coding-is-always-the-esaiest-thing, 写代码总是最简单的]
 created: 2025-01-09T07:55:42
-modified: 2025-06-29T21:33:27
-tags: weekly/1222
+modified: 2025-06-29T23:51:45
+tags: [weekly/1222]
+title: 写代码总是最简单的
 type: writing
 ---
 

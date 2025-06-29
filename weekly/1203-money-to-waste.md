@@ -1,11 +1,11 @@
 ---
-title: 预算中应该留有被浪费的钱
 aliases: [预算中应该留有被浪费的钱]
 created: 2024-08-31T21:37:39
-modified: 2025-06-29T21:33:27
 description: 
-tags: weekly/1203
+modified: 2025-06-29T23:51:45
+tags: [weekly/1203]
 tags-link: 
+title: 预算中应该留有被浪费的钱
 type: writing
 ---
 

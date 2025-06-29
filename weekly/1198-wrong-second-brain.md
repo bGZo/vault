@@ -1,10 +1,9 @@
 ---
-title: 错误的第二大脑
 aliases: [错误的第二大脑]
 created: 2024-07-26T12:00:00
-modified: 2025-06-29T21:33:27
-tags: 
-  - weekly/1198
+modified: 2025-06-29T23:51:45
+tags: [weekly/1198]
+title: 错误的第二大脑
 type: writing
 ---
 

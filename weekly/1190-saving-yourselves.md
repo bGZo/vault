@@ -1,11 +1,9 @@
 ---
-title: 自救之职业焦虑
 aliases: [自救之职业焦虑]
 created: 2024-06-01T12:00:00
-modified: 2025-06-29T21:33:27
-tags: 
-  - self-care
-  - weekly/1190
+modified: 2025-06-29T23:51:45
+tags: [self-care, weekly/1190]
+title: 自救之职业焦虑
 type: writing
 ---
 

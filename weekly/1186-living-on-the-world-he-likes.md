@@ -1,12 +1,11 @@
 ---
-title: 靠喜欢之人活着的男人
 aliases: [靠喜欢之人活着的男人]
-created: 2024-05-03T03:52:24
-modified: 2025-06-29T21:33:27
-tags:
-  - weekly/1186
-type: writing
 bangumi: https://bgm.tv/blog/338114
+created: 2024-05-03T03:52:24
+modified: 2025-06-29T23:51:45
+tags: [weekly/1186]
+title: 靠喜欢之人活着的男人
+type: writing
 ---
 
 # 靠喜欢之人活着的男人
@@ -64,6 +63,7 @@ TRUE 线中，尾上看到人群攒动还是会觉得恶心，在地下设施也
 缺少一个共通线 BE，读取到【4-mapping】后，陆续选择除了正确答案外的两个选择即可出发被真二杀死的共同 BE；
 
 ## 另外一些讨论
+
 - [《Chaos; Child》（混沌之子）：你的人生，我的诀别](https://weibo.com/ttarticle/p/show?id=2309404858697800351800)
 - [在成为情强的道路上，你经历了什么？ - 知乎](https://www.zhihu.com/question/283650420)
 - [科学ADV系列 - 科学ADV中文wiki](https://sci-adv.cc/wiki/%E7%A7%91%E5%AD%A6ADV%E7%B3%BB%E5%88%97)

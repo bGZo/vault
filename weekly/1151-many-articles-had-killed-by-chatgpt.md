@@ -1,12 +1,9 @@
 ---
-title: 被 ChatGPT 消解的文章
-aliases:
-  - 被 ChatGPT 消解的文章
+aliases: [被 ChatGPT 消解的文章]
 created: 2023-09-01T11:20:59
-modified: 2025-06-29T21:39:39
-tags:
-  - weekly/1151
-  - pointless
+modified: 2025-06-29T23:51:45
+tags: [pointless, weekly/1151]
+title: 被 ChatGPT 消解的文章
 type: writing
 ---
 
