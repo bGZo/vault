@@ -5,6 +5,7 @@ from datetime import datetime
 # 配置参数
 JOURNAL_DIR = '/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/journals/'
 JOURNAL_DIR = JOURNAL_DIR + "2019"  # 日记目录
+
 FILE_EXT = ".md"  # 日记文件扩展名
 NAV_PATTERN = re.compile(  # 导航栏正则模式
     r'^<< \[\[.*\]\] \| \[\[.*\]\] \| \[\[.*\]\] >>\n?',

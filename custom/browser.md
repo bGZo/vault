@@ -8,7 +8,7 @@ aliases:
   - chromium
 title: 
 created: 2024-07-28T12:00:00
-modified: 2025-01-15T09:14:03
+modified: 2025-06-29T17:28:37
 description: 
 tags:
   - tool
@@ -158,6 +158,15 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like 
 Check your current on https://www.whatsmyua.info/
 
 More UA check via: https://www.whatismybrowser.com/guides/the-latest-user-agent/ios
+
+### AI Sidebar #issue/wontfix
+
+`about:config` 中 `browser.ml.chat.provider` 的值会在切换的时候重置；
+
+```
+https://claude.ai/new
+https://chat.deepseek.com
+```
 
 ## Safari
 
