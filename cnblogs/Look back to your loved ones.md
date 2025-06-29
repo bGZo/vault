@@ -1,3 +1,4 @@
+
 Last tonight I read a tweet thread written by SahilBloom, which really sparked me.
 
 ![](https://twitter.com/SahilBloom/status/1571137341997318147)

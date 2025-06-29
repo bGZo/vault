@@ -3,9 +3,7 @@
 ### [C++](cpp.md)
 
 ```shell
-# Windows
 scoop install mingw
-# Linux
 scoop install gcc
 ```
 
@@ -22,7 +20,6 @@ Manage with [Home \| SDKMAN! the Software Development Kit Manager](https://sdkma
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# install specific version
 sdk install java 21.0.2-open
 ```
 
@@ -36,7 +33,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# install specific version
 nvm install --lts
 ```
 
@@ -47,9 +43,7 @@ Go https://nodejs.org/en/download to get the specific version you want and downl
 ### [Golang](golang.md)
 
 ```shell
-# macos
 brew install go
-# windows
 scoop install go
 ```
 
@@ -91,7 +85,6 @@ Go https://3.jetbra.in download the `ja-netfilter.zip`.
 Unzip file to the specific location. Append the following config if on China:
 
 ```shell
-# https://zhile.io/2024/09/05/jetbrains-2024-2-region.html
 [URL]
 PREFIX,https://account.jetbrains.com.cn/lservice/rpc/validateKey.action
 ```

@@ -12,7 +12,6 @@ curl -fsSL https://ollama.com/install.sh | sh
 ### Enable LAN access
 
 ```shell
-# via: https://aident.ai/blog/how-to-expose-ollama-service-api-to-network
 sudo systemctl edit ollama.service
 ```
 

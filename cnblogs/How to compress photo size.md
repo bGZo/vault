@@ -11,7 +11,6 @@ $ cwebp -q 50 -lossless picture.png -o picture_lossless.webp
 $ cwebp -q 70 picture_with_alpha.png -o picture_with_alpha.webp
 $ cwebp -sns 70 -f 50 -size 60000 picture.png -o picture.webp
 $ cwebp -o picture.webp picture.png
-# https://developers.google.com/speed/webp/docs/cwebp
 ```
 
 ## JEPG -> jpegoptim
@@ -41,7 +40,6 @@ a PNG optimizer that recompresses image files to a smaller size, without losing 
 
 ```shell
 optipng -o3 image.png -out output.png
-# `-o0`~`-o7`，級別越高壓縮率越高但速度越慢
 ```
 
 Source via: https://note.bgzo.cc/how-to/compress-photo-size
