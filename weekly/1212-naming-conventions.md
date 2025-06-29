@@ -1,19 +1,20 @@
 ---
 title: 每个人都应该知道的命名约束
-aliases: 命名约束
+aliases: [每个人都应该知道的命名约束, 命名约束]
 created: 2024-11-02T12:00:00
-modified: 2024-12-24T09:22:52
+modified: 2025-06-29T21:33:27
 tags:
   - weekly/1212
 type: writing
 ---
+
+# 每个人都应该知道的命名约束
 
 不知不觉，传到 OneDrive 的数据已经有 324G。加上大学四年乱八七糟的课业，网络随处搜集来的二手文档，他们虽然看似错综复杂，但极细斟酌的话，你又会发现，其实其实仍然存在着某种顺序，但这无益，只会让他们显得更加杂乱无章。
 
 从某种意义上来说，这就是屎山。
 
 ![](https://raw.githack.com/bGZo/assets/dev/2024/20241102201058.png)
-
 
 很早就看到过牛津大学的一篇文章 https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions ，我落实在了工作的文档中，以如下格式命名：
 

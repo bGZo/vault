@@ -1,14 +1,16 @@
 ---
 title: 自慰焦虑
-aliases: 
+aliases: [自慰焦虑]
 created: 2025-01-04T15:40:57
-modified: 2025-01-19T16:15:10
+modified: 2025-06-29T21:33:27
 description: 
 tags:
   - sex
   - weekly/1221
 type: writing
 ---
+
+# 自慰焦虑
 
 我已经有接近半个月的时间没有自慰过了，这当然是一件值得高兴的事情。最近我把时间都花在了整理 Obsidian Notes 上面。
 

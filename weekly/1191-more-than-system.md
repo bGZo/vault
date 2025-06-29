@@ -1,12 +1,14 @@
 ---
-title: 超越系统
-aliases: 
+title: 自救之职业焦虑
+aliases: [自救之职业焦虑]
 created: 2024-06-08T12:00:00
-modified: 2025-06-06T23:33:27
+modified: 2025-06-29T21:33:27
 tags: 
   - weekly/1191
 type: writing
 ---
+
+# 自救之职业焦虑
 
 <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>

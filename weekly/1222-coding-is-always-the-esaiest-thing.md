@@ -1,12 +1,15 @@
 ---
 title: 写代码总是最简单的
 aliases:
+  - 写代码总是最简单的
   - 1222-coding-is-always-the-esaiest-thing
 created: 2025-01-09T07:55:42
-modified: 2025-06-28T16:50:49
+modified: 2025-06-29T21:33:27
 tags: weekly/1222
 type: writing
 ---
+
+# 写代码总是最简单的
 
 周三晚，兴冲冲的跑回家，简单清洗身体，瘫软在床上，打开 Mac，迫不及待地写下心心念念整个白天的代码，启动，调试，修改，再次启动。
 

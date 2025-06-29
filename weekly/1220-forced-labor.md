@@ -1,12 +1,14 @@
 ---
 title: 强迫劳动
-aliases: 
+aliases: [强迫劳动]
 created: 2024-12-28T08:54:00
-modified: 2024-12-28T10:03:41
+modified: 2025-06-29T21:33:27
 tags:
   - weekly/1220
 type: writing
 ---
+
+# 强迫劳动
 
 > 违反劳动法，就是强迫劳动。
 

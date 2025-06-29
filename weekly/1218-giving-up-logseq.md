@@ -1,14 +1,17 @@
 ---
 title: Giving up Logseq
 aliases:
+  - Giving up Logseq
   - why giving up logseq
   - logseq problem
   - 放弃 Logseq
 created: 2024-12-09T12:00:00
-modified: 2025-03-09T10:57:21
+modified: 2025-06-29T21:33:27
 tags: weekly/1218
 type: writing
 ---
+
+# Giving up Logseq
 
 Okey, I know it's ridiculous and hard to say: **I give up [[logseq-logseq]]**.
 

@@ -1,13 +1,15 @@
 ---
-title: 数字移民：生存多艰
-aliases: 
+title: 自救之职业焦虑
+aliases: [自救之职业焦虑]
 created: 2024-07-13T12:00:00
-modified: 2024-12-26T08:36:03
+modified: 2025-06-29T21:33:27
 tags:
   - weekly/1196
   - politics
 type: writing
 ---
+
+# 自救之职业焦虑
 
 > 那时她还太年轻，不知道所有命运馈赠的礼物，早已在暗中*标好了价格*
 

@@ -1,12 +1,14 @@
 ---
-title: 长大后再谈COSER
-aliases: 
+title: 长大后再谈 COSER
+aliases: [长大后再谈 COSER]
 created: 2025-06-22T15:49:04
-modified: 2025-06-22T15:50:00
+modified: 2025-06-29T21:14:47
 tags:
   - weekly/1246
 type: writing
 ---
+
+# 长大后再谈 COSER
 
 一次闲聊，我和同事聊起了漫展，我很怀念，因为即使在内蒙小城，每年还是有好几次漫展，如果你不出 COSER，那么唯一困住你的事情就是，是否有一个二次元的同好随行。
 

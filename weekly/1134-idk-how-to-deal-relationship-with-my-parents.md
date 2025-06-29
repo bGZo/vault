@@ -1,12 +1,15 @@
 ---
-title: I don't know how to deal relationship with my parents
+title: "I don't know how to deal relationship with my parents"
 created: 2023-05-02T11:25:26
-modified: 2025-01-01T11:26:01
+modified: 2025-06-29T21:33:27
 tags:
   - weekly/1134
   - pointless
 type: writing
+aliases: ["I don't know how to deal relationship with my parents"]
 ---
+
+# I don't know how to deal relationship with my parents
 
 To be honest, my parents' lives have been going downhill for some time I don't realize. Just think about it, I still could remember they're strong and powerful in my childhood. And then they took me to school, yet I could see them every night. But I really don't know when their illness shows, when they feel sick or even worse. I have no idea.
 

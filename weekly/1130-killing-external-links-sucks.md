@@ -1,13 +1,15 @@
 ---
 title: 外链之死
-aliases: 
+aliases: [外链之死]
 created: 2023-04-08T11:09:43
-modified: 2025-06-28T16:29:53
+modified: 2025-06-29T21:33:27
 tags: 
   - 软件设计
   - weekly/1130
 type: writing
 ---
+
+# 外链之死
 
 ## External links been killed
 

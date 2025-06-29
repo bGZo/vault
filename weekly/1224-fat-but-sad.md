@@ -1,12 +1,15 @@
 ---
-title: 肥宅很难快乐
+title: 肥宅真的很难快乐
 aliases:
+  - 肥宅真的很难快乐
   - 1224-fat-but-sad
 created: 2025-01-20T19:32:06
-modified: 2025-01-20T20:04:50
+modified: 2025-06-29T21:33:27
 tags: weekly/1224
 type: writing
 ---
+
+# 肥宅真的很难快乐
 
 ## 「1」
 

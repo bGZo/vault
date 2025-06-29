@@ -1,16 +1,16 @@
 ---
-title: 当AI破坏了我的一切
-aliases:
+title: 当 AI 破坏了我的一切
+aliases: [当 AI 破坏了我的一切]
 created: 2025-05-02T10:35:57
-modified: 2025-05-02T10:38:34
+modified: 2025-06-29T21:21:00
 tags: weekly/1238
 type: writing
 ---
 
+# 当 AI 破坏了我的一切
 
 <iframe src='https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio' target='_blank' class='external-link'>https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio</a></center>
-
 
 最近丧失一些表达欲，因为我意识到写出来也对我的生活无济于事，我可能耗费了整个下午的时间写一篇文章，但转头文章就喂给了 AI，甚至可能都不会喂给 AI，因为压根就没有人看，但这是我一开始写作的目的吗？
 

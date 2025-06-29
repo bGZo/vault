@@ -1,13 +1,15 @@
 ---
-title: 摸索人生
-aliases: 
+title: 自救之职业焦虑
+aliases: [自救之职业焦虑]
 created: 2024-07-06T12:00:00
-modified: 2024-12-26T08:35:36
+modified: 2025-06-29T21:33:27
 tags: 
   - self-care
   - weekly/1195
 type: writing
 ---
+
+# 自救之职业焦虑
 
 <iframe src="https://www.youtube.com/embed/m5_dNOK7oN8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=m5_dNOK7oN8' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m5_dNOK7oN8</a></center>
@@ -41,7 +43,7 @@ type: writing
 > 去大胆创作吧，直到你爱上那些你的作品中不完美的地方。
 > 去大胆创作吧，因为这样你才能真正开始创作。
 > 去大胆创作吧。
-> 
+>
 > https://t.me/twitter_translate/22748
 
 于是着手开发了一个辅助脚本，可以配合日常的工作流，批量地格式化周报，如果配合上 [[logseq-logseq]] 的批量折叠，与如下配置
@@ -52,6 +54,6 @@ type: writing
 
 ```
 
-- [ ] #gtd/wait 可以说连整理的时间也省下了，但事情并不完美，我发现这样配置下来后，每次编辑文件都会卡上一秒左右，最终把配置还原后，再把 `collapsed:true` 全部删去，整体状况才有好转，我怀疑是后者渲染的问题，这也算是 logseq 的一个优化项吧，希望自己有一天也可以参与到 logseq 的开发中。  
+- [ ] #gtd/wait 可以说连整理的时间也省下了，但事情并不完美，我发现这样配置下来后，每次编辑文件都会卡上一秒左右，最终把配置还原后，再把 `collapsed:true` 全部删去，整体状况才有好转，我怀疑是后者渲染的问题，这也算是 logseq 的一个优化项吧，希望自己有一天也可以参与到 logseq 的开发中。
 
 这周公司有外派巴西、匈牙利、泰国的机会，当然会有二筛的环节，没有雅思、没有留学经历的自己，受着一篇文章的影响（[Do the Real Thing](https://www.scotthyoung.com/blog/2020/05/04/do-the-real-thing/)），还是硬着头皮报名了，我觉得没有必要等到准备好了再去，有的时候时间很少，没有时间准备，但是事情总还是要做的，所以最好的方法就是自适应，再工作中学习，做具体的事情，而不是准备了一遍又一遍，也没有做什么具体的事。

@@ -1,13 +1,15 @@
 ---
-title: 生活大于工作
-aliases: 
+title: 1188-choose-life-rather-working-hard
+aliases: [1188-choose-life-rather-working-hard]
 created: 2024-05-18T12:00:00
-modified: 2024-12-26T08:26:03
+modified: 2025-06-29T21:33:27
 tags: 
   - life
   - weekly/1188
 type: writing
 ---
+
+# 1188-choose-life-rather-working-hard
 
 <iframe src="https://www.youtube.com/embed/UtF6Jej8yb4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=UtF6Jej8yb4' target='_blank' class='external-link'>https://www.youtube.com/watch?v=UtF6Jej8yb4</a></center>

@@ -1,12 +1,16 @@
 ---
 title: 严重似情侣讲分手
 aliases:
+  - 严重似情侣讲分手
   - 失去朋友的滋味堪比失恋
 created: 2024-01-05T11:14:19
-modified: 2025-02-12T20:03:48
-tags: weekly/1169
+modified: 2025-06-29T21:39:59
+tags:
+  - weekly/1169
 type: writing
 ---
+
+# 严重似情侣讲分手
 
 我弄丢了很多朋友。
 

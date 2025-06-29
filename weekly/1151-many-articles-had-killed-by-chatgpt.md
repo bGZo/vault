@@ -1,13 +1,16 @@
 ---
 title: 被 ChatGPT 消解的文章
-aliases: 
+aliases:
+  - 被 ChatGPT 消解的文章
 created: 2023-09-01T11:20:59
-modified: 2025-01-01T11:21:10
+modified: 2025-06-29T21:39:39
 tags:
   - weekly/1151
   - pointless
 type: writing
 ---
+
+# 被 ChatGPT 消解的文章
 
 我的文章、思考，被大模型消解了。每次当我灵感闪过，我会兴奋地把他们记录在自己的 Inbox 里，但我发现这对 ChatGPT 不值一提，当我把这些零碎的思考丢给它之后，往往我的思考、想象和分析也止步于此了。它好像为我提供一个大而全的「标准答案」。而我自然顺从过去二十多年学习的惯性，我认同这一答案。
 

@@ -1,12 +1,14 @@
 ---
 title: Look back to your loved ones
-aliases: 还不是想有人爱
+aliases: [Look back to your loved ones, 还不是想有人爱]
 created: 2022-12-23T11:21:37
-modified: 2025-06-28T16:34:54
+modified: 2025-06-29T21:33:26
 tags: 
   - weekly/1115
 type: writing
 ---
+
+# Look back to your loved ones
 
 Last tonight I read a tweet thread written by SahilBloom, which really sparked me.
 

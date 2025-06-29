@@ -1,14 +1,16 @@
 ---
 title: 我的旧友，我爱你们
-aliases: 
+aliases: [我的旧友，我爱你们]
 created: 2022-05-21T10:58:24
-modified: 2025-01-01T08:48:03
+modified: 2025-06-29T21:33:26
 description: 
 tags:
   - weekly/1085
   - privacy
 type: writing
 ---
+
+# 我的旧友，我爱你们
 
 > 如果你想活得幸福，那就开始感谢和赞美他人吧.🥰
 
@@ -30,7 +32,7 @@ type: writing
 
 ## High School
 
-- 谢谢 同为 Trunk 的 [@lupinsofpetrichor](https://github.com/lupinsofpetrichor) 陪伴我走过整个三年高中课间打水,  如厕，放学回家的蜿蜒小路，那段沉陷 任某 的时间里给予了我很多勇气和情感的支持。寡言但聊起来很幽默，高考那段闭塞的日子一起聊了很多有意思的八卦. 🍻
+- 谢谢 同为 Trunk 的 [@lupinsofpetrichor](https://github.com/lupinsofpetrichor) 陪伴我走过整个三年高中课间打水, 如厕，放学回家的蜿蜒小路，那段沉陷 任某 的时间里给予了我很多勇气和情感的支持。寡言但聊起来很幽默，高考那段闭塞的日子一起聊了很多有意思的八卦. 🍻
   - 王者带飞，游戏带师🤣 现居住在 [Genshin Impact](https://ys.mihoyo.com) 中.
 - 谢谢 网易云 上为我留言的陌生人们 (我爱用女头发矫情文字🤡)
 - 谢谢 某陌生教师 在 图书馆 将她的座位让给站在书架中的我. (PS: 那个留给我的垫子也很舒服)

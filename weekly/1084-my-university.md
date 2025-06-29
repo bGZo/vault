@@ -1,12 +1,15 @@
 ---
 title: 我的大学
 created: 2022-05-21T10:58:24
-modified: 2025-06-28T17:15:57
+modified: 2025-06-29T21:33:26
 tags:
   - weekly/1084
   - privacy
 type: writing
+aliases: [我的大学]
 ---
+
+# 我的大学
 
 21 年 10 月第三个周末看到了 [@february](https://sunhuiquan.github.io/) 的 blog，感慨博主在学校做出如此的成就之外，自己也心血来潮，想赶在表达欲消失之前，简单记录下个人编程，数字，读书相关的经历.
 

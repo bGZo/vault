@@ -1,16 +1,14 @@
 ---
 title: 错误的第二大脑
-aliases: 
+aliases: [错误的第二大脑]
 created: 2024-07-26T12:00:00
-modified: 2024-12-26T08:44:24
+modified: 2025-06-29T21:33:27
 tags: 
   - weekly/1198
 type: writing
 ---
 
-Hello, again. This week is special for me, which is my birthday week, after 8390 days, 1198 weeks and 276 month past, I am 23 years old.
-
-# 第二大脑
+# 错误的第二大脑
 
 这个概念，24 年才写也许已有明日黄花之嫌，但从我个人说起，Logseq 发布后，经 V2ex 推荐之后，就再也没有松手过，我爱这个 All in one 的东西，之前还在大学的时候，了解它的手段只是通过 [[changelog/index|changelog]] 一个版本一个版本地过日志，这是一个了解软件最近发生什么的潘多拉。因为它，我几乎没有看过官方的博客，也几乎没有点开文档中的其他细节。
 
@@ -64,7 +62,7 @@ Hello, again. This week is special for me, which is my birthday week, after 8390
         - 这很费曼：目标主题 => 用自己的语言讲述 => 填补空白 => 简化类比
       - Not classify construct => build a **self-organizing structure**.
         - convert your organizer role to a linker
-        - [ ] #gtd/todo How?  
+        - [ ] #gtd/todo How?
           - template: test
             template-including-parent: yes
             ``{ ref('test/' + c.page.name)}``
@@ -118,7 +116,7 @@ Reddit 有很多人把 Life 和 Work 分开，我自己也觉得 Programming 可
     - **then** some node D has:
       - a connection of type S with node B
       - a connection of type R with node C
-- [ ] #gtd/todo 这里面讨论了一些多边形结构，完全看不懂啊  
+- [ ] #gtd/todo 这里面讨论了一些多边形结构，完全看不懂啊
 
 - **orthogonal** means 完全不相关，但是还是无法理解他说的话
 

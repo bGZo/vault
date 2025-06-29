@@ -1,14 +1,16 @@
 ---
 title: 睡不着的夜和忘不掉的梦
-aliases: 
+aliases: [睡不着的夜和忘不掉的梦]
 created: 2023-03-11T11:11:42
-modified: 2025-03-29T10:14:47
+modified: 2025-06-29T21:33:26
 tags:
   - feminism
   - weekly/1126
   - love/letter
 type: writing
 ---
+
+# 睡不着的夜和忘不掉的梦
 
 ## 几乎是幻想
 

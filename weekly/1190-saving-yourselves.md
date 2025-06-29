@@ -1,13 +1,15 @@
 ---
 title: 自救之职业焦虑
-aliases: 
+aliases: [自救之职业焦虑]
 created: 2024-06-01T12:00:00
-modified: 2024-12-26T08:30:20
+modified: 2025-06-29T21:33:27
 tags: 
   - self-care
   - weekly/1190
 type: writing
 ---
+
+# 自救之职业焦虑
 
 <iframe src="https://www.youtube.com/embed/YJkOxWVn0SU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=YJkOxWVn0SU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=YJkOxWVn0SU</a></center>

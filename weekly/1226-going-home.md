@@ -1,15 +1,18 @@
 ---
 title: 最想考公的时刻
 aliases:
+  - 最想考公的时刻
   - 1226-going-home-with-parents
   - 父母在不远游
 created: 2025-02-08T21:56:35
-modified: 2025-03-01T18:36:29
+modified: 2025-06-29T21:33:27
 tags: weekly/1226
 tags-link:
   - "[[official-system-in-china|考公]]"
 type: writing
 ---
+
+# 最想考公的时刻
 
 每次坐火车回家，在最后一天临走时总是不舍，那一天，我是不能听赵雷的「我记得」的。
 

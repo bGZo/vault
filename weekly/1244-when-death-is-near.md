@@ -1,11 +1,13 @@
 ---
 title: 最近离死亡最近的瞬间
-aliases:
+aliases: [最近离死亡最近的瞬间]
 created: 2025-06-07T10:31:01
-modified: 2025-06-07T10:36:27
+modified: 2025-06-29T21:17:27
 tags: weekly/1244
 type: writing
 ---
+
+# 最近离死亡最近的瞬间
 
 人生有很多次距离死亡最近的时刻，而我最近有一次。
 

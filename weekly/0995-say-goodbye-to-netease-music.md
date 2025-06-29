@@ -1,14 +1,16 @@
 ---
 title: 告别网易云
-aliases: 
+aliases: [告别网易云]
 created: 2020-09-05T11:02:17
-modified: 2025-06-28T16:23:49
+modified: 2025-06-29T21:33:26
 tags:
   - weekly/995
   - love/letter
   - pointless
 type: writing
 ---
+
+# 告别网易云
 
 今天考完试了，过去疫情的日子里很糟糕。
 

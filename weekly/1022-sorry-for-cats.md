@@ -1,13 +1,15 @@
 ---
 title: 猫猫能有什么坏心思呢？
-aliases: 
+aliases: [猫猫能有什么坏心思呢？]
 created: 2021-03-14T10:41:03
-modified: 2025-01-01T10:55:04
+modified: 2025-06-29T21:33:26
 tags:
   - cat
   - weekly/1022
 type: writing
 ---
+
+# 猫猫能有什么坏心思呢？
 
 ## 养猫这档事
 

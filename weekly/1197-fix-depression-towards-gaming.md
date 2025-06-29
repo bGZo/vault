@@ -1,13 +1,15 @@
 ---
-title: 电子阳痿治疗指南
-aliases: 
+title: 自救之职业焦虑
+aliases: [自救之职业焦虑]
 created: 2024-07-20T10:17:40
-modified: 2025-01-16T10:39:09
+modified: 2025-06-29T21:33:27
 tags:  
   - steam
   - weekly/1197
 type: writing
 ---
+
+# 自救之职业焦虑
 
 G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]。
 
@@ -28,7 +30,6 @@ G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]
 <iframe src='https://store.steampowered.com/widget/395170' style='height:200px;width:100%' allow='fullscreen'></iframe>
 
 <iframe src='https://store.steampowered.com/widget/743390' style='height:200px;width:100%' allow='fullscreen'></iframe>
-
 
 这个系列完全是听小黑盒软文买的铜板价游戏，买了玩了一次，只不过第一次下错了，直接从 2 开始玩的，我直接知道了 1 的结局主角选择了堕落黑暗，而 2 的主题开始救赎之旅，我觉得游戏是好游戏，但是我不喜欢每个场景的解密，这让我每个场景都需要去搜攻略，看中文攻略是一件痛苦的事情。在满是广告和不清晰的表达之间，猜测下一步是如何，没有什么比这更糟的体验了。
 
@@ -61,7 +62,6 @@ G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]
 <iframe src='https://store.steampowered.com/widget/420110' style='height:200px;width:100%' allow='fullscreen'></iframe>
 
 <iframe src='https://store.steampowered.com/widget/602520' style='height:200px;width:100%' allow='fullscreen'></iframe>
-
 
 18+ DLC 锁国区，对锁区的游戏有洁癖，表示不会再买。虽然想打补丁提取 CG，同时也想要挂卡回一点血，但考虑开完就会激活第一个成就，并且全成就之后还得快进读玩，还是直接不折腾了。滚吧。
 

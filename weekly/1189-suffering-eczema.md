@@ -1,13 +1,15 @@
 ---
 title: 湿疹复发
-aliases: 
+aliases: [湿疹复发]
 created: 2024-05-25T12:00:00
-modified: 2025-06-28T16:40:24
+modified: 2025-06-29T21:33:27
 tags: 
   - self-healing
   - weekly/1189
 type: writing
 ---
+
+# 湿疹复发
 
 <iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=zABLecsR5UE' target='_blank' class='external-link'>https://www.youtube.com/watch?v=zABLecsR5UE</a></center>

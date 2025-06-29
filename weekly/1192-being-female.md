@@ -1,13 +1,15 @@
 ---
-title: 成为女性
-aliases: 
+title: 自救之职业焦虑
+aliases: [自救之职业焦虑]
 created: 2024-06-15T12:00:00
-modified: 2024-12-26T08:34:14
+modified: 2025-06-29T21:33:27
 tags: 
   - weekly/1192
   - feminism
 type: writing
 ---
+
+# 自救之职业焦虑
 
 <iframe src="https://www.youtube.com/embed/wp43OdtAAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=wp43OdtAAk' target='_blank' class='external-link'>https://www.youtube.com/watch?v=wp43OdtAAk</a></center>

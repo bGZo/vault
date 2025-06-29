@@ -1,15 +1,18 @@
 ---
 title: 人是需要洗脑的
 aliases:
+  - 人是需要洗脑的
   - 1228-life-needs-brainwashing
 created: 2025-02-18T22:06:57
-modified: 2025-02-19T21:44:26
+modified: 2025-06-29T21:33:27
 description: 
 tags:
   - weekly/1228
 tags-link: 
 type: writing
 ---
+
+# 人是需要洗脑的
 
 作为一名身在洼地的社畜，加班是无论如何都避免不了的职场情况。但至少请你相信我，中国人不是傻子，没有任何一位一线工人喜欢每天敲 12 个小时的锣丝，老了被迫滚出城市。
 

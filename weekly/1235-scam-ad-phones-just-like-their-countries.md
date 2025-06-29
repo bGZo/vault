@@ -1,13 +1,15 @@
 ---
 title: 诈骗广告机
-aliases: 
+aliases: [诈骗广告机]
 created: 2025-04-10T21:04:39
-modified: 2025-06-07T10:46:53
+modified: 2025-06-29T21:21:38
 description: 
 tags: weekly/1235
 tags-link: 
 type: writing
 ---
+
+# 诈骗广告机
 
 最近很累。
 

@@ -1,11 +1,14 @@
 ---
 title: Weekly
 aliases:
+  - Weekly
   - 周报
 created: 2025-01-06T09:19:10
-modified: 2025-06-25T23:56:48
+modified: 2025-06-29T21:21:22
 comments: false
 ---
+
+# Weekly
 
 > [!NOTE]
 > 过去几年，我构想过一些周报形式，如果你有兴趣，可以查看 [[changelog/weekly|这里]]
