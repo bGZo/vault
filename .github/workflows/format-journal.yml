@@ -1,0 +1,57 @@
+name: Format journal navigation
+
+on:
+  push:
+    branches: [main]  # 在 main 分支 push 时触发
+  workflow_dispatch:   # 允许手动触发
+
+jobs:
+  process-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch:main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13.2
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .utils/requirements.txt
+
+      - name: Run Script
+        run: |
+          python3 .utils/journal-navigation.py --folder ./journals/2015
+          python3 .utils/journal-navigation.py --folder ./journals/2016
+          python3 .utils/journal-navigation.py --folder ./journals/2017
+          python3 .utils/journal-navigation.py --folder ./journals/2018
+          python3 .utils/journal-navigation.py --folder ./journals/2019
+          python3 .utils/journal-navigation.py --folder ./journals/2020
+          python3 .utils/journal-navigation.py --folder ./journals/2021
+          python3 .utils/journal-navigation.py --folder ./journals/2022
+          python3 .utils/journal-navigation.py --folder ./journals/2023
+          python3 .utils/journal-navigation.py --folder ./journals/2024
+          python3 .utils/journal-navigation.py --folder ./journals/2025
+
+      # 配置 Git
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "im@bgzo.cc"
+
+      # 提交到 release 分支
+      - name: Commit to release
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "style(journal): format automatically"
+            git push
+          else
+            echo "No changes to commit"
+          fi
