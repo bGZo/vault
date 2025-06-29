@@ -129,6 +129,21 @@ def convert_to_traditional(text):
     converter = opencc.OpenCC('s2t')  # s2t: Simplified to Traditional
     return converter.convert(text)
 
+
+def remove_h1_headers(markdown_text):
+    """
+    从Markdown文本中删除所有H1标题（以'# '开头的行）
+    参数:
+        markdown_text (str): 原始Markdown文本
+    返回:
+        str: 删除所有H1标题后的Markdown文本
+    """
+    lines = markdown_text.splitlines()
+    # 过滤掉以'# '开头的行
+    filtered_lines = [line for line in lines if not line.startswith('# ')]
+    # 重新组合为字符串
+    return '\n'.join(filtered_lines)
+
 def process_markdown_file(input_path, file_path, filename, output_dir):
     """
     处理单个Markdown文件
@@ -156,7 +171,8 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
         #     return
         
         # 获取纯内容（不包含front matter）
-        content_without_front_matter = post.content
+        # 删除 H1 标题
+        content_without_front_matter = remove_h1_headers(post.content)
 
         origin_url = BASE_URL + sub_path
         # 处理Obsidian特有的双链语法
