@@ -1,10 +1,7 @@
+import argparse
 import os
 import re
 from datetime import datetime
-
-# 配置参数
-JOURNAL_DIR = '/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/journals/'
-JOURNAL_DIR = JOURNAL_DIR + "2019"  # 日记目录
 
 FILE_EXT = ".md"  # 日记文件扩展名
 NAV_PATTERN = re.compile(  # 导航栏正则模式
@@ -13,11 +10,11 @@ NAV_PATTERN = re.compile(  # 导航栏正则模式
 )
 
 
-def get_valid_journal_entries():
+def get_valid_journal_entries(target_dir):
     """获取所有有效的日记条目（按日期排序）"""
     entries = []
 
-    for filename in os.listdir(JOURNAL_DIR):
+    for filename in os.listdir(target_dir):
         # 去除扩展名并验证基本格式
         basename = os.path.splitext(filename)[0]
         if len(basename) != 8 or not basename.isdigit():
@@ -34,7 +31,7 @@ def get_valid_journal_entries():
     return sorted(entries, key=lambda x: x[1])
 
 
-def process_journals(sorted_entries):
+def process_journals(target_dir, sorted_entries):
     """处理所有日记文件"""
     sorted_files = [entry[0] for entry in sorted_entries]
 
@@ -48,7 +45,7 @@ def process_journals(sorted_entries):
         nav_line = generate_nav_line(prev_file, year, next_file)
 
         # 更新文件内容
-        file_path = os.path.join(JOURNAL_DIR, f"{basename}{FILE_EXT}")
+        file_path = os.path.join(target_dir, f"{basename}{FILE_EXT}")
         update_file_content(file_path, nav_line)
 
 
@@ -89,8 +86,28 @@ def update_file_content(file_path, nav_line):
     except FileNotFoundError:
         print(f"警告：文件 {file_path} 不存在，已跳过")
 
+def main():
+    # 设置命令行参数
+    parser = argparse.ArgumentParser(description='处理日记文件的导航栏')
+    parser.add_argument('--folder', required=True, help='要处理的文件夹路径')
+    args = parser.parse_args()
+
+    # 检查输入文件夹是否存在
+    if not os.path.exists(args.folder):
+        print(f"错误: 输入文件夹 '{args.folder}' 不存在")
+        return
+    if not os.path.isdir(args.folder):
+        print(f"错误: '{args.folder}' 不是一个文件夹")
+        return
+
+    # 配置参数
+    # journal_path = '/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/journals/'
+    # journal_dir = journal_path + "2019"  # 日记目录
+
+    sorted_entries = get_valid_journal_entries(args.folder)
+    process_journals(args.folder, sorted_entries)
+    print(f"成功更新 {len(sorted_entries)} 篇日记的导航栏")
+
 
 if __name__ == "__main__":
-    sorted_entries = get_valid_journal_entries()
-    process_journals(sorted_entries)
-    print(f"成功更新 {len(sorted_entries)} 篇日记的导航栏")
+    main()
