@@ -2,8 +2,8 @@ name: deploy-quartz
 
 on: 
   workflow_dispatch:
-  schedule: # 东八区每天凌晨
-    - cron: '0 16 * * *'
+  schedule: # 东八区每天凌晨1点
+    - cron: '0 17 * * *'
 #  push:
 #   branches:
 #     - main
