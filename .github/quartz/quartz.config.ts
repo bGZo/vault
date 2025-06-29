@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "bGZo's Notes",
+    pageTitle: "~/bGZo/notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       tagId: 'G-GEBG8127FW'
     },
     locale: "en-US",
-    baseUrl: "bgzo.github.io/vault/",
-    ignorePatterns: [".obsidian", "templates", ".git", ".github"],
+    baseUrl: "note.bgzo.cc/",
+    ignorePatterns: [".obsidian", "templates", ".git", ".github", ".utils", ".idea"],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {
@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents({
-        	maxDepth: 5,
+        	maxDepth: 3,
         	minEntries: 1,
         	collapseByDefault: false
       }),
