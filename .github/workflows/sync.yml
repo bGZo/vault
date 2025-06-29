@@ -1,4 +1,4 @@
-name: Sync to publish branch
+name: Sync to publish
 
 on:
   push:

@@ -1,4 +1,6 @@
-name: Format journal navigation
+name: Format document
+
+# 1. journal navigation
 
 on:
   push:
