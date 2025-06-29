@@ -23,3 +23,10 @@ iframe[src*="bilibili"] {
   border-radius: 0.5rem !important;
   box-shadow: var(--tw-shadow) !important;
 }
+
+/**
+ * Fix: Double title wired
+**/
+.article-title {
+  display: none !important;
+}
