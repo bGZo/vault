@@ -27,6 +27,6 @@ iframe[src*="bilibili"] {
 /**
  * Fix: Double title wired
 **/
-// .article-title {
-//   display: none !important;
-// }
+.article-title {
+  display: none !important;
+}
