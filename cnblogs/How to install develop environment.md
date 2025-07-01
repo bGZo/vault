@@ -1,3 +1,4 @@
+
 ## Environment
 
 ### [C++](cpp.md)
@@ -23,7 +24,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java 21.0.2-open
 ```
 
-### [NodeJS](nodejs) using NVM
+### [NodeJS](nodejs) Using NVM
 
 Manage with https://github.com/nvm-sh/nvm
 
