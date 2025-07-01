@@ -1,9 +1,12 @@
 ---
-title: Home
-created: 2024-08-14T12:00:00
-modified: 2025-06-15T01:19:41
+aliases: [Home]
 comments: false
+created: 2024-08-14T12:00:00
+modified: 2025-07-01T21:52:21
+title: Home
 ---
+
+# Home
 
 Welcome my second brain I tried to build with [[obsidian]] & [[jackyzha0-quartz|quartz]]. I used to build with [[logseq-logseq|logseq]] before, but now I [give it up](1218-giving-up-logseq), which is the reason why some part of notes is ugly and wired.[^giving-up-logseq]
 

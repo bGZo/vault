@@ -1,20 +1,21 @@
 ---
-title: How to coding with llm
-aliases: 
+ale: How to coding with llm
+aliases: [How to coding with llm]
 created: 2024-12-28T02:46:31
-modified: 2025-06-28T16:43:13
-description: 
-tags:
-  - llm
+modified: 2025-06-30T23:59:32
+tags: [llm]
+title: How to coding with llm
 type: how-to
 ---
 
-启发于：[Title Unavailable \| Site Unreachable](https://linux.do/t/topic/126077/7)
+# How to coding with llm
+
+启发于: https://linux.do/t/topic/126077/7
 
 <iframe src="https://www.youtube.com/embed/AV_8czoF3PU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=AV_8czoF3PU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=AV_8czoF3PU</a></center>
 
-## Local Server
+## Local Server: ollama
 
 ```shell
 curl -fsSL https://ollama.com/install.sh | sh
@@ -24,19 +25,22 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ```shell
 # via: https://aident.ai/blog/how-to-expose-ollama-service-api-to-network
-sudo systemctl edit ollama.service
+# sudo systemctl edit ollama.service
+sudo vim /etc/systemd/system/ollama.service
 ```
 
 ```shell
 [Service]
+Environment="PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/bgzo/.sdkman/candidates/java/current/bin:/home/bgzo/.nvm/versions/node/v23.3.0/bin:/home/bgzo/demo/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bgzo/.local/bin"
 Environment="OLLAMA_HOST=0.0.0.0"
 ```
 
-Restart
+### Restart
 
 ```shell
-sudo systemctl daemon-reload
-sudo systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+systemctl status ollama
 ```
 
 ## Module
@@ -44,6 +48,7 @@ sudo systemctl restart ollama
 ![](https://x.com/yihong0618/status/1872635893657604391)
 
 ### Deepseek by China
+
 - [deepseek-coder-v2:16b](https://ollama.com/library/deepseek-coder-v2:16b)
 
 ## Extension

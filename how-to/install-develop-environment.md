@@ -1,8 +1,11 @@
 ---
-title: How to install develop environment
+aliases: [How to activate jetbrains, How to install develop environment]
 created: 2024-12-08T09:26:21
-modified: 2025-06-28T17:33:57
+modified: 2025-07-01T21:23:13
+title: How to install develop environment
 ---
+
+# How to install develop environment
 
 ## Environment
 
@@ -32,7 +35,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java 21.0.2-open
 ```
 
-### [NodeJS](nodejs) using NVM
+### [NodeJS](nodejs) Using NVM
 
 Manage with https://github.com/nvm-sh/nvm
 
@@ -88,7 +91,7 @@ source ~/.rvm/scripts/rvm
 rvm install ruby@latest
 ```
 
-## Jetbrains
+## [[jetbrains|Jetbrains]]
 
 ### Activate using `ja-netfilter`
 
