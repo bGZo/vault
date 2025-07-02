@@ -1,15 +1,14 @@
 ---
-title: 在越南买老婆
-aliases:
-  - buy-wife-in-VN
-  - 在越南买老婆
+aliases: [在越南买老婆, buy-wife-in-VN]
 created: 2025-02-06T21:04:18
-modified: 2025-02-06T21:18:06
 description: 
-tags:
-  - draft
+modified: 2025-07-02T22:00:42
+tags: [draft]
+title: 在越南买老婆
 type: writing
 ---
+
+# 在越南买老婆
 
 因为各种各样的原因，我需要一个妻子，但是又因为各种各样的原因，我在中国的婚姻市场没有任何竞争优势，一个看似非常合理的选择就是——去东南亚花钱买一位女性，结婚，为自己提供性服务和陪伴需求，话糙理不糙。
 

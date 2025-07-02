@@ -1,57 +1,24 @@
 ---
-title: closet-app
-description: 衣橱管理APP
-created: 2024-07-21
+aliases: [衣橱管理 APP]
+created: 2024-07-21T00:00:00
+modified: 2025-07-02T22:00:33
+title: 衣橱管理 APP
 type: product
 ---
 
-## Project Meta
-  - \[ ] #gtd/doing #project [[pages/page]]
-  - query-table: false
-    #+BEGIN_QUERY
-    {:title [:h3 "Tasks related to project/closet app"]
-    :query [:find (pull ?b [*])
-       :in $ ?current-page
-       :where
-       [?p :block/name ?current-page]
-       [?b :block/marker ?marker]
-    [?p :block/alias ?al]
-    (or [?b :block/refs ?p] [?b :block/refs ?al])
-    (or
-       [(= "NOW" ?marker)]
-       [(= "DOING" ?marker)]
-       [(= "WAITING" ?marker)]
-       [(= "LATER" ?marker)]
-    )
-    (not [?b :block/page ?p])
-    ]
-    :inputs [:current-page]
-    :result-transform (fn [result]
-                        (sort-by (fn [b]
-                                   (get b :block/priority "Z")) result))
-    :breadcrumb-show? false
-    :table-view? false
-    }
-    #+END_QUERY
-  - query-table: false
-    #+BEGIN_QUERY
-    {:title [:h3 "Checklist"]
-    :query (and (todo todo) (page [[project/closet app]]))
-    :result-transform (fn [result]
-                        (sort-by (fn [b]
-                                   (get b :block/priority "Z")) result))
-    :breadcrumb-show? false
-    :table-view? false
-    }
-    #+END_QUERY
+# 衣橱管理 APP
+
 ## Why
+
+1. 衣服的标签每次都会剪下来丢掉，但是他的洗涤说明又是必不可少的；
+2. 衣服有很多，希望能预览穿搭，提供建议；
+
 ## How
+
 ## What
-### \# Program Description
-#### Input
-#### Output
-### \# Alternatives
-    - Logseq => 可以做成 Block，然后通过查询形成表格
-### \# Notes
+
+## Alternatives
+
+Logseq => 可以做成 Block，然后通过查询形成表格
+
 ## Reference
--

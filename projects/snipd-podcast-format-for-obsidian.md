@@ -1,25 +1,24 @@
 ---
-title: snipd-podcast-format-for-obsidian
-aliases:
-  - snipd-podcast-format-for-obsidian
+aliases: [Snipd snips linter for obsidian, snipd-podcast-format-for-obsidian]
 created: 2025-02-16T16:11:54
-modified: 2025-02-22T14:06:55
 description: https://www.snipd.com/
+modified: 2025-07-02T21:12:46
 source: https://github.com/bGZo/snipd-podcast-format-for-obsidian
-tags:
-  - github/star
+tags: [github/star]
 tags-link: 
+title: Snipd snips linter for obsidian
 type: project
 ---
+
+# Snipd snips linter for obsidian
 
 > [!NOTE]
 > This is a very early version, if something help, I would maintain it.
 
-## Repo Meta
-
 ![](https://img.shields.io/github/stars/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/snipd-podcast-format-for-obsidian?style=for-the-badge&label=since)
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=snipd-podcast-format-for-obsidian&bg_color=00000000)](https://github.com/bGZo/snipd-podcast-format-for-obsidian/)
+
 ## Why
 
 Snipd export all snips to a singal file by default. And they cannot be queried by obsidian. That's okey when you just only have severals snips. But after two years usage, I have more than 3,000 snips on platform.
@@ -59,12 +58,9 @@ poetry install
 poetry run snipd snipd-export.md -o /path/you/want/export
 ```
 
-
 ## References
 
 - https://www.youtube.com/watch?v=FWacanslfFM
-- 
 
 <iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
-

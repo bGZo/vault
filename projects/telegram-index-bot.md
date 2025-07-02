@@ -1,17 +1,26 @@
 ---
-aliases:
-  - 项目
+aliases: ["# 调研", "## 调研", 项目, Telegram Index bot]
 created: 2023-06-23T12:00:00
 description: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
-template: project
-modified: 2024-12-28T10:14:43
+modified: 2025-07-02T21:42:54
+tags: [gtd/investigate]
+title: Telegram Index bot
+type: project
 ---
 
-## 调研
+# Telegram Index bot
 
-我发现这个问题去年就有人提出了，实际上，以目前机器人有的 API，除非添加机器人为管理员，否则无法自由访问频道信息。
+## Why
 
-- [python - How to get last message id from Telegram Channel? - Stack Overflow](https://stackoverflow.com/questions/75516182/how-to-get-last-message-id-from-telegram-channel)
+Telegram 频道消息是用数字命名的，所以只要知道最新一条消息的 ID1，以及上次消息的 ID2，两者 ID2-ID1 就是这段时间更新的消息，只需要将消息输出到聊天窗口，利用 Preview 功能即可实现 All in One 的设计。
+
+而这个问题去年就有人提出了：
+
+<iframe src='https://stackoverflow.com/questions/75516182/how-to-get-last-message-id-from-telegram-channel' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://stackoverflow.com/questions/75516182/how-to-get-last-message-id-from-telegram-channel' target='_blank' class='external-link'>https://stackoverflow.com/questions/75516182/how-to-get-last-message-id-from-telegram-channel</a></center>
+
+实际上，以目前机器人有的 API，除非添加机器人为管理员，否则无法自由访问频道信息。
+
 - https://core.telegram.org/bots/api
 - https://core.telegram.org/bots/api#message
 - https://core.telegram.org/bots/samples

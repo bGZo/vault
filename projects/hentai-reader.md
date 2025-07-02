@@ -1,24 +1,17 @@
 ---
+aliases: [Hentai Daily]
 created: 2023-06-14T00:00:00
 description: 变态阅读器
-tags:
-  - rss
-  - github
-  - action
-  - crawler
-  - hentai
-  - python
-  - jekyll
-  - tailwind
-  - javascript
+modified: 2025-07-02T21:15:43
+tags: [action, crawler, github, hentai, javascript, jekyll, python, rss, tailwind]
+title: Hentai Daily
 type: product
-modified: 2025-02-16T14:27:41
 ---
+
+# Hentai Daily
 
 > [!warning]
 > ⚠️ NSFW 警告：本篇文章可能包含暴力，性描写等仅供 18 岁以上阅览的内容。
-
-## Repo Meta
 
 ![](https://img.shields.io/github/stars/bGZo/hentai?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/hentai?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/hentai?style=for-the-badge&label=since)
 
@@ -43,6 +36,7 @@ modified: 2025-02-16T14:27:41
 ## How
 
 ### Vercel host via https://hentai.bgzo.cc
+
 ### Source via: https://github.com/bGZo/hentai
 
 ## What
@@ -75,7 +69,7 @@ modified: 2025-02-16T14:27:41
 
 比如以下图片，你无法把它嵌入到你的博客，却能正常通过鼠标右键新建标签页打开浏览。
 
-```
+```shell
 https://img.reimu.net/uploads/2023/06/6499957d1a902.png
 ```
 
@@ -134,7 +128,7 @@ Considered the risk of copyright, I should not build any mirror site for busines
 - [[tailwindcss]]
     - [Tailwind CSS Tooltip - Free Examples & Tutorial (tailwind-elements.com)](https://tailwind-elements.com/docs/standard/components/tooltip/)
 - [[html]] [[pages/css|css]]
-    - [七种CSS方式让一个容器水平垂直居中_css相对容器居中_](https://blog.csdn.net/u013063153/article/details/52572489) 
+    - [七种CSS方式让一个容器水平垂直居中_css相对容器居中_](https://blog.csdn.net/u013063153/article/details/52572489)
     - [How do I create an HTML button that acts like a link? - Stack Overflow](https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link)
     - [A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [[javascript]]
@@ -157,7 +151,7 @@ Considered the risk of copyright, I should not build any mirror site for busines
 
 ### PY 开始提醒强制使用 VENV
 
-```
+```shell
     If you wish to install a non-Debian-packaged Python package,
     create a virtual environment using python3 -m venv path/to/venv.
     Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make

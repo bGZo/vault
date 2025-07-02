@@ -1,25 +1,24 @@
 ---
-title: "bGZo/telegram-message-sync-bot"
-aliases: "telegram-message-sync-bot"
+aliases: [Telegram Message Archive bot, telegram-message-sync-bot]
 created: 2025-03-01T17:05:03
-modified: 2025-03-01T17:47:57
-description: "a telegram bot for archive messages"
-source: "https://github.com/bGZo/telegram-message-sync-bot"
-tags:
-  - "github/star"
-tags-link:
-type: "repo"
+modified: 2025-07-02T21:39:10
+source: https://github.com/bGZo/telegram-message-sync-bot
+tags: [github/star]
+title: Telegram Message Archive bot
+type: project
 ---
 
-## Repo Meta
+# Telegram Message Archive bot
 
 ![](https://img.shields.io/github/stars/bGZo/telegram-message-sync-bot?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/telegram-message-sync-bot?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/telegram-message-sync-bot?style=for-the-badge&label=since)
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=telegram-message-sync-bot&bg_color=00000000)](https://github.com/bGZo/telegram-message-sync-bot)
 
+a telegram bot for archive messages
+
 ## Why
 
-过去用 [[logseq-logseq]] 一直搭配用一款插件 — [logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin)，用于摘取 TG 上转发的内容。说不上好用 [^not-usefiul]，后来我自己 Fork 了 [一份](https://github.com/bGZo/logseq-inbox-telegram-plugin/releases)，对主要特性修改了一些，即使仍然缺乏对超链接的支持，但也顺手了很多。
+过去用 [[logseq-logseq|Logseq]] 一直搭配用一款插件 — [logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin)，用于摘取 TG 上转发的内容。说不上好用 [^not-usefiul]，后来我自己 Fork 了 [一份](https://github.com/bGZo/logseq-inbox-telegram-plugin/releases)，对主要特性修改了一些，即使仍然缺乏对超链接的支持，但也顺手了很多。
 
 可是问题仍然存在，为了在小主机上运行这个服务，必须后台同时跑一个 Logseq，要知道，Electron 可不是什么好东西。加上小主机默认没有屏幕，在启动这类 GUI 软件的时候，必须添加 `DISPLAY` 环境变量，如下：
 
@@ -92,19 +91,16 @@ systenctl enable tg@bgzo
 
 ## Features
 
-
 ### 后台运行
 
 1. NOHUB 运行
 2. SYSTEMCTL 运行
-
 
 ### 内容替换
 
 替换范围
 
 - 标签，不要污染我的数字花园
-
 
 - [x] 状态检测
 - [x] 后台运行
@@ -126,6 +122,5 @@ systenctl enable tg@bgzo
 
 - [[commandline|命令行支持]]: https://github.com/spf13/cobra
 - 语言实现：[[golang]]
-- 
 
 [^not-usefiul]: 无法格式化文字超链接，无法读取图片的字幕，结合 logseq 的 API 的特性，插件一直无法对含 `tg@username` 的消息进行处理，并且无法转发频道的信息，必须是经过认证人的消息才会被存档。

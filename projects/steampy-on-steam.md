@@ -1,16 +1,15 @@
 ---
-title: steamPY-on-steam
-aliases:
-  - steamPY-on-steam
+aliases: [SteamPY on Steam, steamPY-on-steam]
 created: 2025-02-22T09:26:24
 deadline: 2025-02-22T09:26:24
-modified: 2025-03-01T17:09:22
 description: 
-tags: 
+modified: 2025-07-02T21:43:12
+tags: []
+title: SteamPY on Steam
 type: project
 ---
 
-## Gist Meta
+# SteamPY on Steam
 
 [![](https://github-readme-stats.vercel.app/api/gist?id=6274ba9e9413e9668703028600683237&bg_color=00000000)](https://gist.github.com/bGZo/6274ba9e9413e9668703028600683237)
 

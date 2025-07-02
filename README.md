@@ -1,7 +1,3 @@
----
-created: 2025-06-05T21:33:41
-modified: 2025-07-01T21:52:58
----
 👋 Hello there.
 
 My name is Fenghua, using `bGZo` as nickname on Internet.

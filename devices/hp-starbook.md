@@ -34,7 +34,7 @@ wikipedia:
 ### [[windows]] 调教
 
 - [x] [[~为什么 windows 是用 c 语言编写的，却默认对文件大小写不敏感]]
-- [x] #gtd/todo [Windows 开启 Hibernate](https://zhuanlan.zhihu.com/p/527318720)
+- [x] [Windows 开启 Hibernate](https://zhuanlan.zhihu.com/p/527318720)
     - 今天去银行柜台休息区，终于遇到 7840H 睡死的 BUG，所以还是很后悔着急买了这个中国特供芯片的笔记本。看起来短时间不能让他休眠了，Hibernate 会更加合适一些。
     - 睡死的 BUG 的原因？
 
