@@ -25,8 +25,8 @@ iframe[src*="bilibili"] {
 }
 
 /**
- * Fix: Double title wired
+ * Fix: Three titles are wired.
 **/
-.article-title {
+h1 , .article-title {
   display: none !important;
 }
