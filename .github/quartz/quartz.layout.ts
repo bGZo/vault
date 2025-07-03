@@ -22,9 +22,10 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      "Source": "https://github.com/bGZo/vault/",
-      "RSS": "https://bgzo.github.io/vault/index.xml",
-      "Telegram": "https://t.me/imbGZo",
+      "About": "/about",
+      "GitHub": "https://github.com/bGZo/vault/",
+      "Subscribe": "https://bgzo.github.io/vault/index.xml",
+      "Licenced under CC-BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
     },
   }),
 }

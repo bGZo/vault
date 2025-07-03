@@ -1,7 +1,11 @@
 ---
+aliases: [My category philosophy]
 created: 2025-03-30T09:01:49
-modified: 2025-06-15T01:21:20
+modified: 2025-07-03T21:41:57
+title: My category philosophy
 ---
+
+# My category philosophy
 
 ## Why choose work & life classify?
 
@@ -13,7 +17,7 @@ The hard truth is, we're spending the most time of life to work.[^as-non-work-fl
 
 Considered working business, the part of working should not be open-source, they deserved a private repository.
 
-Then you should take care avoiding the [wrong second brain](1198-wrong-second-brain), because notes should not be your trash inbox, which always make your system growing up, with high entropy increases, until they being a black hole.
+Then you should take care avoiding the [[1198-wrong-second-brain|wrong second brain]], because notes should not be your trash inbox, which always make your system growing up, with high entropy increases, until they being a black hole.
 
 So dealing problem with project is the main subject for this notes, which should have a certain deadline.
 

@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "note.bgzo.cc/",
-    ignorePatterns: [".obsidian", "templates", ".git", ".github", ".utils", ".idea"],
+    ignorePatterns: [".obsidian", ".git", ".github", ".utils", ".idea", "templates", "dashboard"],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {
