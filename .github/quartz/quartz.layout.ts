@@ -25,7 +25,7 @@ export const sharedPageComponents: SharedLayout = {
       "About": "/about",
       "GitHub": "https://github.com/bGZo/vault/",
       "Subscribe": "https://bgzo.github.io/vault/index.xml",
-      "Licenced under CC-BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "CC-BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
     },
   }),
 }

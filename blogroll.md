@@ -1,9 +1,11 @@
 ---
-aliases:
-  - 友情链接
-created: 2024-12-15T12:21:46
-modified: 2025-04-03T21:11:22
+aliases: [友情链接]
+created: 2024-12-15T12:00:00
+modified: 2025-07-03T22:43:47
+title: 友情链接
 ---
+
+# 友情链接
 
 ## Indiviual Blog
 
@@ -22,6 +24,7 @@ https://github.com/ellie/notes
 ## Notion
 
 ### https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8 ![](https://img.shields.io/website?url=https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8&style=for-the-badge&label=)
+
 ### https://www.notion.so/Notion-df27d6e217584b0aa0fa2c0ea3f504b5 ![](https://img.shields.io/website?url=https://www.notion.so/Notion-df27d6e217584b0aa0fa2c0ea3f504b5&style=for-the-badge&label=)
 
 ### https://jerryw.cn ![](https://img.shields.io/website?url=https://jerryw.cn&style=for-the-badge&label=)
@@ -31,6 +34,7 @@ https://github.com/ellie/notes
 ### https://www.notion.so/Ludwig-faeaabbf01394a33bfa5638a9a37f74a ![](https://img.shields.io/website?url=https://www.notion.so/Ludwig-faeaabbf01394a33bfa5638a9a37f74a&style=for-the-badge&label=)
 
 ### https://www.notion.so/efdedb1093264e03b37c9deab3b8b056 ![](https://img.shields.io/website?url=https://www.notion.so/efdedb1093264e03b37c9deab3b8b056&style=for-the-badge&label=)
+
 ### https://sparkly-tarantula-a64.notion.site/c48509ee56e545f68a994042240891b6 ![](https://img.shields.io/website?url=https://sparkly-tarantula-a64.notion.site/c48509ee56e545f68a994042240891b6&style=for-the-badge&label=)
 
 ### https://luhmann-logseq.notion.site/Luhmann-s-Logseq-Dashboard-ed458b8374e74a278fc1fa3eb35e2efe ![](https://img.shields.io/website?url=https://luhmann-logseq.notion.site/Luhmann-s-Logseq-Dashboard-ed458b8374e74a278fc1fa3eb35e2efe&style=for-the-badge&label=)
