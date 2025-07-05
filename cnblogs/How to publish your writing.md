@@ -1,3 +1,4 @@
+
 ## Traditional platform
 
 1. https://www.blogger.com
@@ -25,23 +26,24 @@
 ## Open source / [Static web page](https://en.wikipedia.org/wiki/Static_web_page) + Github
 
 1. https://obsidian.md + quartz
-2. hexo
-3. logseq
-4. hugo
-5. gitbook
-6. vuepress
+2. fuwari
+3. hexo
+4. logseq
+5. hugo
+6. gitbook
+7. vuepress
     1. 集成了 Google Analytics，以及基於 Git 的「最後更新時間」功能
-7. vitepress
-8. mkdocs
-9. gitlab
-10. sphinx
-11. docsite
-12. wiki
-13. showdoc
-14. vimwiki
-15. https://wikidpad.sourceforge.net/
-16. https://zim-wiki.org
-17. https://asciidoc.org
+8. vitepress
+9. mkdocs
+10. gitlab
+11. sphinx
+12. docsite
+13. wiki
+14. showdoc
+15. vimwiki
+16. https://wikidpad.sourceforge.net/
+17. https://zim-wiki.org
+18. https://asciidoc.org
 
 ## Apple notes to blog
 
