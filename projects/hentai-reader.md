@@ -1,14 +1,26 @@
 ---
-aliases: [Hentai Daily]
+aliases:
+  - Hentai Daily
 created: 2023-06-14T00:00:00
-description: 变态阅读器
-modified: 2025-07-02T21:15:43
-tags: [action, crawler, github, hentai, javascript, jekyll, python, rss, tailwind]
+modified: 2025-07-05T14:04:16
+tags:
+  - action
+  - crawler
+  - github
+  - gtd/doing
+  - hentai
+  - javascript
+  - jekyll
+  - python
+  - rss
+  - tailwind
 title: Hentai Daily
 type: product
 ---
 
 # Hentai Daily
+
+变态阅读器
 
 > [!warning]
 > ⚠️ NSFW 警告：本篇文章可能包含暴力，性描写等仅供 18 岁以上阅览的内容。

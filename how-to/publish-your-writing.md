@@ -1,11 +1,12 @@
 ---
-title: How to publish your writing
-aliases:
-  - How to publish your writing
+aliases: [How to publish your writing]
 created: 2025-06-03T22:50:04
-modified: 2025-06-08T00:51:39
+modified: 2025-07-04T23:08:40
+title: How to publish your writing
 type: how-to
 ---
+
+# How to publish your writing
 
 ## Traditional platform
 
@@ -34,23 +35,24 @@ type: how-to
 ## Open source / [Static web page](https://en.wikipedia.org/wiki/Static_web_page) + Github
 
 1. https://obsidian.md + [[jackyzha0-quartz|quartz]]
-2. [[hexojs-hexo|hexo]]
-3. [[logseq-logseq|logseq]]
-4. [[gohugoio-hugo|hugo]]
-5. [[GitbookIO-gitbook|gitbook]]
-6. [[vuejs-vuepress|vuepress]]
+2. [[saicaca-fuwari|fuwari]]
+3. [[hexojs-hexo|hexo]]
+4. [[logseq-logseq|logseq]]
+5. [[gohugoio-hugo|hugo]]
+6. [[GitbookIO-gitbook|gitbook]]
+7. [[vuejs-vuepress|vuepress]]
     1. 集成了 Google Analytics，以及基于 Git 的「最后更新时间」功能
-7. [[vuejs-vitepress|vitepress]]
-8. [[mkdocs-mkdocs|mkdocs]]
-9. [[NARKOZ-gitlab|gitlab]]
-10. [[sphinx-doc-sphinx|sphinx]]
-11. [[purple-force-docsite|docsite]]
-12. [[Requarks-wiki|wiki]]
-13. [[star7th-showdoc|showdoc]]
-14. [[vimwiki-vimwiki|vimwiki]]
-15. https://wikidpad.sourceforge.net/
-16. https://zim-wiki.org
-17. https://asciidoc.org
+8. [[vuejs-vitepress|vitepress]]
+9. [[mkdocs-mkdocs|mkdocs]]
+10. [[NARKOZ-gitlab|gitlab]]
+11. [[sphinx-doc-sphinx|sphinx]]
+12. [[purple-force-docsite|docsite]]
+13. [[Requarks-wiki|wiki]]
+14. [[star7th-showdoc|showdoc]]
+15. [[vimwiki-vimwiki|vimwiki]]
+16. https://wikidpad.sourceforge.net/
+17. https://zim-wiki.org
+18. https://asciidoc.org
 
 ## Apple notes to blog
 

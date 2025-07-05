@@ -1,10 +1,12 @@
 ---
-aliases: [不存在的页面]
-created: 2024-08-01T00:00:00
-description: 
-modified: 2025-07-02T22:14:52
+aliases:
+  - 不存在的页面
+created: 2024-08-01
+modified: 2025-07-02T22:14
 title: 不存在的页面
 type: product/done
+tags:
+  - gtd/done
 ---
 
 # 不存在的页面

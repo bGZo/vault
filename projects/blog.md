@@ -1,8 +1,11 @@
 ---
-aliases: [Blog]
-created: 2024-07-20T00:00:00
-modified: 2025-07-02T23:03:29
+aliases:
+  - Blog
+created: 2024-07-20
+modified: 2025-07-02T23:03
 title: Blog
+tags:
+  - gtd/doing
 ---
 
 # Blog

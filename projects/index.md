@@ -1,14 +1,19 @@
 ---
 aliase: Projects
-aliases: [项目, Projects]
+aliases:
+  - 项目
+  - Projects
 comments: false
-created: 2023-06-23T16:03:33
-description: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
-modified: 2025-07-02T23:01:47
+created: 2023-06-23T16:00:00
+modified: 2025-07-05T14:04:27
+tags:
+  - gtd/todo
 title: Projects
 ---
 
 # Projects
+
+any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 
 > [!NOTE]
 > 好的想法负责想象另一个可能，

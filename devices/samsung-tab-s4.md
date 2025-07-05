@@ -2,7 +2,7 @@
 title: 三星 Tab S4
 aliases:
   - 三星 Tab S4
-cover: 
+cover:
 created: 2021-05-06T13:24:59
 modified: 2025-03-22T13:39:16
 description: 转让给了老姐

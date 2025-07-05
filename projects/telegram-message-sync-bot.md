@@ -1,11 +1,15 @@
 ---
-aliases: [Telegram Message Archive bot, telegram-message-sync-bot]
-created: 2025-03-01T17:05:03
-modified: 2025-07-02T21:39:10
+aliases:
+  - Telegram Message Archive bot
+  - telegram-message-sync-bot
+created: 2025-03-01T17:05
+modified: 2025-07-02T21:39
 source: https://github.com/bGZo/telegram-message-sync-bot
-tags: [github/star]
 title: Telegram Message Archive bot
 type: project
+tags:
+  - gtd/doing
+deadline: 2025-07-31T14:01
 ---
 
 # Telegram Message Archive bot

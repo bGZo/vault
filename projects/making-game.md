@@ -1,11 +1,12 @@
 ---
-aliases: [做游戏]
+aliases:
+  - 做游戏
 created: 2024-08-01T00:00:00
-description: 
 modified: 2025-07-02T21:54:13
-tags: [gtd/wait]
 title: 做游戏
 type: project
+tags:
+  - gtd/wait
 ---
 
 # 做游戏

@@ -1,18 +1,18 @@
 ---
-aliases:
-  - 黑曜石
-created: 2024-12-14T11:52:18
-modified: 2025-04-07T20:19:40
+aliases: [Obsidian, 黑曜石]
 changelog: https://obsidian.md/changelog
+created: 2024-12-14T11:52:18
 description: Obsidian is the private and flexible writing app that adapts to the way you think.
 document: https://help.obsidian.md
+modified: 2025-07-05T23:08:17
 status:
   - tool/star
-tags:
-  - close-source
-  - electron
+tags: [close-source, electron]
+title: Obsidian
 type: tool
 ---
+
+# Obsidian
 
 ## Why: [[1218-giving-up-logseq]]
 
@@ -46,7 +46,7 @@ The **ribbon** functions as a container for frequently used action icons.
 
 #### Callout
 
-```
+```shell
 > [!note] note
 > > [!tldr] abstract / summary / tldr
 > > > [!info] info
@@ -97,7 +97,7 @@ Hosted on `publish.obsidian.md/your-site` build-in with $10/month pricing.
 
 Alternatives: [[jackyzha0-quartz|quartz]]
 
-## web-clipper
+## Web-clipper
 
 ![[obsidianmd-obsidian-clipper#Template 1f4ed6]]
 

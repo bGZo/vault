@@ -2,12 +2,12 @@
 title: Xiaohongshu Export to obsidian
 aliases:
   - xiaohongshu-export-to-obsidian
-created: 2025-03-23T13:38:02
-deadline: 2025-03-23T13:38:02
-modified: 2025-03-23T22:49:49
-description: 
-tags: 
+created: 2025-03-23T13:38
+deadline: 2025-03-23T13:38
+modified: 2025-03-23T22:49
 type: project
+tags:
+  - gtd/todo
 ---
 
 ## Why

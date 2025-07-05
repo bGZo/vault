@@ -1,8 +1,11 @@
 ---
-aliases: [Your first X]
-created: 2025-03-23T13:44:37
-modified: 2025-07-02T21:32:30
+aliases:
+  - Your first X
+created: 2025-03-23T13:44
+modified: 2025-07-02T21:32
 title: Your first X
+tags:
+  - gtd/doing
 ---
 
 # Your first X

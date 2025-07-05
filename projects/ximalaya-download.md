@@ -5,12 +5,11 @@ aliases:
   - ximalaya-download
 created: 2025-04-04T16:38:20
 deadline: 2025-04-04T16:38:20
-description: 
 modified: 2025-07-02T21:35:40
-tags:
-  - gtd/doing
 title: Ximalaya Voice Download
 type: project
+tags:
+  - gtd/doing
 ---
 
 # Ximalaya Voice Download

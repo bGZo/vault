@@ -1,14 +1,20 @@
 ---
-aliases: ["# 调研", "## 调研", 项目, Telegram Index bot]
+aliases:
+  - "# 调研"
+  - "## 调研"
+  - 项目
+  - Telegram Index bot
 created: 2023-06-23T12:00:00
-description: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
-modified: 2025-07-02T21:42:54
-tags: [gtd/investigate]
+modified: 2025-07-05T14:03:57
+tags:
+  - gtd/todo
 title: Telegram Index bot
 type: project
 ---
 
 # Telegram Index bot
+
+any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 
 ## Why
 

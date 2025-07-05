@@ -1,9 +1,12 @@
 ---
-aliases: [衣橱管理 APP]
-created: 2024-07-21T00:00:00
-modified: 2025-07-02T22:00:33
+aliases:
+  - 衣橱管理 APP
+created: 2024-07-21
+modified: 2025-07-02T22:00
 title: 衣橱管理 APP
 type: product
+tags:
+  - gtd/todo
 ---
 
 # 衣橱管理 APP

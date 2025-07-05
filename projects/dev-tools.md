@@ -1,12 +1,13 @@
 ---
-aliases: [Dev tools, dev-utils-online]
-created: 2025-02-16T14:36:04
-deadline: 2025-03-30T11:09:49
-modified: 2025-07-02T23:09:37
-status: 
-tags: []
+aliases:
+  - Dev tools
+created: 2025-02-16T14:36
+deadline: 2025-03-30T11:09
+modified: 2025-07-02T23:09
 title: Dev tools
 type: tool
+tags:
+  - gtd/todo
 ---
 
 # Dev tools

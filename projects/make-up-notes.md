@@ -1,12 +1,14 @@
 ---
-aliases: [整理笔记, make-up-notes]
+aliases:
+  - 整理笔记
+  - make-up-notes
 created: 2025-04-04T11:44:57
 deadline: 2026-04-04T11:44:57
-description: 
 modified: 2025-07-02T21:54:53
-tags: [gtd/doing]
 title: 整理笔记
 type: project
+tags:
+  - gtd/doing
 ---
 
 # 整理笔记

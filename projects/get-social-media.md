@@ -4,13 +4,13 @@ aliases:
   - Get Social Media
 created: 2022-12-31T00:00:00
 modified: 2025-07-02T21:56:33
+title: Get Social Media
+type: product/done
 tags:
   - gtd/doing
   - mastodon
   - project
   - twitter
-title: Get Social Media
-type: product/done
 ---
 
 # Get Social Media

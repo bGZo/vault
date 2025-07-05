@@ -15,6 +15,7 @@ cssclasses:
 >
 > https://bgm.tv/character/780
 
+
 ```dataview
 table
 	( "![](" + cover +")" ) as Cover,

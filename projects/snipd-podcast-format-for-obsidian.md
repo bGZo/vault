@@ -1,13 +1,15 @@
 ---
-aliases: [Snipd snips linter for obsidian, snipd-podcast-format-for-obsidian]
-created: 2025-02-16T16:11:54
-description: https://www.snipd.com/
-modified: 2025-07-02T21:12:46
+aliases:
+  - Snipd snips linter for obsidian
+  - snipd-podcast-format-for-obsidian
+created: 2025-02-16T16:11
+modified: 2025-07-02T21:12
 source: https://github.com/bGZo/snipd-podcast-format-for-obsidian
-tags: [github/star]
-tags-link: 
+tags-link:
 title: Snipd snips linter for obsidian
 type: project
+tags:
+  - gtd/done
 ---
 
 # Snipd snips linter for obsidian

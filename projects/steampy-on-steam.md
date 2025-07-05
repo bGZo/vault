@@ -1,12 +1,14 @@
 ---
-aliases: [SteamPY on Steam, steamPY-on-steam]
-created: 2025-02-22T09:26:24
-deadline: 2025-02-22T09:26:24
-description: 
-modified: 2025-07-02T21:43:12
-tags: []
+aliases:
+  - SteamPY on Steam
+  - steamPY-on-steam
+created: 2025-02-22T09:26
+deadline: 2025-02-22T09:26
+modified: 2025-07-02T21:43
 title: SteamPY on Steam
 type: project
+tags:
+  - gtd/done
 ---
 
 # SteamPY on Steam

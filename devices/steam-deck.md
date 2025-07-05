@@ -6,12 +6,12 @@ aliases:
 cover: https://upload.wikimedia.org/wikipedia/commons/5/5d/Steam_Deck_%28front%29.png
 created: 2023-06-24T12:00:00
 modified: 2025-03-22T15:10:12
-description: 
+description:
 cpu: AMD Zen 2 w/ 4-cores/8-threads, variable frequency @ 2.4 – 3.5 GHz
 gpu: AMD RDNA 2 w/ 8x CUs, variable frequency @ 1.0 – 1.6 GHz (Up to 1.6 TFLOPS FP32)
 ram: 16 GB LPDDR5 @ 5500 MT/s over 4x 32-bit memory channels = 88GB/s total bandwidth
 ssd: 512G
-hdd: 
+hdd:
 price: 4800
 tags:
   - consume/using

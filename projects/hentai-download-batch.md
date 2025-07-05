@@ -1,12 +1,14 @@
 ---
-aliases: [Hentai-download-batch, hentai-download-batch]
-created: 2025-04-05T11:14:48
-deadline: 2025-04-05T11:14:48
-description: 
-modified: 2025-07-02T21:16:55
-tags: []
+aliases:
+  - Hentai-download-batch
+  - hentai-download-batch
+created: 2025-04-05T11:14
+deadline: 2025-04-05T11:14
+modified: 2025-07-02T21:16
 title: Hentai-download-batch
 type: project
+tags:
+  - gtd/todo
 ---
 
 # Hentai download batch

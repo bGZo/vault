@@ -1,11 +1,13 @@
 ---
-aliases: [Steam Price Badge]
+aliases:
+  - Steam Price Badge
 created: 2023-07-05T00:00:00
 mark: 使用 iframe 嵌入页面更加简单；
 modified: 2025-07-02T21:49:20
-tags: [gtd/canceled]
 title: Steam Price Badge
 type: project
+tags:
+  - gtd/canceled
 ---
 
 # Steam Price Badge

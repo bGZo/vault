@@ -1,19 +1,26 @@
 ---
-aliases: [华润万家, 润]
+aliases:
+  - 华润万家
+  - 润
 created: 2024-07-21T00:00:00
-deadline: 20340721
-description: 长期目标：**小润出省，大润出国**
-modified: 2025-07-02T21:52:54
-tags: [migrant]
+deadline: 2034-07-21T13:38
+modified: 2025-07-05T14:03:38
+tags:
+  - gtd/doing
+  - migrant
 title: 华润万家
 type: project
 ---
 
 # 华润万家
 
+长期目标：**小润出省，大润出国**
+
 ## Why
 
 ## How
+
+2034-07-21
 
 ## What
 

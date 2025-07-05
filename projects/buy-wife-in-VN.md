@@ -1,11 +1,12 @@
 ---
-aliases: [在越南买老婆, buy-wife-in-VN]
-created: 2025-02-06T21:04:18
-description: 
-modified: 2025-07-02T22:00:42
-tags: [draft]
+aliases:
+  - 在越南买老婆
+created: 2025-02-06T21:04
+modified: 2025-07-02T22:00
 title: 在越南买老婆
 type: writing
+tags:
+  - gtd/todo
 ---
 
 # 在越南买老婆
