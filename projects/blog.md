@@ -64,4 +64,15 @@ Then My blog is like Following:
 - [ ] #gtd/canceled/no-energy Add telegram article preview
 - [ ] #gtd/canceled/no-energy Fix twitter card image preview
 
+
+
+
 ## What
+
+### Next Gen with [[nuxt-nuxt|nuxt]]
+
+Target website:
+
+<iframe src='https://canvas.hrcd.fr/en' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://canvas.hrcd.fr/en' target='_blank' class='external-link'>https://canvas.hrcd.fr/en</a></center>
+

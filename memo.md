@@ -18,3 +18,9 @@ rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram
 ```shell
 rsync -avz --progress --delete bgzo@192.168.31.238:"/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/clippers/telegram/person/" /home/bgzo/workspaces/telegram-message-sync/archives/person/
 ```
+
+## Push Vault
+
+```shell
+cd clippers && git push origin main && cd - && git push origin main && cd .obsidian && git push origin main && cd -
+```

@@ -6,8 +6,7 @@ aliases:
 comments: false
 created: 2023-06-23T16:00:00
 modified: 2025-07-05T14:04:27
-tags:
-  - gtd/todo
+tags: []
 title: Projects
 ---
 
