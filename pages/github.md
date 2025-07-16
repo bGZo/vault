@@ -1,7 +1,13 @@
 ---
+aliases:
+  - Github
+  - GitHub
 created: 2024-12-08T09:26:22
-modified: 2025-06-28T14:44:49
+modified: 2025-07-13T18:44:10
+title: GitHub
 ---
+
+# GitHub
 
 > [!NOTE]
 >
@@ -28,6 +34,7 @@ modified: 2025-06-28T14:44:49
 ![](https://img.shields.io/github/created-at/IceWhaleTech/CasaOS?style=for-the-badge&label=since)
 
 ## [[markdown|Markdown]]
+
 ### Callout Support
 
 via: https://github.com/orgs/community/discussions/16925
@@ -51,3 +58,12 @@ via: https://github.com/orgs/community/discussions/16925
 
 - Fork somebody repo cannot change to private?
     - [What security issue is caused by changing the visibility of a fork on Github? - Stack Overflow](https://stackoverflow.com/questions/71446341/what-security-issue-is-caused-by-changing-the-visibility-of-a-fork-on-github)
+
+## See what you've subscribed issues on GitHub
+
+Just click notifications and see what you're watching or subscribing anything. Quick jump link via:
+
+- https://github.com/notifications/subscriptions [^refer-sub]
+- https://github.com/watching
+
+[^refer-sub]:refer to https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions

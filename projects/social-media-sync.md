@@ -1,16 +1,17 @@
 ---
 aliases:
+  - Social media Post sync
   - Social media post sync
 created: 2025-01-18T16:58:21
 deadline: 2025-01-18T16:58:21
-modified: 2025-07-02T21:52:21
-title: Social media post sync
-type: project
+modified: 2025-07-16T20:53:41
 tags:
   - gtd/doing
+title: Social media Post sync
+type: project
 ---
 
-# Social media post sync
+# [[social-media|Social media]] Post sync
 
 Before: [[telegram-message-sync-bot|Telegram Message Archive bot]]
 

@@ -1,16 +1,19 @@
 ---
-title: proxy
 aliases:
-  - proxy
   - 代理
   - 翻墙
   - 科学上网
+  - proxy
+cost: 240
 created: 2023-06-02T07:29:17
-modified: 2025-02-16T13:53:03
 description: 
+modified: 2025-07-15T20:59:35
 tags: 
+title: 代理
 type:
 ---
+
+# 代理
 
 > [!tip]
 > 世界之大，付钱可及。
@@ -92,6 +95,7 @@ wikipedia: https://en.wikipedia.org/wiki/Leased_line
     - 国际以太网专线
 
 #### Public Internet Access 公网出口
+
 - **ChinaNet** / 163 骨干网 / AS4134
     - 骨干网, 基建早, 带宽大, 便宜, 承载普通质量的互联网业务.
     - 接入国际 Tier1/2 运营商以及主流 OTT
@@ -118,10 +122,12 @@ wikipedia: https://en.wikipedia.org/wiki/Leased_line
 - more via: [浅谈中国电信出口网络的链路情况](https://www.oldking.net/751.html)
 
 #### **BGP** / Border Gateway Protocol
+
 - 边界网关协议, 互联网 AS 间的互联
 - BGP 多线机房相较于双 IP 双线机房更优
 
 #### **中继**
+
 - 入口国内, 出国国外, 过墙会用隧道协议 (负载均衡 -> 防止被墙)
 
 ### [Command line](commandline)
@@ -283,7 +289,7 @@ First of all, we should know, the most important backend, [tindy2013/subconverte
 
 Then, let us see what a full url we would get：
 
-```
+```shell
 https://api.bianyuan.xyz/sub?target=clash&udp=true&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini&emoji=true&filename=Paoluz_Cat4SSR&new_name=true&url=
 ```
 
@@ -443,6 +449,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 #### Trojan
 
 #### Others not public
+
 - OpenVPN
 - IKEv2/IPsec
 - WireGuard
@@ -451,7 +458,9 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - PPTP
 
 ### Select your client
+
 #### iOS (全区可下载,包括中区)
+
 - [Loon](https://testflight.apple.com/join/23LA2tmX) (支持 Surge 3 的 RULESET 规则)
 - [Outline](https://apps.apple.com/cn/app/outline-app/id1356177741) (支持 SS)
 - [Kitsunebi](https://testflight.apple.com/join/IdFRwmNy) (支持 SS/Vmess)
@@ -461,6 +470,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [NetShuttle](https://testflight.apple.com/join/742YC03J)
 
 #### iOS (仅国区下架,其他区可下载)
+
 - [Surge 4](https://apps.apple.com/us/app/id1442620678) 免费 + 内购 $49.99 (支持 SS/Snell/Vmess) [官网购买](https://nssurge.com/buy_now) [教程](https://zhuangzhuang.cf/tags/#Surge)
 - [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) $7.99 (支持 SS/SSR/Vmess) [教程](https://www.notion.so/kopshawn/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917) [视频教程](https://youtu.be/laqB-SMHO1w)
 - [Quantumult](https://apps.apple.com/us/app/quantumult/id1252015438) $4.99 (也叫: 圈, 支持 SS/SSR/Vmess) [教程](https://github.com/JasonLee-Go/Quantumult/wiki/Quantumult-Unofficial-Manual)
@@ -491,6 +501,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [Fugu2](https://apps.apple.com/us/app/fugu-2/id1215255916) Free
 
 #### macOS
+
 - [Surge for Mac](http://nssurge.com/) $49.99/$69.99/$99.99 (支持 SS/Snell/Vmess)
 - [ClashX](https://github.com/yichengchen/clashX/releases) Clash 的 Mac 图形客户端 (支持 SS/Snell/Vmess) [教程](https://docs.nameless13.com/clashr)
 - [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) 支持开启”增强模式的”ClashX
@@ -519,6 +530,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [Buff](https://www.plutox.top/)
 
 #### Windows
+
 - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases) Clash 的 Windows/macOS 图形客户端,简称:CFW (支持 SS/Snell/Vmess/Trojan) [教程](https://docs.cfw.lbyczf.com/) [视频教程](https://youtu.be/21prqwxBg94)
 - [Clash for Windows 中文版](https://github.com/kallydev/clash_for_windows_pkg_zh-cn/releases)
 - [ClashR for windows](https://t.me/yxbjx/411954) Clash 客户端 (支持 SS/Snell/Vmess/SSR) [教程](https://docs.nameless13.com/clashr)
@@ -555,6 +567,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [kcptun](https://github.com/shadowsocks/kcptun/releases)
 
 #### Android
+
 - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases) Clash 的 Android 图形客户端 (支持 SS/Snell/Vmess) [教程](https://wiki.kache.moe/2019/12/10/Andoird-Clash for Android)
 - [Clash for Android Google Play](https://play.google.com/store/apps/details?id=com.github.kr328.clash) Clash 的 Android 图形客户端 (支持 SS/Snell/Vmess)
 - [ClashR for Android](https://github.com/BROBIRD/ClashForAndroid/releases) Clash 的 Android 图形客户端 (支持 SS/Snell/Vmess/SSR) [教程](https://docs.nameless13.com/clashr)
@@ -587,6 +600,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [kcptun-android](https://github.com/shadowsocks/kcptun-android/releases)
 
 #### Linux
+
 - [Clashy](https://github.com/SpongeNobody/Clashy/releases) Windows /Mac/Ubuntu 适用的 Clash 客户端
 - [Clash 内核](https://github.com/Dreamacro/clash/releases) 一个 Go 语言开发的多平台代理客户端 (支持 SS/Snell/Vmess/Trojan)
 - [ShadowClash](https://github.com/TheWanderingCoel/ShadowClash)
@@ -602,6 +616,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [kcptun](https://github.com/shadowsocks/kcptun/releases)
 
 #### 路由器
+
 - [OpenClash](https://github.com/vernesong/OpenClash/wiki)
 - [Clash-Merlin](https://github.com/KOP-XIAO/Clash-Merlin/wiki)
 - [Koolshare OpenWrt/LED](https://koolclash.js.org/)
@@ -614,9 +629,11 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 - [Padavan](https://www.right.com.cn/forum/thread-161324-1-1.html)
 
 #### TV
+
 - [Shadowsocks 影梭](https://github.com/shadowsocks/shadowsocks-android/releases) (选择 shadowsocks-tv)
 
 #### V2Ray
+
 - iOS
     - Surge 4, Quantumult X, Quantumult, Shadowrocket, Pharos Pro, Kitsunebi, Loon ↑
     - [i2Ray](https://apps.apple.com/us/app/id1445270056) $3.99
@@ -640,6 +657,7 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
     - [v2rayNG](https://github.com/2dust/v2rayNG/releases)
 
 #### Trojan
+
 - iOS: Surge 4, Shadowrocket, Pharos Pro ↑
 - Android: [igniter](https://github.com/trojan-gfw/igniter/releases/tag/v0.1.0-pre-alpha16)
 - Windows: [Trojan-Qt5](https://github.com/TheWanderingCoel/Trojan-Qt5/releases)
@@ -668,11 +686,11 @@ iOS 设备上使用 SS 客户端也会显示 VPN 图标: 是因为使用了 iOS 
 - [Home · shadowsocksrr/shadowsocks-rss Wiki](https://github.com/shadowsocksrr/shadowsocks-rss/wiki)
 - [shadowsocksr-rm/shadowsocks-rss: ShadowsocksR update rss, SSR organization https://github.com/shadowsocksr](https://github.com/shadowsocksr-rm/shadowsocks-rss)
 
-[^convert-subs]: [如何在 Linux 上优雅的使用 Clash？ · Zs's Blog](https://blog.zzsqwq.cn/posts/how-to-use-clash-on-linux/), [node.js What is the difference between npm install and npm run build?Stack Overflow](https://stackoverflow.com/questions/43664200/what-is-the-difference-between-npm-install-and-npm-run-build)
-[^wiki-ss]:https://zh.wikipedia.org/wiki/Shadowsocks
-
 ## Fuck: 一辈子去哪都是做题的中国人
 
 > [!tip]
 > Proxies sucks as well, which would be identified and treated as spam by some service providers.
 > - [I got the error message "Looks like you've been doing that a lot. Take a break for 5 minutes before trying again." when posting my first thread in 8 days. : help](https://www.reddit.com/r/help/comments/nh2tsy/i_got_the_error_message_looks_like_youve_been/)
+
+[^convert-subs]: [如何在 Linux 上优雅的使用 Clash？ · Zs's Blog](https://blog.zzsqwq.cn/posts/how-to-use-clash-on-linux/), [node.js What is the difference between npm install and npm run build?Stack Overflow](https://stackoverflow.com/questions/43664200/what-is-the-difference-between-npm-install-and-npm-run-build)
+[^wiki-ss]:https://zh.wikipedia.org/wiki/Shadowsocks

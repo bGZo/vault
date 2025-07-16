@@ -1,8 +1,11 @@
 ---
-aliases: [猫猫能有什么坏心思呢？]
+aliases:
+  - 猫猫能有什么坏心思呢？
 created: 2021-03-14T10:41:03
-modified: 2025-06-29T23:51:44
-tags: [cat, weekly/1022]
+modified: 2025-07-15T20:57:47
+tags:
+  - cat
+  - weekly/1022
 title: 猫猫能有什么坏心思呢？
 type: writing
 ---
@@ -130,21 +133,3 @@ type: writing
 ![20220801_224139](https://user-images.githubusercontent.com/57313137/182275216-868ac09f-aa43-4433-964a-85142b902101.jpg)
 
 我没有能寻到任何一只猫的血迹，甚至连一个吊念的地方都没有，其实，对我而言，这些小小的生命，早就算得上是我们家庭成员了，理应有正常人类的丧事礼仪，应当有一个每年都可以吊念的地方，我不希望生命就这样随随便便地从我这里逗留，又匆匆走过. 头七上旺，三七送花，五七送粮，七七送船，百天周年，这些传统上特有的丧礼，我觉得不应该因为对方是猫猫就放弃掉.
-
-## If You Want to Tame a Cat
-
-### ✨ Being Patient
-
-You must adopt to little thing dropped in your life. Better tolerate its behavior. Cats are not evil but you are. Actually You must give up the imagination of cats from social media, they're maybe fucking naughty for you. And you have to go on by their behavior. Otherwise you just want to kill them.
-
-Come on, they won't kill you, during being brought up by human beings, they just wanna far away the boring, just like you always do.
-
-### Nothing they owned but you
-
-Sometime my cats look at me in a long time, sometime they feels lonely for them alone. They tried to call, for a long time, catching your attention to them, maybe something they long for would happened, like patting themselves.
-
-### Having a cat just like have a child
-
-Firstly, they long for freedom forever, they have endless curiosity, that's one of factor, of which they always died under car wheel.
-
-Secondly, when they are awake, they gonna play interesting things, or in the way finding them. And you have to handle the trouble happened during this time, otherwise they will call loudly, or make situation more serious.
