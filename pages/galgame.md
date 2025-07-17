@@ -8,9 +8,10 @@ aliases:
   - ギャルゲ
   - ギャルゲー
   - ギャルゲーム
+cost: 1000
 created: 2025-06-07T13:19:59
 description: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / hentai
-modified: 2025-07-16T20:28:58
+modified: 2025-07-16T22:02:02
 title: Galgame
 wikipedia: https://en.wikipedia.org/wiki/Bish%C5%8Djo_game
 ---

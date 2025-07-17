@@ -1,25 +1,28 @@
 ---
 aliases:
-  - safari
+  - Browser
+  - 浏览器
+  - chrome
+  - chromium
   - firefox
   - kiwi
-  - chrome
-  - 浏览器
-  - chromium
-title: 
+  - safari
 created: 2024-07-28T12:00:00
-modified: 2025-06-29T17:28:37
 description: 
+modified: 2025-07-17T22:00:01
 tags:
   - tool
+title: Browser
 type: tool
 ---
+
+# Browser
 
 ## Firefox
 
 ### Profile
 
-```
+```shell
 .
 ├── AlternateServices.txt
 ├── ClientAuthRememberList.txt
@@ -139,19 +142,19 @@ Go `about:config` to create a String named ` general.useragent.override` [^creat
 
 Value could be an iPad:
 
-```
+```shell
 Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10
 ```
 
 Or an iPhone:
 
-```
+```shell
 Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
 ```
 
 Or a Mac:
 
-```
+```shell
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15
 ```
 
@@ -163,7 +166,7 @@ More UA check via: https://www.whatismybrowser.com/guides/the-latest-user-agent/
 
 `about:config` 中 `browser.ml.chat.provider` 的值会在切换的时候重置；
 
-```
+```shell
 https://claude.ai/new
 https://chat.deepseek.com
 ```
@@ -175,6 +178,7 @@ https://chat.deepseek.com
 在 YouTube 菜单仍在屏幕上的情况下，再次右键单击以打开 Safari 的上下文菜单，就会出现 `Picture in Picture`，via: https://zhuanlan.zhihu.com/p/350035245
 
 ### Waiting features
+
 - Put Inactive tabs to sleep
     - No way now. via: https://www.reddit.com/r/apple/comments/zvvy9k/put_inactive_safari_tabs_to_sleep_solving_the_ram/
 - Keyword search
@@ -190,12 +194,14 @@ https://chat.deepseek.com
 - https://github.com/Hibbiki/chromium-win64
 
 ### Chrome Extensions 无法使用
+
 1. `chrome://flags/#extension-mime-request-handling` -> **Always prompt for ins**
 2. Download Crx [NeverDecaf/chromium-web-store: Allows adding extensions from chrome web store on ungoogled-chromium. Also adds semi-automatic extension updating.](https://github.com/NeverDecaf/chromium-web-store) ![](https://img.shields.io/github/stars/NeverDecaf/chromium-web-store)
 
 via: [How to Manually Install Extensions (Ungoogled Chromium) | avoidthehack!](https://avoidthehack.com/manually-install-extensions-ungoogled-chromium)
 
 ### New tab setting
+
 - `chrome://flags/#custom-ntp`
 - `chrome://new-tab-page`
 - `chrome://newtab`
@@ -207,11 +213,12 @@ I really love Brave's homepage with RSS, so I found some alternatives:
 - https://github.com/deepjyoti30/startpage
     - ==这个拓展的配置文件不会刷新, 因为他的配置没有写在 Manifest 里面, 默认他是需要在页面内进行配置的, 也很合理==
 
-### wontfix: playback of protected content
+### Wontfix: playback of protected content
 
 [spotify doesn't work · Issue #1849 · ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium/issues/1849)
 
-### wontfix: notifications
+### Wontfix: notifications
+
 1. Native windows notifications
 2. Web push application offline
     - depend on Google Cloud Message / Firebase Cloud Messaging
@@ -238,7 +245,8 @@ You can test notification using https://web-push-book.gauntface.com/demos/notifi
     - `Bookmarks`
 
 ### Cookie manage #deprecated
-##### Always
+
+#### Always
 
 ```html
 [*.]leetcode.cn
@@ -269,17 +277,17 @@ You can test notification using https://web-push-book.gauntface.com/demos/notifi
 [*.]zodgame.xyz
 ```
 
-##### Never
+#### Never
 
-```
+```shell
 [*.]twitter.com
 [*.]mastodon.social
 [*.]bgm.tv
 ```
 
-##### Garbage
+#### Garbage
 
-```
+```shell
 [*.]jp
 [*.]csdn.net
 [*.]weibo.com
@@ -415,6 +423,8 @@ via: https://github1s.com/xieby1/fullscreen/blob/HEAD/fullscreen.js#L1-L9, https
 - [3 月 15 日谷歌就要停止第三方 chrome 浏览器的同步功能了，我该怎么办？ - V2EX](https://www.v2ex.com/t/761099)
 - [Will my organization's Chrome extensions with manifest v2 run after Jan 2023? - Chrome Enterprise Community](https://support.google.com/chrome/a/thread/175260822/will-my-organization-s-chrome-extensions-with-manifest-v2-run-after-jan-2023?hl=en)
 - [巨坑：chrome extensions绝对不要升级到V3 - 掘金](https://juejin.cn/post/7094545901967900686)
+
+## Chrome: [[vivaldi]]
 
 ## Chrome: Edge
 
