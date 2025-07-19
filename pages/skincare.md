@@ -6,9 +6,10 @@ cost: 500
 created: 2022-11-28T00:00:00
 modified: 2025-07-16T22:00:51
 tags:
-  - area/skincare
+  - area
+  - hobby
 title: 皮肤卫生
-type: hobby
+type: 
 ---
 
 # 皮肤卫生

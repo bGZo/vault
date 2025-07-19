@@ -3,8 +3,9 @@ aliases:
   - 耳机
 created: 2023-07-19T00:00:00
 modified: 2025-07-17T21:25:13
+tags:
+- hobby
 title: 耳机
-type: hobby
 wikipedia: https://en.wikipedia.org/wiki/Headphones
 ---
 

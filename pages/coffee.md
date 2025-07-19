@@ -5,8 +5,9 @@ cost: 0
 created: 2023-05-30T00:00:00
 modified: 2025-07-15T21:02:04
 remark: 最近都在转喝 红牛
+tags: 
+- hobby
 title: 咖啡
-type: hobby
 ---
 
 # 咖啡

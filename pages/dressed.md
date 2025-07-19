@@ -6,8 +6,9 @@ aliases:
 created: 2024-07-21T00:00:00
 description: 
 modified: 2025-07-17T20:53:58
+tags:
+- hobby
 title: 打扮
-type: hobby
 ---
 
 # 打扮

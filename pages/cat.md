@@ -4,8 +4,9 @@ aliases:
 cost: 0
 created: 2023-05-29T00:00:00
 modified: 2025-07-15T20:58:35
+tags:
+- hobby
 title: 猫猫
-type: hobby
 ---
 
 # 猫猫

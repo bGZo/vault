@@ -42,7 +42,7 @@ via: https://web.archive.org/web/20071020203251/http://tunes.org/wiki/programmin
 
 ```dataview
 list
-from -"template"
+from -"templates"
 where type = "lang/programming" 
 sort created desc
 ```

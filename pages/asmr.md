@@ -1,23 +1,27 @@
 ---
 aliases:
+  - ASMR
   - 奥术魔刃
-  - Autonomous Sensory Meridian Response
-  - 自主性感官经络反应
-  - 自发性知觉神经反应
-  - 颅内高潮(经络)
-  - 耳音
-  - 耳搔
   - 大脑按摩
   - 大脑高潮
+  - 耳搔
+  - 耳音
+  - 颅内高潮(经络)
+  - 自发性知觉神经反应
+  - 自主性感官经络反应
+  - Autonomous Sensory Meridian Response
 created: 2022-11-30T00:00:00
+modified: 2025-07-19T11:18:46
 tags:
-  - area/asmr
-type: hobby
+  - area
+  - hobby
+title: ASMR
 wikipedia: https://zh.wikipedia.org/zh-cn/ASMR
-modified: 2025-04-03T22:57:11
 ---
 
-## Why: orgasm
+# ASMR
+
+## Why: [[sex-climax|orgasm]]
 
 ## History
 

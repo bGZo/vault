@@ -40,7 +40,7 @@ https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03
     - 我想划线高亮, 我就必须跳转到原网站去阅读,
       传统的 Rss Reader 全文抓取失去了意义
     - 稍后读 Read Latter 无所谓, 因为本来就打算在后者阅读
-  - 参考同类竞品 [[Alternative]] [[pages/tools]]
+  - 参考同类竞品 [[Alternative]] [[pages/tool]]
     - [简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展](http://ksria.com/simpread/)
     - [Readwise](https://readwise.io/)
     - [Pocket: Home](https://getpocket.com/en/)

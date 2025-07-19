@@ -4,7 +4,7 @@ aliases:
   - Twitter
 created: 2023-06-15T00:00:00
 description: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc.
-modified: 2025-07-17T21:43:43
+modified: 2025-07-17T22:26:57
 tags:
   - [social-media]
 title: Twitter
@@ -37,3 +37,9 @@ wikipedia: https://en.wikipedia.org/wiki/Twitter
     - [Typefully - Twitter Thread Maker & Analytics](https://typefully.com/write)
     - [TweetDeck](https://tweetdeck.twitter.com/)
 - [Twitter Language: Twitter Slang and Key Terms Explained](https://www.lifewire.com/twitter-slang-and-key-terms-explained-2655399)
+
+### [[sucks|Sucks]]
+
+- Making up is annoyed.
+- How to organize post tweets? Is there any GA export post?
+- Ban API for the third apps.
