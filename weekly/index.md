@@ -1,8 +1,10 @@
 ---
-aliases: [周报, Weekly]
+aliases:
+  - 周报
+  - Weekly
 comments: false
 created: 2025-01-06T09:19:10
-modified: 2025-06-29T23:47:06
+modified: 2025-07-19T13:16:29
 title: Weekly
 ---
 

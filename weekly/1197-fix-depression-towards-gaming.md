@@ -1,13 +1,13 @@
 ---
-aliases: [自救之职业焦虑]
+aliases: [电子阳痿治疗指南]
 created: 2024-07-20T10:17:40
 modified: 2025-06-29T23:51:45
 tags: [steam, weekly/1197]
-title: 自救之职业焦虑
+title: 电子阳痿治疗指南
 type: writing
 ---
 
-# 自救之职业焦虑
+# 电子阳痿治疗指南
 
 G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]。
 

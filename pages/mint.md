@@ -1,9 +1,14 @@
 ---
+aliases:
+  - Mint
 created: 2025-01-12T02:16:35
-modified: 2025-03-30T17:27:29
+modified: 2025-07-19T22:39:43
 tags-link:
   - "[[debian]]"
+title: Mint
 ---
+
+# Mint
 
 ## [[minisforum-um880pro|minisforum880pro]]
 
@@ -41,11 +46,11 @@ Those applications might be used, so recommended install it.
 $ sudo apt install vim
 ```
 
-## dotfiles
+## Dotfiles
 
 https://github.com/bgzo/dotfiles
 
-## replace: apt source mirror [help_mirror]
+## Replace: apt source mirror [help_mirror]
 
 default source file is located in `/etc/apt/sources.list.d/official-package-repositories.list`, you could put ubuntu mirror and mint mirror on it.
 

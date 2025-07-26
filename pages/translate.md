@@ -12,7 +12,7 @@ type:
 
 # Translate
 
-## [[book]]
+## [[templates/book]]
 
 | Author / Works       | Translator    |
 | -------------------- | ------------- |

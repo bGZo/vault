@@ -1,17 +1,18 @@
 ---
-aliases: [自救之职业焦虑]
+aliases:
+  - 便宜的最贵
 created: 2024-07-13T12:00:00
-modified: 2025-06-29T23:51:45
-tags: [politics, weekly/1196]
-title: 自救之职业焦虑
+modified: 2025-07-26T14:51:46
+tags:
+  - politics
+  - weekly/1196
+title: 便宜的最贵
 type: writing
 ---
 
-# 自救之职业焦虑
+# 便宜的最贵
 
 > 那时她还太年轻，不知道所有命运馈赠的礼物，早已在暗中*标好了价格*
-
-# 便宜的最贵
 
 Spotify 打击跨区订阅，我又陷入了数据迁移的陷阱，之前做法比较绝，从网易云迁出来就把号注销了，从 AM 迁移出来就把所有的资料库都删了，现在几乎所有的歌单都在 Spotify，如果真要再回迁回 AM，简直是噩梦。 如果能用 Logseq 构建一个永久有效的歌单就好了，Spotify、YouTube、Netflix 会打击跨区订阅，但 Logseq 不会；人人、豆瓣、班固米会倒闭，但 Logseq 不会；Logseq 永远不会。
 

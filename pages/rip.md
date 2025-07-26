@@ -1,13 +1,12 @@
 ---
 aliases:
-  - "404"
   - 公墓
   - died
   - grave
   - r.i.p
   - rip
 created: 2025-01-20T20:54:12
-modified: 2025-07-17T21:30:11
+modified: 2025-07-20T22:51:04
 tags: []
 title: 公墓
 ---

@@ -1,9 +1,14 @@
 ---
-description: Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable. Therefore, it is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. 静态强类型，但因为提供了类似反射等机制，也具备了部分动态类型语言的能力；
-type: lang/programming
+aliases:
+  - Java
 created: 2024-12-08T21:26:22
-modified: 2025-03-16T22:56:23
+description: Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable. Therefore, it is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. 静态强类型，但因为提供了类似反射等机制，也具备了部分动态类型语言的能力；
+modified: 2025-07-25T23:20:03
+title: Java
+type: lang/programming
 ---
+
+# Java
 
 ## Roadmap
 
@@ -31,7 +36,7 @@ More via: https://www.cesarsotovalero.net/blog/how-the-jvm-executes-java-code.ht
 - Primitive (原始类型) - `byte`,`short`,`int`,`long`,`float`,`double`,`boolean` and `char`
 - Non-Primitive - `String`, `Arrays`, `Classes`, `Enums` and `Records`
 
-### Variables and Scopes  变量和作用域
+### Variables and Scopes 变量和作用域
 
 Variable in Java is a data container that stores the data values during Java program execution.
 
@@ -45,13 +50,13 @@ The Java variables have mainly three types:
 
 In Java, type casting can be either implicit (automatic) or explicit (requiring a cast operator).
 
-### Strings and Methods  字符串和方法
+### Strings and Methods 字符串和方法
 
-### Math Operations  数学运算
+### Math Operations 数学运算
 
 https://jenkov.com/tutorials/java/math-operators-and-math-class.html
 
-#### Java Floating Point Math  Java 浮点数学
+#### Java Floating Point Math Java 浮点数学
 
 ```java
 double result = 100 / 8;
@@ -80,9 +85,9 @@ resultDbl3 = 1.0000000000000007
 
 Store a collection of elements of the same data type in contiguous memory locations(连续的内存位置).
 
-#### Java Array Literals  Java 数组文字
+#### Java Array Literals Java 数组文字
 
-```
+```shell
 int[] ints2 = { 1,2,3,4,5,6,7,8,9,10 };
 ```
 
@@ -252,6 +257,7 @@ public class InstanceBlockExample {
 run only once when the class is first loaded.
 
 ### ​Inheritance 继承
+
 - 继承 Composition, inheritance, and delegation (委托???)
     - 继承基类, 做出扩展; 子类 (完全) 兼容基类
     - 继承 (泛化)
@@ -276,7 +282,9 @@ run only once when the class is first loaded.
 基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承
 
 ### Interfaces 接口
+
 #### 接口 vs 抽象类
+
 1. 接口的方法默认是 public，所有方法在接口中不能有实现，抽象类可以有非抽象的方法
 2. 接口中的实例变量默认是 final 类型的，而抽象类中则不一定
 3. 非抽象类类可以实现多个接口，但最多只能实现一个抽象类
@@ -287,15 +295,19 @@ run only once when the class is first loaded.
 [接口和抽象类的区别是什么？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21077&query=&asc=true&order=&page=9)
 
 #### 纯虚类 vs 接口
+
 ##### 同
+
 - 都是抽象类，都不能实例化
 - 接口实现类 & 抽象子类必须要实现已经声明的抽象方法
 
 ##### 异
+
 - 纯虚类
 - 接口
 
 ### Method Overloading and Overriding 方法重载和覆盖
+
 #### 重写**范围**
 
 - **只有实例方法可以被重写**，重写后的方法必须仍为实例方法
@@ -400,7 +412,7 @@ Java annotations are typically used for the following purposes:
 - Build-time instructions  构建时说明
 - Runtime instructions  运行时指令
 
-### Annotation Elements  注释元素
+### Annotation Elements 注释元素
 
 ```java
 @Entity(tableName = "vehicles", primaryKey = "id")
@@ -496,15 +508,25 @@ Learn how to work with files i.e., reading, writing and deleting, files and fold
 ## [[java-collections|Collections]]
 
 ### Array vs ArrayList
+
 ### Set
+
 ### Map
+
 ### Queue
+
 ### Dequeue
+
 ### Stack
+
 ### Iterator
+
 ### Generics
+
 ## [[concurrency|Concurrency]]
+
 ### Threads [[java-multithreading]]
+
 ### Virtual Threads
 
 ### Java Memory Model
@@ -576,6 +598,7 @@ Via:
 ### Stream API
 
 ### Functional Composition 功能组合
+
 ### Functional Interfaces 函数式接口
 
 ### High Order Functions 高阶函数
@@ -615,6 +638,7 @@ Play Framework is a high-productivity web application framework that allows the 
 A programming method to map objects in Java to relational entities in a database. In other words, converting data between relational databases and object-oriented programming languages. Some popular ORM tools/frameworks in Java are:
 
 ### [[jdbc]]
+
 ### Ebean
 
 Ebean is an object-relational mapping tool written in Java. It supports the standard JPA annotations for declaring entities. However, it provides a much simpler API for persisting. In fact, one of the points worth mentioning about the Ebean architecture is that it is sessionless, meaning it does not fully manage entities.

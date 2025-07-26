@@ -2,14 +2,14 @@
 aliases:
   - Telegram Message Archive bot
   - telegram-message-sync-bot
-created: 2025-03-01T17:05
-modified: 2025-07-02T21:39
+created: 2025-03-01T17:00:00
+deadline: 2025-07-31T14:01
+modified: 2025-07-19T18:43:27
 source: https://github.com/bGZo/telegram-message-sync-bot
-title: Telegram Message Archive bot
-type: project
 tags:
   - gtd/doing
-deadline: 2025-07-31T14:01
+title: Telegram Message Archive bot
+type: project
 ---
 
 # Telegram Message Archive bot
@@ -19,6 +19,10 @@ deadline: 2025-07-31T14:01
 [![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=telegram-message-sync-bot&bg_color=00000000)](https://github.com/bGZo/telegram-message-sync-bot)
 
 a telegram bot for archive messages
+
+## Base
+
+- [[go-telegram-bot]]
 
 ## Why
 

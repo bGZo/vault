@@ -1,11 +1,18 @@
 ---
-aliases: py
-type: lang/programming
+aliases:
+  - py
+  - Python
 created: 2024-12-08T21:26:22
-modified: 2025-03-22T16:32:28
+modified: 2025-07-25T23:21:25
+title: Python
+type: lang/programming
 ---
 
+# Python
+
 ## Why
+
+- 语法简单，符合自然语言
 
 ## How
 
@@ -36,7 +43,7 @@ datetime.today().strftime('%Y-%m-%d')
 
 ## What
 
-### `tuple(xxx,xxx,xxx)` vs `list[xxx,xxx,xxx]`
+### `tuple(xxx,xxx,xxx)` Vs `list[xxx,xxx,xxx]`
 
 前者无法修改
 
