@@ -1,18 +1,19 @@
 ---
 aliases:
+  - Telegram message archive bot
   - Telegram Message Archive bot
   - telegram-message-sync-bot
 created: 2025-03-01T17:00:00
 deadline: 2025-07-31T14:01
-modified: 2025-07-19T18:43:27
+modified: 2025-07-27T10:09:46
 source: https://github.com/bGZo/telegram-message-sync-bot
 tags:
   - gtd/doing
-title: Telegram Message Archive bot
+title: Telegram message archive bot
 type: project
 ---
 
-# Telegram Message Archive bot
+# Telegram message archive bot
 
 ![](https://img.shields.io/github/stars/bGZo/telegram-message-sync-bot?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/telegram-message-sync-bot?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/telegram-message-sync-bot?style=for-the-badge&label=since)
 

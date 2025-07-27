@@ -2,14 +2,14 @@
 aliases:
   - Snipd snips linter for obsidian
   - snipd-podcast-format-for-obsidian
-created: 2025-02-16T16:11
-modified: 2025-07-02T21:12
+created: 2025-02-16T16:00:00
+modified: 2025-07-27T10:01:44
 source: https://github.com/bGZo/snipd-podcast-format-for-obsidian
+tags:
+  - gtd/done
 tags-link:
 title: Snipd snips linter for obsidian
 type: project
-tags:
-  - gtd/done
 ---
 
 # Snipd snips linter for obsidian
@@ -21,48 +21,17 @@ tags:
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=bGZo&repo=snipd-podcast-format-for-obsidian&bg_color=00000000)](https://github.com/bGZo/snipd-podcast-format-for-obsidian/)
 
-## Why
+## Changelog
 
-Snipd export all snips to a singal file by default. And they cannot be queried by obsidian. That's okey when you just only have severals snips. But after two years usage, I have more than 3,000 snips on platform.
+- 20250727
+	- Publish with [[pypa-pipx|Pipx]], fix base use for commandline.
 
-Export 3000 snips, format it manually, then delete them one by one?
+## 命令行教程参考
 
-Okey, sounds like a hell.
+<iframe src="https://www.youtube.com/embed/FWacanslfFM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=FWacanslfFM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=FWacanslfFM</a></center>
 
-My solution is, using this script to separate them to them files, then you could copy them to obsidian.
-
-So how the data on Snipd deal with? I choose to delete account, even though the origin data is still on server, cause Snipd only support export all snips one time. The design is weird so I have no idea what to do.
-
-Is there any free alternatives? I wondered.
-
-Anyway, this workflow works for me, and I really wish Snipd could consider the Obsidian use case.
-
-That's would be awesome.
-
-At least not now : (
-
-## Quick Start
-
-```shell
-git clone git@github.com:bGZo/snipd-podcast-format-for-obsidian.git
-cd snipd-podcast-format-for-obsidian
-
-# install pipx
-sudo apt install pipx
-
-# install poetry
-pipx install poetry
-
-# install dependency
-poetry install 
-
-# run
-poetry run snipd snipd-export.md -o /path/you/want/export
-```
-
-## References
-
-- https://www.youtube.com/watch?v=FWacanslfFM
+## 用例
 
 <iframe src="https://www.youtube.com/embed/bB-VWtidB5E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=bB-VWtidB5E' target='_blank' class='external-link'>https://www.youtube.com/watch?v=bB-VWtidB5E</a></center>
