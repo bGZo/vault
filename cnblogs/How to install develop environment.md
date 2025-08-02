@@ -83,7 +83,7 @@ rvm install ruby@latest
 
 Go https://3.jetbra.in download the `ja-netfilter.zip`.
 
-Unzip file to the specific location. Append the following config if on China:
+Unzip file to the specific location. Append the following config to `config-jetbrains/url.conf` if on China:
 
 ```shell
 [URL]
