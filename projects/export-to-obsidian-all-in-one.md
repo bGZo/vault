@@ -5,7 +5,7 @@ aliases:
   - xiaohongshu-export-to-obsidian
 created: 2025-03-23T13:00:00
 deadline: 2025-03-23T13:38
-modified: 2025-07-27T10:55:14
+modified: 2025-07-27T11:37:22
 tags:
   - gtd/doing
 title: 黑曜石导入计划
@@ -90,6 +90,8 @@ Export NetNewsWire stared articles #gtd/todo
 
 ### Bilibili 收藏夹 #gtd/todo
 
+OpenAPI 做不到
+
 ### 哈巴姆特动画疯追番记录 #gtd/todo
 
 ### 聊天记录 #gtd/todo
@@ -98,3 +100,14 @@ Export NetNewsWire stared articles #gtd/todo
 
 - QQ
 - Wechat
+- 抖音
+
+### V2EX 收藏主题导出 #gtd/todo
+
+OpenAPI 做不到
+
+### [[copilot]] History #issue/wontfix
+
+https://github.com/microsoft/copilot-intellij-feedback/issues/384
+
+### Android Notes
