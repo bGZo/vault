@@ -50,13 +50,13 @@ type: writing
 最近，我学了一些简单的知识管理框架 [^podcast]，我发现，没有任何一种是完美的，但你一定得从个中发现适合你自己的 Workflow，社区可以分享 Graph，可以分享用例，但最终如何运用，完全取决于你。
 
 - [[para-project-area-resource-archive]]
-  - #[[ignored-problem]]
+  - #ignored-problem
     - boundaries clear on paper, but not in reality.
     - ~~reuse information~~ => not work on logseq, just use link
       - ~~how to deal with waiting project?~~
     - more via: https://www.reddit.com/r/Notion/comments/fx0b9u/is_paramethod_incomplete/
 - [[capture-order-review-do]]
-  - #[[ignored-problem]]
+  - #ignored-problem
     - information **intake**.
     - distill, express is **duplicated**.
     - via: https://mattgiaro.com/code-second-brain/

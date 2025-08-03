@@ -4,7 +4,7 @@ aliases:
   - 续费服务
   - Renew Service
 created: 2023-05-29T20:55:33
-modified: 2025-07-15T22:27:46
+modified: 2025-08-02T21:36:56
 title: 续费服务
 ---
 
@@ -26,3 +26,5 @@ from ""
 where cost >= 0
 sort cost desc
 ```
+
+Sum via: https://forum.obsidian.md/t/how-to-sum-a-column-in-a-dataview-table/35236

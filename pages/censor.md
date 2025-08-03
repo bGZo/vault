@@ -6,18 +6,18 @@ aliases:
   - Great Firewall
   - Simple Chinese
 created: 2023-06-02T12:00:00
-description: 
-modified: 2025-07-19T10:03:20
+modified: 2025-08-03T21:34:03
 tags:
   - networking
 title: 审查
-type: 
 wikipedia: https://en.wikipedia.org/wiki/Censorship
 ---
 
 # 审查
 
 ![https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129](https://raw.githack.com/bGZo/assets/dev/2025/202501172158746.png)
+
+![](https://twitter.com/yihong0618/status/1431506334977966082)
 
 ## [China](china)
 
@@ -31,7 +31,7 @@ wikipedia: https://en.wikipedia.org/wiki/Censorship
 > [!quote]
 > 为人进出的门紧锁着，为狗爬走的洞敞开着。
 
-## Links
+## References
 
 - 封杀应不应该被理解，封杀的尺度在哪？国外是否存在封杀？
     - [[~是否支持-PG-ONE-被封杀]]
@@ -43,7 +43,35 @@ wikipedia: https://en.wikipedia.org/wiki/Censorship
 - [[~我国的四组二律背反]]
 - [[~Countering-an-Authoritarian-Overhaul-of-the-Internet]]
 
-## Fuck
+## [[sucks|Sucks]]
+
+### 用墙来商业化
+
+- [歐路詞典](https://dict.eudic.net/)
+    - [GoldenDict GPL Violations ( List of Violators - Companies and Individuals) · Issue #1424 · goldendict/goldendict](https://github.com/goldendict/goldendict/issues/1424)
+    - [Read eudic (Chinese dictionary) files · Issue #5 · ilius/pyglossary](https://github.com/ilius/pyglossary/issues/5)
+- [520单机游戏平台](https://520vr.com/)
+
+### 内容农场 (content farm)
+
+利用 RSS 二次分发内容创作者的内容; 内容农场; 创建各种关键字以提高 SEO 排名，包括但不限于：
+
+- https://www.aliyun.com
+- https://cloud.tencent.com
+- https://www.huaweicloud.com
+- https://www.oschina.net
+- https://www.163.com/dy/article/*
+- https://new.qq.com/rain/a/*
+- https://developer.aliyun.com/
+- https://cloud.tencent.com/developer
+- https://bbs.huaweicloud.com/
+
+比如
+
+- https://cloud.tencent.com/developer/ask/sof/93670
+- https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
+
+### 层出不穷的恶性举报
 
 - ⌈终焉无脑韛 - 单推水巴⌋ 举报汉化到柚子社 #[[galgame]]
     - [如何评价录制汉化galgame视频上传哔哩哔哩的行为？ - 知乎](https://www.zhihu.com/question/62779037/answer/288546281)

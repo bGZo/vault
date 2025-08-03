@@ -5,7 +5,6 @@ aliases:
 created: 2024-08-03T00:00:00
 modified: 2025-07-19T11:56:13
 title: 网易云音乐
-type: sucks
 ---
 
 # 网易云音乐

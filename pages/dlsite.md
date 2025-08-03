@@ -2,7 +2,7 @@
 aliases:
   - DLsite
 created: 2023-06-27T00:00:00
-modified: 2025-07-16T22:02:40
+modified: 2025-08-03T21:17:45
 title: DLsite
 ---
 
@@ -46,6 +46,14 @@ title: DLsite
 
 <iframe src='https://min-hon.net/cn/' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://min-hon.net/cn/' target='_blank' class='external-link'>https://min-hon.net/cn/</a></center>
+
+### Sucks
+
+1. 无法使用全币种借记卡支付（非人哉 Master）
+2. 点数兑换仅限于 +86 手机号注册的初始号 (GV 号无法打开点数充值页面)
+	1. 非中国号注册的手机号无法使用点数；
+	2. 返点需要在购买后 30 天内进行作品评价；
+3. 国际化的游戏不多；
 
 ## References
 
