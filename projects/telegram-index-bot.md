@@ -5,7 +5,7 @@ aliases:
   - 项目
   - Telegram Index bot
 created: 2023-06-23T12:00:00
-modified: 2025-07-05T14:03:57
+modified: 2025-08-17T18:16:46
 tags:
   - gtd/todo
 title: Telegram Index bot
@@ -32,3 +32,9 @@ Telegram 频道消息是用数字命名的，所以只要知道最新一条消�
 - https://core.telegram.org/bots/samples
 - https://core.telegram.org/bots/tutorial
 - https://telegram.org/tour/channels
+
+## 覆盖范围
+
+<iframe src='https://github.com/bGZo/playground/blob/2025/08/telegram-index-bot-python/config/channels.yaml' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://github.com/bGZo/playground/blob/2025/08/telegram-index-bot-python/config/channels.yaml' target='_blank' class='external-link'>https://github.com/bGZo/playground/blob/2025/08/telegram-index-bot-python/config/channels.yaml</a></center>
+

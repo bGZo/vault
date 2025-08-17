@@ -104,6 +104,8 @@ git commit -m "feat(xxx): xxx"
   - `chore`
     - 改变构建流程、或者增加依赖库、工具等
 
+More via: https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+
 ### History
 
 ```shell

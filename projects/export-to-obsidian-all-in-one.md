@@ -5,7 +5,7 @@ aliases:
   - xiaohongshu-export-to-obsidian
 created: 2025-03-23T13:00:00
 deadline: 2025-03-23T13:38
-modified: 2025-07-27T11:37:22
+modified: 2025-08-07T21:05:22
 tags:
   - gtd/doing
 title: 黑曜石导入计划
@@ -77,7 +77,13 @@ Go https://takeout.google.com to download what you need.
 
 联邦宇宙替代豆瓣等
 
-### Cnblog 收藏夹 #gtd/todo
+### Cnblog 收藏夹
+
+```shell
+pipx install export_to_obsidian
+export CNBLOG_ACCESS_TOKEN=xxx
+eto cnblog --output output/cnblog
+```
 
 ### [[Ranchero-Software-NetNewsWire|NetNewsWire]] 星标文章 #gtd/todo
 
