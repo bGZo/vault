@@ -1,12 +1,17 @@
 ---
+aliases:
+  - Git
 created: 2023-07-28T12:00:00
 description: 版本管理
 document: 
+modified: 2025-08-23T14:58:50
 status: tool/star
-tags: 
+tags: []
+title: Git
 type: tool
-modified: 2025-03-02T20:28:32
 ---
+
+# Git
 
 ## Alternatives
 
@@ -15,7 +20,7 @@ modified: 2025-03-02T20:28:32
 
 ## Config
 
-### [[ssh]]: username & email & key
+### [[ssh]]: Username & email & key
 
 ```shell
 git config --global user.name 'HX'
@@ -33,11 +38,12 @@ cat ~/.ssh/id_rsa.pub
 
 ```shell
 git config core.ignorecase false
+# https://stackoverflow.com/questions/71230581
+# https://juejin.cn/post/7135422871735631902
 ```
 
-via: https://juejin.cn/post/7135422871735631902
-
 ## Commit
+
 ### Init
 
 ```shell
@@ -75,7 +81,7 @@ git commit -m "feat(xxx): xxx"
 > 1. `Add / Fix / ....` 首选动词，并且首字母大写，尽量简洁描述自己的内容，比较简陋；
 > 2. `fix: xxx / feat: xxx / docs: xxx` 每次都需要选一个类似这样的 tag 打上去，方便后面检索；
 > 3. `:tada: xxx / :books: xxx / bug: xxx` 利用 Github 实现的 Emoji 作为 tag，类似 2，并且可以在 Github 上显示更好？
->
+> 
 > via: https://stackoverflow.com/questions/9742073/graphics-in-github-commit-messages
 
 ```shell
@@ -149,7 +155,7 @@ git merge tmp
 > [!warning]
 > 不要用 `git reset --hard (versionＨash)`, 修改会清空!
 
-### add
+### Add
 
 ```shell
 git reset --mixed
@@ -160,7 +166,7 @@ git checkout -- (file)
 # 撤销没 add 的修改 (红字变无)
 ```
 
-### commit
+### Commit
 
 ```shell
 git reset --soft HEAD^
@@ -173,15 +179,15 @@ git commit --amend
 
 恢复到了上一次的 commit 状态，删除工作空间改动代码，撤销 `commit`，撤销 `git add .`
 
-### all things
+### All things
 
-```
+```shell
 git reflog
 ```
 
 ## Merge
 
-### [[jetbrains]] gui tools
+### [[jetbrains]] Gui tools
 
 外部程序直接可以调用 IDEA 的 Git Merge 工具；
 
@@ -204,7 +210,7 @@ via: https://stackoverflow.com/questions/72018546/git-mergetool-with-intellij-id
 > via: https://www.xttblog.com/?p=5294
 Untracked Files Prevent Checkout* Move or commit them before checkout
 
-### command-line
+### Command-line
 
 ```bash
 git merge <branch>
@@ -239,6 +245,15 @@ git submodule update --init --recursive # 递归添加
 ```
 
 via: https://knightyun.github.io/2021/03/21/git-submodule
+
+### Remove it
+
+```shell
+git rm --cached path/to/submodule 
+rm -rf path/to/submodule
+```
+
+然后注释 `.gitmodules` 相关配置即可
 
 ## Brach
 
@@ -305,7 +320,7 @@ git push origin dev --force
 
 ## Notes
 
-### `revert` vs `checkout` vs `reset`
+### `revert` Vs `checkout` vs `reset`
 
 `revert` -> `commit level`, no `file level`
 
@@ -336,7 +351,7 @@ git reset --keep <commit> # and preserve uncommitted local changes
 
 via: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
-### remote add origin vs remote set-url origin
+### Remote add origin vs remote set-url origin
 
 below is used to add a new remote:
 
