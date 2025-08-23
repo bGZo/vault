@@ -1,11 +1,14 @@
 ---
-title: "2024"
-created: 2024-01-01T21:13:15
-modified: 2025-01-13T21:13:15
+aliases:
+  - "2024"
 comments: false
+created: 2024-01-01T21:13:15
+modified: 2025-08-23T23:35:55
+title: "2024"
 type: year
 ---
 
+# 2024
 
 ## Anime Awards
 
@@ -88,7 +91,7 @@ type: year
 <iframe src='https://moe-gameaward.com/prize/2024' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://moe-gameaward.com/prize/2024' target='_blank' class='external-link'>https://moe-gameaward.com/prize/2024</a></center>
 
-###  DLsite Game Sale Ranking
+### DLsite Game Sale Ranking
 
 <iframe src='https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=game' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=game' target='_blank' class='external-link'>https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=game</a></center>
@@ -102,4 +105,3 @@ type: year
 
 <iframe src='https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=comic' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=comic' target='_blank' class='external-link'>https://www.dlsite.com/maniax/ranking/year?year=2024&sort=sale&category=comic</a></center>
-
