@@ -5,7 +5,7 @@ aliases:
   - xiaohongshu-export-to-obsidian
 created: 2025-03-23T13:00:00
 deadline: 2025-03-23T13:38
-modified: 2025-08-07T21:05:22
+modified: 2025-08-30T11:12:36
 tags:
   - gtd/doing
 title: 黑曜石导入计划
@@ -42,18 +42,22 @@ snipd export_xxx.md -o test
 Powered by [[telegram-message-sync-bot|telegram message archive bot]]
 
 ```shell
-rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram-message-sync/archives/channel/ "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/clippers/telegram/"
+rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram-message-sync/archives/channel/ "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/vault/clippers/telegram/"
 ```
 
 ```shell
-rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram-message-sync/archives/person/ "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/clippers/telegram/person/"
+rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram-message-sync/archives/person/ "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/vault/clippers/telegram/person/"
 ```
 
 > [!NOTE]
 > 不可以随便编辑 `clippers/telegram` 的文件，否则就需要立即回写，否则就会导致文件的丢失：
 
 ```shell
-rsync -avz --progress --delete bgzo@192.168.31.238:"/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/clippers/telegram/person/" /home/bgzo/workspaces/telegram-message-sync/archives/person/
+rsync -avz --progress --delete bgzo@192.168.31.238:"/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/vault/clippers/telegram/" /home/bgzo/workspaces/telegram-message-sync/archives/channel/
+```
+
+```shell
+rsync -avz --progress --delete bgzo@192.168.31.238:"/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/vault/clippers/telegram-private/" /home/bgzo/workspaces/telegram-message-sync/archives/person/
 ```
 
 ```shell
@@ -73,9 +77,15 @@ Go https://takeout.google.com to download what you need.
 
 开发一个 obsidian-clipper-plus，因为 youtube 无法下载字幕到 vault 里面
 
-### Bangumi 追番记录 #gtd/todo
+### Bangumi 追番记录
 
-联邦宇宙替代豆瓣等
+```shell
+pipx install export_to_obsidian
+ export BGM_ACCESS_TOKEN=xxx
+eto bangumi -t ../templates/sync-bangumi-template.md -s 4 -o ./bangumi 
+```
+
+- [ ] 联邦宇宙替代豆瓣等
 
 ### Cnblog 收藏夹
 

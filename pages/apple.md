@@ -1,7 +1,15 @@
 ---
+aliases:
+  - Apple
 created: 2025-03-02T20:37:37
-modified: 2025-05-11T10:54:42
+modified: 2025-08-30T10:36:06
+title: Apple
 ---
+
+# Apple
+
+> 乔布斯：“我从来不做用户调研。如果亨利·福特在发明汽车之前去做市场调研，他得到的答案一定是消费者希望得到一辆更快的马车。”
+> https://t.me/zaihuanews/31366
 
 ## Account
 
@@ -26,7 +34,7 @@ iPhone/iPad 之类还可以提交最原始的购买证明（如果你还找得�
 
 Using https://www.bestrandoms.com/random-address
 
-```
+```shell
 John Smith (first name(given name), last name)
 via: https://www.zhihu.com/question/19864402
 ---
@@ -67,7 +75,7 @@ Helena, Montana(MT), 59601
 > 非常反直觉的一个条款
 > https://www.reddit.com/r/iOSProgramming/comments/13jhfh1/can_i_have_my_app_for_personal_use_without_paying/
 
-### reading list
+### Reading list
 
 这两天一直在用 safari 的 reading list，不用考虑多端同步真是太节省时间了，也许就是我懒，但有这些 hook，真的能让我专注于本应该做的事情。这还是挺重要的。
 
@@ -78,6 +86,7 @@ https://stackoverflow.com/questions/35853139/can-git-and-icloud-drive-be-effecti
 Apple 的风格就是这样，当你面向中上产做产品的时候，你会丢掉非常多烦恼，用户群本身的高学历、高资产就像是拥有丰富羊毛的羊群，讨好商客，就能换来开发者，换来良好的生态。
 
 ## Fuck [[pages/apple-music]]
+
 ### 音乐库是会受审查的
 
 因为你无法找到下面的歌手 / 歌曲，您可以试试：
@@ -107,6 +116,7 @@ Apple 的风格就是这样，当你面向中上产做产品的时候，你会�
 - https://zhuanlan.zhihu.com/p/377114774
 
 ### iTunes 锁区
+
 ## Fuck apple tv
 
 ### 为什么要嵌入 Safari 呢？
