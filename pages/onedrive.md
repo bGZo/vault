@@ -23,7 +23,7 @@ type: tool
 
 ## How
 
-### How to using on [[pages/linux|linux]]?
+### How to using on [[skills/devops/linux/index|index]]?
 
 - [[abraunegg-onedrive|OneDrive for linux]]
 

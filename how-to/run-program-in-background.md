@@ -20,7 +20,7 @@ Start Job { & C:\Full\Path\To\my.exe }
 start
 ```
 
-## [[pages/linux|linux]]
+## [[skills/devops/linux/index|index]]
 
 - `tmux`
 - `nohup`

@@ -72,7 +72,7 @@ type: writing
 - [[pillars-pipe-vaults]]
 - [[input-control-output-refine]]
 - atlas-calendar-cards-extras-sources-spaces [^more-methodology]
-- [[object-key-result]]
+- [[object-key-result|OKR]]
   - object 不一定可量化，但务必保证可实现；
   - key result 务必要量化，3 个最好， 9 个往上不可取；
     - 周期：季度 3 个月

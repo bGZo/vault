@@ -3,7 +3,7 @@ aliases:
   - Java
 created: 2024-12-08T21:26:22
 description: Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable. Therefore, it is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. 静态强类型，但因为提供了类似反射等机制，也具备了部分动态类型语言的能力；
-modified: 2025-07-25T23:20:03
+modified: 2025-08-30T16:53:55
 title: Java
 type: lang/programming
 ---
@@ -670,3 +670,31 @@ he SLF4J or the Simple Logging Facade for Java is an abstraction layer for vario
 Tinylog is a lightweight open-source logging framework for Java and Android, optimized for ease of use.
 
 ## Testing
+
+## Problem: Chinese Encoding on windows
+
+系统编码 (Utf-8 / GBK) 的问题, [[windows-commandline]] 编码是 GBK, 就算时区切回 Utf-8(Bata 版本) 命令行会出现乱码/不输出的问题, 官网的 JDK 根据电脑输出编码格式, 无法改变 JDK 的输出语言 (GBK), 基本是无解...
+
+```shell
+chcp (code)
+```
+
+| Name      | Code  |
+| --------- | ----- |
+| MS-DOS 美英 | 437   |
+| Utf-8     | 65001 |
+| GBK- 简中    | 936   |
+| GBK- 繁中    | 950   |
+
+或者直接改注册表
+
+```shell
+$OutputEncoding = [console]:InputEncoding = [console]:OutputEncoding = New-Object System.Text.UTF8Encoding
+# 只可以短暂的修改编码方式
+```
+
+## References
+
+- https://stackoverflow.com/questions/57131654/using-utf-8-encoding-chcp-65001-in-command-prompt-windows-powershell-window
+- https://www.zhihu.com/question/54724102
+- https://blog.csdn.net/yangzhong0808/article/details/79012628
