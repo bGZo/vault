@@ -22,7 +22,7 @@ title: How to unpack game
 
 ## Galgame -> [[morkt-garbro|garbro]]
 
-- [[rance|兰斯]]
+- [[series-rance|兰斯]]
 - [[steins-gate|命运石之门]]
 
 ## References
