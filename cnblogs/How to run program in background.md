@@ -10,7 +10,7 @@ Start Job { & C:\Full\Path\To\my.exe }
 start
 ```
 
-## linux
+## index
 
 - `tmux`
 - `nohup`
