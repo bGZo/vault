@@ -23,7 +23,7 @@ wikipedia: https://en.wikipedia.org/wiki/Time_management
 - C – Tasks that are unimportant but urgent,
 - D – Tasks that are unimportant and not urgent.
 
-### Pareto analysis | 帕累托分析法/柏拉图分析 via [[pareto-principle]]
+### Pareto analysis | 帕累托分析法/柏拉图分析 via [[principle-pareto]]
 
 - Applied to productivity, it means that 80% of results can be achieved by doing 20% of tasks.
 - If productivity is the aim of time management, then these tasks should be prioritized higher

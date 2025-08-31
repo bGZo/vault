@@ -4,7 +4,7 @@ aliases:
   - Jetbrains
 cost: 25
 created: 2024-12-09T20:21:48
-modified: 2025-07-26T23:56:36
+modified: 2025-08-30T18:35:17
 remark: 教育优惠，共享账号，买不到邮箱，万一邮箱又被 BAN 了就又白花钱了
 title: Jetbrains
 wikipedia: https://en.wikipedia.org/wiki/JetBrains
@@ -33,3 +33,68 @@ wikipedia: https://en.wikipedia.org/wiki/JetBrains
 ## How to check IDE runtime log
 
 Check `Log > Show Log in Finder`
+
+## IDEA config
+
+- [IntelliJ IDEA – the Leading Java and Kotlin IDE (jetbrains.com)](https://www.jetbrains.com/idea/)
+
+### Shortcut
+
+<iframe src="https://www.youtube.com/embed/QYO5_riePOQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=QYO5_riePOQ' target='_blank' class='external-link'>https://www.youtube.com/watch?v=QYO5_riePOQ</a></center>
+
+More via: https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html
+
+### [[pages/leetcode|Leetcodes]] Template
+
+> [!note]
+> Check setting ***custom template*** & ***code type*** when switch language used
+
+#### [[java]]
+
+- TempFilePath
+
+```shell
+\\wsl$\Ubuntu\home\bgzocg\demo\tasks\leetcode\java\src\cc\bgzo
+```
+
+- Code Filename
+
+```shell
+$!velocityTool.camelCaseName(${question.frontendQuestionId})$!velocityTool.camelCaseName(${question.title})
+```
+
+- Code Template
+
+```java
+package cc.bgzo.leetcode.editor.cn;
+public class $!velocityTool.camelCaseName(${question.frontendQuestionId})$!velocityTool.camelCaseName(${question.title}){
+  public static void main(String[] args) {
+      Solution solution = new $!velocityTool.camelCaseName(${question.frontendQuestionId})$!velocityTool.camelCaseName(${question.title})().new Solution();
+  }
+  ${question.code}
+}
+// ${question.title}
+${question.content}
+```
+
+#### [[sql]]
+
+- TempFilePath
+
+```shell
+\\wsl$\Ubuntu\home\bgzocg\demo\tasks\leetcode\mysql\src\cc\bgzo
+```
+
+- Code filename
+
+```shell
+[$!{question.frontendQuestionId}]${question.title}
+```
+
+- Code Template
+
+```shell
+${question.content}
+${question.code}
+```

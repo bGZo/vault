@@ -1,23 +1,25 @@
 ---
-tags:
-  - operating-system
-created: 2024-09-22T09:26:22
-modified: 2025-01-17T11:06:14
 aliases:
-  - Windows
+  - Windows Prepare
+created: 2024-09-22T09:26:22
+modified: 2025-08-30T18:20:18
+title: Windows Prepare
 ---
+
+# Windows Prepare
 
 ## Prior to purchase
 
 ### Standard
-- [ ] 力度触控板  
-- [ ] 键盘按键的触发力度  
-- [ ] 自动亮度调节  
-- [ ] 风扇（性能）控制  
-- [ ] 轻 (中) 度负载的噪音  
-- [ ] 电池续航  
-- [ ] 性能释放  
-- [ ] 镜面屏  
+
+- [ ] 力度触控板
+- [ ] 键盘按键的触发力度
+- [ ] 自动亮度调节
+- [ ] 风扇（性能）控制
+- [ ] 轻 (中) 度负载的噪音
+- [ ] 电池续航
+- [ ] 性能释放
+- [ ] 镜面屏
 
 There is no silver bullet for computer, via [[hp-starbook]]
 
@@ -45,7 +47,7 @@ oobe\bypassnro
 
 Thanks for https://github.com/massgravel/Microsoft-Activation-Scripts
 
-```
+```shell
 irm https://massgrave.dev/get | iex
 ```
 
@@ -102,6 +104,7 @@ $ scoop config proxy 127.0.0.1:10800
 ```
 
 ## Components build-in
+
 ### Remove: Ads
 
 Run as `.ps1`:
@@ -161,7 +164,7 @@ if ($useProxy -eq "y") {
 
 ### Remove: Packages
 
-Run following:[^uninstall-garbage]
+Run following:[^uninstall-garbage] [^china-office]
 
 ```bash
 $ winget uninstall "windows web experience pack"
@@ -256,7 +259,7 @@ TODO
 
 ## Laptop Option
 
-### Processor performance boost mode
+### Processor performance boost mode [^turbo-boost]
 
 Run <code>process-boost.bat</code>, then go `powercfg.cpl` to disable boost it. If you are using windows 11, you could use the `EnergyStar` meanwhile.[^overheat-laptop]
 
@@ -463,6 +466,7 @@ Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-
 |prtsc|截屏|
 
 ### Changelog
+
 #### 24H2
 
 via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-24h2#features-added-to-windows-11-since-version-23h2
@@ -547,26 +551,28 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
 - High Efficiency Video Coding (HEVC) support
 
 ## Close Function
+
   - Close 粘滞键
     - 设置 > 粘滞键 > 关闭所有触发方式
     - https://blog.csdn.net/xitongzhijia_abc/article/details/125505930
 
 ## References
-[^china-office]: https://v2ex.com/t/1048191
-[^turbo-boost]: https://www.youtube.com/watch?v=iWBVtXPfTB0
+
 - Seem like some pc support edit on the bios
     - Settings --> AMD OverClocking --> Precision Boost Overdrive
     via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
 
 ## TODO Remote Config
+
   - Reg editor
 
 ## TODO 备份 .m2 目录
--
 
 [^proxy_winget]: https://github.com/microsoft/winget-cli/issues/190, https://github.com/microsoft/winget-cli/discussions/4428
 [^uninstall-garbage]: https://superuser.com/questions/1684005/how-do-i-prevent-widgets-exe-from-getting-automatically-started-on-windows-11, https://answers.microsoft.com/en-us/windows/forum/all/how-to-permanently-stop-the-widgets-service-from/de082ed2-81db-4074-a334-0c9ca13f15c4, https://v2ex.com/t/1048191
+[^china-office]: https://v2ex.com/t/1048191
 [^wsn]:https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/windows-defender-security-center/wdsc-hide-notifications
+[^turbo-boost]: https://www.youtube.com/watch?v=iWBVtXPfTB0
 [^overheat-laptop]: https://www.youtube.com/watch?v=iWBVtXPfTB0
 [^windows_modern_standby]: via https://www.chiphell.com/thread-2460017-1-1.html to check abnormal power on count with ssd disk. more instructions you could via https://www.bilibili.com/video/BV1Pv4y1d7Ms/, solution via https://blog.csdn.net/sinat_30603081/article/details/130637807, https://www.timochan.cn/posts/any_pen/stupid_modern_standby
 [^import_export_wsl]: https://blog.csdn.net/momodosky/article/details/108102146

@@ -129,7 +129,7 @@ systenctl enable tg@bgzo
 
 ### 设计的项目
 
-- [[commandline|命令行支持]]: https://github.com/spf13/cobra
+- [[skills/devops/linux/commandline/index|命令行支持]]: https://github.com/spf13/cobra
 - 语言实现：[[golang]]
 
 [^not-usefiul]: 无法格式化文字超链接，无法读取图片的字幕，结合 logseq 的 API 的特性，插件一直无法对含 `tg@username` 的消息进行处理，并且无法转发频道的信息，必须是经过认证人的消息才会被存档。

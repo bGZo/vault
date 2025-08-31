@@ -3,7 +3,7 @@ aliases:
   - 油管
   - Youtube
 created: 2021-11-15T00:00:00
-modified: 2025-07-17T22:05:13
+modified: 2025-08-31T10:27:08
 tags:
   - Platform
   - video
@@ -25,3 +25,7 @@ title: Youtube
 
 > [!warning]
 > Youtube search results included *其他用户还观看了*, and more noisy information. 🙄
+
+## Music
+
+- Download: https://loader.to/en74/youtube-songs-downloader.html

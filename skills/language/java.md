@@ -128,7 +128,7 @@ simpleReference1.accept(1);
 
 https://www.youtube.com/watch?v=9rhT3P1MDHk&list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY
 
-## [[object-oriented-programming|OOP]] (Object-Oriented Programming)
+## [[programming-object-oriented|OOP]] (Object-Oriented Programming)
 
 Contain data in the form of fields (attributes) and code in the form of procedures (methods). OOP focuses on creating reusable code by grouping related data and behavior into objects, allowing for modularity(模块化), abstraction(抽象), inheritance(继承), and polymorphism(多态性).
 

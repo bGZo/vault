@@ -130,7 +130,7 @@ wikipedia: https://en.wikipedia.org/wiki/Leased_line
 
 - 入口国内, 出国国外, 过墙会用隧道协议 (负载均衡 -> 防止被墙)
 
-### [Command line](commandline)
+### [Command line](skills/devops/linux/commandline/index.md)
 
 ```shell
 #         ____

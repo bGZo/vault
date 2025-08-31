@@ -1,10 +1,14 @@
 ---
 aliases:
   - 语言
+  - Index
 created: 2024-08-03T00:00:00
-modified: 2025-03-22T16:17:41
 description:
+modified: 2025-08-31T11:42:59
+title: Index
 ---
+
+# Index
 
 ## Native
 
@@ -24,21 +28,19 @@ description:
 
 source: https://en.wikipedia.org/wiki/Programming_language, https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
 
-#### purpose
+#### Purpose
 
 via: https://web.archive.org/web/20071020203251/http://tunes.org/wiki/programming_20languages.html from the original on 20 October 2007.
 
-  - General programming languages
-  - [[system-lang-programming|System programming languages]]
-      - https://en.wikipedia.org/wiki/System_programming_language,
-  - Scripting languages
-  - [[domain-specific|Domain-specific languages (DSLs)]]
-    - a computer language specialized to a particular application domain
+  - [[language-general-programming|通用编程语言]]
+  - [[language-system-programming|系统编程语言]]
+  - [[language-scripting|脚本语言]]
+  - [[language-domain-specific|领域特定语言]]
   - Concurrent/distributed languages (or a combination of these)
 
-#### [[programming-paradigms]]
+#### [[programming-paradigms|编程范式]]
 
-### Query All
+### Query All I Know
 
 ```dataview
 list

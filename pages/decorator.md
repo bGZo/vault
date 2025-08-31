@@ -9,4 +9,4 @@ title: Decorator
 
 # Decorator
 
-类似 [[java|Java]] 的 [[annotation|注解]]，装饰器用于修饰 [[python|Python]]
+类似 [[java|Java]] 的 [[java-annotation|注解]]，装饰器用于修饰 [[python|Python]]

@@ -1,9 +1,17 @@
 ---
-created: 2024-08-14T12:00:00
-modified: 2025-04-04T10:37:08
+aliases:
+  - 命令行
+  - cli
+  - Commandline
+  - Linux command-line
 comments: false
-title: Command line
+created: 2024-07-28T00:00:00
+modified: 2025-08-30T18:22:56
+title: Linux command-line
+type: tool
 ---
+
+# Linux command-line
 
 > [!NOTE]
 >
@@ -11,115 +19,236 @@ title: Command line
 >
 > — [The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/) | [zh-has](https://chinese.freecodecamp.org/news/the-linux-commands-handbook/)
 
+## 默认颜色
+
+| color    | decribe                                                 |
+| -------- | ------------------------------------------------------- |
+| **白色**   | 普通文件                                                    |
+| **蓝色**   | 目录                                                      |
+| **绿色**   | 可执行文件                                                   |
+| **红色**   | 压缩文件                                                    |
+| **浅蓝色**  | 链接文件                                                    |
+| **红色闪烁** | 链接的文件有问题                                                |
+| **黄色**   | 设备文件                                                    |
+| **灰色**   | 其他文件                                                    |
+| **绿色**   | 是有问题的，代表权限中有其它组权限拥有写入权限，系统默认这是一个高风险目录。将权限改到 775 以下就可以解决 |
+
+## Angle brackets
+
+`>` -> 输出重定向
+
+`>>` -> 追加
+
 ## [[skills/devops/linux/index|Linux]] Category
 
 Refer to https://www.runoob.com/linux/linux-command-manual.html
 
 ### 文件管理
-#### cat
-#### chattr
-#### chgrp
-#### chmod
-#### chown
-#### cksum
-#### cmp
-#### diff
-#### diffstat
-#### file
-#### find
-#### git
-#### gitview
-#### indent
-#### cut
-#### ln
-#### less
-#### locate
-#### lsattr
-#### mattrib
-#### mc
-#### mdel
-#### mdir
-#### mktemp
-#### more
-#### mmove
-#### mread
-#### mren
-#### mtools
-#### mtoolstest
-#### mv
-#### od
-#### paste
-#### patch
-#### rcp
-#### rm
-#### slocate
-#### split
-#### tee
-#### tmpwatch
-#### touch
-#### umask
-#### which
-#### cp
-#### whereis
-#### mcopy
-#### mshowfat
-#### rhmask
-#### scp
-#### awk
-#### read
-#### updatedb
+
+#### Cat
+
+#### Chattr
+
+#### Chgrp
+
+#### Chmod
+
+#### Chown
+
+#### Cksum
+
+#### Cmp
+
+#### Diff
+
+#### Diffstat
+
+#### File
+
+#### Find
+
+#### Git
+
+#### Gitview
+
+#### Indent
+
+#### Cut
+
+#### Ln
+
+#### Less
+
+#### Locate
+
+#### Lsattr
+
+#### Mattrib
+
+#### Mc
+
+#### Mdel
+
+#### Mdir
+
+#### Mktemp
+
+#### More
+
+#### Mmove
+
+#### Mread
+
+#### Mren
+
+#### Mtools
+
+#### Mtoolstest
+
+#### Mv
+
+#### Od
+
+#### Paste
+
+#### Patch
+
+#### Rcp
+
+#### Rm
+
+#### Slocate
+
+#### Split
+
+#### Tee
+
+#### Tmpwatch
+
+#### Touch
+
+#### Umask
+
+#### Which
+
+#### Cp
+
+#### Whereis
+
+#### Mcopy
+
+#### Mshowfat
+
+#### Rhmask
+
+#### Scp
+
+#### Awk
+
+#### Read
+
+#### Updatedb
+
 ### 文档编辑
-#### col
-#### colrm
-#### comm
-#### csplit
-#### ed
-#### egrep
-#### ex
-#### fgrep
-#### fmt
-#### fold
-#### grep
-#### ispell
-#### jed
-#### joe
-#### join
-#### look
-#### mtype
-#### pico
-#### rgrep
-#### sed
-#### sort
-#### spell
-#### tr
-#### expr
-#### uniq
-#### wc
-#### let
+
+#### Col
+
+#### Colrm
+
+#### Comm
+
+#### Csplit
+
+#### Ed
+
+#### Egrep
+
+#### Ex
+
+#### Fgrep
+
+#### Fmt
+
+#### Fold
+
+#### Grep
+
+#### Ispell
+
+#### Jed
+
+#### Joe
+
+#### Join
+
+#### Look
+
+#### Mtype
+
+#### Pico
+
+#### Rgrep
+
+#### Sed
+
+#### Sort
+
+#### Spell
+
+#### Tr
+
+#### Expr
+
+#### Uniq
+
+#### Wc
+
+#### Let
+
 ### 文件传输
-#### lprm
-#### lpr
-#### lpq
-#### lpd
-#### bye
-#### ftp
-#### uuto
-#### uupick
-#### uucp
-#### uucico
-#### tftp
-#### ncftp
-#### ftpshut
-#### ftpwho
-#### ftpcount
+
+#### Lprm
+
+#### Lpr
+
+#### Lpq
+
+#### Lpd
+
+#### Bye
+
+#### Ftp
+
+#### Uuto
+
+#### Uupick
+
+#### Uucp
+
+#### Uucico
+
+#### Tftp
+
+#### Ncftp
+
+#### Ftpshut
+
+#### Ftpwho
+
+#### Ftpcount
+
 ### 磁盘管理
-#### cd
-#### df
+
+#### Cd
+
+#### Df
+
 - 获取磁盘的使用情况信息
 - `-h` 会将值以更为可读的方式显示
 
-#### dirs
-#### du
+#### Dirs
+
+#### Du
 
 ```shell
 du
@@ -139,397 +268,633 @@ du -a
 du -h <directory> | sort -nr | head
 ```
 
-#### edquota
-#### eject
-#### mcd
-#### mdeltree
-#### mdu
-#### mkdir
-#### mlabel
-#### mmd
-#### mrd
-#### mzip
-#### pwd (print work directory)
+#### Edquota
+
+#### Eject
+
+#### Mcd
+
+#### Mdeltree
+
+#### Mdu
+
+#### Mkdir
+
+#### Mlabel
+
+#### Mmd
+
+#### Mrd
+
+#### Mzip
+
+#### Pwd (print work directory)
 
 - 打印当前目录 显示出当前工作目录的绝对路径
 
-#### quota
-#### mount
-#### mmount
-#### rmdir
-#### rmt
-#### stat
-#### tree
-#### umount
-#### ls
-#### quotacheck
-#### quotaoff
-#### lndir
-#### repquota
-#### quotaon
+#### Quota
+
+#### Mount
+
+#### Mmount
+
+#### Rmdir
+
+#### Rmt
+
+#### Stat
+
+#### Tree
+
+#### Umount
+
+#### Ls
+
+#### Quotacheck
+
+#### Quotaoff
+
+#### Lndir
+
+#### Repquota
+
+#### Quotaon
+
 ### 磁盘维护
-#### badblocks
-#### cfdisk
-#### dd
+
+#### Badblocks
+
+#### Cfdisk
+
+#### Dd
+
 #### e2fsck
+
 #### ext2ed
-#### fsck
+
+#### Fsck
+
 #### fsck.minix
-#### fsconf
-#### fdformat
-#### hdparm
-#### mformat
-#### mkbootdisk
-#### mkdosfs
+
+#### Fsconf
+
+#### Fdformat
+
+#### Hdparm
+
+#### Mformat
+
+#### Mkbootdisk
+
+#### Mkdosfs
+
 #### mke2fs
+
 #### mkfs.ext2
+
 #### mkfs.msdos
-#### mkinitrd
-#### mkisofs
-#### mkswap
-#### mpartition
-#### swapon
-#### symlinks
-#### sync
-#### mbadblocks
+
+#### Mkinitrd
+
+#### Mkisofs
+
+#### Mkswap
+
+#### Mpartition
+
+#### Swapon
+
+#### Symlinks
+
+#### Sync
+
+#### Mbadblocks
+
 #### mkfs.minix
+
 #### fsck.ext2
-#### fdisk
-#### losetup
-#### mkfs
-#### sfdisk
-#### swapoff
+
+#### Fdisk
+
+#### Losetup
+
+#### Mkfs
+
+#### Sfdisk
+
+#### Swapoff
+
 ### 网络通讯
-#### apachectl
-#### arpwatch
-#### dip
-#### getty
-#### mingetty
-#### uux
-#### telnet
-#### uulog
-#### uustat
-#### ppp-off
-#### netconfig
+
+#### Apachectl
+
+#### Arpwatch
+
+#### Dip
+
+#### Getty
+
+#### Mingetty
+
+#### Uux
+
+#### Telnet
+
+#### Uulog
+
+#### Uustat
+
+#### Ppp-off
+
+#### Netconfig
+
 #### [[nc]]
-#### httpd
-#### ifconfig
-#### minicom
-#### mesg
-#### dnsconf
-#### wall
-#### netstat
-#### ping
-#### pppstats
-#### samba
-#### setserial
-#### talk
-#### traceroute
-#### tty
-#### newaliases
-#### uuname
-#### netconf
-#### write
-#### statserial
-#### efax
-#### pppsetup
-#### tcpdump
-#### ytalk
-#### cu
-#### smbd
-#### testparm
-#### smbclient
-#### shapecfg
+
+#### Httpd
+
+#### Ifconfig
+
+#### Minicom
+
+#### Mesg
+
+#### Dnsconf
+
+#### Wall
+
+#### Netstat
+
+#### Ping
+
+#### Pppstats
+
+#### Samba
+
+#### Setserial
+
+#### Talk
+
+#### Traceroute
+
+#### Tty
+
+#### Newaliases
+
+#### Uuname
+
+#### Netconf
+
+#### Write
+
+#### Statserial
+
+#### Efax
+
+#### Pppsetup
+
+#### Tcpdump
+
+#### Ytalk
+
+#### Cu
+
+#### Smbd
+
+#### Testparm
+
+#### Smbclient
+
+#### Shapecfg
+
 ### 系统管理
-#### adduser
-#### chfn
-#### useradd
-#### date
-#### exit
-#### finger
-#### fwhios
-#### sleep
-#### suspend
-#### groupdel
-#### groupmod
-#### halt
-#### kill
-#### last
-#### lastb
-#### login
-#### logname
-#### logout
-#### ps (Process Status)
+
+#### Adduser
+
+#### Chfn
+
+#### Useradd
+
+#### Date
+
+#### Exit
+
+#### Finger
+
+#### Fwhios
+
+#### Sleep
+
+#### Suspend
+
+#### Groupdel
+
+#### Groupmod
+
+#### Halt
+
+#### Kill
+
+#### Last
+
+#### Lastb
+
+#### Login
+
+#### Logname
+
+#### Logout
+
+#### Ps (Process Status)
 
 - 进程状态，类似于 windows 的任务管理器
 
-#### nice
-#### procinfo
-#### top
-#### pstree
-#### reboot
-#### rlogin
-#### rsh
-#### sliplogin
-#### screen
-#### shutdown
-#### rwho
-#### sudo
-#### gitps
-#### swatch
-#### tload
-#### logrotate
-#### uname
-#### chsh
-#### userconf
-#### userdel
-#### usermod
-#### vlock
-#### who
-#### whoami
-#### whois
-#### newgrp
-#### renice
-#### su
-#### skill
-#### w
-#### id
-#### groupadd
-#### free
+#### Nice
+
+#### Procinfo
+
+#### Top
+
+#### Pstree
+
+#### Reboot
+
+#### Rlogin
+
+#### Rsh
+
+#### Sliplogin
+
+#### Screen
+
+#### Shutdown
+
+#### Rwho
+
+#### Sudo
+
+#### Gitps
+
+#### Swatch
+
+#### Tload
+
+#### Logrotate
+
+#### Uname
+
+#### Chsh
+
+#### Userconf
+
+#### Userdel
+
+#### Usermod
+
+#### Vlock
+
+#### Who
+
+#### Whoami
+
+#### Whois
+
+#### Newgrp
+
+#### Renice
+
+#### Su
+
+#### Skill
+
+#### W
+
+#### Id
+
+#### Groupadd
+
+#### Free
+
 ### 系统设置
-#### reset
-#### clear
-#### alias
-#### dircolors
-#### aumix
-#### bind
-#### chroot
-#### clock
-#### crontab
-#### declare
-#### depmod
-#### dmesg
-#### enable
-#### eval
-#### export
-#### pwunconv
-#### grpconv
-#### rpm
-#### insmod
-#### kbdconfig
-#### lilo
-#### liloconfig
-#### lsmod
-#### minfo
-#### set
-#### modprobe
-#### ntsysv
-#### mouseconfig
-#### passwd
-#### pwconv
-#### rdate
-#### resize
-#### rmmod
-#### grpunconv
-#### modinfo
-#### time
-#### setup
-#### sndconfig
-#### setenv
-#### setconsole
-#### timeconfig
-#### ulimit
-#### unset
-#### chkconfig
-#### apmd
-#### hwclock
-#### mkkickstart
-#### fbset
-#### unalias
+
+#### Reset
+
+#### Clear
+
+#### Alias
+
+#### Dircolors
+
+#### Aumix
+
+#### Bind
+
+#### Chroot
+
+#### Clock
+
+#### Crontab
+
+#### Declare
+
+#### Depmod
+
+#### Dmesg
+
+#### Enable
+
+#### Eval
+
+#### Export
+
+#### Pwunconv
+
+#### Grpconv
+
+#### Rpm
+
+#### Insmod
+
+#### Kbdconfig
+
+#### Lilo
+
+#### Liloconfig
+
+#### Lsmod
+
+#### Minfo
+
+#### Set
+
+#### Modprobe
+
+#### Ntsysv
+
+#### Mouseconfig
+
+#### Passwd
+
+#### Pwconv
+
+#### Rdate
+
+#### Resize
+
+#### Rmmod
+
+#### Grpunconv
+
+#### Modinfo
+
+#### Time
+
+#### Setup
+
+#### Sndconfig
+
+#### Setenv
+
+#### Setconsole
+
+#### Timeconfig
+
+#### Ulimit
+
+#### Unset
+
+#### Chkconfig
+
+#### Apmd
+
+#### Hwclock
+
+#### Mkkickstart
+
+#### Fbset
+
+#### Unalias
+
 #### SVGATextMode
-#### gpasswd
+
+#### Gpasswd
+
 ### 备份压缩
-#### ar
-#### bunzip2
-#### bzip2
+
+#### Ar
+
+#### Bunzip2
+
+#### Bzip2
+
 #### bzip2recover
-#### gunzip
-#### unarj
-#### compress
-#### cpio
-#### dump
-#### uuencode
-#### gzexe
-#### gzip
-#### lha
-#### restore
-#### tar
-#### uudecode
-#### unzip
-#### zip
-#### zipinfo
+
+#### Gunzip
+
+#### Unarj
+
+#### Compress
+
+#### Cpio
+
+#### Dump
+
+#### Uuencode
+
+#### Gzexe
+
+#### Gzip
+
+#### Lha
+
+#### Restore
+
+#### Tar
+
+#### Uudecode
+
+#### Unzip
+
+#### Zip
+
+#### Zipinfo
+
 ### 设备管理
-#### setleds
-#### loadkeys
-#### rdev
-#### dumpkeys
+
+#### Setleds
+
+#### Loadkeys
+
+#### Rdev
+
+#### Dumpkeys
+
 #### MAKEDEV
-#### poweroff
+
+#### Poweroff
+
 ### 其他
-#### bc
-#### tail
-#### head
-#### xargs
-#### ip
-#### nohup
-#### killall
-#### pkill
+
+#### Bc
+
+#### Tail
+
+#### Head
+
+#### Xargs
+
+#### Ip
+
+#### Nohup
+
+#### Killall
+
+#### Pkill
 
 ## Linux 常用命令全拼
 
 Refer to: https://www.runoob.com/w3cnote/linux-command-full-fight.html
 
-### df
+### Df
 
 disk free 其功能是显示磁盘可用空间数目信息及空间结点信息。换句话说，就是报告在任何安装的设备或目录中，还剩多少自由的空间。
 
-### du
+### Du
 
 Disk usage
 
-### rpm
+### Rpm
 
 即 RedHat Package Management，是 RedHat 的发明之一
 
-### rmdir
+### Rmdir
 
 Remove Directory（删除目录）
 
-### rm
+### Rm
 
 Remove（删除目录或文件）
 
-### cat
+### Cat
 
 concatenate 连锁
 
 - cat file1file2>>file3 把文件 1 和文件 2 的内容联合起来放到 file3 中
 
-### insmod
+### Insmod
 
 install module,载入模块
 
 - ln -s : link -soft 创建一个软链接，相当于创建一个快捷方式
 
-### mkdir
+### Mkdir
 
 Make Directory(创建目录)
 
-### touch
+### Touch
 
 touch
 
-### man
+### Man
 
 Manual
 
-### su
+### Su
 
 Swith user(切换用户)
 
-### cd
+### Cd
 
 Change directory
 
-### ls
+### Ls
 
 List files
 
-### mkdir
+### Mkdir
 
 Make directory
 
-### rmdir
+### Rmdir
 
 Remove directory
 
-### mkfs
+### Mkfs
 
 Make file system
 
-### fsck
+### Fsck
 
 File system check
 
-### uname
+### Uname
 
 Unix name
 
-### lsmod
+### Lsmod
 
 List modules
 
-### mv
+### Mv
 
 Move file
 
-### rm
+### Rm
 
 Remove file
 
-### cp
+### Cp
 
 Copy file
 
-### ln
+### Ln
 
 Link files
 
-### fg
+### Fg
 
 Foreground
 
-### bg
+### Bg
 
 Background
 
-### chown
+### Chown
 
 Change owner
 
-### chgrp
+### Chgrp
 
 Change group
 
-### chmod
+### Chmod
 
 Change mode
 
-### umount
+### Umount
 
 Unmount
 
-### dd
+### Dd
 
 本来应根据其功能描述 "Convert an copy" 命名为 "cc"，但 "cc" 已经被用以代表 "CComplier"，所以命名为 "dd"
 
-### tar
+### Tar
 
 Tape archive （磁带档案）
 
-### ldd
+### Ldd
 
 List dynamic dependencies
 
-### insmod
+### Insmod
 
 Install module
 
-### rmmod
+### Rmmod
 
 Remove module
 
-### lsmod
+### Lsmod
 
 List module
 
@@ -543,15 +908,15 @@ List module
 
 Red hat package manager
 
-### dpkg
+### Dpkg
 
 Debian package manager
 
-### apt
+### Apt
 
 Advanced package tool（Debian 或基于 Debian 的发行版中提供）
 
-### bin
+### Bin
 
 Binaries (二进制文件)
 
@@ -639,545 +1004,545 @@ Video Terminal
 
 Yet Another Setup Tool
 
-### apache
+### Apache
 
 “a patchy” server
 
-### apt
+### Apt
 
 Advanced Packaging Tool
 
-### ar
+### Ar
 
 archiver
 
-### as
+### As
 
 assembler
 
-### awk
+### Awk
 
 “Aho Weiberger and Kernighan”三个作者的姓的第一个字母
 
-### bash
+### Bash
 
 Bourne Again SHell
 
-### bc
+### Bc
 
 Basic (Better) Calculator
 
-### bg
+### Bg
 
 BackGround
 
-### biff
+### Biff
 
 作者 HeidiStettner 在 U.C.Berkely 养的一条狗,喜欢对邮递员汪汪叫。
 
-### cal
+### Cal
 
 Calendar (日历)
 
-### cat
+### Cat
 
 Catenate (链接)
 
-### cd
+### Cd
 
 Change Directory
 
-### chgrp
+### Chgrp
 
 Change Group
 
-### chmod
+### Chmod
 
 Change Mode
 
-### chown
+### Chown
 
 Change Owner
 
-### chsh
+### Chsh
 
 Change Shell
 
-### cmp
+### Cmp
 
 compare
 
-### cobra
+### Cobra
 
 Common Object Request BrokerArchitecture
 
-### comm
+### Comm
 
 common
 
-### cp
+### Cp
 
 Copy
 
-### cpio
+### Cpio
 
 CoPy In and Out
 
-### cpp
+### Cpp
 
 C Pre Processor
 
-### cron
+### Cron
 
 Chronos 希腊文时间
 
-### cups
+### Cups
 
 Common Unix Printing System
 
-### cvs
+### Cvs
 
 Current Version System
 
-### daemon
+### Daemon
 
 Disk And Execution MONitor
 
-### dc
+### Dc
 
 Desk Calculator
 
-### dd
+### Dd
 
 Disk Dump (磁盘转储)
 
-### df
+### Df
 
 Disk Free
 
-### diff
+### Diff
 
 Difference
 
-### dmesg
+### Dmesg
 
 diagnostic message
 
-### du
+### Du
 
 Disk Usage
 
-### ed
+### Ed
 
 editor
 
-### egrep
+### Egrep
 
 Extended GREP
 
-### elf
+### Elf
 
 Extensible Linking Format
 
-### elm
+### Elm
 
 ELectronic Mail
 
-### emacs
+### Emacs
 
 Editor MACroS
 
-### eval
+### Eval
 
 EVALuate
 
-### ex
+### Ex
 
 EXtended
 
-### exec
+### Exec
 
 EXECute (执行)
 
-### fd
+### Fd
 
 file descriptors
 
-### fg
+### Fg
 
 ForeGround
 
-### fgrep
+### Fgrep
 
 Fixed GREP
 
-### fmt
+### Fmt
 
 format
 
-### fsck
+### Fsck
 
 File System ChecK
 
-### fstab
+### Fstab
 
 FileSystem TABle
 
-### fvwm
+### Fvwm
 
 F*** Virtual Window Manager
 
-### gawk
+### Gawk
 
 GNU AWK
 
-### gpg
+### Gpg
 
 GNU Privacy Guard
 
-### groff
+### Groff
 
 GNU troff
 
-### hal
+### Hal
 
 Hardware Abstraction Layer
 
-### joe
+### Joe
 
 Joe’s Own Editor
 
-### ksh
+### Ksh
 
 Korn SHell
 
-### lame
+### Lame
 
 Lame Ain’t an MP3 Encoder
 
-### lex
+### Lex
 
 LEXical analyser
 
-### lisp
+### Lisp
 
 LISt Processing = Lots of IrritatingSuperfluous Parentheses
 
-### ln
+### Ln
 
 Link
 
-### lpr
+### Lpr
 
 Line PRint
 
-### ls
+### Ls
 
 list
 
-### lsof
+### Lsof
 
 LiSt Open Files
 
-### m4
+### M4
 
 Macro processor Version 4
 
-### man
+### Man
 
 MANual pages
 
-### mawk
+### Mawk
 
 Mike Brennan’s AWK
 
-### mc
+### Mc
 
 Midnight Commander
 
-### mkfs
+### Mkfs
 
 MaKe FileSystem
 
-### mknod
+### Mknod
 
 Make Node
 
-### motd
+### Motd
 
 Message of The Day
 
-### mozilla
+### Mozilla
 
 MOsaic GodZILLa
 
-### mtab
+### Mtab
 
 Mount TABle
 
-### mv
+### Mv
 
 Move
 
-### nano
+### Nano
 
 Nano’s ANOther editor
 
-### nawk
+### Nawk
 
 New AWK
 
-### nl
+### Nl
 
 Number of Lines
 
-### nm
+### Nm
 
 names
 
-### nohup
+### Nohup
 
 No HangUP
 
-### nroff
+### Nroff
 
 New ROFF
 
-### od
+### Od
 
 Octal Dump
 
-### passwd
+### Passwd
 
 Passwd
 
-### pg
+### Pg
 
 pager
 
-### pico
+### Pico
 
 PIne’s message COmposition editor
 
-### pine
+### Pine
 
 “Program for Internet News &Email” = “Pine is not Elm”
 
-### ping
+### Ping
 
 拟声 又 = Packet Internet Grouper
 
-### pirntcap
+### Pirntcap
 
 PRINTer CAPability
 
-### popd
+### Popd
 
 POP Directory
 
-### pr
+### Pr
 
 pre
 
-### printf
+### Printf
 
 Print Formatted
 
-### pty
+### Pty
 
 pseudo tty
 
-### pushd
+### Pushd
 
 PUSH Directory
 
-### rc
+### Rc
 
 runcom = run command, rc 还是 plan9 的 shell
 
-### rev
+### Rev
 
 REVerse
 
-### rm
+### Rm
 
 ReMove
 
-### rn
+### Rn
 
 Read News
 
-### roff
+### Roff
 
 RunOFF
 
-### rpm
+### Rpm
 
 RPM Package Manager = RedHat PackageManager
 
 - rsh, rlogin, rvim 中的
 
-### r
+### R
 
 Remote
 
-### rxvt
+### Rxvt
 
 ouR XVT
 
-### seamoneky
+### Seamoneky
 
 我
 
-### sed
+### Sed
 
 Stream Editor
 
-### seq
+### Seq
 
 SEQuence
 
-### shar
+### Shar
 
 Shell ARchive
 
-### slrn
+### Slrn
 
 S-Lang rn
 
-### ssh
+### Ssh
 
 Secure Shell
 
-### ssl
+### Ssl
 
 Secure Sockets Layer
 
-### stty
+### Stty
 
 Set TTY
 
-### su
+### Su
 
 Substitute User
 
-### svn
+### Svn
 
 SubVersion
 
-### tar
+### Tar
 
 Tape ARchive
 
-### tcsh
+### Tcsh
 
 TENEX C shell
 
-### tee
+### Tee
 
 T (T 形水管接口)
 
-### telnet
+### Telnet
 
 TEminaL over Network
 
-### termcap
+### Termcap
 
 terminal capability
 
-### terminfo
+### Terminfo
 
 terminal information
 
-### tex
+### Tex
 
 τέχνη的缩写，希腊文 art
 
-### tr
+### Tr
 
 traslate
 
-### troff
+### Troff
 
 Typesetter new ROFF
 
-### tsort
+### Tsort
 
 Topological SORT
 
-### tty
+### Tty
 
 TeleTypewriter
 
-### twm
+### Twm
 
 Tom’s Window Manager
 
-### tz
+### Tz
 
 TimeZone
 
-### udev
+### Udev
 
 Userspace DEV
 
-### ulimit
+### Ulimit
 
 User’s LIMIT
 
-### umask
+### Umask
 
 User’s MASK
 
-### uniq
+### Uniq
 
 UNIQue
 
-### i
+### I
 
 VIsual = Very Inconvenient
 
-### vim
+### Vim
 
 Vi IMproved
 
-### wall
+### Wall
 
 write all
 
-### wc
+### Wc
 
 Word Count
 
-### wine
+### Wine
 
 WINE Is Not an Emulator
 
-### xargs
+### Xargs
 
 eXtended ARGuments
 
-### xdm
+### Xdm
 
 X Display Manager
 
-### xlfd
+### Xlfd
 
 X Logical Font Description
 
-### xmms
+### Xmms
 
 X Multimedia System
 
-### xrdb
+### Xrdb
 
 X Resources DataBase
 
-### xwd
+### Xwd
 
 X Window Dump
 
-### yacc
+### Yacc
 
 yet another compiler compiler
 
@@ -1185,7 +1550,7 @@ yet another compiler compiler
 
 the Friendly Interactive SHell
 
-### su
+### Su
 
 Switch User
 
@@ -1214,3 +1579,5 @@ man -M /usr/share/man/zh_CN (xxx)
 - [Linux 命令搜索引擎](https://wangchujiang.com/linux-command/) | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
 - [Linux man pages online (man7.org)](https://man7.org/linux/man-pages/index.html)
 - > 在您的系统设置为中文环境时， 如果有对应的中文手册页，则该手册页将显示中文版本。如系统并非中文环境，请临时调整您的环境变量以使用中文内容
+
+# 命令行

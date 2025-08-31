@@ -1,14 +1,22 @@
 ---
-aliases: js, javascript
+aliases:
+  - javascript
+  - Javascript
+  - js
 created: 2024-07-17T00:00:00
 description: a high-level, often just-in-time compiled language that conforms to the ECMAScript standard
-tags: web
+modified: 2025-08-31T13:06:03
+tags:
+  - web
+title: Javascript
 type: lang/programming
 wikipedia: https://en.wikipedia.org/wiki/JavaScript
-modified: 2025-03-22T16:40:30
 ---
 
+# Javascript
+
 ## Why
+
 ## How
 
 ### Date Handler
@@ -84,14 +92,14 @@ date.toLocaleDateString('en-GB').split('/').reverse().join(''); // '20211124'
 
 #### [Date.prototype.toLocaleDateString() - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
 
-```
+```shell
 const date = new Date();
 console.log(date);
 ```
 
 #### [How to Get the Current Date in JavaScript - Scaler Topics](https://www.scaler.com/topics/get-current-date-in-javascript/)
 
-```
+```shell
 let yourDate = new Date()
 yourDate.toISOString().split('T')[0]
 ```

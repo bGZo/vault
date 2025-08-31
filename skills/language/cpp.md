@@ -8,6 +8,7 @@ tags:
   - system
 title: Cpp
 type: lang/programming
+wikipedia: https://en.wikipedia.org/wiki/C%2B%2B
 ---
 
 # Cpp
