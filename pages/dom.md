@@ -1,13 +1,12 @@
 ---
 aliases:
+  - 页面文档对象模型
   - Document Object Model
-  - javascript/dom
-  - web/api/dom
+  - DOM
 created: 2025-01-17T23:15:07
-description: Document Object Model / 页面文档对象模型
-modified: 2025-07-17T20:53:32
-title: Document Object Model
+modified: 2025-08-31T13:17:16
+title: 页面文档对象模型
 wikipedia: https://en.wikipedia.org/wiki/Document_Object_Model
 ---
 
-# Document Object Model
+# 页面文档对象模型

@@ -4,7 +4,7 @@ aliases:
   - 发行商
   - Publisher
 created: 2024-07-20T00:00:00
-modified: 2025-08-30T23:34:03
+modified: 2025-08-31T13:48:20
 title: 出版社
 ---
 
@@ -65,3 +65,13 @@ title: 出版社
         - http://www.shinseido.co.jp
 
 via: [日本知名出版社〈以下按拼音順序排列](http://w3.tpsh.tp.edu.tw/education/japan/japanese_link/P.5.htm)
+
+## English
+
+### O'Reilly Series
+
+[Animal Menagerie - O'Reilly Media](https://www.oreilly.com/animals.csp)
+
+> **Manning** is an independent publisher, providing computer books for software developers, engineers, architects, system administrators, and managers. Our books also cover topics for young programmers, students, and occasionally children.
+
+via: [Publishers](https://www.oreilly.com/publisher/manning-publications/)

@@ -1,7 +1,6 @@
 ---
 aliases:
   - 固态
-  - Ssd
   - SSD
 created: 2024-07-14T00:00:00
 modified: 2025-07-19T11:14:27
