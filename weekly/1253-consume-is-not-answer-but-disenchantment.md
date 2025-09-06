@@ -2,7 +2,7 @@
 aliases:
   - 消费不是答案，但祛魅得先消费
 created: 2025-08-17T23:03:28
-modified: 2025-08-17T23:04:16
+modified: 2025-09-06T09:59:19
 title: 消费不是答案，但祛魅得先消费
 type: writing
 ---

@@ -13,6 +13,15 @@ type: tool
 
 # Git
 
+
+- [x]  改变 Commit 习惯 
+- [x]  [vim - How do I make git use the editor of my choice for editing commit messages? - Stack Overflow](https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-editing-commit-messages) 
+
+```SHELL
+git config --global core.editor "vim"
+```
+
+- [x]  [约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/?spm=a2c6h.12873639.article-detail.9.a98a134a2ceoVd) 
 ## Alternatives
 
 1. https://learnxinyminutes.com/docs/zh-cn/git-cn/
