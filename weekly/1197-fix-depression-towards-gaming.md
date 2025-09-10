@@ -1,8 +1,11 @@
 ---
-aliases: [电子阳痿治疗指南]
+aliases:
+  - 电子阳痿治疗指南
 created: 2024-07-20T10:17:40
-modified: 2025-06-29T23:51:45
-tags: [steam, weekly/1197]
+modified: 2025-09-09T21:26:08
+tags:
+  - steam
+  - weekly/1197
 title: 电子阳痿治疗指南
 type: writing
 ---
@@ -61,7 +64,7 @@ G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]
 
 <iframe src='https://store.steampowered.com/widget/602520' style='height:200px;width:100%' allow='fullscreen'></iframe>
 
-18+ DLC 锁国区，对锁区的游戏有洁癖，表示不会再买。虽然想打补丁提取 CG，同时也想要挂卡回一点血，但考虑开完就会激活第一个成就，并且全成就之后还得快进读玩，还是直接不折腾了。滚吧。
+18+ DLC 锁国区，对锁区的游戏有洁癖，表示不会再买。虽然想打补丁提取 CG，同时也想要挂卡回一点血，但考虑开完就会激活第一个成就，并且全成就之后还得快进读玩，还是不折腾了。直接滚吧。
 
 ## 刻意玩耍
 
