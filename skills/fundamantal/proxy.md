@@ -7,8 +7,8 @@ aliases:
 cost: 240
 created: 2023-06-02T07:29:17
 description: 
-modified: 2025-07-15T20:59:35
-tags: 
+modified: 2025-09-14T09:59:49
+tags: []
 title: 代理
 type:
 ---
@@ -20,7 +20,7 @@ type:
 
 ## Why
 
-### Great Firewall
+### [[gfw|Great Firewall]]
 
 1987 年 9 月 20 日 20 时 55 分，中国的第一封 Email 发往德国，内容是：
 

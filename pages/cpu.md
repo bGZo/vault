@@ -1,10 +1,16 @@
 ---
-aliases: central processing unit, 中央处理器
-description: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
+aliases:
+  - 中央处理器
+  - central processing unit
+  - Cpu
 created: 2023-07-19T00:00:00
+description: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
+modified: 2025-09-14T10:13:01
+title: Cpu
 wikipedia: https://en.wikipedia.org/wiki/Central_processing_unit
-modified: 2025-04-05T11:32:24
 ---
+
+# Cpu
 
 ## Architecture
 
@@ -29,30 +35,30 @@ modified: 2025-04-05T11:32:24
 
 ### Apple
 
-- M2 / M2 Pro / M2 Max / M2 Ultra
-    - [Apple M2 - Wikipedia](https://en.wikipedia.org/wiki/Apple_M2)
-- M1 / M1 Pro / M1 Max / M1 Ultra
-    - [Apple M1 - Wikipedia](https://en.wikipedia.org/wiki/Apple_M1)
+![[apple-cilicon#CPU]]
 
 ## [[rank|天梯图]]
 
 ### PC
+
 <iframe src='https://www.mydrivers.com/zhuanti/tianti/cpu/index.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.mydrivers.com/zhuanti/tianti/cpu/index.html' target='_blank' class='external-link'>https://www.mydrivers.com/zhuanti/tianti/cpu/index.html</a></center>
 
 ### Phone
+
 <iframe src='https://www.mydrivers.com/zhuanti/tianti/01/index.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.mydrivers.com/zhuanti/tianti/01/index.html' target='_blank' class='external-link'>https://www.mydrivers.com/zhuanti/tianti/01/index.html</a></center>
 
 <iframe src='https://www.socpk.com/cpu/' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.socpk.com/cpu/' target='_blank' class='external-link'>https://www.socpk.com/cpu/</a></center>
 
-### laptop
+### Laptop
 
 <iframe src='https://www.mydrivers.com/zhuanti/tianti/cpum/index.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.mydrivers.com/zhuanti/tianti/cpum/index.html' target='_blank' class='external-link'>https://www.mydrivers.com/zhuanti/tianti/cpum/index.html</a></center>
 
 ### Benchmark
+
 <iframe src='' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://browser.geekbench.com/processor-benchmarks' target='_blank' class='external-link'>https://browser.geekbench.com/processor-benchmarks</a></center>
 
