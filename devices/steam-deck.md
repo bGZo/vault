@@ -1,23 +1,26 @@
 ---
-title: Steam Deck
 aliases:
-  - steam-deck-oled
+  - Steam-deck
   - Steam Deck OLED
+  - steam-deck-oled
 cover: https://upload.wikimedia.org/wikipedia/commons/5/5d/Steam_Deck_%28front%29.png
-created: 2023-06-24T12:00:00
-modified: 2025-03-22T15:10:12
-description:
 cpu: AMD Zen 2 w/ 4-cores/8-threads, variable frequency @ 2.4 – 3.5 GHz
+created: 2023-06-24T12:00:00
+description:
 gpu: AMD RDNA 2 w/ 8x CUs, variable frequency @ 1.0 – 1.6 GHz (Up to 1.6 TFLOPS FP32)
+hdd:
+modified: 2025-09-14T23:36:57
+price: 4800
 ram: 16 GB LPDDR5 @ 5500 MT/s over 4x 32-bit memory channels = 88GB/s total bandwidth
 ssd: 512G
-hdd:
-price: 4800
 tags:
   - consume/using
+title: Steam-deck
 type: 3c
 wikipedia: https://en.wikipedia.org/wiki/Steam_Deck
 ---
+
+# Steam-deck
 
 <iframe src='https://www.steamdeck.com' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.steamdeck.com' target='_blank' class='external-link'>https://www.steamdeck.com</a></center>
@@ -128,6 +131,8 @@ via: https://www.reddit.com/r/SteamDeck/comments/183xcex/steam_deck_oled_chargin
 deck 模式下需要熄屏就需要进入桌面模式，关掉 steam，挂后台，这样才是真正的熄屏，注意不能显示 steam 应用，因为电源管理那里会显示，steam 组织休眠，这里也有一个 bug，就是等到改熄屏的时候，如果还显示 steam 页面，那么显示器就会变成最大亮度，一度以为买到坏的了。实际上并非如此；
 
 https://steamcommunity.com/app/1675200/discussions/0/3757725715243231540/
+
+
 
 ## References
 
