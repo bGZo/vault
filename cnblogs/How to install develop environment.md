@@ -77,6 +77,12 @@ source ~/.rvm/scripts/rvm
 rvm install ruby@latest
 ```
 
+## Rust
+
+```shell
+curl https://sh.rustup.rs -sSf | sh
+```
+
 ## Jetbrains
 
 ### Activate using `ja-netfilter`

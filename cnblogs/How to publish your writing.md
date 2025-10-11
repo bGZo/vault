@@ -30,6 +30,7 @@
 3. hexo
 4. logseq
 5. hugo
+	1. Theme: Blowfish, more via: https://github.com/topics/hugo-theme
 6. gitbook
 7. vuepress
     1. 集成了 Google Analytics，以及基於 Git 的「最後更新時間」功能
