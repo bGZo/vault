@@ -2,28 +2,26 @@
 aliases:
   - Windows Prepare
 created: 2024-09-22T09:26:22
-modified: 2025-08-30T18:20:18
+modified: 2025-09-29T07:27:38
 title: Windows Prepare
 ---
 
 # Windows Prepare
 
-## Prior to purchase
+> [!TIP]
+> 换机很麻烦，不妨看看这篇指南？
 
-### Standard
+## 安装
 
-- [ ] 力度触控板
-- [ ] 键盘按键的触发力度
-- [ ] 自动亮度调节
-- [ ] 风扇（性能）控制
-- [ ] 轻 (中) 度负载的噪音
-- [ ] 电池续航
-- [ ] 性能释放
-- [ ] 镜面屏
+- 拿到 Windows ISO 镜像：
+    - https://www.microsoft.com/en-us/software-download/windows11
+    - https://msdn.sjjzm.com
+    - https://msdn.itellyou.cn
+    - https://www.hellowindows.cn
+- 写到 U 盘里面：
+    - https://github.com/pbatard/rufus
 
-There is no silver bullet for computer, via [[hp-starbook]]
-
-### Bypass connect Wi-Fi
+## 跳联网激活
 
 `shift + f12` 弹出命令行后，输入
 
@@ -33,29 +31,18 @@ oobe\bypassnro
 
 重启进入系统即可跳过联网激活
 
-## Install
-
-- Get Windows ISO via
-    - https://www.microsoft.com/en-us/software-download/windows11
-    - https://msdn.sjjzm.com
-    - https://msdn.itellyou.cn
-    - https://www.hellowindows.cn
-- Write it on U Disk via:
-    - https://github.com/pbatard/rufus
-
-## Activate
-
-Thanks for https://github.com/massgravel/Microsoft-Activation-Scripts
+## 激活
 
 ```shell
 irm https://massgrave.dev/get | iex
 ```
 
-## Package management / Software recover
+via: https://github.com/massgravel/Microsoft-Activation-Scripts
+
+## 包管理器
 
 > [!IMPORTANT]
-> `winget` is required by following command.
-> Luckily, `winget` has supported for proxy, with unstable network..[^proxy_winget] So Choose one way to use proxy:
+> 下面的指南需要 `winget`，好在现在改命令已经支持代理，因此你唯一需要保证的是畅通的网络 [^proxy_winget]。选择自己偏好的命令开启代理：
 
 ```bash
 # Set Proxy for winget
@@ -63,14 +50,21 @@ $ sudo winget settings --enable ProxyCommandLineOptions
 # Temporary
 $ winget --proxy http://127.0.0.1:10800 install 
 # Permanent
-$ winget settings set DefaultProxy https://127.0.0.1:2345
+$ winget settings set DefaultProxy http://127.0.0.1:10800
 # Cancel permanent
 $ winget settings reset DefaultProxy
 ```
 
-### Import `scoop`
+### 可选: 从 [[ScoopInstaller-Scoop|Scoop]] 导入
 
-Move scoop folder under `~` and then run as `install-scoop.ps1`
+Scoop 也支持代理，别忘了：
+
+```shell
+# Set Proxy for scoop, via https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy
+scoop config proxy 127.0.0.1:10800
+```
+
+建议将旧机器的 SCOOP 文件夹放在用户目录（`~`)，然后保存 `install-scoop.ps1`, 运行下面的脚本更新环境变量：
 
 ```powershell
 $username = $env:USERNAME
@@ -95,12 +89,10 @@ if (-not $currentUserPath.Contains($newPathEntry)) {
 }
 ```
 
-run following command with admin permissions
+接下来重新创建符号连接（需要管理员）：
 
 ```bash
-$ scoop reset *
-# Set Proxy for scoop, via https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy
-$ scoop config proxy 127.0.0.1:10800
+sudo scoop reset *
 ```
 
 ## Components build-in
@@ -267,7 +259,7 @@ Run <code>process-boost.bat</code>, then go `powercfg.cpl` to disable boost it. 
 $ winget install 9NF7JTB3B17P
 ```
 
-### Modern Standby (S0)
+## Modern Standby (S0)
 
 Check your laptop whether support S3 sleep mode:
 
@@ -300,9 +292,9 @@ Windows Registry Editor Version 5.00
 "PlatformAoAcOverride"=-
 ```
 
-## SubSystem
+# SubSystem
 
-### WSL
+## WSL
 
 Install WSL
 
@@ -321,13 +313,13 @@ Then import ubuntu[^import_export_wsl]
 wsl --import ubuntu "C:\Users\bgzo\wsl\" "C:\Users\bgzo\Downloads\ubuntu.tar" --version 2
 ```
 
-### WSA
+## WSA
 
 TODO
 
-## Customized
+# Customized
 
-### Install Runtime Dependencies
+## Install Runtime Dependencies
 
 ```bash
 # C++
@@ -337,7 +329,7 @@ $ winget install Microsoft.VCRedist.2013.x64
 $ winget install Microsoft.VCRedist.2015+.x64
 ```
 
-### Install Font
+## Install Font
 
 install under user permission, stored in `~\AppData\Local\Microsoft\Windows\Fonts`
 
@@ -357,7 +349,7 @@ Recommend you install following fonts:
 - Ping Fang Font
 - Noble Scarlet
 
-### Coding: Case Sensitive [^case-sensitive]
+## Coding: Case Sensitive [^case-sensitive]
 
 ```shell
 # Windows
@@ -366,7 +358,7 @@ $ fsutil.exe file setCaseSensitiveInfo ~\workspaces enable
 $ git config core.ignorecase false 
 ```
 
-### Chinese: Flypy Support
+## Chinese: Flypy Support
 
 Run as `install-flypy.reg`
 
@@ -377,7 +369,7 @@ Windows Registry Editor Version 5.00
 "UserDefinedDoublePinyinScheme0"="flypy*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt"
 ```
 
-### Chinese: Font rendering
+## Chinese: Font rendering
 
 1. ClearType build-in windows.
 2. Install [Noble Scarlet](https://github.com/fernvenue/microsoft-yahei)[^auto_replace_in_chinese_windows]
@@ -394,27 +386,27 @@ $ winget install MacType.MacType
 
 5. (Not recommend, cause *side effect*) Replace Fonts
 
-### Proxy
+## Proxy
 
 See [[proxy]], then go https://github.com/bGZo/proxy
 
-### Beautify
+## Beautify
 
-#### Like Mac
+### Like Mac
 
 - BitDock: http://www.bitdock.cn/bbs/forum.php
 
-## Waiting features
+# Waiting features
 
-### Unlock windows hello without PIN
+## Unlock windows hello without PIN
 
 Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-setup-fingerprint-without-pin-windows/10692b78-a60a-4208-9c97-b9ec27809cea
 
-## Reference
+# Reference
 
-### Shortcuts
+## Shortcuts
 
-#### Global
+### Global
 
 |Operation|Effects|
 |:--------------:|:---------------:|
@@ -430,7 +422,7 @@ Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-
 |Win+m|最小化窗口（全部窗口）|
 |Win+Shift+M|还原窗口最小化（全部）|
 
-#### Ctrl
+### Ctrl
 
 |    Operation    |    Effects     |
 | :-------------: | :------------: |
@@ -441,7 +433,7 @@ Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-
 |      ctrl+      |      放大页面      |
 |      ctrl-      |      缩小页面      |
 
-#### Alt
+### Alt
 
 |Operation|Effects|
 |:------------------:|:-----------------:|
@@ -452,7 +444,7 @@ Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-
 |alt+shief+numLock|用键盘控制鼠标|
 |alt+space+n|单个窗口最小化（配合 Dock 使用）|
 
-#### Fn
+### Fn
 
 |Operation|Effects|
 |:----------:|:--------:|
@@ -465,9 +457,9 @@ Impossible via: https://answers.microsoft.com/en-us/windows/forum/all/option-to-
 |F12|浏览器审查元素/调试界面|
 |prtsc|截屏|
 
-### Changelog
+## Changelog
 
-#### 24H2
+### 24H2
 
 via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-24h2#features-added-to-windows-11-since-version-23h2
 
@@ -507,7 +499,7 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
     - WordPad
     - Alljoyn
 
-#### 23H2
+### 23H2
 
 via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-23h2
 
@@ -530,7 +522,7 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
     - Additional features
         - In-box apps
 
-#### 22H2
+### 22H2
 
 via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-22h2
 
@@ -550,23 +542,23 @@ via: https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-ve
 - Windows accessibility
 - High Efficiency Video Coding (HEVC) support
 
-## Close Function
+# Close Function
 
   - Close 粘滞键
     - 设置 > 粘滞键 > 关闭所有触发方式
     - https://blog.csdn.net/xitongzhijia_abc/article/details/125505930
 
-## References
+# References
 
 - Seem like some pc support edit on the bios
     - Settings --> AMD OverClocking --> Precision Boost Overdrive
     via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
 
-## TODO Remote Config
+# TODO Remote Config
 
   - Reg editor
 
-## TODO 备份 .m2 目录
+# TODO 备份 .m2 目录
 
 [^proxy_winget]: https://github.com/microsoft/winget-cli/issues/190, https://github.com/microsoft/winget-cli/discussions/4428
 [^uninstall-garbage]: https://superuser.com/questions/1684005/how-do-i-prevent-widgets-exe-from-getting-automatically-started-on-windows-11, https://answers.microsoft.com/en-us/windows/forum/all/how-to-permanently-stop-the-widgets-service-from/de082ed2-81db-4074-a334-0c9ca13f15c4, https://v2ex.com/t/1048191

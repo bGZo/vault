@@ -4,7 +4,7 @@ aliases:
   - 润
 created: 2024-07-21T00:00:00
 deadline: 2034-07-21T13:38
-modified: 2025-07-05T14:03:38
+modified: 2025-10-01T10:02:05
 tags:
   - gtd/doing
   - migrant
@@ -15,6 +15,10 @@ type: project
 # 华润万家
 
 长期目标：**小润出省，大润出国**
+
+> [!NOTE]
+> If he has lived sincerely, it must have been in a distant land to me.
+> https://www.goodreads.com/quotes/8499469-moreover-i-on-my-side-require-of-every-writer-first
 
 ## Why
 

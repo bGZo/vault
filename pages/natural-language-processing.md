@@ -76,6 +76,6 @@ wikipedia: https://en.wikipedia.org/wiki/Natural_language_processing
     - Text-to-image generation
     - Text-to-scene generation
     - Text-to-video
-    - [[llm]]
+    - [[large-language-model]]
 
 ## References

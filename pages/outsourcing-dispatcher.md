@@ -1,7 +1,6 @@
 ---
 aliases:
   - 外包
-  - OD
 created: 2025-01-13T19:59:22
 modified: 2025-08-03T21:09:23
 tags:

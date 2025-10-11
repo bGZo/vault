@@ -142,8 +142,6 @@ wikipedia: https://en.wikipedia.org/wiki/Bookmark
   - ### 🎥 [[videos]]
     - [首页 - 人人影视下载分享站](https://yyets.dmesg.app/home)
     - [80s电影网 - MP4高清电影分享](https://www.kk80s.com/)
-    - ### 🧾 Subtitle
-      - [Download subtitles from Youtube, Viki, Viu, Kocowa, Wetv and more](https://downsub.com) #Youtube
   - ### 📚 [[pages/database]]
     - [MyAnimeList.net - Anime and Manga Database and Community](https://myanimelist.net/) #social-networking
     - [Baka-Updates Manga - Your Reviews, Series, Scanlator and Latest Manga Release Resource](https://www.mangaupdates.com/)

@@ -25,6 +25,28 @@ wikipedia: https://en.wikipedia.org/wiki/Steam_Deck
 <iframe src='https://www.steamdeck.com' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.steamdeck.com' target='_blank' class='external-link'>https://www.steamdeck.com</a></center>
 
+
+```
+~ > neofetch                                                                                                                      
+              .,,,,.                  deck@steamdeck 
+        .,'onNMMMMMNNnn',.            -------------- 
+     .'oNMANKMMMMMMMMMMMNNn'.         OS: SteamOS Holo x86_64 
+   .'ANMMMMMMMXKNNWWWPFFWNNMNn.       Host: Galileo 1 
+  ;NNMMMMMMMMMMNWW'' ,.., 'WMMM,      Kernel: 6.11.11-valve19-1-neptune-611-g88b36d49a5e3 
+ ;NMMMMV+##+VNWWW' .+;'':+, 'WMW,     Uptime: 34 days, 22 hours, 8 mins 
+,VNNWP+######+WW,  +:    :+, +MMM,    Packages: 1125 (pacman), 38 (brew), 16 (flatpak) 
+'+#############,   +.    ,+' +NMMM    Shell: zsh 5.9 
+  '*#########*'     '*,,*' .+NMMMM.   Resolution: 3840x2160 
+     `'*###*'          ,.,;###+WNM,   Terminal: /dev/pts/0 
+         .,;;,      .;##########+W    CPU: AMD Custom APU 0932 (8) @ 3.501GHz 
+,',.         ';  ,+##############'    GPU: AMD ATI AMD Custom GPU 0405 
+ '###+. :,. .,; ,###############'     Memory: 5269MiB / 14809MiB 
+  '####.. `'' .,###############'
+    '#####+++################'                                
+      '*##################*'                                  
+         ''*##########*''
+              ''''''
+```
 ## Why
 
 ### [[macbook-pro-m2pro-16inch|Macbook Pro 祛魅]]

@@ -18,7 +18,7 @@ type:
 ## Basic LLM Concepts
 ### What are LLMs?
 
-[[llm]]
+[[large-language-model]]
 
 
 
@@ -28,7 +28,7 @@ type:
 
 ## Why
 
-- [[llm]]
+- [[large-language-model]]
     - [[chatgpt]]
 
 ## How

@@ -234,7 +234,7 @@ tumblr
 Developer Options\Quick settings developer tiles\Sensors off
 ```
 
-## [Browser](browser) search enginee
+## [Browser](browser.md) search enginee
 
 内置的 Google 引擎往往携带了非常多厂商定义的参数，比如 Edge 就是这样，如果你搜索 `test`，URL 会变得非常丑 [^search-params]：
 

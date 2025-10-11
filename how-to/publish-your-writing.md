@@ -39,6 +39,7 @@ type: how-to
 3. [[hexojs-hexo|hexo]]
 4. [[logseq-logseq|logseq]]
 5. [[gohugoio-hugo|hugo]]
+	1. Theme: [[nunocoracao-blowfish|Blowfish]], more via: https://github.com/topics/hugo-theme
 6. [[GitbookIO-gitbook|gitbook]]
 7. [[vuejs-vuepress|vuepress]]
     1. 集成了 Google Analytics，以及基于 Git 的「最后更新时间」功能

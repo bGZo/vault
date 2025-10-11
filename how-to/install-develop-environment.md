@@ -1,7 +1,9 @@
 ---
-aliases: [How to activate jetbrains, How to install develop environment]
+aliases:
+  - How to activate jetbrains
+  - How to install develop environment
 created: 2024-12-08T09:26:21
-modified: 2025-07-01T21:23:13
+modified: 2025-09-27T15:18:26
 title: How to install develop environment
 ---
 
@@ -89,6 +91,12 @@ Mac please use [[rvm-rvm|rvm]], running following:
 curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm install ruby@latest
+```
+
+## [[rust|Rust]]
+
+```shell
+curl https://sh.rustup.rs -sSf | sh
 ```
 
 ## [[jetbrains|Jetbrains]]

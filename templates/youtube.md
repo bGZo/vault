@@ -13,5 +13,9 @@ type: video
 <iframe src="https://www.youtube.com/embed/{{title}}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v={{title}}' target='_blank' class='external-link'>https://www.youtube.com/watch?v={{title}}</a></center>
 
+## Subtitle
+
+https://downsub.com/?url=https://www.youtube.com/watch?v={{title}}
+
 ## Notes
 

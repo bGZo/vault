@@ -7,7 +7,7 @@ modified: 2025-07-16T20:36:25
 tags:
   - game
 title: 手柄
-wikipedia: https://en.wikipedia.org/wiki/Gamepad
+wikipedia: https://en.wikipedia.org/wiki/Gamepad, https://en.wikipedia.org/wiki/Xbox_Wireless_Controller
 ---
 
 # 手柄
@@ -33,6 +33,3 @@ My controller model is `1708` & `1914`
 
 ![](https://twitter.com/XboxContro11ers/status/1388533386445209606)
 
-## References
-
-- https://en.wikipedia.org/wiki/Xbox_Wireless_Controller

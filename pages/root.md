@@ -1,24 +1,22 @@
 ---
 aliases:
-  - Root
+  - ROOT
 created: 2024-08-17T00:00:00
-description: 
-modified: 2025-08-31T00:04:30
+description:
+modified: 2025-10-03T23:59:51
 tags:
   - Android
-title: Root
+title: ROOT
 ---
 
-# Root
+# ROOT
 
-## [[china|China]]
-
-本频道的 刷机 或 解锁 新闻合订本
+## [[china|中国大陆解锁合订本]]
 
 - 2018/05/24 [华为加强对用户解锁手机的限制](https://t.me/CE_Observe/5425)
 - 2019/10/09 [“刷机”删改手机操作系统被判不正当竞争，两被告赔偿50万](https://t.me/CE_Observe/10563)
 - 2021/02/02 [部分小米机型将不再支持自行安装 GMS 服务](https://t.me/CE_Observe/16238)
-- 2021/08/24 [三星新限制措施：解锁 Bootloader 将禁用 Galaxy Z Fold 3 上的相机](https://t.me/CE_Observe/18666)
+- 2021/08/24 [三星新限制措施：解锁 Bootloader 将禁用 GalaxyZFold3 上的相机](https://t.me/CE_Observe/18666)
 - 2021/12/06 [LG 宣布于 2021 年底关闭手机 bootloader 解锁服务](https://t.me/CE_Observe/19803)
 - 2022/12/15 [两部门：生产企业应完善移动智能终端权限管理机制 预防“刷机”行为](https://t.me/CE_Observe/28898)
 - 2023/08/08 [华硕 不再为 Zenfone 手机提供 Bootloader 解锁服务](https://t.me/CE_Observe/28840)
@@ -35,7 +33,8 @@ https://t.me/CE_Observe/30024
 - Amplify
 - 写轮眼
 - 黑白门
-- more via: https://cn.apkjam.com/blog/bs.html
+
+more via: https://cn.apkjam.com/blog/bs.html
 
 ## Root methods
 
