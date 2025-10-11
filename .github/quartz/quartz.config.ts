@@ -1,5 +1,5 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+import { QuartzConfig } from "./quartz/cfg";
+import * as Plugin from "./quartz/plugins";
 
 /**
  * Quartz 4.0 Configuration
@@ -12,12 +12,41 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'google',
-      tagId: 'G-GEBG8127FW'
+      provider: "google",
+      tagId: "G-GEBG8127FW",
     },
     locale: "en-US",
     baseUrl: "note.bgzo.cc/",
-    ignorePatterns: [".obsidian", ".git", ".github", ".utils", ".idea", "templates", "dashboard"],
+    ignorePatterns: [
+      ".obsidian",
+      ".git",
+      ".github",
+      ".utils",
+      ".idea",
+      "templates",
+      "dashboard",
+      "clippers/albums",
+      "clippers/authors",
+      "clippers/bangumi",
+      "clippers/bilibili",
+      // "clippers/books",
+      "clippers/chat",
+      "clippers/cnblogs",
+      "clippers/douban",
+      "clippers/geekbang",
+      // "clippers/github",
+      "clippers/javs",
+      // "clippers/leetcode",
+      "clippers/msb",
+      "clippers/music",
+      "clippers/snipd",
+      "clippers/sspai",
+      "clippers/telegram",
+      "clippers/webpages",
+      "clippers/weread",
+      "clippers/xiaohongshu",
+      "clippers/youtube",
+    ],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {
@@ -70,9 +99,9 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents({
-        	maxDepth: 3,
-        	minEntries: 1,
-        	collapseByDefault: false
+        maxDepth: 3,
+        minEntries: 1,
+        collapseByDefault: false,
       }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
@@ -94,6 +123,6 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
     ],
   },
-}
+};
 
-export default config
+export default config;
