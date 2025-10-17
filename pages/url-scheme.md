@@ -3,7 +3,7 @@ aliases:
   - deep-linking/mobile
   - URL Scheme
 created: 2022-11-28T00:00:00
-modified: 2025-07-17T21:56:00
+modified: 2025-10-16T05:42:45
 title: URL Scheme
 wikipedia: https://en.wikipedia.org/wiki/List_of_URI_schemes
 ---
@@ -12,11 +12,10 @@ wikipedia: https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 Link to a specific location within a mobile app rather than simply launching the app.
 
-## Why
+> [!TIP]
+> 在手机的语境下，相较于直接启动 APP，URL Schame 是一个能够指定应用特定位置的方式。
 
-## How
-
-## What
+## Category
 
 The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
 
@@ -28,7 +27,7 @@ The format of the URI used to trigger or deep link an app is often different dep
 	- https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37
 - **Windows Phone 8 devices** work through the **UriMapper class**
 
-## References
+## Collections
 
 ### [[telegramdesktop-tdesktop|telegram]]
 

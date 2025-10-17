@@ -2,7 +2,7 @@
 aliases:
   - 用 ASTRO 重新做网站这件事
 created: 2025-10-12T00:39:37
-modified: 2025-10-13T00:03:49
+modified: 2025-10-16T06:01:57
 title: 用 ASTRO 重新做网站这件事
 ---
 
@@ -27,6 +27,37 @@ title: 用 ASTRO 重新做网站这件事
 - Tech Stack
 	- Github Pages
 	- Vercel
+
+## RoadMap
+
+- [x] #1260/功能 主页展示个人信息，社交媒体链接
+- [x] #1260/功能 博客展示
+- [x] #1260/功能 兼容 [[ccbikai-BroadcastChannel|BroadcastChannel]]
+- [x] #1260/功能 在线小工具
+- [x] #1260/功能 Playground / Labs 展示
+- [x] #1260/优化 Markdown 支持 Callout 语法
+- [ ] #1260/优化 博客目录显示
+	- [ ] https://daily-dev-tips.com/posts/adding-a-toc-in-astro/
+	- [ ] https://github.com/remarkjs/remark-toc
+	- [ ] https://dev.to/dailydevtips1/adding-a-toc-in-astro-4kehhttps://www.yuloveboyi.com/
+- [ ] #1260/功能 增加思维导图
+	- [ ] https://coderxi.com/posts/remark-markmap-doc
+- [ ] #1260/功能 增加 Projects 页，项目、地址手工维护
+- [ ] #1260/优化 每个索引页重新设计，题图 + 引用 + 格子背景
+- [ ] #1260/功能 黑暗模式
+- [ ] #1260/功能 博客评论，应该使用独立的仓库
+- [ ] #1260/功能 Tools 页面增加友情链接
+- [ ] #1260/功能 增加友情链接，互换链接地址
+	- [ ] https://www.pseudoyu.com/friends
+- [ ] #1260/优化 Blog 索引页的切换逻辑 + 样式
+- [ ] #1260/功能 探索 Vercel 的部署
+- [ ] #1260/功能 看下能不能潜入自己的 BGM、STEAM 数据进行展示
+	- [ ] SSR
+	- [ ] https://asyncx.top/
+- [ ] #1260/功能 多语言支持
+- [ ] #1260/优化 底部页签版权声明
+
+daily-dev-tips.com/posts/adding-a-toc-in-astro
 
 ### Astro 是什么
 
@@ -54,7 +85,7 @@ npm install @astrojs/vue
 npm install @astrojs/tailwind
 ```
 
-### 创建页面基本骨架
+### 创建页面基本骨架、引入博客页面
 
 source via: https://github.com/bGZo/playground/commit/0545ea8c6122266cfe6249497136f1f9543559f5
 
@@ -84,7 +115,27 @@ via: https://github.com/bGZo/playground/commit/cd7875a32ce00d3c5fb150dc5f4e34622
 目前还不清楚为什么原项目用 `ofetch` 可以直接用环境变量的代理，而我迁移过来的代码不行，报错：
 
 ```shell
-placeholder
+Fetching https://telegram.dog/s/imbgzo { before: '', after: '', q: '', type: 'list', id: '' }
+Fetch failed: [GET] "https://telegram.dog/s/imbgzo?before=&after=&q=": <no response> [TimeoutError]: The operation was aborted due to timeout
+Error details: FetchError: [GET] "https://telegram.dog/s/imbgzo?before=&after=&q=": <no response> [TimeoutError]: The operation was aborted due to timeout
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processTimers (node:internal/timers:546:9)
+    at async $fetchRaw2 (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/ofetch/dist/shared/ofetch.03887fc3.mjs:270:14)
+    at async $fetch2 (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/ofetch/dist/shared/ofetch.03887fc3.mjs:316:15)
+    at async getChannelInfo (file:///home/bgzo/workspaces/playground/astro-demo/dist/server/chunks/index_BEp_DU6L.mjs:219:22)
+    at async file:///home/bgzo/workspaces/playground/astro-demo/dist/server/pages/talk.astro.mjs?time=1760286561784:13:19
+    at async callComponentAsTemplateResultOrResponse (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/astro/dist/runtime/server/render/astro/render.js:91:25)
+    at async renderToAsyncIterable (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/astro/dist/runtime/server/render/astro/render.js:133:26)
+    at async renderPage (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/astro/dist/runtime/server/render/page.js:36:24)
+    at async lastNext (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/astro/dist/core/render-context.js:201:25) {
+  [cause]: Error [TimeoutError]: [TimeoutError]: The operation was aborted due to timeout
+      at node:internal/deps/undici/undici:13484:13
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at process.processTimers (node:internal/timers:546:9)
+      at async $fetchRaw2 (file:///home/bgzo/workspaces/playground/astro-demo/node_modules/ofetch/dist/shared/ofetch.03887fc3.mjs:258:26) {
+    code: 23
+  }
+}
 ```
 
 所以用硬编码 `HttpsProxyAgent` 和 `SocksProxyAgent` 作 `agent` 的方式，发现仍然不行，最后用 `node-fetch` 替代 `ofetch`，最终成功了，确定是网络因素，关键代码如下：
@@ -256,6 +307,8 @@ via:
 </span>
 ```
 
+参考： https://github.com/vuejs/docs/blob/31b4521ad0607a74e284fa7c62502b56a7710e86/src/about/team/TeamMember.vue#L7
+
 ### Astro 原生引入
 
 ```markdown
@@ -287,11 +340,30 @@ import bluesky from "../assets/icon/bluesky.svg";
 
 via: https://github.com/bGZo/playground/commit/019dfde5c80acf2423b42a2f9d6b509f8c27fa03
 
-官方教程：
+官方教程: https://docs.astro.build/zh-cn/recipes/reading-time
 
-### 工具增加双拼解码：
+### 工具增加双拼解码
 
 via: https://github.com/bGZo/playground/commit/c83d30d8dbbad315d457ab0a3e357ffeb2d838e2
+
+编码，参考： https://sspai.com/post/56134
+
+### Markdown 语法拓展
+
+自带的语法当前不支持 Callout(admonition note)，不支持 mark 高亮。
+
+### Callout
+
+安装 https://github.com/myl7/remark-github-beta-blockquote-admonitions
+
+安装完插件后，发现虽然正确解析了，但是没有 CSS 样式，需要自己找。
+
+via: https://ssshooter.com/add-admonitions/, 博主的这个博客没有开源，只能借下它的 CSS 了。
+
+### Mark
+
+- https://github.com/twardoch/remark-mark-plus#usage-with-remark-cli
+	- 这个没有生效
 
 ## 部署
 
@@ -312,14 +384,17 @@ export default defineConfig({
 })
 ```
 
-- 网站内有链接跳转的部分同样需要重新处理一遍，我使用了全部路径而非相对路径处理这个问题
+- 网站内有链接跳转的部分同样需要重新处理一遍，我使用了全部路径而非相对路径处理这个问题，额外的替换处理是为了避免不设置 base，导致路径失效
 
 ```markdown
 ---
 const { SITE_URL } = Astro.locals
+const SITE_URL_NO_SLASH = SITE_URL.endsWith('/') ? SITE_URL.slice(0, -1) : SITE_URL;
 ---
-<a href={SITE_URL + '/' + link.path} class={currentPath === link.path ? 'font-bold' : ''}>{link.name}</a>
+<a href={SITE_URL_NO_SLASH + '/' + link.path} class={currentPath === link.path ? 'font-bold' : ''}>{link.name}</a>
 ```
+
+via: https://docs.astro.build/zh-cn/guides/deploy/github, https://docs.astro.build/zh-cn/reference/configuration-reference/#base
 
 ### 区分本地和生产
 
@@ -337,3 +412,14 @@ via: https://github.com/bGZo/playground/commit/101009794f945cc97ca5962800d252d31
 ```ts
 site: process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:4321' : 'https://bgzo.github.io',
 ```
+
+### 绑定域名
+
+前几年绑定域名，我记得还需要将 IPv4 的地址写到 DNS 解析记录里，今天测试了下，用 CNAME 也可以。需要在根目录下增加一个 `CNAME` 文件，介入对应域名即可。
+
+## 备忘
+
+有一些不知道要写在哪里的点，就统一放在这里：
+
+- 路由命名，因为主要依靠 Github Pages（下叫 Pages），所以路径上，可能会有个子其他 Pages 命名冲突的情况，比如我我的某个路由叫 `bgzo.github.io/playground`， 正好我有个项目就叫 `playground` 且开启了 Pages，那么 Gihtub 会优先取后者，即其他项目的页面，而不是你当前这个项目的路由。
+- [ ] 为什么 Mac 熄屏后再打开，转发的端口、页面就会失效，需要重新转发；
