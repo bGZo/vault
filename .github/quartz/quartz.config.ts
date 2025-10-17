@@ -107,7 +107,9 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [],
+    filters: [
+      Plugin.RemoveDrafts(), // 删掉草稿
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
