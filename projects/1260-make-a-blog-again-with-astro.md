@@ -2,7 +2,7 @@
 aliases:
   - 用 ASTRO 重新做网站这件事
 created: 2025-10-12T00:39:37
-modified: 2025-10-16T06:01:57
+modified: 2025-10-25T10:46:10
 title: 用 ASTRO 重新做网站这件事
 ---
 
@@ -85,9 +85,15 @@ npm install @astrojs/vue
 npm install @astrojs/tailwind
 ```
 
-### 创建页面基本骨架、引入博客页面
+不正确安装 Tailwind CSS 可能提醒：
 
-source via: https://github.com/bGZo/playground/commit/0545ea8c6122266cfe6249497136f1f9543559f5
+```shell
+[plugin:vite:css] [postcss] It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+```
+
+via: https://tailwindcss.com/docs/installation/framework-guides/astro
+
+### 创建页面基本骨架、引入博客页面
 
 ```ts
 import { getCollection } from 'astro:content';
@@ -107,6 +113,8 @@ export async function getStaticPaths() {
 
 - 文档参考: https://docs.astro.build/en/guides/content-collections/
 - 利用 `tailwindcss@typography` 优化内容排版显示；
+
+source via: https://github.com/bGZo/playground/commit/0545ea8c6122266cfe6249497136f1f9543559f5
 
 ### 迁移 [[ccbikai-BroadcastChannel|BroadcastChannel]]
 
@@ -416,6 +424,12 @@ site: process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:4321' : 'https:
 ### 绑定域名
 
 前几年绑定域名，我记得还需要将 IPv4 的地址写到 DNS 解析记录里，今天测试了下，用 CNAME 也可以。需要在根目录下增加一个 `CNAME` 文件，介入对应域名即可。
+
+### 通过局域网调试应用
+
+```shell
+bun run dev -- --host
+```
 
 ## 备忘
 
