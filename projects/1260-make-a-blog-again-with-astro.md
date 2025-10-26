@@ -2,7 +2,10 @@
 aliases:
   - 用 ASTRO 重新做网站这件事
 created: 2025-10-12T00:39:37
-modified: 2025-10-25T10:46:10
+modified: 2025-10-25T15:11:12
+tags:
+  - weekly/1260
+  - weekly/tech
 title: 用 ASTRO 重新做网站这件事
 ---
 
