@@ -1,8 +1,12 @@
 👋 Hello there.
 
-My name is Fenghua, using `bGZo` as nickname on Internet.
+My name is `Fenghua`, using `bGZo` as nickname on Internet. I'm focusing on web developing, recently I've created a lot:
 
-> [!TIP]
-> Whomever you become, whatever you make yourself into, that is who you always were.
+- I love express myself, so I created:
+	- https://cast.bgzo.cc
+	- https://note.bgzo.cc
+	- https://bgzo.cc
+- I love RSS and community, so I created:
+	- (NSFW) https://hentai.bgzo.cc
 
-[![](https://komarev.com/ghpvc/?username=bGZoCg&color=78C2C4&style=for-the-badge)](https://github.com/antonkomarev/github-profile-views-counter) [![](https://img.shields.io/badge/telegram-%40imbGZo-pink.svg?&color=78C2C4&logo=telegram&style=for-the-badge)](https://t.me/s/imbGZo)
+[![](https://komarev.com/ghpvc/?username=bGZoCg&color=78C2C4&style=for-the-badge)](https://github.com/antonkomarev/github-profile-views-counter)

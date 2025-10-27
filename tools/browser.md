@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Browser
   - 浏览器
+  - Browser
   - chrome
   - chromium
   - firefox
@@ -9,14 +9,16 @@ aliases:
   - safari
 created: 2024-07-28T12:00:00
 description: 
-modified: 2025-07-17T22:00:01
+modified: 2025-10-26T21:58:33
 tags:
   - tool
-title: Browser
+title: 浏览器
 type: tool
 ---
 
-# Browser
+# 浏览器
+
+- [[1263-familiar-is-king|浏览器使用的心路历程]]
 
 ## Firefox
 

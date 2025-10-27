@@ -1,6 +1,5 @@
 ---
 aliases:
-  - "Ximalaya Voice Download #gtd/doing"
   - Ximalaya Voice Download
   - ximalaya-download
 created: 2025-04-04T16:38:20
