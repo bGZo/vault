@@ -1,4 +1,5 @@
 ---
+draft: true
 created: 2025-04-07T20:27:09
 modified: 2025-04-07T21:04:20
 cssclasses:
@@ -7,7 +8,6 @@ cssclasses:
   - cards-cover
   - cards-cols-3
 ---
-
 > [!tip]
 > 我就是喜欢纸片人。他们是点阵、是数据、这种事情我知道。
 > 那你喜欢的那个男孩又是什么? 蛋白质? 钙?

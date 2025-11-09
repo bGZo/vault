@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Markdown
 created: 2019-12-13T00:00:00
@@ -7,7 +8,6 @@ tags:
   - domain-specific
 title: Markdown
 ---
-
 # Markdown
 
 ## Why

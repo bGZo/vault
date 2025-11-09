@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java Vs Python
   - java-vs-python
@@ -7,7 +8,6 @@ created: 2025-07-25T23:19:30
 modified: 2025-07-25T23:49:01
 title: Java Vs Python
 ---
-
 # [[java|Java]] Vs [[python|Python]]
 
 ## Python 没有像 Hutool 一样的工具类？

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - South Park Series
 created: 2020-03-16T09:56:19
 modified: 2025-08-30T12:58:58
 title: South Park Series
 ---
-
 # South Park Series
 
 小时候玩过为数不多的盗版光盘中就有南方公园的海报，当时看不懂，也没有玩，后来有幸 B 站刷到了一个全合集，迫于集数过多和高考的压力，也没有看，遥想那时那里还是一个美剧天堂，真是可惜了。随着 2019 年 S23E02 那集 Fuck China 的出现，South Park 就被封掉了，这非常符合南方公园的风格，我有时想，如果它不这样做，它也许就不是南方公园了，It's okey。不过过去将近二十多年的讨论说没就没，不知道该说什么。我在这里存档一些：

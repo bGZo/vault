@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java Beans
   - Java Beans(since java 01)
@@ -7,7 +8,6 @@ modified: 2025-08-30T16:42:36
 title: Java Beans(since java 01)
 wikipedia: https://en.wikipedia.org/wiki/JavaBeans
 ---
-
 # Java Beans(since java 01)
 
 将一个或多个对象封装在单个标准化对象中的类

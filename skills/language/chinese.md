@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Chinese
 aliases:
   - 中文
@@ -8,7 +9,6 @@ description:
 tags: 
 type: lang
 ---
-
 > [!NOTE]
 > 现代汉语就像用脏了的人民币，我要把它洗一洗
   — 顾城

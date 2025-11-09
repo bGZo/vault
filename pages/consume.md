@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 消费
   - Consume
@@ -6,7 +7,6 @@ created: 2025-01-16T21:42:40
 modified: 2025-07-17T20:37:35
 title: 消费
 ---
-
 # 消费
 
 ## Vs Purchase

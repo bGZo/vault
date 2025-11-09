@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 阵列编程
 created: 2024-12-15T11:24:00
@@ -6,7 +7,6 @@ modified: 2025-08-30T20:34:57
 title: 阵列编程
 wikipedia: https://en.wikipedia.org/wiki/Array_programming
 ---
-
 # 阵列编程
 
 在计算机科学中，阵列编程指称允许向作为整体的一组数值同时应用运算操作的一种解决方案。这种方案经常用于科学和工程上的各种场合（settings）。

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: machine-learning
 aliases:
   - 机器学习
@@ -10,4 +11,3 @@ description:
 tags: 
 type:
 ---
-

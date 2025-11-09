@@ -1,4 +1,5 @@
 ---
+draft: true
 title: oppo-pad
 aliases:
   - oppo-pad

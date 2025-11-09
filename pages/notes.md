@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 笔记
   - Notes
@@ -7,7 +8,6 @@ description:
 modified: 2025-07-17T20:42:46
 title: Notes
 ---
-
 # Notes
 
 ## Why

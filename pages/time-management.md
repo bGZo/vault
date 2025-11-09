@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 时间管理
   - time/management
@@ -7,7 +8,6 @@ modified: 2025-07-17T21:42:06
 title: 时间管理
 wikipedia: https://en.wikipedia.org/wiki/Time_management
 ---
-
 # 时间管理
 
 ## Cultural views of time management

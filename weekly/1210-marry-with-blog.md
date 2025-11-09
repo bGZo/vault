@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [写信吧爱人]
 created: 2024-10-13T12:00:00
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [weekly/1210]
 title: 写信吧爱人
 type: writing
 ---
-
 # 写信吧爱人
 
 最近 V 站有很多吐槽婚姻生活的帖子 [^v2ex-posts-marry]，有讲两个人同甘共苦的，也有讲大难临头撇清关系，各自飞的。

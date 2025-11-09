@@ -1,4 +1,5 @@
 ---
+draft: true
 title: mybatis
 aliases:
   - mybatis
@@ -9,7 +10,6 @@ tags:
 type: 
 source: https://mybatis.org/mybatis-3/
 ---
-
 ## Why
 
 ## How

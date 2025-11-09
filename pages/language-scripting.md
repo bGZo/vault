@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 脚本语言
   - Language-scripting
@@ -7,7 +8,6 @@ modified: 2025-08-31T11:42:11
 title: 脚本语言
 wikipedia: https://en.wikipedia.org/wiki/Scripting_language
 ---
-
 # 脚本语言
 
 脚本语言是为了缩短传统的“编写、编译、链接、运行”（edit-compile-link-run）过程而创建的计算机编程语言。早期的脚本语言经常被称为批处理语言或作业控制语言。一个脚本通常是解释运行而非编译。脚本语言通常都有简单、易学、易用的特性，目的就是希望能让程序员快速完成程序的编写工作。而宏语言则可视为脚本语言的分支，两者也有实质上的相同之处。

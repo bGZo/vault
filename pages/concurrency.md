@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 并发
   - simultaneous
@@ -8,7 +9,6 @@ modified: 2025-07-19T10:08:20
 title: 并发
 wikipedia: https://en.wikipedia.org/wiki/Concurrent_computing
 ---
-
 # 并发
 
 ## Why

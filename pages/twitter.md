@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 推特
   - Twitter
@@ -10,7 +11,6 @@ tags:
 title: Twitter
 wikipedia: https://en.wikipedia.org/wiki/Twitter
 ---
-
 # Twitter
 
 ## Why

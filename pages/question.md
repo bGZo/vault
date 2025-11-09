@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 题单
   - 问题
@@ -7,7 +8,6 @@ created: 2025-04-04T21:27:22
 modified: 2025-08-31T11:20:20
 title: 问题
 ---
-
 # 问题
 
 ## [[pages/programming]]

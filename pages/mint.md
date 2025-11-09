@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Mint
 created: 2025-01-12T02:16:35
@@ -7,7 +8,6 @@ tags-link:
   - "[[debian]]"
 title: Mint
 ---
-
 # Mint
 
 ## [[minisforum-um880pro|minisforum880pro]]

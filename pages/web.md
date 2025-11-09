@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Web
   - World Wide Web
@@ -8,7 +9,6 @@ modified: 2025-07-17T22:03:02
 title: Web
 wikipedia: https://en.wikipedia.org/wiki/World_Wide_Web
 ---
-
 # Web
 
 ## Why

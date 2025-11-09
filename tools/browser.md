@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 浏览器
   - Browser
@@ -15,7 +16,6 @@ tags:
 title: 浏览器
 type: tool
 ---
-
 # 浏览器
 
 - [[1263-familiar-is-king|浏览器使用的心路历程]]

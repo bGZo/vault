@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 游戏
   - Game
@@ -11,7 +12,6 @@ tags:
   - hobby
 title: 游戏
 ---
-
 # 游戏
 
 ## 缘起

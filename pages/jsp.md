@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java-server-pages
   - JSP
@@ -9,7 +10,6 @@ tags:
 title: JSP
 wikipedia: https://en.wikipedia.org/wiki/Jakarta_Server_Pages
 ---
-
 # JSP
 
 ## Why

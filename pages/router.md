@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 路由器
   - 软路由
@@ -7,7 +8,6 @@ modified: 2025-07-19T12:41:31
 tags: []
 title: 软路由
 ---
-
 # 软路由
 
 <iframe src="https://www.youtube.com/embed/2AgS3pVzi24" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

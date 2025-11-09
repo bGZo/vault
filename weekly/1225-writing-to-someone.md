@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [再次致某某, writing to someone]
 created: 2025-01-30T15:39:13
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [love/letter, weekly/1225]
 title: 再次致某某
 type: writing
 ---
-
 # 再次致某某
 
 时至今日，仍想和你见上一面，想坐在你的右侧，喝杯咖啡，聊聊近况、关于未来的打算，想知道你的想法、选择，想参与到你的部分人生中去。

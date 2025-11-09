@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 如何构建命令行程序
   - How to build commnd-line program
@@ -6,7 +7,6 @@ created: 2025-08-30T15:19:36
 modified: 2025-08-30T15:20:49
 title: How to build commnd-line program
 ---
-
 # How to build commnd-line program
 
 ## [[python]]3

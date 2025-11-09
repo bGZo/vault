@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 用 ASTRO 重新做网站这件事
 created: 2025-10-12T00:39:37
@@ -8,7 +9,6 @@ tags:
   - weekly/tech
 title: 用 ASTRO 重新做网站这件事
 ---
-
 # 用 ASTRO 重新做网站这件事
 
 受 [[ccbikai-BroadcastChannel|BroadcastChannel]] 和 https://www.pseudoyu.com 的启发，突然觉得 Astro 这个东西可以把自己过去好多玩具聚合：

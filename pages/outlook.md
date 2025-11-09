@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Outlook
 created: 2024-12-15T12:07:19
 modified: 2025-07-19T12:10:11
 title: Outlook
 ---
-
 # Outlook
 
 ## [[sucks|Sucks]]

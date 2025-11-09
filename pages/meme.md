@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 表情包
   - 迷因
@@ -7,5 +8,4 @@ modified: 2025-07-19T11:48:50
 title: 表情包
 wikipedia: https://en.wikipedia.org/wiki/Internet_meme
 ---
-
 # 表情包

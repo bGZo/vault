@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to ignore git project
   - Ignore-git-project
@@ -6,7 +7,6 @@ created: 2025-08-03T21:46:10
 modified: 2025-08-03T21:48:16
 title: How to ignore git project
 ---
-
 # How to ignore [[skills/web-develop/git|git]] project
 
 ## [[jetbrains|Jetbrains]]

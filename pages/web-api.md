@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Web API
 created: 2024-08-02T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-08-31T10:43:03
 title: Web API
 wikipedia: https://en.wikipedia.org/wiki/Web_API
 ---
-
 # Web API
 
 Web 服务器或 Web 浏览器的 API (web 类型的 API)

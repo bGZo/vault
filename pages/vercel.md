@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Vercel
 created: 2025-03-23T13:43:39
 modified: 2025-07-17T21:50:30
 title: Vercel
 ---
-
 # Vercel
 
 ## Issue

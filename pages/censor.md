@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 简中
   - 审查
@@ -12,7 +13,6 @@ tags:
 title: 审查
 wikipedia: https://en.wikipedia.org/wiki/Censorship
 ---
-
 # 审查
 
 ![https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129](https://raw.githack.com/bGZo/assets/dev/2025/202501172158746.png)

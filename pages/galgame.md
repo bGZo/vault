@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 美少女游戏
   - 萌游戏
@@ -15,7 +16,6 @@ modified: 2025-07-16T22:02:02
 title: Galgame
 wikipedia: https://en.wikipedia.org/wiki/Bish%C5%8Djo_game
 ---
-
 # Galgame
 
 ## Why

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 清理 Steam 库存
 created: 2024-07-21T00:00:00
@@ -8,5 +9,4 @@ tags:
 title: 清理 Steam 库存
 type: project
 ---
-
 # 清理 Steam 库存

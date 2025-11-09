@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - onedrive
   - Onedrive
@@ -13,7 +14,6 @@ tags: []
 title: OneDrive
 type: tool
 ---
-
 # OneDrive
 
 ## Why

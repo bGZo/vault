@@ -1,10 +1,10 @@
 ---
+draft: true
 aliases: [My category philosophy]
 created: 2025-03-30T09:01:49
 modified: 2025-07-03T21:41:57
 title: My category philosophy
 ---
-
 # My category philosophy
 
 ## Why choose work & life classify?

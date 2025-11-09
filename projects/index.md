@@ -1,4 +1,5 @@
 ---
+draft: true
 aliase: Projects
 aliases:
   - 项目
@@ -9,7 +10,6 @@ modified: 2025-07-05T14:04:27
 tags: []
 title: Projects
 ---
-
 # Projects
 
 any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.

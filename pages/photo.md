@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 照片
   - Photo
@@ -6,7 +7,6 @@ created: 2024-08-12T00:00:00
 modified: 2025-07-19T12:14:36
 title: Photo
 ---
-
 # Photo
 
 ## 结构

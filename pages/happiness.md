@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 幸福
 created: 2023-06-14T00:00:00
@@ -8,7 +9,6 @@ tags: []
 title: 幸福
 wikipedia: https://en.wikipedia.org/wiki/Happiness
 ---
-
 # 幸福
 
 ## How

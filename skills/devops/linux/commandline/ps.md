@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 报告当前系统的进程状态
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/ps.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/ps.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/ps.html</a></center>
 ```shell

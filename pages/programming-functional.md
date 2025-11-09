@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 函数式编程
   - 函数式编程范式
@@ -8,7 +9,6 @@ modified: 2025-08-31T00:20:14
 title: 函数式编程
 wikipedia: https://en.wikipedia.org/wiki/Functional_programming
 ---
-
 # 函数式编程
 
 ## Why

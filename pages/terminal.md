@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 终端
 created: 2025-03-23T13:44:58
 modified: 2025-08-31T00:23:45
 title: 终端
 ---
-
 # 终端
 
 ## [[skills/devops/linux/index|Linux]]

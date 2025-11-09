@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to install and use chatgpt on rooted android
 aliases:
   - How to install and use chatgpt on rooted android
@@ -9,7 +10,6 @@ tags:
   - gtd/todo
 type: how-to
 ---
-
 ## Devices's date and time are set properly
 
 ![](https://raw.githack.com/bGZo/assets/dev/2025/1749868182517.png)

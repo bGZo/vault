@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 对象关系映射
   - O/RM
@@ -12,7 +13,6 @@ tags:
 title: ORM
 wikipedia: https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
 ---
-
 # ORM
 
 ## Why

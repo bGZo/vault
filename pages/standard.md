@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 标准
 created: 2025-03-22T16:30:25
 modified: 2025-07-19T12:48:25
 title: 标准
 ---
-
 # 标准
 
 ## Standard vs Principle vs Ruile

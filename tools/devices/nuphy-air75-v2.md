@@ -1,4 +1,5 @@
 ---
+draft: true
 title: nuphy air75 v2
 aliases:
   - nuphy air75 v2
@@ -12,7 +13,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why
 
 ### [[nuphy-air96-v1]] 太重太长了，方向键不好识别

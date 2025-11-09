@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 不存在的页面
 created: 2024-08-01
@@ -8,7 +9,6 @@ type: product/done
 tags:
   - gtd/done
 ---
-
 # 不存在的页面
 
 ## 「1」

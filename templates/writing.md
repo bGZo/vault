@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
@@ -8,4 +9,3 @@ tags:
 tags-link:
 type: writing
 ---
-

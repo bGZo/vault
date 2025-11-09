@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - JavaScript Object Notation
   - Json
@@ -8,7 +9,6 @@ modified: 2025-08-30T18:42:17
 title: Json
 wikipedia: https://en.wikipedia.org/wiki/JSON
 ---
-
 # Json
 
 ## What

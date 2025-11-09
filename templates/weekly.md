@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases: 
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
 modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 tags: 
 type: weekly
 ---
-
 ```shell
 +-----------------------------------------+
 |       Your current life progress is     |

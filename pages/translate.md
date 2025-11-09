@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 翻译
   - Translate
@@ -9,7 +10,6 @@ tags: []
 title: Translate
 type:
 ---
-
 # Translate
 
 ## [[templates/book]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 中央处理器
   - central processing unit
@@ -9,7 +10,6 @@ modified: 2025-09-14T10:13:01
 title: Cpu
 wikipedia: https://en.wikipedia.org/wiki/Central_processing_unit
 ---
-
 # Cpu
 
 ## Architecture

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - py
   - Python
@@ -7,7 +8,6 @@ modified: 2025-07-25T23:21:25
 title: Python
 type: lang/programming
 ---
-
 # Python
 
 ## Why

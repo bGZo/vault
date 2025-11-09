@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - postgresql Vs mysql
   - Postgresql-vs-mysql
@@ -9,7 +10,6 @@ tags:
   - postgresql
 title: postgresql Vs mysql
 ---
-
 # [[postgresql]] Vs [[mysql]]
 
 ## Fuck Mysql

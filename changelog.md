@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 变更日志
   - Changelog
@@ -6,7 +7,6 @@ created: 2025-07-03T21:31:46
 modified: 2025-10-12T19:11:24
 title: 变更日志
 ---
-
 # 变更日志
 
 ## [[weekly/index|周报]]

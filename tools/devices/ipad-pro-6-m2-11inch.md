@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 你的下一台电脑，不可能会是 iPad Pro
 aliases:
   - ipad-pro-2022
@@ -17,7 +18,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 今天下午，EMS 取走了武汉寄过来的快递，寄去了北京。Apple 退货算是告一段落，这让我不禁开始重新想一个问题：**我真正的需求到底是什么**？
 
 ## 真正需求

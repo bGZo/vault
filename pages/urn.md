@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 统一资源名称
   - Urn
@@ -7,7 +8,6 @@ description: 与 URL 不同，URN 不提供任何关于如何定位资源的信�
 modified: 2025-07-16T21:08:39
 title: Urn
 ---
-
 # Urn
 
 ## Why

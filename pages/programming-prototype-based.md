@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 基于原型编程
   - 原型编程
@@ -9,7 +10,6 @@ modified: 2025-08-30T20:23:37
 title: 基于原型编程
 wikipedia: https://en.wikipedia.org/wiki/Prototype-based_programming
 ---
-
 # 基于原型编程
 
 面向对象编程的一种风格和方式。在原型编程中，行为重用（在基于类的语言通常称为继承），是通过复制已经存在的原型对象的过程实现的。这个模型一般被认为是无类的、面向原型、或者是基于实例的编程。

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 骁龙
   - Snapdragon
@@ -8,7 +9,6 @@ modified: 2025-07-16T20:50:31
 title: Snapdragon
 wikipedia: https://en.wikipedia.org/wiki/Qualcomm_Snapdragon
 ---
-
 # Snapdragon
 
 ## Chip

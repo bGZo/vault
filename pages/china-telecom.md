@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 中国电信
 cost: 972
@@ -8,5 +9,4 @@ remark: 每月81，600M宽带 + 160G流量
 title: 中国电信
 wikipedia: https://en.wikipedia.org/wiki/China_Telecom
 ---
-
 # 中国电信

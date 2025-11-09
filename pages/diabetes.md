@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 糖尿病
 created: 2022-08-07T00:00:00
@@ -7,7 +8,6 @@ title: 糖尿病
 type: disease
 wikipedia: https://zh.wikipedia.org/zh-sg/%E7%B3%96%E5%B0%BF%E7%97%85
 ---
-
 # 糖尿病
 
 ## Why

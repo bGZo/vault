@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Copyleft
 created: 2024-12-15T11:24:00
@@ -6,7 +7,6 @@ modified: 2025-07-19T10:08:58
 title: Copyleft
 wikipedia: https://zh.wikipedia.org/zh-cn/Copyleft
 ---
-
 # Copyleft
 
 自由软件运动为了保护这种自由而发展的概念：它允许他人任意的修改散布作品，惟其散布及修改的行为和作法，亦限定以 Copyleft 的方式行之

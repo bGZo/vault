@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - "2024"
 comments: false
@@ -7,7 +8,6 @@ modified: 2025-08-23T23:35:55
 title: "2024"
 type: year
 ---
-
 # 2024
 
 ## Anime Awards

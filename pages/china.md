@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 中国
   - China
@@ -6,7 +7,6 @@ created: 2025-01-16T21:45:13
 modified: 2025-08-03T21:20:20
 title: China
 ---
-
 # China
 
 ## Hierarchy

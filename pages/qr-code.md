@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 二维码
   - 快速响应矩阵图码
@@ -9,7 +10,6 @@ modified: 2025-08-31T14:00:13
 title: 二维码
 wikipedia: https://en.wikipedia.org/wiki/QR_code
 ---
-
 # 二维码
 
 ![[二维码的工作原理图_1649517465982_0.mp4]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 生产力
 aliases:
   - 生产力

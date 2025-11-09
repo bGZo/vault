@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 华润万家
   - 润
@@ -11,7 +12,6 @@ tags:
 title: 华润万家
 type: project
 ---
-
 # 华润万家
 
 长期目标：**小润出省，大润出国**

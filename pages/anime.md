@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 动漫
   - Anime
@@ -10,7 +11,6 @@ tags:
 title: 动漫
 wikipedia: https://en.wikipedia.org/wiki/Animation
 ---
-
 # 动漫
 
 ## [[navigation|Navigation]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: albums
 aliases:
   - albums

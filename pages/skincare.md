@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 皮肤卫生
   - 护肤
@@ -11,7 +12,6 @@ tags:
 title: 皮肤卫生
 type: 
 ---
-
 # 皮肤卫生
 
 ## 清洁 + 保湿 + 防晒

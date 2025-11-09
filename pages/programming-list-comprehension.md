@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 列表构建
   - 列表解析式
@@ -10,7 +11,6 @@ modified: 2025-08-30T19:00:34
 title: 列表解析式
 wikipedia: https://en.wikipedia.org/wiki/List_comprehension
 ---
-
 # 列表解析式
 
 ## References

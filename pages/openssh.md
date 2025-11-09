@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Openssh
 created: 2025-03-23T13:44:37
 modified: 2025-07-19T12:07:02
 title: Openssh
 ---
-
 # Openssh
 
 the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options. via: [OpenSSH](https://www.openssh.com/)

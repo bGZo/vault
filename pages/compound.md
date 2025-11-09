@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 复利
 aliases:
   - 复利
@@ -8,7 +9,6 @@ created: 2022-05-25T11:37:00
 modified: 2025-03-16T21:52:11
 wikipedia: https://en.wikipedia.org/wiki/Compound_interest
 ---
-
 我们可以通过减少复利的时间间隔，来达到利息的最大化. (PS: 有上限)
 
 ![[2a6gDHfWQGA-人生中最重要的概念-复利-是什么-想贷款和分期就必须要了解它；李永乐老师讲自然对数的底e#Source]]

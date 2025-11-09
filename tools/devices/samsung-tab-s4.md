@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 三星 Tab S4
 aliases:
   - 三星 Tab S4
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 考虑 Google Play 上的沉默成本，以及看中被吹上天的 S Pen 外，我没选 `iPad`，而是跪倒在 S4 的价格上。
 
 白天上课背上平板和 K380，回家再抄起电脑和数位板，自认为非常自洽，在用了三星的系统之后一下子被圈粉，扭头就入了第二台三星手机 `S9+`，搭配平板 Sharing 使用。

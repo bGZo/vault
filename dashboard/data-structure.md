@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 数据结构
   - Data Structure
@@ -10,7 +11,6 @@ tags:
 title: Data Structure
 type:
 ---
-
 # Data Structure
 
 ```dataview

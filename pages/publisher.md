@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 出版社
   - 发行商
@@ -7,7 +8,6 @@ created: 2024-07-20T00:00:00
 modified: 2025-08-31T13:48:20
 title: 出版社
 ---
-
 # 出版社
 
 ## [[china|China]]

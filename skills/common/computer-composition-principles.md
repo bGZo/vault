@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 计算机组成原理
 aliases:
   - 计算机组成原理
@@ -8,4 +9,3 @@ description:
 tags: 
 type:
 ---
-

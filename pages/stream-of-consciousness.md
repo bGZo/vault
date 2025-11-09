@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 意识流
   - literary/modernism/stream-of-consciousness
@@ -8,7 +9,6 @@ description: "泛指注重描绘人物意识流动状态的文学作品，既包
 modified: 2025-07-19T12:52:49
 title: 意识流
 ---
-
 # 意识流
 
 ## References

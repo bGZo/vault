@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to buy a domain
   - How to register a domain
@@ -6,7 +7,6 @@ created: 2025-07-16T21:50:39
 modified: 2025-07-16T21:51:59
 title: How to buy a domain
 ---
-
 # How to buy a domain
 
 ## Free

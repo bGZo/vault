@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Apple music
   - AM
@@ -11,7 +12,6 @@ title: Apple music
 type: platform/music
 remark: 车主，每年8月5日续费204
 ---
-
 # Apple music
 
 - nice

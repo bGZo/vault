@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - JDK Version
 created: 2025-08-30T15:38:27
 modified: 2025-08-30T15:41:44
 title: JDK Version
 ---
-
 # JDK Version
 
 ![](https://raw.githack.com/bGZo/assets/dev/2024/image_1652343742216_0-or8-or8-or8.png)

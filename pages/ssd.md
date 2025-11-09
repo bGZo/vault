@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 固态
   - SSD
@@ -6,7 +7,6 @@ created: 2024-07-14T00:00:00
 modified: 2025-07-19T11:14:27
 title: 固态
 ---
-
 # 固态
 
 ## Good SSD

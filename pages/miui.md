@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 澎湃OS
   - MIUI
@@ -6,7 +7,6 @@ created: 2024-12-08T21:26:22
 modified: 2025-08-31T11:08:59
 title: MIUI
 ---
-
 # MIUI
 
 ## 魔改 ROM

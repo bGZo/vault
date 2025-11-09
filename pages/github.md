@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - GitHub
 created: 2024-12-08T09:26:22
 modified: 2025-07-13T18:44:10
 title: GitHub
 ---
-
 # GitHub
 
 > [!NOTE]

@@ -1,10 +1,9 @@
 ---
+draft: true
 aliases: {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
 modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 ---
-
-
 | 正反馈的事情 | 负反馈的事情 |
 | ---------| ---------|
 | |  |

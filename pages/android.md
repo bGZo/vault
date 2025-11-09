@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 安卓
   - Android
@@ -7,7 +8,6 @@ modified: 2025-08-31T11:14:57
 tags: []
 title: Android
 ---
-
 # Android
 
 由 google 主导的移动设备开源系统, 根据 Android 开源项目 (AOSP), 手机厂商可以创建定制的 Android 操作系统版本, 将设备和配件移植到 Android 平台

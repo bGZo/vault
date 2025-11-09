@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 键盘
   - Keyboard
@@ -9,7 +10,6 @@ tags:
   - hobby
 title: Keyboard
 ---
-
 # Keyboard
 
 ## [[nuphy|Nuphy]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 存储
 created: 2024-01-28T00:00:00
@@ -8,7 +9,6 @@ tags:
   - tool
 title: 存储
 ---
-
 # 存储
 
 ## Why

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 飞机杯
   - 人工阴道
@@ -13,7 +14,6 @@ tags:
 title: 飞机杯
 wikipedia: https://en.wikipedia.org/wiki/Artificial_vagina
 ---
-
 # 飞机杯
 
 A device designed to imitate the female sex organ.

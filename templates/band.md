@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 released: 
@@ -8,7 +9,6 @@ description:
 tags: 
 type: band
 ---
-
 ## Members
 
 

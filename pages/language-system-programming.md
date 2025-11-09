@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 系统编程语言
   - System programming language
@@ -7,7 +8,6 @@ modified: 2025-08-31T11:40:39
 title: 系统编程语言
 wikipedia: https://en.wikipedia.org/wiki/System_programming_language
 ---
-
 # 系统编程语言
 
 ## Collections

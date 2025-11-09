@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 屏幕
   - 显示器
@@ -7,7 +8,6 @@ created: 2025-01-19T13:44:16
 modified: 2025-07-19T11:54:39
 title: 显示器
 ---
-
 # 显示器
 
 ## Standard

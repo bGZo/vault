@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 测试
   - Testing
@@ -6,7 +7,6 @@ created: 2024-12-08T21:40:18
 modified: 2025-08-31T00:24:03
 title: 测试
 ---
-
 # 测试
 
 ## [[navigation|Navigation]]

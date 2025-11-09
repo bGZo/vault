@@ -1,4 +1,5 @@
 ---
+draft: true
 title: p-code
 aliases:
   - p-code

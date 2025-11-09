@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 编程范式
   - programming paradigms
@@ -7,7 +8,6 @@ description: a way to classify programming languages based on their features
 modified: 2025-08-30T20:43:25
 title: 编程范式
 ---
-
 # 编程范式
 
 ## Why

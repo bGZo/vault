@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Audio
   - voice
@@ -6,7 +7,6 @@ created: 2025-03-15T09:36:24
 modified: 2025-07-19T17:53:10
 title: Audio
 ---
-
 # Audio
 
 - Monaural[^Monaural](单声道) #vs Stereo(立体声)

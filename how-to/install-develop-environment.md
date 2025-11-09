@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to activate jetbrains
   - How to install develop environment
@@ -6,7 +7,6 @@ created: 2024-12-08T09:26:21
 modified: 2025-09-27T15:18:26
 title: How to install develop environment
 ---
-
 # How to install develop environment
 
 ## Environment

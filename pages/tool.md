@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 工具
   - Tool
@@ -9,7 +10,6 @@ tags:
   - hobby
 title: 工具
 ---
-
 # 工具
 
 > [!tip]

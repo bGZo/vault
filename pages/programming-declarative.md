@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 声明式编程
   - Declarative Programming
@@ -6,7 +7,6 @@ created: 2024-12-09T20:21:48
 modified: 2025-08-30T18:53:53
 title: 声明式编程
 ---
-
 # 声明式编程
 
 - Against [[programming-imperative|命令式编程]] .

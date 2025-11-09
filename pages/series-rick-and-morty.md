@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Rick and morty series
 created: 2022-12-02T00:00:00
 modified: 2025-08-30T13:01:02
 title: Rick and morty series
 ---
-
 # Rick and morty series
 
 ## Series

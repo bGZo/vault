@@ -1,4 +1,5 @@
 ---
+draft: true
 title: dell-protable-monitor-14-inch
 aliases:
   - dell-protable-monitor-14-inch
@@ -12,6 +13,5 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why
 ### 腰突卧床

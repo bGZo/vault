@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 离散数学
 aliases:
   - 离散数学
@@ -12,7 +13,6 @@ tags:
 type:
 wikipedia: https://zh.wikipedia.org/zh-cn/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6
 ---
-
 - [数学部分简介 - OI Wiki](https://oi-wiki.org/math/)
   - [排列组合](https://oi-wiki.org/math/combinatorics/combination/)
   - [抽屉原理](https://oi-wiki.org/math/combinatorics/drawer-principle/)

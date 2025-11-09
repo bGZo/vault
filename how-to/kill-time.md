@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 杀时间
   - 沙发土豆的自我修养
@@ -9,7 +10,6 @@ created: 2025-03-11T21:16:38
 modified: 2025-07-16T20:43:15
 title: How to kill time
 ---
-
 # How to kill time
 
 ## 追番 / 刷剧

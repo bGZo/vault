@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 性
   - 情色
@@ -11,7 +12,6 @@ tags:
 - hobby
 title: 性
 ---
-
 # 性
 
 > [!tip]

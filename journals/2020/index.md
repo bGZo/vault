@@ -1,11 +1,11 @@
 ---
+draft: true
 title: 2020
 created: 2020-01-13T21:04:55
 modified: 2025-03-30T20:40:56
 comments: false
 type: year
 ---
-
 ## 杂记
 
 > 头等舱可以优先登机，

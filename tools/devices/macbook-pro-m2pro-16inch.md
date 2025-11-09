@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Macbook Pro 祛魅
 aliases:
   - Macbook Pro 祛魅
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 > [!note]
 > 乔布斯最大的成就就是让一帮连 vi 都用不利索的人自以为是 geek
   https://www.v2ex.com/t/166440

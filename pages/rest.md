@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - (Resource) Representational state transfer
   - 表现层状态转移
@@ -8,7 +9,6 @@ created: 2025-03-22T16:28:35
 modified: 2025-07-19T12:33:58
 title: REST
 ---
-
 # REST
 
 $$\{REST:API\}$$

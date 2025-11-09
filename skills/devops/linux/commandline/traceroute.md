@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 显示数据包到主机间的路径, 用于追踪数据包在网络上的传输时的全部路径，它默认发送的数据包大小是40字节
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/traceroute.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/traceroute.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/traceroute.html</a></center>
 ```shell

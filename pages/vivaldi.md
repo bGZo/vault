@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Vivaldi
 created: 2024-07-27T00:00:00
@@ -9,7 +10,6 @@ tags:
 title: Vivaldi
 type: tool
 ---
-
 # Vivaldi
 
 ## Feature 🎉

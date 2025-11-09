@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 学习 日语 通过 N2
   - Learning japanese reach N2
@@ -10,7 +11,6 @@ tags:
 title: 学习 日语 通过 N2
 type: project
 ---
-
 # 学习 [[japanese|日语]] 通过 N2
 
 1. 为了 [[run-out-of-china|润]]，希望以后去日本发展

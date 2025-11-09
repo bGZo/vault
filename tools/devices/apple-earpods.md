@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Apple EarPods
 created: 2025-07-17T21:02:45
@@ -8,5 +9,4 @@ title: Apple EarPods
 type: headphone
 source: https://www.apple.com/shop/product/MNHF2AM/A/earpods-with-35-mm-headphone-plug
 ---
-
 # Apple EarPods

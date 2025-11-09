@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases: [How to publish your writing]
 created: 2025-06-03T22:50:04
 modified: 2025-07-04T23:08:40
 title: How to publish your writing
 type: how-to
 ---
-
 # How to publish your writing
 
 ## Traditional platform

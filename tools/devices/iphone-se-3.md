@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - iPhone SE3
 cover:
@@ -15,5 +16,4 @@ title: iPhone SE3
 type: 3c
 wikipedia:
 ---
-
 # iPhone SE3

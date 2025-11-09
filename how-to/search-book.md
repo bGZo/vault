@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to search book
 aliases:
   - How to search book
@@ -6,7 +7,6 @@ created: 2025-06-08T22:32:50
 modified: 2025-06-08T22:33:38
 type: how-to
 ---
-
 - [Z-Library. The world's largest ebook library.] https://z-lib.org/
 - [Library Genesis] http://libgen.rs/}} / [Library Genesis] {{nav https://libgen.li/
 - [Free eBooks | Project Gutenberg] https://www.gutenberg.org/

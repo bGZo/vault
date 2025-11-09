@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - "Hentai-download-batch"
   - "hentai-download-batch"
@@ -10,7 +11,6 @@ type: "project"
 tags:
   - "gtd/todo"
 ---
-
 # Hentai download batch
 
 ## Project Meta

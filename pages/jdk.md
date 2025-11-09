@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java development kit
   - JDK
@@ -7,7 +8,6 @@ modified: 2025-08-30T17:03:16
 title: JDK
 wikipedia: https://en.wikipedia.org/wiki/Java_Development_Kit
 ---
-
 # JDK
 
 jre 的超集，内含更多工具，如 `javac`, `jconsole`, `jvisualvm`, `javadoc`, `jdb` 等

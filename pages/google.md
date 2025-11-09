@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Google
 created: 2024-07-30T00:00:00
@@ -6,7 +7,6 @@ description:
 modified: 2025-08-03T21:24:37
 title: Google
 ---
-
 # Google
 
 ## Google Analyse

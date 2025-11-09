@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 公墓
   - died
@@ -10,7 +11,6 @@ modified: 2025-07-20T22:51:04
 tags: []
 title: 公墓
 ---
-
 # 公墓
 
 ## [[navigation|Navigation]]

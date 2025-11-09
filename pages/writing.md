@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 写作
 created: 2024-07-27T02:46:31
@@ -7,7 +8,6 @@ tags:
   - creation
 title: 写作
 ---
-
 # 写作
 
 ## 格式

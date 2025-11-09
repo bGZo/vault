@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [当 AI 破坏了我的一切]
 created: 2025-05-02T10:35:57
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [weekly/1238]
 title: 当 AI 破坏了我的一切
 type: writing
 ---
-
 # 当 AI 破坏了我的一切
 
 <iframe src='https://notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

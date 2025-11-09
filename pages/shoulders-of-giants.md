@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 巨人的肩膀
 created: 2024-12-08T21:26:22
 modified: 2025-07-17T21:31:34
 title: 巨人的肩膀
 ---
-
 # 巨人的肩膀
 
 > [!tip]

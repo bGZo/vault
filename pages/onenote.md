@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Onenote
 created: 2024-07-28T00:00:00
@@ -7,7 +8,6 @@ tags:
   - deprecated
 title: Onenote
 ---
-
 # Onenote
 
 <iframe src="https://www.youtube.com/embed/" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

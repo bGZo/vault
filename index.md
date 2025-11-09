@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Home
   - Notes of bGZo
@@ -7,7 +8,6 @@ created: 2024-08-14T12:00:00
 modified: 2025-10-03T21:31:51
 title: Notes of bGZo
 ---
-
 # Notes of bGZo
 
 ## Preface

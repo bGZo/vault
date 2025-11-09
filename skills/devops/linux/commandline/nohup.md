@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 将程序以忽略挂起信号的方式运行起来
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/nohup.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/nohup.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/nohup.html</a></center>
 ```shell

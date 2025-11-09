@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 串流
   - moonlight
@@ -8,7 +9,6 @@ modified: 2025-03-30T16:43:28
 tags:
   - area/gaming
 ---
-
 ## Why
 
 - In a correct place play something

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 研究
   - Research
@@ -7,7 +8,6 @@ modified: 2025-07-19T12:29:59
 title: 研究
 wikipedia: https://en.wikipedia.org/wiki/Research
 ---
-
 # 研究
 
 ## Academic fields

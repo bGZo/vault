@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Steam
 created: 2023-07-04T00:00:00
@@ -8,7 +9,6 @@ tags:
   - price-discrimination
 title: Steam
 ---
-
 # Steam
 
 ## Why

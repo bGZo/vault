@@ -1,11 +1,11 @@
 ---
+draft: true
 title: How to found rss
 aliases: How to found rss
 created: 2025-06-12T22:28:05
 modified: 2025-06-12T22:28:31
 type: how-to
 ---
-
 Some websites will include element whose type is `application/atom+xml` or `application/rss+xml`. They would include RSS link.
 
 ```xml

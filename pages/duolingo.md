@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 多邻国
 created: 2025-07-13T23:00:49
@@ -7,5 +8,4 @@ title: 多邻国
 cost: 50
 remark: 合租，每年淘宝续费
 ---
-
 # 多邻国

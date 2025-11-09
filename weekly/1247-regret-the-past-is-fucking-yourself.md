@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [遗憾是对自己的暴政, regret the past is fucking yourself]
 created: 2025-07-05T23:42:28
 description: 
@@ -8,7 +9,6 @@ tags-link:
 title: 遗憾是对自己的暴政
 type: writing
 ---
-
 # 遗憾是对自己的暴政
 
 人都有遗憾，对吧？

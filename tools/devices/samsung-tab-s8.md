@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 三星 Tab S8
 aliases:
   - 三星 Tab S8
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why
 #### [[samsung-tab-s4|三星 Tab S4]]
 

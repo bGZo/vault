@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 手把
   - 手柄
@@ -9,7 +10,6 @@ tags:
 title: 手柄
 wikipedia: https://en.wikipedia.org/wiki/Gamepad, https://en.wikipedia.org/wiki/Xbox_Wireless_Controller
 ---
-
 # 手柄
 
 ## Why

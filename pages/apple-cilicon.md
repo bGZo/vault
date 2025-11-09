@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Apple Cilicon
 created: 2025-09-14T10:09:47
@@ -6,7 +7,6 @@ modified: 2025-09-14T10:25:02
 title: Apple Cilicon
 wikipedia: https://en.wikipedia.org/wiki/Apple_silicon
 ---
-
 # Apple Cilicon
 
 ## [[macos|MacOS]]

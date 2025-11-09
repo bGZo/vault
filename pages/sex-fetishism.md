@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 恋物
   - 性癖
@@ -8,7 +9,6 @@ modified: 2025-08-30T17:27:51
 title: 性癖
 wikipedia: https://en.wikipedia.org/wiki/Sexual_fetishism
 ---
-
 # 性癖
 
 精神障碍？对无生命物体或性器官以外的身体部位的性固着，可代指某些类型的性活动

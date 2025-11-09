@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Bangumi
 created: 2025-07-08T22:02:18
 modified: 2025-07-08T22:02:39
 title: Bangumi
 ---
-
 # Bangumi
 
 ## Profile Backup

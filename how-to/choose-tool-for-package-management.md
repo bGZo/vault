@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to choose package management
   - Package-management
@@ -6,7 +7,6 @@ created: 2025-04-06T15:30:19
 modified: 2025-07-16T20:44:21
 title: How to choose package management
 ---
-
 # How to choose package management
 
 ## 跨平台

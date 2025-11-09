@@ -1,4 +1,5 @@
 ---
+draft: true
 title: vulkan
 aliases:
   - vulkan
@@ -9,4 +10,3 @@ tags:
 type: 
 wikipedia: https://en.wikipedia.org/wiki/Vulkan
 ---
-

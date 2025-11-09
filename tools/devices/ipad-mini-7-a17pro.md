@@ -1,4 +1,5 @@
 ---
+draft: true
 title: iPad (mini) 7 
 aliases:
   - iPad (mini) 7 a17pro
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Previous: [你的下台电脑，不可能是 iPad Pro](ipad-pro-6-m2-11inch.md)
 
 ## 理由

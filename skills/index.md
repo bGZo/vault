@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Skills
 aliases:
   - Skill Stack
@@ -7,7 +8,6 @@ created: 2025-01-18T14:55:26
 modified: 2025-01-18T14:55:26
 comments: false
 ---
-
 Hard/soft skills for working business, they should be something like:
 
 Category refer to https://roadmap.sh/roadmaps.

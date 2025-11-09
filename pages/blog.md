@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 博客
 aliases:
   - blog
@@ -7,7 +8,6 @@ aliases:
 created: 2025-06-03T23:06:10
 modified: 2025-06-03T23:11:39
 ---
-
 ## Why
 
 有如所有的生物需要排泄一样，表达是人类的本能

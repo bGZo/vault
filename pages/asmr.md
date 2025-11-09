@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - ASMR
   - 奥术魔刃
@@ -18,7 +19,6 @@ tags:
 title: ASMR
 wikipedia: https://zh.wikipedia.org/zh-cn/ASMR
 ---
-
 # ASMR
 
 ## Why: [[sex-climax|orgasm]]

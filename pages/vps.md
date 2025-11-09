@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - VPS
 created: 2025-03-30T21:05:30
@@ -8,7 +9,6 @@ tags:
   - wishlist
 title: VPS
 ---
-
 # VPS
 
 Wish services via docker

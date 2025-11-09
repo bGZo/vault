@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to draw mind map
 aliases:
   - 如何画思维导图
@@ -6,7 +7,6 @@ created: 2025-06-07T15:54:21
 modified: 2025-06-07T15:59:20
 type: how-to
 ---
-
 <iframe src='https://en.wikipedia.org/wiki/Mind_map' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://en.wikipedia.org/wiki/Mind_map' target='_blank' class='external-link'>https://en.wikipedia.org/wiki/Mind_map</a></center>
 

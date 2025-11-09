@@ -1,4 +1,5 @@
 ---
+draft: true
 title: biases
 aliases:
   - biases
@@ -10,7 +11,6 @@ description:
 tags: 
 type:
 ---
-
 ![](https://twitter.com/elonmusk/status/1472649556965969925)
 
 ![](https://raw.githack.com/bGZo/assets/dev/2025/202501152117415.png)

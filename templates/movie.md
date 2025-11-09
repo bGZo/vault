@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 author: 
@@ -11,4 +12,3 @@ type:
 douban: https://www.douban.com/
 imdb: https://www.imdb.com/title/
 ---
-

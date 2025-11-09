@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Openai
 created: 2024-12-08T21:40:18

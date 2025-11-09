@@ -1,4 +1,5 @@
 ---
+draft: true
 title: nuphy-air96-v1
 aliases:
   - nuphy-air96-v1
@@ -12,6 +13,5 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why
 ### 用 K380 腱鞘炎

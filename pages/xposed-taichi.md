@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Taichi
   - Xposed-taichi
@@ -6,7 +7,6 @@ created: 2025-08-30T23:56:37
 modified: 2025-08-31T00:00:01
 title: Taichi
 ---
-
 # Taichi
 
 TaiChi is a framework to use Xposed module with or **without** Root/Unlock bootloader, it currently supports Android 5.0 ~ **10.0**.

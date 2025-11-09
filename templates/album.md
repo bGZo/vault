@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 artisit: 
@@ -9,7 +10,6 @@ description:
 tags: 
 type: album
 ---
-
 ## Description
 
 

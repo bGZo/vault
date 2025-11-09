@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 登录档
   - 注册表
@@ -7,7 +8,6 @@ created: 2024-12-15T20:49:29
 modified: 2025-08-31T10:53:34
 title: Regedit
 ---
-
 # Regedit
 
 ## Why

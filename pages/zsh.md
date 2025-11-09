@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Zsh
   - ZShell
@@ -7,7 +8,6 @@ modified: 2025-08-31T14:05:37
 title: ZShell
 type: tool
 ---
-
 # ZShell
 
 <iframe src='https://zsh.sourceforge.io/' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

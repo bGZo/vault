@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 声破天
   - Spotify
@@ -7,7 +8,6 @@ modified: 2025-07-17T21:39:47
 title: Spotify
 type: platform/music
 ---
-
 # Spotify
 
 ## Why

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 关系型数据库 Vs 面向对象数据库
 created: 2024-08-07T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-07-19T10:47:20
 tags: []
 title: 关系型数据库 Vs 面向对象数据库
 ---
-
 # [[database-object–relational|关系型数据库]] Vs [[database-object–oriented|面向对象数据库]]
 
   - [改进版] **Object-relational database**(关系型数据库) is an improved version of the **object-oriented database**(面向对象数据库)

@@ -1,10 +1,10 @@
 ---
+draft: true
 aliases: 备份
 created: 2024-01-28T12:00:00
 tags: Storage
 modified: 2025-01-16T09:40:17
 ---
-
 ## 321 原则
 
 - 3 副本

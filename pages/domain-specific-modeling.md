@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 领域专用建模
   - 特定域建模
@@ -12,7 +13,6 @@ tags:
 title: 领域专用建模
 wikipedia: https://en.wikipedia.org/wiki/Domain-specific_modeling
 ---
-
 # 领域专用建模
 
 它系统使用图形化特定域语言（DSL），表现系统的各个方面。DSM 的语言倾向于支持比通用建模语言更高级别的抽象，因此需要较少的 effort 和更少的底层细节来描述特定系统。

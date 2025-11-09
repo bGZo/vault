@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 珍珠疹
   - Pearly penile papules
@@ -7,7 +8,6 @@ modified: 2025-08-30T16:56:24
 title: 珍珠疹
 wikipedia: https://en.wikipedia.org/wiki/Pearly_penile_papules
 ---
-
 # 珍珠疹
 
 ## How

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 学习
   - 高校学习
@@ -12,5 +13,4 @@ tags:
   - area
 title: 学习
 ---
-
 # 学习

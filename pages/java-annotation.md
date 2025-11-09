@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 注解
   - Java 注解
@@ -7,7 +8,6 @@ description: Java 注解；放在Java源码的类、方法、字段、参数前�
 modified: 2025-08-31T13:32:45
 title: Java 注解
 ---
-
 # Java 注解
 
 ## 分类

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 如何把英国 GiffGaff 从 ESIM 转 SIM
   - 英国 GiffGaff 从 ESIM 转 SIM
@@ -6,7 +7,6 @@ created: 2025-10-26T11:13:05
 modified: 2025-10-26T11:38:03
 title: 如何把英国 GiffGaff 从 ESIM 转 SIM
 ---
-
 # 如何把英国 GiffGaff 从 ESIM 转 SIM
 
 操作其实很简单，跟着官网来就行：

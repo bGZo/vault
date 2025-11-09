@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 咖啡
 cost: 0
@@ -9,7 +10,6 @@ tags:
 - hobby
 title: 咖啡
 ---
-
 # 咖啡
 
 > [!TIP]

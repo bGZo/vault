@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 打扮
   - 大半
@@ -10,5 +11,4 @@ tags:
 - hobby
 title: 打扮
 ---
-
 # 打扮

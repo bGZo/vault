@@ -1,11 +1,11 @@
 ---
+draft: true
 title: How to draw uml or user-case
 aliases: How to draw uml or user-case
 created: 2025-06-14T22:07:16
 modified: 2025-06-14T22:17:38
 type: how-to
 ---
-
 ## [[jgraph-drawio-desktop|drawio-desktop]]
 
 <iframe src='https://app.diagrams.net' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

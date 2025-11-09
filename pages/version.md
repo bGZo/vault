@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 版本号
   - Version
@@ -6,7 +7,6 @@ created: 2024-09-07T00:00:00
 modified: 2025-07-16T21:09:00
 title: Version
 ---
-
 # Version
 
 ```shell

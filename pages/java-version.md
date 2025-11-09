@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java Version
 created: 2024-08-01T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-08-30T16:13:37
 title: Java Version
 wikipedia: https://en.wikipedia.org/wiki/Java_version_history
 ---
-
 # Java Version
 
 ## Branch

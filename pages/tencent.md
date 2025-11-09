@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 腾讯
   - 腾讯作的恶
@@ -6,7 +7,6 @@ created: 2024-08-03T00:00:00
 modified: 2025-08-03T21:01:48
 title: 腾讯
 ---
-
 # 腾讯
 
 ## [[sucks|Fuck]]

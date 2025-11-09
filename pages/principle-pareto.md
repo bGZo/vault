@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 80/20 法则
   - 八二法则
@@ -12,7 +13,6 @@ modified: 2025-08-31T13:10:42
 title: 二八法则
 wikipedia: https://en.wikipedia.org/wiki/Video_game_piracy
 ---
-
 # 二八法则
 
 所有变因中，最重要的仅有 20%，虽然剩余的 80% 占了多数，影响的幅度却远低于 "**关键的少数**"

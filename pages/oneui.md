@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Oneui
   - OneUI
@@ -6,7 +7,6 @@ created: 2025-04-09T19:53:13
 modified: 2025-07-19T11:59:39
 title: OneUI
 ---
-
 # OneUI
 
 ## 我很喜欢的几个 feature #观察软件设计

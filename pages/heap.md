@@ -1,4 +1,5 @@
 ---
+draft: true
 title: heap
 aliases:
   - heap
@@ -9,7 +10,6 @@ description: 完全二叉树，分为最小堆和最大堆
 tags: 
 type: data-structure
 ---
-
 ## 分类
 
 ### Min heap

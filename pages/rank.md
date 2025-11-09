@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 排行榜
 aliases:
   - ladder

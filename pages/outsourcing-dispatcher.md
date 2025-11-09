@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 外包
 created: 2025-01-13T19:59:22
@@ -7,7 +8,6 @@ tags:
   - job
 title: 外包
 ---
-
 # 外包
 
 做项目 + 没产品

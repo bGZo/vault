@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 线性代数
 aliases:
   - 线性代数

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Google Voice
   - Google-voice
@@ -8,5 +9,4 @@ title: Google Voice
 cost: 0
 remark: 每月打一次电话保号
 ---
-
 # Google Voice

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java Generics
   - java泛型
@@ -8,7 +9,6 @@ modified: 2025-08-30T16:50:42
 title: Java Generics
 wikipedia: https://en.wikipedia.org/wiki/Generics_in_Java
 ---
-
 # Java Generics
 
 拓展 Java 类型系统，允许对各类型对象进行操作，提供编译时类型安全；

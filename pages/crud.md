@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - CRUD
   - CURD
@@ -7,7 +8,6 @@ modified: 2025-07-19T10:34:01
 title: CURD
 wikipedia: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete#RESTful_APIs
 ---
-
 # CURD
 
 > 英文小写的 crud，是指渣滓、水垢、腐蚀污泥

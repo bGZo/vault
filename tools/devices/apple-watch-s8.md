@@ -1,4 +1,5 @@
 ---
+draft: true
 title: apple-watch-s8
 aliases:
   - apple-watch-s8
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 功课没有做足，Apple watch 上很难侧载应用，也很少有应用能支持侧载。
 
 > You want to have an App from the TrollStore on your Apple Watch? Not possible then, you need Xcode to sideload on Apple Watch.

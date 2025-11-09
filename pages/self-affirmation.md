@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 肯定
   - 自我肯定
@@ -7,7 +8,6 @@ modified: 2025-07-19T12:51:52
 title: 自我肯定
 wikipedia: https://en.wikipedia.org/wiki/Affirmations_(New_Age)
 ---
-
 # 自我肯定
 
 the practice of positive thinking and self-empowerment—fostering a belief that "a positive mental attitude supported by affirmations will achieve success in anything

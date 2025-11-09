@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 author: 
@@ -12,7 +13,6 @@ type: game
 bangumi: https://bgm.tv/subject/
 douban: https://www.douban.com/game/
 ---
-
 ## Review
 
 ## References

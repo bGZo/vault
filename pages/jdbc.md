@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Jdbc
   - java database connectivity
@@ -10,7 +11,6 @@ tags:
   - javase
 title: Jdbc
 ---
-
 # Jdbc
 
 ## 流程

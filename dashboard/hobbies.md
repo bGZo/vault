@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 爱好
   - Hobbies
@@ -7,7 +8,6 @@ modified: 2025-07-19T11:18:07
 tags: []
 title: 爱好
 ---
-
 # 爱好
 
 ```dataview

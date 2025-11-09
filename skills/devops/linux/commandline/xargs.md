@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 给其他命令传递参数的一个过滤器 
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/xargs.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/xargs.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/xargs.html</a></center>
 

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Copilot
 created: 2025-07-19T19:30:01
 modified: 2025-07-27T10:39:33
 title: Copilot
 ---
-
 # Copilot
 
 ## [[pages/github|GitHub]]

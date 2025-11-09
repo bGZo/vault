@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 友情链接
 created: 2024-12-15T12:00:00
 modified: 2025-07-19T17:39:20
 title: 友情链接
 ---
-
 # 友情链接
 
 ## Indiviual Blog

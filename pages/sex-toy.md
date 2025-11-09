@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 性玩具
   - Sex toy
@@ -7,7 +8,6 @@ modified: 2025-08-30T17:16:48
 title: Sex toy
 wikipedia: https://en.wikipedia.org/wiki/Sex_toy#Materials_used_in_sex_toys
 ---
-
 # Sex toy
 
 an object or device that is primarily used to facilitate human sexual pleasure, such as a dildo, artificial vagina or vibrator

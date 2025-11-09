@@ -1,4 +1,5 @@
 ---
+draft: true
 ale: How to coding with llm
 aliases: [How to coding with llm]
 created: 2024-12-28T02:46:31
@@ -7,7 +8,6 @@ tags: [llm]
 title: How to coding with llm
 type: how-to
 ---
-
 # How to coding with llm
 
 启发于: https://linux.do/t/topic/126077/7

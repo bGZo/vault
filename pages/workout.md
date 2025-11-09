@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 健身
   - Workout
@@ -8,5 +9,4 @@ tags:
 - hobby
 title: 健身
 ---
-
 # 健身

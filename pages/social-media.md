@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 社交媒体
   - Social media
@@ -7,5 +8,4 @@ description: An internet-based way to publish or broadcast digital content that 
 modified: 2025-07-16T20:53:13
 title: Social media
 ---
-
 # Social media

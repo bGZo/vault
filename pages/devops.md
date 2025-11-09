@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - DevOps
 created: 2025-03-22T16:28:35
 modified: 2025-07-17T20:46:31
 title: DevOps
 ---
-
 # DevOps
 
 ![](https://raw.githack.com/bGZo/assets/dev/2025/202507172045093.png)

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [Obsidian, 黑曜石]
 changelog: https://obsidian.md/changelog
 created: 2024-12-14T11:52:18
@@ -11,7 +12,6 @@ tags: [close-source, electron]
 title: Obsidian
 type: tool
 ---
-
 # Obsidian
 
 ## Why: [[1218-giving-up-logseq]]

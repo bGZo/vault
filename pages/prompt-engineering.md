@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 提示工程
 aliases:
   - prompt-engineering

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java standard edition
   - JavaSE
@@ -7,7 +8,6 @@ modified: 2025-08-30T16:29:54
 title: JavaSE
 wikipedia: https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition
 ---
-
 # JavaSE
 
 ## Nomenclature, standards and specifications 术语、标准和规范

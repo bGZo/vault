@@ -1,10 +1,10 @@
 ---
+draft: true
 aliases: [About]
 created: 2025-07-03T21:21:41
 modified: 2025-07-03T21:27:05
 title: About
 ---
-
 # About
 
 Welcome my second brain build with [[obsidian]] & [[jackyzha0-quartz|quartz]]. I used to build with [[logseq-logseq|logseq]] before, but now I [[1218-giving-up-logseq|Giving up Logseq]] , which is the reason why some part of notes is ugly and wired.[^giving-up-logseq]

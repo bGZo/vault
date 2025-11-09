@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Powershell
 created: 2024-08-10T00:00:00
@@ -9,7 +10,6 @@ tags:
 title: Powershell
 type: lang/programming
 ---
-
 # Powershell
 
 ## Why

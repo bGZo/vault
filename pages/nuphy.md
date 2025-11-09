@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Nuphy
 created: 2024-08-23T12:00:00
@@ -8,7 +9,6 @@ tags:
   - keyboard
 title: Nuphy
 ---
-
 # Nuphy
 
 ## 驱动

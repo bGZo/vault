@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 小米手环 8 Pro
 aliases:
   - 小米手环 8 Pro
@@ -11,7 +12,6 @@ type: 3c
 status: consume/give-for-free
 wikipedia:
 ---
-
 ## Why
 
 ### 闹钟

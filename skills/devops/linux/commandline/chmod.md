@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2023-12-17
 description: 用来变更文件或目录的权限
 type: command/linux
 ---
-
 ## Why
 ## How
 ### 每个人都可以读取

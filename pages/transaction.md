@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 事务
   - Transaction
@@ -10,7 +11,6 @@ tags:
 title: 事务
 wikipedia: https://en.wikipedia.org/wiki/Database_transaction
 ---
-
 # 事务
 
 属于一种数据库恢复技术，用户定义的一个数据库操作序列，这些操作要么全做要么全不做，是不可分割的工作单位

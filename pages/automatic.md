@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 自动化
   - Automatic
@@ -7,7 +8,6 @@ description: https://github.com/bGZo/2021
 modified: 2025-08-30T15:06:32
 title: Automatic
 ---
-
 # Automatic
 
 > [!tip]

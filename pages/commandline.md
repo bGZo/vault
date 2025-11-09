@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 命令行
   - cli
@@ -8,7 +9,6 @@ modified: 2025-08-30T15:22:03
 title: 命令行
 type: tool
 ---
-
 # 命令行
 
 ## 默认颜色

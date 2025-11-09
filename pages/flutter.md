@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Flutter
 created: 2025-03-30T20:58:00
@@ -9,7 +10,6 @@ tags:
 title: Flutter
 type: framework
 ---
-
 # Flutter
 
 Flutter makes it easy and fast to build beautiful apps for mobile and beyond

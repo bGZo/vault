@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Git
 created: 2023-07-28T12:00:00
@@ -10,7 +11,6 @@ tags: []
 title: Git
 type: tool
 ---
-
 # Git
 
 

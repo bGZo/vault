@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - エロ游戏
   - エロゲー
@@ -27,7 +28,6 @@ tags-link:
   - "[[sex]]"
 wikipedia: https://en.wikipedia.org/wiki/Hentai#Genres
 ---
-
 ## Cheat sheet
 
 |         English terms         |    Japanese terms    | Chinese terms |

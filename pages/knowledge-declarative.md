@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 陈述性知识
   - constative knowledge
@@ -10,7 +11,6 @@ modified: 2025-08-31T10:57:02
 title: 陈述性知识
 wikipedia: https://en.wikipedia.org/wiki/Descriptive_knowledge
 ---
-
 # 陈述性知识
 
 - knowledge that can be expressed in a **declarative sentence or an indicative proposition**

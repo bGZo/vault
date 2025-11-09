@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 比 find 好用的文件查找工具
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/locate.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/locate.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/locate.html</a></center>
 

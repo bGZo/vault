@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:  
 created: 2024-08-21T00:00:00
 description: 
 type: lang/programming
 modified: 2025-03-22T16:07:16
 ---
-
 ## Reference
 
   - [Clojure 是个神奇的语言 - V2EX](https://www.v2ex.com/t/740180)

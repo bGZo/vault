@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - How to beautify PPT
 created: 2025-01-15T22:22:45
 modified: 2025-07-19T12:27:43
 title: How to beautify PPT
 ---
-
 # How to beautify PPT
 
 ## Keep It Simple & Stupid

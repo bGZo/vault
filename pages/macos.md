@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - darwin
   - MacOS
@@ -9,7 +10,6 @@ tags:
 title: MacOS
 wikipedia: https://en.wikipedia.org/wiki/Darwin_(operating_system)
 ---
-
 # MacOS
 
 ## Architecture

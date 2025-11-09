@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 康奈尔笔记
   - Cornell-note
@@ -7,5 +8,4 @@ modified: 2025-07-17T20:41:26
 title: Cornell-note
 wikipedia: https://en.wikipedia.org/wiki/Cornell_Notes
 ---
-
 # Cornell-note

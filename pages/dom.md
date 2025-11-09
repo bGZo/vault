@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 页面文档对象模型
   - Document Object Model
@@ -8,5 +9,4 @@ modified: 2025-08-31T13:17:16
 title: 页面文档对象模型
 wikipedia: https://en.wikipedia.org/wiki/Document_Object_Model
 ---
-
 # 页面文档对象模型

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 面包屑导航
   - Breadcrumb
@@ -7,7 +8,6 @@ modified: 2025-08-30T14:46:41
 title: 面包屑导航
 wikipedia: https://en.wikipedia.org/wiki/Breadcrumb_navigation
 ---
-
 # 面包屑导航
 
 一种 Web 设计

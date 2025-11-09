@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Your first X
 created: 2025-03-23T13:44
@@ -7,7 +8,6 @@ title: Your first X
 tags:
   - gtd/doing
 ---
-
 # Your first X
 
 收集适合新手入门的教程；

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 
 aliases: 
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
@@ -7,7 +8,6 @@ description:
 tags: video/youtube
 type: video
 ---
-
 ## Source
 
 <iframe src="https://www.youtube.com/embed/{{title}}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases: [面试破防时刻]
 created: 2023-03-16T12:00:00
 modified: 2025-06-29T23:51:44
 tags: [interview, pointless, ptsd, weekly/1127]
 title: 面试破防时刻
 ---
-
 # 面试破防时刻
 
 孤独惯了，不喜欢和人打交道，事后总是需要花费数倍的时间拼凑自己；

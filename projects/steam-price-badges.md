@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Steam Price Badge
 created: 2023-07-05T00:00:00
@@ -9,7 +10,6 @@ type: project
 tags:
   - gtd/canceled
 ---
-
 # Steam Price Badge
 
 Build a API service like https://shields.io, which will show the price of steam in tl.

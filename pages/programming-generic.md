@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 泛型
   - Generic
@@ -7,7 +8,6 @@ modified: 2025-08-30T18:51:59
 title: 泛型
 wikipedia: https://en.wikipedia.org/wiki/Generic_programming
 ---
-
 # 泛型
 
 > Generic programming centers around the idea of abstracting from concrete, efficient algorithms to obtain generic algorithms that can be combined with different data representations to produce a wide variety of useful software.

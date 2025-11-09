@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java enterprise edition
   - JavaEE
@@ -7,7 +8,6 @@ modified: 2025-08-30T16:43:11
 title: JavaEE
 wikipedia: https://en.wikipedia.org/wiki/Java_EE
 ---
-
 # JavaEE
 
 ## Specifications

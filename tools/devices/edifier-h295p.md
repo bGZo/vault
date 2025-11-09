@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Edifier H295P
 created: 2025-07-17T21:06:39
@@ -8,5 +9,4 @@ source: https://www.edifier.com/cn/zh/Headphones/page-h295p
 title: Edifier H295P
 type: headphone
 ---
-
 # Edifier H295P

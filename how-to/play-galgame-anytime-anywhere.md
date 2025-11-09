@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - How to play galgame anytime anywhere
 created: 2025-07-16T20:04:24
 modified: 2025-07-16T20:05:30
 title: How to play galgame anytime anywhere
 ---
-
 # How to play [[galgame]] anytime anywhere
 
 - [zeas2/Kirikiroid2](https://github.com/zeas2/Kirikiroid2)

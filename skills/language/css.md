@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: Cascading Style Sheets, 层叠样式表, 串样式列表, 级联样式表, 串接样式表, 阶层式样式表
 tags: domain-specific-modeling web
 description: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
@@ -6,7 +7,6 @@ type: lang/programming
 created: 2024-12-08T21:26:21
 modified: 2025-03-22T16:13:02
 ---
-
 ## What
 
 ### Standards 显示统一标准化

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - deep-linking/mobile
   - URL Scheme
@@ -7,7 +8,6 @@ modified: 2025-10-16T05:42:45
 title: URL Scheme
 wikipedia: https://en.wikipedia.org/wiki/List_of_URI_schemes
 ---
-
 # URL Scheme
 
 Link to a specific location within a mobile app rather than simply launching the app.

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 猫猫
 cost: 0
@@ -8,7 +9,6 @@ tags:
 - hobby
 title: 猫猫
 ---
-
 # 猫猫
 
 ## Why

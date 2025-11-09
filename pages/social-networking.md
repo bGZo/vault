@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Social networking
   - social-networking
@@ -8,7 +9,6 @@ description: "Social networking requires a platform. Users join a social network
 modified: 2025-07-16T20:54:57
 title: Social networking
 ---
-
 # Social networking
 
 ## [[social-media|Social media]] > [[social-networking|Social networking]]

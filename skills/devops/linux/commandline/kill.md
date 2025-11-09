@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 发送信号到进程
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/kill.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/kill.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/kill.html</a></center>
   - Other commnad: `killall`

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to compress video size
   - MP4 无损压缩
@@ -6,7 +7,6 @@ created: 2025-07-16T20:18:49
 modified: 2025-07-16T20:22:28
 title: How to compress video size
 ---
-
 # How to compress video size
 
 ```shell

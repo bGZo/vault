@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 命令行
   - cli
@@ -10,7 +11,6 @@ modified: 2025-08-30T18:22:56
 title: Linux command-line
 type: tool
 ---
-
 # Linux command-line
 
 > [!NOTE]

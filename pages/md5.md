@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - MD5
   - MD5消息摘要算法
@@ -11,7 +12,6 @@ tags: []
 title: MD5
 wikipedia: https://en.wikipedia.org/wiki/MD5
 ---
-
 # MD5
 
 - 128 bits / 16 Bytes / 32 位 16 进制数 (a "word")

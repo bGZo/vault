@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 过程型知识
   - imperative knowledge
@@ -11,7 +12,6 @@ modified: 2025-08-30T20:06:33
 title: 过程型知识
 wikipedia: https://en.wikipedia.org/wiki/Procedural_knowledge
 ---
-
 # 过程型知识
 
   - Know how to perform some task, including knowing how to perform it skillfully. Such as **how to ride a bike, how to drive a car, or how to use computer, etc**.

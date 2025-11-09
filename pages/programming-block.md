@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 块编程
   - Programming-block
@@ -7,7 +8,6 @@ modified: 2025-08-30T20:39:53
 title: 块编程
 wikipedia: https://en.wikipedia.org/wiki/Block_(programming)
 ---
-
 # 块编程
 
 在计算机编程中，块（block）或译为程序区块、代码块，是将源代码组织在一起的词法结构。块构成自一个或多个声明和语句。编程语言允许创建块，包括嵌入其他块之内的块，就叫做块结构编程语言。块和子程序是结构化编程的基础，结构化所强调的控制结构可以用块来形成的。

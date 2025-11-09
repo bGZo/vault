@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 身份认同
   - 自我认同
@@ -9,7 +10,6 @@ modified: 2025-07-19T12:52:10
 title: 自我认同
 wikipedia: https://en.wikipedia.org/wiki/Self-consciousness
 ---
-
 # 自我认同
 
 - 倒霉

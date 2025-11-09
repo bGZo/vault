@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 怀孕
   - pregnant
@@ -6,7 +7,6 @@ created: 2024-12-09T20:21:48
 modified: 2025-07-19T10:48:37
 title: 怀孕
 ---
-
 # 怀孕
 
 ## How to avoid pregnant

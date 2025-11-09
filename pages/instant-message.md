@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 即时通讯
   - IM
@@ -9,7 +10,6 @@ modified: 2025-07-19T11:30:18
 title: 即时通讯
 wikipedia: https://en.wikipedia.org/wiki/Instant_messaging
 ---
-
 # 即时通讯
 
 ## Protocols

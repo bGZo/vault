@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java 集合
   - java 容器
@@ -8,7 +9,6 @@ created: 2025-06-10T22:36:41
 modified: 2025-08-30T18:26:21
 title: Java 容器
 ---
-
 # Java 容器
 
 a framework that provides an architecture to store and manipulate(操纵) the group of objects, start from java02

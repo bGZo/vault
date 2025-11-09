@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to follow batch in mastodon
 aliases:
   - How to follow batch in mastodon
@@ -8,7 +9,6 @@ type: how-to
 tags-link:
   - "[[mastodon-mastodon|mastodon]]"
 ---
-
 ## Import `csv` from setting
 
 > [!Warning]

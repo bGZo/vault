@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 哲学
   - philosophy
@@ -6,7 +7,6 @@ created: 2024-12-09T20:21:48
 modified: 2025-07-19T12:12:06
 title: 哲学
 ---
-
 # 哲学
 
 ## Roadmap

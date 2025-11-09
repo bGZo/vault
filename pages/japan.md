@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 日本
   - Japan
@@ -6,7 +7,6 @@ created: 2025-03-22T22:12:20
 modified: 2025-07-19T11:36:39
 title: 日本
 ---
-
 # 日本
 
 ## Lang: [[japanese]]

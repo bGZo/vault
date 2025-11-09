@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to publish pip package
   - Publish-pip-package
@@ -6,7 +7,6 @@ created: 2025-07-26T23:07:16
 modified: 2025-07-26T23:15:32
 title: How to publish pip package
 ---
-
 # How to publish pip package
 
 ## [[python-poetry-poetry|poetry]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [外链之死]
 created: 2023-04-08T11:09:43
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [软件设计, weekly/1130]
 title: 外链之死
 type: writing
 ---
-
 # 外链之死
 
 ## External links been killed

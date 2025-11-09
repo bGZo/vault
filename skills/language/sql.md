@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: Structured Query Language
 created: 2024-08-07T00:00:00
 description:
@@ -6,7 +7,6 @@ tags: domain-specific-modeling database
 type: lang/programming
 modified: 2025-03-22T16:26:36
 ---
-
 ## Why
 ## How
 ### 选择 `select`

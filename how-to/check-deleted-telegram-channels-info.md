@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - How to check deleted telegram channels info
 created: 2025-08-16T22:57:01
 modified: 2025-08-16T23:04:42
 title: How to check deleted telegram channels info
 ---
-
 # How to check deleted telegram channels info
 
 ## TGStat

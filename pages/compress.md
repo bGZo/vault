@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 压缩
   - Compress
@@ -9,7 +10,6 @@ tags: []
 title: Compress
 type:
 ---
-
 # Compress
 
 ## Why

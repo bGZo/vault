@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Magisk
 created: 2025-08-30T23:51:30
@@ -6,7 +7,6 @@ modified: 2025-08-31T00:01:31
 title: Magisk
 wikipedia: https://en.wikipedia.org/wiki/Magisk_(software)
 ---
-
 # Magisk
 
 > 随着 SuperSu (XDA 非常著名的开发者 ChainFire 维护的一款作品) 走向商业化 (很久没有更新), 安卓 5.0 之后, 谷歌封堵了大量的漏洞, 一些以商业化模式运作的各种所谓的一键 ROOT 工具全都玩完!, 这些东西相对来说还非常危险, 因为基本任何商业化或者第三方机构给出的超级用户管理工具, 都等于是把你的手机变成别人的了, 甚至他们还可以比流氓还流氓!. 而 SuperSU 不一样, 它一直是保持着非商业化运作, 并且更新非常积极, 但遗憾的是在 2017 年 10 月, 开发者 ChainFire 发布声明不再参与维护 SU, 好像是把 SuperSU 卖给了中国的一家商业化运作的公司, 自此更新节奏非常缓慢, 目前 SuperSU 已经不能实现安卓 O(8.0) 以上更高版本的 ROOT 了, 而取代这一切的, 是 Magisk. Magisk 是一位中国台湾的学生 @topjohnwu 开发的 Android 框架, 它不但可以获取 Root 权限, 而且支持 Magisk 模块. 其第一个版本发布于 2016 年 8 月, 由于当时 Magisk 刚刚出现, 支持的模块并不多, 且 SuperSu 依然流行, Magisk 还鲜为人知. 直到 SuperSu 的消亡, 人们才想起 Magisk, 此后 Magisk 迅速流行起来, 成为每一个玩机爱好者的必备工具. via: https://www.coolapk.com/feed/17973123?shareKey=OTliMmY4NTlkMWNkNWY0NTExYTQ~

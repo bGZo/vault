@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 面向切面编程
   - AOP
@@ -8,7 +9,6 @@ modified: 2025-08-30T20:33:23
 title: 面向切面编程
 wikipedia: https://en.wikipedia.org/wiki/Aspect-oriented_programming#Comparison_to_other_programming_paradigms
 ---
-
 # 面向切面编程
 
 - aims to increase modularity by allowing the separation of cross-cutting concerns.

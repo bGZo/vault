@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Linux
 created: 2024-12-08T21:26:22
 modified: 2025-08-30T14:48:26
 title: Linux
 ---
-
 # Linux
 
 ## History

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 断舍离
   - 极简主义
@@ -8,7 +9,6 @@ tags:
   - area
 title: 断舍离
 ---
-
 # 断舍离
 
 <iframe src="https://www.youtube.com/embed/QLLw6ZzJCiw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

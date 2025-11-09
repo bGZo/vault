@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 美国信息交换标准代码
   - Ascii
@@ -10,7 +11,6 @@ tags:
 title: Ascii
 wikipedia: https://en.wikipedia.org/wiki/ASCII
 ---
-
 # Ascii
 
 ```shell

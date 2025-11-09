@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 微信
   - weixin
 created: 2024-08-03T00:00:00
 modified: 2025-04-04T17:29:00
 ---
-
 ## Fuck
 
 ### Login on web

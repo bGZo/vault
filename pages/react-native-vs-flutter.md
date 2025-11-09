@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - React Native vs Flutter
 created: 2024-08-15T00:00:00
@@ -8,7 +9,6 @@ tags:
   - flutter
 title: React Native vs Flutter
 ---
-
 # React Native vs [[flutter|Flutter]]
 
 ## Reference

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 感受
   - 感知
@@ -12,5 +13,4 @@ tags:
 title: 感知
 type:
 ---
-
 # 感知

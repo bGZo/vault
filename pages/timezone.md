@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 时区
 description: Area which observes a uniform standard time for legal, commercial and social purposes.
@@ -6,7 +7,6 @@ created: 2023-06-26T00:00:00
 modified: 2025-04-04T10:10:08
 wikipedia: https://en.wikipedia.org/wiki/Time_zone
 ---
-
 ## Memo
 
 ```

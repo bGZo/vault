@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Windows Prepare
 created: 2024-09-22T09:26:22
 modified: 2025-09-29T07:27:38
 title: Windows Prepare
 ---
-
 # Windows Prepare
 
 > [!TIP]

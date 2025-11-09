@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to sideload on iOS
 aliases:
   - How to sideload on iOS
@@ -9,7 +10,6 @@ created: 2025-06-02T11:50:24
 modified: 2025-06-02T12:03:17
 type: how-to
 ---
-
 ## Troll Store 
 
 #### How it works?

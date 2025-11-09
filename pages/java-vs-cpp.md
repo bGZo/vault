@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java-vs-cpp
 created: 2024-08-02T00:00:00
@@ -10,7 +11,6 @@ tags:
 title: Java-vs-cpp
 wikipedia: https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B
 ---
-
 # [[java|Java]] vs [[cpp|Cpp]]
 
 | Items                 | Java    | cpp     |

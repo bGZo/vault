@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Thinking
 created: 2025-01-15T22:42:00
@@ -6,7 +7,6 @@ modified: 2025-07-19T12:54:04
 title: Thinking
 wikipedia: https://en.wikipedia.org/wiki/Thought
 ---
-
 # Thinking
 
 ## Thinking vs [[thought]]

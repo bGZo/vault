@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 爱爱
   - 操逼
@@ -24,7 +25,6 @@ modified: 2025-08-30T16:57:28
 title: 做爱
 wikipedia: https://en.wikipedia.org/wiki/Sexual_intercourse
 ---
-
 # 做爱
 
 男性将勃起状态的阴茎跟女性阴道互相接合并在内反复摩擦的性行为，主要目的是通过不断性刺激引发射精以便繁殖下一代，同时获得性快感

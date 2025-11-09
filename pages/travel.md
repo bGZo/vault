@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 旅行
   - Travel
@@ -7,7 +8,6 @@ description:
 modified: 2025-07-17T21:42:58
 title: Travel
 ---
-
 # Travel
 
 ## How

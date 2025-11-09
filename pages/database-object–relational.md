@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 关系型数据库
   - Object-relational database
@@ -9,5 +10,4 @@ description:
 modified: 2025-07-19T10:46:10
 title: 关系型数据库
 ---
-
 # 关系型数据库

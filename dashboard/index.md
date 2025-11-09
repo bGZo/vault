@@ -1,9 +1,9 @@
 ---
+draft: true
 title: Dashboard
 created: 2025-01-18T09:49:12
 modified: 2025-04-07T21:24:28
 ---
-
 ## Creation
 
 ### Focus on

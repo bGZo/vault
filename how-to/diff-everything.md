@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Diff-everything
   - How to diff everything
@@ -6,7 +7,6 @@ created: 2025-07-01T21:04:56
 modified: 2025-07-16T20:27:10
 title: How to diff everything
 ---
-
 # How to diff everything
 
 ## Text

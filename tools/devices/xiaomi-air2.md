@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Xiaomi Air2
 created: 2025-07-17T21:12:35
@@ -7,7 +8,6 @@ remark: 试探市场 (骗钱) 音质没什么特点但很通透; 续航极差! �
 title: Xiaomi Air2
 type: headphone
 ---
-
 # Xiaomi Air2
 
 ![](https://raw.githack.com/bGZo/assets/dev/2025/202507172114815.png)

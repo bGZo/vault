@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Bojack horseman Series
 created: 2020-06-11T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-08-30T12:52:28
 title: Bojack horseman Series
 type: series
 ---
-
 # Bojack horseman Series
 
 ## Series

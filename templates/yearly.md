@@ -1,4 +1,5 @@
 ---
+draft: true
 title: '{{title}} Awards'
 aliases: years/{{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
@@ -7,7 +8,6 @@ description:
 tags: 
 type: year
 ---
-
 ## Anime Awards
 
 ### Bangumi 班固米

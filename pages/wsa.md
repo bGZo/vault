@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Windows Subsystem for Android
   - Wsa
@@ -11,7 +12,6 @@ tags:
   - Windows
 title: WSA
 ---
-
 # WSA
 
 ## Why

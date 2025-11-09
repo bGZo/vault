@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 照顾自己
   - Take-care-of-self
@@ -6,7 +7,6 @@ created: 2024-07-14T00:00:00
 modified: 2025-08-31T00:22:05
 title: 照顾自己
 ---
-
 # 照顾自己
 
 - 一个人生活

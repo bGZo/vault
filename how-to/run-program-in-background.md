@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to run program in background
   - Run-program-in-background
@@ -6,7 +7,6 @@ created: 2025-07-19T12:08:14
 modified: 2025-07-19T12:09:09
 title: How to run program in background
 ---
-
 # How to run program in background
 
 ## [[windows|Windows]]

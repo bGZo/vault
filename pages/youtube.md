@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 油管
   - Youtube
@@ -6,7 +7,6 @@ created: 2021-11-15T00:00:00
 modified: 2025-09-21T00:17:12
 title: Youtube
 ---
-
 # Youtube
 
 ## Youtube Video

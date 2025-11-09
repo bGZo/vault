@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 汉化组
   - 字幕组
@@ -7,7 +8,6 @@ modified: 2025-07-16T20:11:49
 title: 汉化组
 wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%8C%96%E7%BB%84
 ---
-
 # 汉化组
 
 ## 字幕组

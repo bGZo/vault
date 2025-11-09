@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
@@ -8,7 +9,6 @@ tags:
 - podcast/episode
 type: 
 ---
-
 ## Show Notes
 
 ## Snips

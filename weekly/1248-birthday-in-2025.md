@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 1248-birthday-in-2025
   - 生日这一天
@@ -9,7 +10,6 @@ tags:
 title: 生日这一天
 type: writing
 ---
-
 # 生日这一天
 
 这两天是我 25 岁的生日，去看了人生第一场线下 [[talk-show|脱口秀]]。

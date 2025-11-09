@@ -1,4 +1,5 @@
 ---
+draft: true
 created: 2024-05-24T00:00:00
 description: 由英国 Canonical Ltd 发布，提供商业支持。基于自由软件。
 type: linux/distro
@@ -8,7 +9,6 @@ tags: []
 tags-link:
   - "[[debian]]"
 ---
-
 ## Why
 
 ### ~~名字好听~~

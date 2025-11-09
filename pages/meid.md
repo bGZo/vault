@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 移动设备识别码
   - MEID
@@ -7,7 +8,6 @@ created: 2024-12-09T20:21:48
 modified: 2025-08-30T20:44:27
 title: MEID
 ---
-
 # MEID
 
 - CDMA 手机的身份识别码, 用于 CDMA 制式的手机唯 一的识别码

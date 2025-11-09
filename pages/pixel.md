@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 像素
   - illustration/pixel
@@ -7,7 +8,6 @@ created: 2024-07-21T00:00:00
 modified: 2025-07-19T12:17:10
 title: Pixel
 ---
-
 # Pixel
 
 ## 如何画像素画

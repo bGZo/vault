@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 工作
   - Job
@@ -6,7 +7,6 @@ created: 2024-08-21T00:00:00
 modified: 2025-08-30T18:38:57
 title: Job
 ---
-
 # Job
 
 > 去面试吧

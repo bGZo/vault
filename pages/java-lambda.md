@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java Lambda
   - Java Lambda (since java08)
@@ -6,7 +7,6 @@ created: 2024-08-05T00:00:00
 modified: 2025-08-30T17:10:41
 title: Java Lambda (since java08)
 ---
-
 # Java Lambda (since java08)
 
 ## Why

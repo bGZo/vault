@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 域名
   - Domain
@@ -9,7 +10,6 @@ remark: 主域名3月5日，从域名10月20日
 tags: []
 title: 域名
 ---
-
 # 域名
 
 ## Why

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 知识管理
 created: 2025-02-23T17:57:15
 modified: 2025-08-30T20:46:08
 title: 知识管理
 ---
-
 # 知识管理
 
 ## Directories

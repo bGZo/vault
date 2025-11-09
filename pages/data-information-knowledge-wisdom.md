@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Data information knowledge wisdom
   - Data-information-knowledge-wisdom
@@ -12,7 +13,6 @@ tags:
 title: Data information knowledge wisdom
 wikipedia: https://en.wikipedia.org/wiki/DIKW_pyramid
 ---
-
 # Data information knowledge wisdom
 
 ![https://www.gapingvoid.com/blog/2019/03/05/want-to-know-how-to-turn-change-into-a-movement](https://raw.githack.com/bGZo/assets/dev/2025/202507191036751.png)

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 宝可梦
   - 口袋妖怪
@@ -7,7 +8,6 @@ created: 2025-03-22T16:30:25
 modified: 2025-10-01T13:32:52
 title: 宝可梦
 ---
-
 # 宝可梦
 
 ## 已发售系列游戏 [^release-date-pokemon]

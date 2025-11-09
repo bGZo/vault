@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - ROOT
 created: 2024-08-17T00:00:00
@@ -8,7 +9,6 @@ tags:
   - Android
 title: ROOT
 ---
-
 # ROOT
 
 ## [[china|中国大陆解锁合订本]]

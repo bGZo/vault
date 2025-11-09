@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 暗影精灵5
 aliases:
   - 暗影精灵5
@@ -15,8 +16,6 @@ tags: consume/sailed
 type: 3c
 wikipedia:
 ---
-
-
 ## Info
 
 - Product number: 7DJ79PA#AB2

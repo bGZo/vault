@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 模块化编程
 created: 2024-12-09T20:21:48
@@ -6,7 +7,6 @@ modified: 2025-08-30T20:09:10
 title: 模块化编程
 wikipedia: https://en.wikipedia.org/wiki/Modular_programming
 ---
-
 # 模块化编程
 
   - 模块接口表达了这个模块所提供的和所要求的元素。这些在接口中定义的元素可以被其他模块检测到。模块实现包含了工作代码，它们对应于在接口中声明的元素。

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases: [Download-everything, How to download everything]
 created: 2025-06-07T15:15:37
 modified: 2025-07-01T22:56:03
 title: How to download everything
 type: how-to
 ---
-
 # How to download everything
 
 ## Youtube

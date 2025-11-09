@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - progressive web apps
   - PWA
@@ -6,7 +7,6 @@ created: 2024-12-15T11:24:00
 modified: 2025-08-30T22:57:53
 title: PWA
 ---
-
 # PWA
 
 PWAs are web apps that use [service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API). [manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest). and other web-platform features in combination with [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) to give users an experience on par with native apps.

@@ -1,10 +1,10 @@
 ---
+draft: true
 aliases: 编码
 created: 2024-07-13T12:00:00
 wikipedia: https://en.wikipedia.org/wiki/Code
 modified: 2025-01-17T10:55:57
 ---
-
 ## Character encoding / 代码页 / 内码表 / 字符编码
 
 ### ascii

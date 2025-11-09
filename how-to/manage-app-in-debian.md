@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to manage app in debian
   - Manage-app-in-debian
@@ -6,7 +7,6 @@ created: 2025-07-16T20:45:43
 modified: 2025-07-16T20:46:16
 title: How to manage app in debian
 ---
-
 # How to manage app in [[debian]]
 
 > Ubuntu 和 Debian 通吃是因为 Debian 系的 APT 包管理器。

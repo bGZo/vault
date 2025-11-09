@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Blog
 created: 2024-07-20
@@ -7,7 +8,6 @@ title: Blog
 tags:
   - gtd/doing
 ---
-
 # Blog
 
 ## Why

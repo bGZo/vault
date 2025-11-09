@@ -1,4 +1,5 @@
 ---
+draft: true
 title: um880pro
 aliases:
   - minisforum880pro
@@ -16,7 +17,6 @@ price: 4600
 tags: 
 type: 3c
 ---
-
 ## Why
 
 ### [[hp-starbook|HP 星Book 14 2024]]

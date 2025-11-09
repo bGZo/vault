@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 六年之约
 created: 2025-01-18T23:28
@@ -8,7 +9,6 @@ tags:
   - gtd/doing
 deadline: 2030-12-31T23:59
 ---
-
 # 六年之约
 
 ## 副业

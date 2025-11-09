@@ -1,4 +1,5 @@
 ---
+draft: true
 created: 2025-04-07T21:19:29
 modified: 2025-04-07T21:19:50
 cssclasses:
@@ -6,8 +7,6 @@ cssclasses:
   - cards-align-bottom
   - cards-cols-3
 ---
-
-
 ```dataview
 table 
 	( "![](" + cover +")" ) as Cover

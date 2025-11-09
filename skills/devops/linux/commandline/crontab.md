@@ -1,10 +1,10 @@
 ---
+draft: true
 created: 2023-06-25
 description: 提交和管理用户的需要周期性执行的任务 | Job scheduler on Unix-like operating systems | 定期运行的作业
 type: command/linux
 wikipedia: https://en.wikipedia.org/wiki/Cron
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/crontab.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/crontab.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/crontab.html</a></center>
 

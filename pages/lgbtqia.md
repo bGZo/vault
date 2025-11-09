@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 性少数
   - 性小众
@@ -11,7 +12,6 @@ modified: 2025-07-19T11:42:14
 title: 性少数
 wikipedia: https://en.wikipedia.org/wiki/Sexual_orientation
 ---
-
 # 性少数
 
 ![](https://raw.githack.com/bGZo/assets/dev/2025/202507191140604.svg)

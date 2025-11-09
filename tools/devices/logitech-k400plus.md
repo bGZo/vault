@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 罗技K400Plus
 aliases:
   - 罗技K400Plus
@@ -11,6 +12,5 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why
 ### 触控板

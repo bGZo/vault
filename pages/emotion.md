@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 情绪
 created: 2023-06-05T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-07-19T10:55:16
 title: 情绪
 wikipedia: https://en.wikipedia.org/wiki/Emotion
 ---
-
 # 情绪
 
 Emotions are mental states brought(带来) on by neurophysiological(神经的) changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure.

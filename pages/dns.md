@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - DNS
   - Domain Name System
@@ -7,5 +8,4 @@ modified: 2025-07-17T20:53:06
 tags: []
 title: DNS
 ---
-
 # DNS

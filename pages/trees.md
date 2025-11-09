@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Trees
 aliases:
   - trees
@@ -9,7 +10,6 @@ description: 这种数据结构看起来像是一个倒挂的树，因此得名
 tags: 
 type: data-structure
 ---
-
 ## 应用
 
 - 树是分层 (Hierarchical) 结构，和其他线性结构不同，用处主要有：

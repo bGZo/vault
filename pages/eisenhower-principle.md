@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 艾森豪威尔矩阵
 created: 2025-03-22T16:30:25
@@ -6,7 +7,6 @@ modified: 2025-07-17T21:28:58
 title: 艾森豪威尔矩阵
 wikipedia: https://zh.wikipedia.org/wiki/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86#%E8%89%BE%E6%A3%AE%E8%B1%AA%E5%A8%81%E5%B0%94%E6%B3%95%E5%89%87
 ---
-
 # 艾森豪威尔矩阵
 
 $$important > urgent$$

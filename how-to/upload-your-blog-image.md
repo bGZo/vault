@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to upload your blog image
 aliases:
   - How to upload your blog image
@@ -6,7 +7,6 @@ created: 2025-06-07T16:41:48
 modified: 2025-06-14T23:43:32
 type: how-to
 ---
-
 ## 🌟 Github with [[Molunerfinn-PicGo|PicGo]]
 
 https://github.com/Molunerfinn/PicGo

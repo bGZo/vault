@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [强迫劳动]
 created: 2024-12-28T08:54:00
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [weekly/1220]
 title: 强迫劳动
 type: writing
 ---
-
 # 强迫劳动
 
 > 违反劳动法，就是强迫劳动。

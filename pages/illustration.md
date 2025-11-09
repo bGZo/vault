@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 插画
 created: 2024-07-21T00:00:00
@@ -9,5 +10,4 @@ tags:
   - hobby
 title: 插画
 ---
-
 # 插画

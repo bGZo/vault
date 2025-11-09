@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 高等数学
 aliases:
   - 高等数学
@@ -9,4 +10,3 @@ description:
 tags: 
 type:
 ---
-

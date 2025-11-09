@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 叙事
   - Storytelling
@@ -8,5 +9,4 @@ modified: 2025-07-16T20:58:22
 title: Storytelling
 wikipedia: https://en.wikipedia.org/wiki/Storytelling
 ---
-
 # Storytelling

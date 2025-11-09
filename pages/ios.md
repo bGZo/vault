@@ -1,4 +1,5 @@
 ---
+draft: true
 title: iOS
 aliases:
   - iOS
@@ -7,7 +8,6 @@ aliases:
 created: 2024-12-08T09:26:22
 modified: 2025-06-02T12:52:21
 ---
-
 ## [[sideload-on-ios|How to sideload on iOS]]
 
 ## [[feeling-from-android-to-ios|Feeling from android to ios]]

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - javascript
   - Javascript
@@ -12,7 +13,6 @@ title: Javascript
 type: lang/programming
 wikipedia: https://en.wikipedia.org/wiki/JavaScript
 ---
-
 # Javascript
 
 ## Why

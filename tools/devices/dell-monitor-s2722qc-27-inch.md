@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 戴尔显示器 p2418d 
 aliases:
   - 戴尔显示器 p2418d 

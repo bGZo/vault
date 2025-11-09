@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Java
 created: 2024-12-08T21:26:22
@@ -7,7 +8,6 @@ modified: 2025-08-30T16:53:55
 title: Java
 type: lang/programming
 ---
-
 # Java
 
 ## Roadmap

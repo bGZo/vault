@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 爱
   - Collections
@@ -7,7 +8,6 @@ created: 2025-03-30T21:00:59
 modified: 2025-08-30T22:52:09
 title: Collections
 ---
-
 # Collections
 
 > 我是，我是宋清如至上主义者

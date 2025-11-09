@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 捷并思
   - Jetbrains
@@ -9,7 +10,6 @@ remark: 教育优惠，共享账号，买不到邮箱，万一邮箱又被 BAN �
 title: Jetbrains
 wikipedia: https://en.wikipedia.org/wiki/JetBrains
 ---
-
 # Jetbrains
 
 > JetBrains 成立於 2000 年，是一家私人持股的公司，該公司的合夥創辦人有：Sergey Dmitriev、Eugene Belyaev 及 Valentin Kipiatkov。截至 2017 年 6 月，该公司共发布了 24 款开发工具与及相关产品。2021 年 7 月，该公司宣布在中国上海成立捷并思公司。

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [自私的中国人]
 created: 2024-09-07T12:00:00
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [weekly/1204]
 title: 自私的中国人
 type: writing
 ---
-
 # 自私的中国人
 
 > 我们的一些大学，包括北京大学，正在培养一些‘[精致的利己主义者 (wikipedia)](https://zh.wikipedia.org/zh-hans/%E7%B2%BE%E8%87%B4%E5%88%A9%E5%B7%B1%E4%B8%BB%E4%B9%89)’，他们高智商，世俗，老到，善于表演，懂得配合，更善于利用体制达到自己的目的。这种人一旦掌握权力，比一般的贪官污吏危害更大。

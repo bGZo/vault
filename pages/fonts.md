@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 字体
 aliases:
   - 字体
@@ -8,7 +9,6 @@ description:
 tags: 
 type:
 ---
-
 ## [[skills/fundamantal/index|扫盲]]
 
 ### 衬线 (serif)

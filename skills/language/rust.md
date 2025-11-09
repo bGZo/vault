@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Rust
 created: 2024-08-03T00:00:00
@@ -7,5 +8,4 @@ title: Rust
 type: lang/programming
 wikipedia: https://en.wikipedia.org/wiki/Rust_(programming_language)
 ---
-
 # Rust

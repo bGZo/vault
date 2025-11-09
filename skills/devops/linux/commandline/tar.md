@@ -1,10 +1,10 @@
 ---
+draft: true
 created: 2024-08-11
 description: 将许多文件一起保存至一个单独的磁带或磁盘归档，并能从归档中单独还原所需文件。
 type: command/linux
 tags: #[[compress]]
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/tar.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/tar.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/tar.html</a></center>
   - tape archive (磁带档案)

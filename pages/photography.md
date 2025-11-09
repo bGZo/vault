@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 摄影
 created: 2024-08-12T00:00:00
@@ -7,7 +8,6 @@ tags:
   - hobby
 title: 摄影
 ---
-
 # 摄影
 
 take [[photo]]s

@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Posix
 created: 2025-01-02T20:59:20
 modified: 2025-07-19T12:19:18
 title: Posix
 ---
-
 # Posix
 
 ## Posix Versions

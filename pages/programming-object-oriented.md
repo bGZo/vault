@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 面向对象
   - 面向对象编程
@@ -10,7 +11,6 @@ modified: 2025-08-30T20:21:57
 title: OOP
 wikipedia: https://en.wikipedia.org/wiki/Object-oriented_programming
 ---
-
 # OOP
 
 a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods).

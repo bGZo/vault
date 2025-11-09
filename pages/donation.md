@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 捐助
   - donate
@@ -9,7 +10,6 @@ tags:
   - sponsor
 title: Donation
 ---
-
 # Donation
 
 > [!note]

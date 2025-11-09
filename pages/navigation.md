@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 导航
   - Navigation
@@ -7,7 +8,6 @@ modified: 2025-07-16T20:17:05
 title: Navigation
 wikipedia: https://en.wikipedia.org/wiki/Bookmark
 ---
-
 # Navigation
 
 ## 👨‍💻 Work

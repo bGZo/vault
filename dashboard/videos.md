@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Videos
 created: 2025-01-02T06:20:54
@@ -9,7 +10,6 @@ cssclasses:
 modified: 2025-07-17T21:58:13
 title: Videos
 ---
-
 # Videos
 
 ## Movies

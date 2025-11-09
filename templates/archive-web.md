@@ -1,4 +1,5 @@
 ---
+draft: true
 author: 
 created: {{date:YYYY-MM-DDThh:mm:ss}}
 modified: {{date:YYYY-MM-DDThh:mm:ss}}

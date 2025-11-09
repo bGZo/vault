@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to compress photo size
 aliases:
   - How to compress photo size
@@ -8,7 +9,6 @@ type: how-to
 tags-link:
   - "[[photo]]"
 ---
-
 ## Most tidy -> `webp`
 
 <iframe src='https://developers.google.com/speed/webp' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

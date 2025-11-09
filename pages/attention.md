@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 注意力
   - Attention
@@ -9,7 +10,6 @@ tags: []
 title: Attention
 type:
 ---
-
 # Attention
 
 ## [[machine-learning|Machine learning]]

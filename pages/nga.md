@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Nga
   - NGA
@@ -7,7 +8,6 @@ modified: 2025-07-19T11:57:46
 title: NGA
 wikipedia: https://zh.wikipedia.org/wiki/%E8%89%BE%E6%B3%BD%E6%8B%89%E6%96%AF%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86
 ---
-
 # NGA
 
 > NGA(艾泽拉斯国家地理论坛 -nga.cn) 是国内最大的专业玩家社区，也是暴雪官方认证的唯一中文站点。

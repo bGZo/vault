@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 通用编程语言
   - General-purpose programming language
@@ -8,7 +9,6 @@ modified: 2025-08-31T11:44:59
 title: 通用编程语言
 wikipedia: https://en.wikipedia.org/wiki/General-purpose_programming_language
 ---
-
 # 通用编程语言
 
 在计算机软件中，通用编程语言指被设计为各种应用领域服务的编程语言。通常通用编程语言不含有为特定应用领域设计的结构。

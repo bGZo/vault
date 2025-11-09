@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - RDF Site Summary
   - Really Simple Syndication
@@ -10,7 +11,6 @@ tags:
   - info
 wikipedia: https://en.wikipedia.org/wiki/RSS
 ---
-
 The first time icon of RSS I see is in the CD show. I even don't know what exactly is it. It appeared in the product birthed in last 10 years in China mainland.
 
 And then, when I have some spare time in 2020, I notice it again. I wonder whether it have some interesting story or not. And at that point, I use a simple and not well reader to subscribe RSS. And just feeling amazing, and feel sad as well, like (by the way, they're sucks)

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 解包
   - 提取 CG
@@ -8,7 +9,6 @@ created: 2023-06-11T00:00:00
 modified: 2025-07-16T20:19:56
 title: How to unpack game
 ---
-
 # How to unpack game
 
 虽然相同引擎的游戏有类似的解包方法，但各个游戏的解包难度不一，所以真正解包的时候需要提前做功课，失败了多 Google。

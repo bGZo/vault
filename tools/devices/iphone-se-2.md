@@ -1,4 +1,5 @@
 ---
+draft: true
 title: iphone se2
 aliases:
   - iphone se2
@@ -15,7 +16,6 @@ tags:
 type: 3c
 wikipedia:
 ---
-
 ## Why iPhone SE
 
 1. Cheap

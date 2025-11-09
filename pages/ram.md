@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 内部存储器
   - 内存
@@ -11,7 +12,6 @@ modified: 2025-08-30T16:39:16
 title: RAM
 wikipedia: https://en.wikipedia.org/wiki/Random-access_memory
 ---
-
 # RAM
 
 The two main types of volatile(易失性) random-access semiconductor memory

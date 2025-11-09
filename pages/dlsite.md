@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - DLsite
 created: 2023-06-27T00:00:00
 modified: 2025-08-03T21:17:45
 title: DLsite
 ---
-
 # DLsite
 
 <iframe src='https://www.dlsite.com/index.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

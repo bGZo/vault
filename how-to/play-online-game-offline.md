@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to play online game offline
 aliases:
   - How to play online game offline
@@ -8,7 +9,6 @@ type: how-to
 tags:
   - gtd/todo
 ---
-
 只要是上了 PC，就难免流出私服版本。所以为什么放着官方稳定的版本不玩，而选择盗版呢？
 
 1. **优秀的建模设计**：隐居山林可能是个好的选择，但人终究是社会化的动物，即使我不从正面接触这款游戏，游戏的各种二创，切片还是会从社交媒体上传播到我手上，我终究会被这些资本运作的游戏同化。

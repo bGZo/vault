@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Curl
 created: 2024-08-11T00:00:00
@@ -7,7 +8,6 @@ modified: 2025-08-31T14:05:34
 title: Curl
 type: command/linux
 ---
-
 # Curl
 
 <iframe src='https://wangchujiang.com/linux-command/c/curl.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

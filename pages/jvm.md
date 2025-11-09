@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - java virtual machine
   - JVM
@@ -6,7 +7,6 @@ created: 2025-03-23T13:44:37
 modified: 2025-08-31T13:42:57
 title: JVM
 ---
-
 # JVM
 
 ## Java 的语言 => JIT（just-in-time compilation） 编译器

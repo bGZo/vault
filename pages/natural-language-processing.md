@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Natural Language Processing
 aliases:
   - Natural Language Processing
@@ -10,7 +11,6 @@ tags:
 type: 
 wikipedia: https://en.wikipedia.org/wiki/Natural_language_processing
 ---
-
 ## History
 
 - Symbolic (象征) NLP (1950s – early 1990s)

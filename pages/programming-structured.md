@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 结构化编程
   - structured paradigms
@@ -8,7 +9,6 @@ modified: 2025-08-30T19:03:01
 title: 结构化编程
 wikipedia: https://en.wikipedia.org/wiki/Structured_programming
 ---
-
 # 结构化编程
 
 - improving the clarity, quality, and development time of a computer program by making extensive use of the structured control flow constructs of selection (if/then/else) and repetition (while and for), block structures, and subroutines.

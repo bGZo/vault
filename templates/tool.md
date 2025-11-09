@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
@@ -10,7 +11,6 @@ status:
 tags: 
 type: tool
 ---
-
 ## Why
 
 ## How

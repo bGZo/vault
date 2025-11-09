@@ -1,9 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 显示或设置创建文件的权限掩码
 type: command/linux
 ---
-
 <iframe src='https://wangchujiang.com/linux-command/c/umask.html' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://wangchujiang.com/linux-command/c/umask.html' target='_blank' class='external-link'>https://wangchujiang.com/linux-command/c/umask.html</a></center>
 ```shell

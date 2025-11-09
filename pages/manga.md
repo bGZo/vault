@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 漫画
   - comic
@@ -9,7 +10,6 @@ tags:
   - hobby
 title: 漫画
 ---
-
 # 漫画
 
 ## Why

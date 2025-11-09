@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [还不是想有人爱, Look back to your loved ones]
 created: 2022-12-23T11:21:37
 modified: 2025-06-29T23:51:44
@@ -6,7 +7,6 @@ tags: [weekly/1115]
 title: Look back to your loved ones
 type: writing
 ---
-
 # Look back to your loved ones
 
 Last tonight I read a tweet thread written by SahilBloom, which really sparked me.

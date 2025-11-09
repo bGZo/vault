@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 耳机
 created: 2023-07-19T00:00:00
@@ -8,7 +9,6 @@ tags:
 title: 耳机
 wikipedia: https://en.wikipedia.org/wiki/Headphones
 ---
-
 # 耳机
 
 ## Why

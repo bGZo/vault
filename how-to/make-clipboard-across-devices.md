@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to make clipboard across devices
 aliases:
   - How to make clipboard across devices
@@ -7,7 +8,6 @@ created: 2025-06-02T11:04:33
 modified: 2025-06-02T11:52:27
 type: how-to
 ---
-
 ## Apple Native Support
 
 ## Wi-Fi communication

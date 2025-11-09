@@ -1,4 +1,5 @@
 ---
+draft: true
 title: {{title}}
 aliases: {{title}}
 cover: 
@@ -12,6 +13,5 @@ bangumi: https://bgm.tv/subject/
 douban: https://book.douban.com/subject/
 myanimelist: https://myanimelist.net/anime/
 ---
-
 ## Review
 

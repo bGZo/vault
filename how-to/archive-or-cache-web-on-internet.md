@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to archive or cache web on internet
 aliases:
   - How to archive or cache web on internet
@@ -7,7 +8,6 @@ created: 2024-07-27T15:16:08
 modified: 2025-06-14T16:33:18
 type: how-to
 ---
-
 ## What I choose: [[obsidianmd-obsidian-clipper|obsidian-clipper]]
 
 ## Browser extension: [[gildas-lormeau-SingleFile|SingleFile]]

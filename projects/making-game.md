@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 做游戏
 created: 2024-08-01T00:00:00
@@ -8,7 +9,6 @@ type: project
 tags:
   - gtd/wait
 ---
-
 # 做游戏
 
 最好不是 RPG Maker 的像素游戏，我希望自己能做出记忆里的高光时刻。

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Computer
   - 计算机
@@ -12,7 +13,6 @@ tags:
 title: Computer
 wikipedia: https://en.wikipedia.org/wiki/Computer
 ---
-
 # Computer
 
 a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.

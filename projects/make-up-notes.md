@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 整理笔记
   - make-up-notes
@@ -10,7 +11,6 @@ type: project
 tags:
   - gtd/doing
 ---
-
 # 整理笔记
 
 ## Why

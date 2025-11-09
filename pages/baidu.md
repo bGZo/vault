@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 百度
   - 百度作的恶
@@ -9,7 +10,6 @@ tags: []
 title: 百度
 type: sucks
 ---
-
 # 百度
 
 ## Search please use [[google]]

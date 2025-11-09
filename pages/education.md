@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - 教育
 created: 2025-03-22T16:28:35
 modified: 2025-08-30T23:23:26
 title: 教育
 ---
-
 # 教育
 
 ## US

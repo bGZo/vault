@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 代理人导向编程
   - 面向代理编程
@@ -8,7 +9,6 @@ modified: 2025-08-30T20:04:32
 title: 面向代理编程
 wikipedia: https://en.wikipedia.org/wiki/Agent-oriented_programming
 ---
-
 # 面向代理编程
 
 construction of the software is centered on the concept of **software agents**

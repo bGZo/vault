@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases: [迁移 Logseq 数据库版本]
 created: 2024-10-26T12:00:00
 modified: 2025-06-29T23:51:45
@@ -6,7 +7,6 @@ tags: [pointless, weekly/1211]
 title: 迁移 Logseq 数据库版本
 type: writing
 ---
-
 # 迁移 Logseq 数据库版本
 
 Logseq DB 宣布完成已经有两个月的时间了 [^logseq-db-done]。因为还在早期测试阶段，这个去年起草的 PR 一直处在草稿状态。

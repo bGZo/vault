@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 无政府主义
   - Anarchism
@@ -7,7 +8,6 @@ modified: 2025-08-30T23:30:20
 title: 无政府主义
 wikipedia: https://en.wikipedia.org/wiki/Anarchism
 ---
-
 # 无政府主义
 
 - [安那其主义的虚伪和自私](https://zhuanlan.zhihu.com/p/148590317)

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 精神分析
   - Psychoanalysis
@@ -6,7 +7,6 @@ created: 2024-12-08T21:43:21
 modified: 2025-08-30T22:56:20
 title: 精神分析
 ---
-
 # 精神分析
 
 - 黑格尔

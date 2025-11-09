@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to publish your snippets
   - Publish-your-snippets
@@ -6,7 +7,6 @@ created: 2025-07-16T20:38:41
 modified: 2025-07-16T20:40:30
 title: How to publish your snippets
 ---
-
 # How to publish your snippets
 
 - https://gist.github.com

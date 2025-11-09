@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - Java Library
 created: 2023-07-17T00:00:00
 modified: 2025-08-30T17:15:51
 title: Java Library
 ---
-
 # Java Library
 
 ## What

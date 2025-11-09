@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Thinking processes
   - Though
@@ -7,7 +8,6 @@ modified: 2025-07-19T12:57:16
 title: Though
 wikipedia: https://en.wikipedia.org/wiki/Outline_of_thought
 ---
-
 # Though
 
 ## Types of Thoughts

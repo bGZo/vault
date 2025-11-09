@@ -1,4 +1,5 @@
 ---
+draft: true
 created: 2023-07-03
 description: Linux系统下载文件工具
 type: command/linux

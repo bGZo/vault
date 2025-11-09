@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 牙齿卫生
   - 牙齿保洁
@@ -15,7 +16,6 @@ tags:
 title: 牙齿卫生
 wikipedia: https://en.wikipedia.org/wiki/Dental_care
 ---
-
 # 牙齿卫生
 
 ## Why

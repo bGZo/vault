@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Deep Linking
 created: 2022-11-28T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-10-16T05:39:01
 source: https://en.wikipedia.org/wiki/Deep_linking
 title: Deep Linking
 ---
-
 # Deep Linking
 
 In the context of the World Wide Web. deep linking is the use of a hyperlink that links to a specific. generally searchable or indexed. piece of web content on a website (e.g. 'http://example.com/path/page'). **rather than the website's home page**(e.g. 'http://example.com'). The URL contains all the information needed to point to a particular item.

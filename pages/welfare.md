@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 福利
   - 养老
@@ -8,7 +9,6 @@ created: 2024-07-28T00:00:00
 modified: 2025-07-16T21:09:37
 title: Welfare
 ---
-
 # Welfare
 
 ## Why

@@ -1,10 +1,9 @@
 ---
+draft: true
 created: 2024-08-11
 description: 连接文件并打印到标准输出设备上
 type: command/linux
 ---
-
-
 ## 拿到文件的后缀
 ```shell
 basename $file | rev | cut -d . -f 1- | rev

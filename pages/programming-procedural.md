@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 过程式编程
   - 过程式程序设计
@@ -8,7 +9,6 @@ modified: 2025-08-30T20:41:32
 title: 过程式程序设计
 wikipedia: https://en.wikipedia.org/wiki/Procedural_programming
 ---
-
 # 过程式程序设计
 
 过程式程序设计（英语：Procedural programming），又称过程化编程，一种编程典范，派生自指令式编程，有时会被视为是同义语。主要要采取过程调用或函数调用的方式来进行流程控制。流程则由包涵一系列运算步骤的过程（Procedures），例程（routines），子程序（subroutines）, 方法（methods），或函数（functions）来控制。在程序执行的任何一个时间点，都可以调用某个特定的程序。任何一个特定的程序，也能被任意一个程序或是它自己本身调用。

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 代理
   - 翻墙
@@ -12,7 +13,6 @@ tags: []
 title: 代理
 type:
 ---
-
 # 代理
 
 > [!tip]

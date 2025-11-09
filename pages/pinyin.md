@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 拼音
   - Pinyin
@@ -10,7 +11,6 @@ tags:
 title: 拼音
 wikipedia: https://en.wikipedia.org/wiki/Pinyin, https://zh.wikipedia.org/zh-cn/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3
 ---
-
 # 拼音
 
 ## Double Pinyin

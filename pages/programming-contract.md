@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 契约式设计
   - Code Contracts
@@ -11,7 +12,6 @@ modified: 2025-08-30T20:32:04
 title: 契约式设计
 wikipedia: https://zh.wikipedia.org/zh-cn/%E5%A5%91%E7%BA%A6%E5%BC%8F%E8%AE%BE%E8%AE%A1
 ---
-
 # 契约式设计
 
   - 要求软件设计者为**软件组件定义正式的，精确的并且可验证的接口**

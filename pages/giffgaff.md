@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Giffgaff
 cost: 2
@@ -7,7 +8,6 @@ modified: 2025-07-15T22:06:16
 remark: 半年发一次短信保号，10便士
 title: Giffgaff
 ---
-
 # Giffgaff
 
 <iframe src='https://www.giffgaff.com/' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

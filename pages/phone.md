@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 手机
 created: 2023-07-19T00:00:00
@@ -6,7 +7,6 @@ modified: 2025-04-04T21:23:09
 tags:
   - 3C
 ---
-
 ## Why
 ## How to buy a new phone?
 

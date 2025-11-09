@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 规范语言
   - 规约语言
@@ -7,7 +8,6 @@ modified: 2025-08-31T12:45:54
 title: 规范语言
 wikipedia: https://en.wikipedia.org/wiki/Specification_language
 ---
-
 # 规范语言
 
 是在计算机科学领域的使用的一种形式语言。编程语言是用于系统实现的、可以直接运行的形式语言。与之不同，规约语言主要用于系统分析和设计的过程中。

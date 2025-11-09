@@ -1,12 +1,11 @@
 ---
+draft: true
 title: 2022
 created: 2022-01-13T21:04:34
 modified: 2025-01-13T21:04:34
 comments: false
 type: year
 ---
-
-
 ## Anime Awards
 
 ### Bangumi 班固米

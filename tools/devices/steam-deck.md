@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - Steam-deck
   - Steam Deck OLED
@@ -19,7 +20,6 @@ title: Steam-deck
 type: 3c
 wikipedia: https://en.wikipedia.org/wiki/Steam_Deck
 ---
-
 # Steam-deck
 
 <iframe src='https://www.steamdeck.com' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>

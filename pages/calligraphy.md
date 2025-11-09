@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 书法
   - Calligraphy
@@ -8,5 +9,4 @@ tags:
   - area
 title: 书法
 ---
-
 # 书法

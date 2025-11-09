@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 三星
   - Samsung
@@ -6,7 +7,6 @@ created: 2024-07-30T00:00:00
 modified: 2025-07-19T12:42:08
 title: Samsung
 ---
-
 # Samsung
 
 ## What

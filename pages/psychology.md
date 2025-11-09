@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 心理学
   - Psychology
@@ -8,7 +9,6 @@ tags:
   - area
 title: 心理学
 ---
-
 # 心理学
 
 ## [[needs-hierarchy|马斯洛需求层次理论]]

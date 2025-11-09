@@ -1,4 +1,7 @@
 ---
+draft: true
+---
+---
 title: 概率论与数理统计
 aliases:
   - 概率论与数理统计

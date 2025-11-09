@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - wiki.c2.com
   - Wikiwikiweb
@@ -11,5 +12,4 @@ tags:
 title: Wikiwikiweb
 wikipedia: https://en.wikipedia.org/wiki/WikiWikiWebhttp://wiki.c2.com/)
 ---
-
 # Wikiwikiweb

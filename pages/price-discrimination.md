@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - 价格歧视
   - 差别定价

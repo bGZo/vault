@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - lang/modeling/unified
   - Uml
@@ -10,7 +11,6 @@ tags:
   - [software-pattern]
 title: UML
 ---
-
 # UML
 
 画类图（Class Diagram）的

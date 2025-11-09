@@ -1,11 +1,11 @@
 ---
+draft: true
 aliases:
   - GTD
   - gtd
 created: 2019-12-03T00:00:00
 modified: 2025-04-04T20:36:14
 ---
-
  ![](https://raw.githack.com/bGZo/assets/dev/2024/topbook-gtd-fs8.png)
 
 ## Why

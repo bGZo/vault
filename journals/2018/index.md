@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 2018
 created: 2018-01-13T21:05:13
 modified: 2025-03-30T09:27:55
@@ -6,7 +7,6 @@ comments: false
 aliases: 
 type: year
 ---
-
 ## Anime Awards
 
 ### Bangumi 班固米

@@ -1,4 +1,5 @@
 ---
+draft: true
 aliases:
   - How to install pip package
   - How to install pip package globally
@@ -7,7 +8,6 @@ created: 2025-07-26T22:52:33
 modified: 2025-07-26T22:56:41
 title: How to install pip package
 ---
-
 # How to install pip package
 
 ## [[pypa-pipx|Pipx]]
