@@ -30,17 +30,17 @@ jobs:
 
       - name: Run Script
         run: |
-          python3 .utils/format-journal-navigation.py --folder ./journals/2015
-          python3 .utils/format-journal-navigation.py --folder ./journals/2016
-          python3 .utils/format-journal-navigation.py --folder ./journals/2017
-          python3 .utils/format-journal-navigation.py --folder ./journals/2018
-          python3 .utils/format-journal-navigation.py --folder ./journals/2019
-          python3 .utils/format-journal-navigation.py --folder ./journals/2020
-          python3 .utils/format-journal-navigation.py --folder ./journals/2021
-          python3 .utils/format-journal-navigation.py --folder ./journals/2022
-          python3 .utils/format-journal-navigation.py --folder ./journals/2023
-          python3 .utils/format-journal-navigation.py --folder ./journals/2024
-          python3 .utils/format-journal-navigation.py --folder ./journals/2025
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2015
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2016
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2017
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2018
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2019
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2020
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2021
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2022
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2023
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2024
+          python3 .utils/250629-format-journal-navigation.py --folder ./journals/2025
 
       # 配置 Git
       - name: Configure Git
