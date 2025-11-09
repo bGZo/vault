@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to sideload on iOS
 aliases:
   - How to sideload on iOS

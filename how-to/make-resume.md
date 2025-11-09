@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [How to make resume]
 created: 2025-07-05T10:50:46
 modified: 2025-07-05T10:52:33

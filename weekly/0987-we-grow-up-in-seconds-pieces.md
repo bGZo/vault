@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [人都是突然就长大了, 长大只一瞬]
 created: 2020-07-13T03:36:15
 modified: 2025-06-29T23:51:44

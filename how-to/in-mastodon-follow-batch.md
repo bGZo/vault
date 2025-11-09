@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to follow batch in mastodon
 aliases:
   - How to follow batch in mastodon

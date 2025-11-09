@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [被 ChatGPT 消解的文章]
 created: 2023-09-01T11:20:59
 modified: 2025-06-29T23:51:45

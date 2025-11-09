@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [长大后再谈 COSER]
 created: 2025-06-22T15:49:04
 modified: 2025-07-01T22:27:17

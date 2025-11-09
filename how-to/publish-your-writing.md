@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [How to publish your writing]
 created: 2025-06-03T22:50:04
 modified: 2025-07-04T23:08:40

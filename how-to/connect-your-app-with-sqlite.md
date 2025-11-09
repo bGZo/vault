@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - Connect-your-app-with-sqlite
   - How to connect your app with sqlite

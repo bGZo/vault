@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 如何把英国 GiffGaff 从 ESIM 转 SIM
   - 英国 GiffGaff 从 ESIM 转 SIM

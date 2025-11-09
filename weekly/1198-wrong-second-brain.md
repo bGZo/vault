@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 错误的第二大脑
   - wrong second brain

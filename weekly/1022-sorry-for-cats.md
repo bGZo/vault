@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 猫猫能有什么坏心思呢？
 created: 2021-03-14T10:41:03

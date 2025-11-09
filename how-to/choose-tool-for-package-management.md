@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to choose package management
   - Package-management

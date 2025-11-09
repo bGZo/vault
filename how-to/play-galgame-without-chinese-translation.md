@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to play galgame without Chinese translation
   - Play-galgame-without-chinese-translation

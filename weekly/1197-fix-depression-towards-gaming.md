@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 电子阳痿治疗指南
 created: 2024-07-20T10:17:40

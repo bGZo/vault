@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to found rss
 aliases: How to found rss
 created: 2025-06-12T22:28:05

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to stream music from cloud storage like onedrive google drive
 aliases:
   - How to stream music from cloud storage like onedrive google drive

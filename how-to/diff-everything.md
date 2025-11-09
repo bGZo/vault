@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - Diff-everything
   - How to diff everything

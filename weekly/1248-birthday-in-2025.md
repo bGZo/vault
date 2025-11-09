@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 1248-birthday-in-2025
   - 生日这一天

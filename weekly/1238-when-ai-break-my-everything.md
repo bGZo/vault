@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [当 AI 破坏了我的一切]
 created: 2025-05-02T10:35:57
 modified: 2025-06-29T23:51:45

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 如何构建命令行程序
   - How to build commnd-line program

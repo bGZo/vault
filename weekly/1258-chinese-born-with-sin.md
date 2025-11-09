@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 天生有罪
 created: 2025-10-11T23:55:53

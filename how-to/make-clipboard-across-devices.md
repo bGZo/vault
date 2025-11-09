@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to make clipboard across devices
 aliases:
   - How to make clipboard across devices

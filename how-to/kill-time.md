@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 杀时间
   - 沙发土豆的自我修养

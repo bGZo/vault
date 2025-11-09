@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [1227-featurn-is-never-coming, 未来永远不会到来]
 created: 2025-02-15T18:17:14
 modified: 2025-06-29T23:51:45

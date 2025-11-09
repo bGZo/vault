@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [1226-going-home-with-parents, 父母在不远游, 最想考公的时刻]
 created: 2025-02-08T21:56:35
 modified: 2025-06-29T23:51:45

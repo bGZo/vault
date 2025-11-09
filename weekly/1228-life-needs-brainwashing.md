@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [1228-life-needs-brainwashing, 人是需要洗脑的]
 created: 2025-02-18T22:06:57
 description: 

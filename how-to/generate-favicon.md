@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to generate favicon for website
 aliases: How to generate favicon for website
 created: 2025-06-14T22:56:03

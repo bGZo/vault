@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to check deleted telegram channels info
 created: 2025-08-16T22:57:01

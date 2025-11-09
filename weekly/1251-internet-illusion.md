@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 互联网幻觉
 created: 2025-08-02T19:22:34

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [1231-self-destruction, 求救信号之「自我毁灭」]
 created: 2025-03-15T16:15:38
 modified: 2025-06-29T23:51:45

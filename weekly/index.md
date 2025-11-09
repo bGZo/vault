@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 表达之心不死
   - 周报

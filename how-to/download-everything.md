@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [Download-everything, How to download everything]
 created: 2025-06-07T15:15:37
 modified: 2025-07-01T22:56:03

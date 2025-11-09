@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to play online game offline
 aliases:
   - How to play online game offline

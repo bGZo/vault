@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 聊聊学生时代的异性（叙事篇）
 created: 2025-08-03T23:06:37

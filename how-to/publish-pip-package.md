@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to publish pip package
   - Publish-pip-package

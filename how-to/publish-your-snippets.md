@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to publish your snippets
   - Publish-your-snippets

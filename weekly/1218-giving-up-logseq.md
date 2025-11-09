@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [放弃 Logseq, Giving up Logseq, logseq problem, why giving up logseq]
 created: 2024-12-09T12:00:00
 modified: 2025-06-29T23:51:45

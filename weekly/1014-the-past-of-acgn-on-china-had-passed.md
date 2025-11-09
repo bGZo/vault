@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [简中二次元圈已死]
 created: 2021-01-18T18:51:22
 modified: 2025-06-29T23:51:44

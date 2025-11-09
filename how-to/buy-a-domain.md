@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to buy a domain
   - How to register a domain

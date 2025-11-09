@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to search book
 aliases:
   - How to search book

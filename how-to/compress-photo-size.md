@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to compress photo size
 aliases:
   - How to compress photo size

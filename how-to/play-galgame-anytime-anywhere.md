@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to play galgame anytime anywhere
 created: 2025-07-16T20:04:24

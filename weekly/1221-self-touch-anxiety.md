@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [自慰焦虑]
 created: 2025-01-04T15:40:57
 description: 

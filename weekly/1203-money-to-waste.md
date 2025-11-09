@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [预算中应该留有被浪费的钱]
 created: 2024-08-31T21:37:39
 description: 

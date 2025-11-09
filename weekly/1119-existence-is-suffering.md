@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [存在即痛苦]
 created: 2023-01-21T11:06:46
 modified: 2025-06-29T23:51:44

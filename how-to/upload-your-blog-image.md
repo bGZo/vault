@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to upload your blog image
 aliases:
   - How to upload your blog image

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [生活大于工作]
 created: 2024-05-18T12:00:00
 modified: 2025-06-29T23:58:33

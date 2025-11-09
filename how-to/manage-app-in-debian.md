@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to manage app in debian
   - Manage-app-in-debian

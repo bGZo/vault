@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to make id picture
 aliases:
   - How to make id picture

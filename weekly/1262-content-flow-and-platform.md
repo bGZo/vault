@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 平台问我，你真的有命可以晒吗？
 created: 2025-10-17T07:02:17

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [迁移 Logseq 数据库版本]
 created: 2024-10-26T12:00:00
 modified: 2025-06-29T23:51:45

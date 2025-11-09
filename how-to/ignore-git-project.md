@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to ignore git project
   - Ignore-git-project

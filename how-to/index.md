@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to
 created: 2025-06-03T22:15:30
 modified: 2025-06-14T23:40:06

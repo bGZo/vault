@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [How to run GitHub action on local, run-github-action-on-local, Run-github-action-on-local]
 created: 2025-07-01T21:16:02
 modified: 2025-07-01T21:19:59

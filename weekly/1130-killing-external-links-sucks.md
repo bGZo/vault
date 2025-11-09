@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [外链之死]
 created: 2023-04-08T11:09:43
 modified: 2025-06-29T23:51:45

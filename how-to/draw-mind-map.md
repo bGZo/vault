@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to draw mind map
 aliases:
   - 如何画思维导图

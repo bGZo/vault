@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [我都花了时间玩游戏，为什么还要花钱买它？]
 created: 2023-07-08T11:15:56
 modified: 2025-06-29T23:51:45

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to install pip package
   - How to install pip package globally

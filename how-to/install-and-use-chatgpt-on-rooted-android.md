@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to install and use chatgpt on rooted android
 aliases:
   - How to install and use chatgpt on rooted android

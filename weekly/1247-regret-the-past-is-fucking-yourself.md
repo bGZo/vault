@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [遗憾是对自己的暴政, regret the past is fucking yourself]
 created: 2025-07-05T23:42:28
 description: 

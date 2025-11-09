@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to run program in background
   - Run-program-in-background

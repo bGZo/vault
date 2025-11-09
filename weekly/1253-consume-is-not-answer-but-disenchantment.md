@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 消费不是答案，但祛魅得先消费
 created: 2025-08-17T23:03:28

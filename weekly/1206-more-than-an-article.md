@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [比文章更远, 超越文章]
 created: 2024-09-21T12:00:00
 modified: 2025-06-29T23:51:45

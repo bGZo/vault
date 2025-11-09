@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: ["I don't know how to deal relationship with my parents"]
 created: 2023-05-02T11:25:26
 modified: 2025-06-29T23:51:45

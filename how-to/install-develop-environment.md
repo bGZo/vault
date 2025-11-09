@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - How to activate jetbrains
   - How to install develop environment

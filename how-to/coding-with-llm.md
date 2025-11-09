@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 ale: How to coding with llm
 aliases: [How to coding with llm]
 created: 2024-12-28T02:46:31

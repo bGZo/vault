@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 孤独, 渴望, 爱与沉沦
   - 写于疫情居家隔离贤者模式后

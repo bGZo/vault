@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases:
   - 解包
   - 提取 CG

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [当兵何以自豪, 政治正确之当兵]
 created: 2024-03-08T11:19:01
 modified: 2025-06-29T23:51:45

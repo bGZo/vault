@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to draw uml or user-case
 aliases: How to draw uml or user-case
 created: 2025-06-14T22:07:16

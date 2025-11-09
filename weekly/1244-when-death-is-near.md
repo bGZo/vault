@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [最近离死亡最近的瞬间]
 created: 2025-06-07T10:31:01
 modified: 2025-06-29T23:51:45

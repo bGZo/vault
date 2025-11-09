@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [靠喜欢之人活着的男人]
 bangumi: https://bgm.tv/blog/338114
 created: 2024-05-03T03:52:24
