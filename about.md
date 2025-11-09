@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 aliases: [About]
 created: 2025-07-03T21:21:41
 modified: 2025-07-03T21:27:05
