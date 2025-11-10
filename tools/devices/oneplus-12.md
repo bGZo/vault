@@ -105,11 +105,7 @@ adb kill-server
 
 ### 恢复 Play Integrity
 
-下载这个 App 检查下自己的环境：`Play Integrity API Checker`，主要检测三个指标：
-
-- MEETS_DEVICE_INTEGRITY：系统没被改动/解锁（或成功伪装）
-- MEETS_BASIC_INTEGRITY：没被当成模拟器 / 恶意环境
-- MEETS_STRONG_INTEGRITY： 设备 + 系统 + 密钥链全部原生纯净（**root / 自制 ROM 永远=NO**）
+[[install-and-use-chatgpt-on-rooted-android|How to install and use chatgpt on rooted android]]
 
 ### 是否要切换为 KernelSu
 

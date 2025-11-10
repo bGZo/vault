@@ -1,11 +1,14 @@
 ---
-draft: true
 aliases:
+  - Search engine optimization
   - Seo
 created: 2025-01-15T22:29:20
-modified: 2025-07-19T12:45:33
+draft: true
+modified: 2025-11-09T21:48:06
 title: Seo
+wikipedia: https://en.wikipedia.org/wiki/Search_engine_optimization
 ---
-# [[pages/web|Web]] Seo
+
+# Seo
 
 - [SEO：初学者完整指南](https://ahrefs.com/zh/seo)

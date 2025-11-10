@@ -15,7 +15,7 @@ wikipedia: https://en.wikipedia.org/wiki/Animation
 
 ## [[navigation|Navigation]]
 
-- [番组放送](https://bgmlist.com/)
+
 - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/)
 - [NEP.Anime | 动画仓库](https://t.me/AnimeNep) [↩](tg://resolve?domain=AnimeNep)
   - [AnimeNep Helper](tg://resolve?domain=AnimeNepbot)
