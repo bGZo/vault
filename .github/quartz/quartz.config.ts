@@ -55,7 +55,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Noto Sans Simplified Chinese",
         body: "Noto Serif Simplified Chinese",
-        code: "Source Code Pro",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
