@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins";
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "~/bGZo/notes",
+    pageTitle: "爛筆頭",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -53,9 +53,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Noto Sans Simplified Chinese",
+        body: "Noto Serif Simplified Chinese",
+        code: "Source Code Pro",
       },
       colors: {
         lightMode: {
