@@ -1,12 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [当兵何以自豪, 政治正确之当兵]
+aliases:
+  - 当兵何以自豪
+  - 政治正确之当兵
 created: 2024-03-08T11:19:01
-modified: 2025-06-29T23:51:45
-tags: [politics, weekly/1178]
+modified: 2025-11-15T11:33:28
+tags:
+  - politics
+  - weekly/1178
 title: 当兵何以自豪
 type: writing
 ---
+
 # 当兵何以自豪
 
 我经常和家里人说，想当一名军人，我的一位朋友就是这样，就算大四了也不必纠结就业还是考研，毕业后 gap 三个月直接去服兵役。

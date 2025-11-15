@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [摸索人生]
+aliases:
+  - 摸索人生
 created: 2024-07-06T12:00:00
-modified: 2025-06-29T23:51:45
-tags: [self-care, weekly/1195]
+modified: 2025-11-15T11:33:28
+tags:
+  - self-care
+  - weekly/1195
 title: 摸索人生
 type: writing
 ---
+
 # 摸索人生
 
 <iframe src="https://www.youtube.com/embed/m5_dNOK7oN8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

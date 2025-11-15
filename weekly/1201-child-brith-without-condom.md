@@ -1,12 +1,19 @@
 ---
+comments: true
 draft: false
-aliases: [父母为什么把我生出来？, 内射不带套，孩子就会诞生, 始于内射不带套]
+aliases:
+  - 父母为什么把我生出来？
+  - 内射不带套，孩子就会诞生
+  - 始于内射不带套
 created: 2024-08-17T21:50:36
-modified: 2025-06-29T23:51:45
-tags: [sex, weekly/1201]
+modified: 2025-11-15T11:33:28
+tags:
+  - sex
+  - weekly/1201
 title: 始于内射不带套
 type: writing
 ---
+
 # 始于内射不带套
 
 小时候我常对「我为什么会存在？」/「父母为什么把我生出来？」这件事抱有期待。

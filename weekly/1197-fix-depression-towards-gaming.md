@@ -1,15 +1,17 @@
 ---
+comments: true
 draft: false
 aliases:
   - 电子阳痿治疗指南
 created: 2024-07-20T10:17:40
-modified: 2025-09-09T21:26:08
+modified: 2025-11-15T11:33:28
 tags:
   - steam
   - weekly/1197
 title: 电子阳痿治疗指南
 type: writing
 ---
+
 # 电子阳痿治疗指南
 
 G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]。

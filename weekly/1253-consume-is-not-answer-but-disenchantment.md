@@ -1,12 +1,14 @@
 ---
+comments: true
 draft: false
 aliases:
   - 消费不是答案，但祛魅得先消费
 created: 2025-08-17T23:03:28
-modified: 2025-09-06T09:59:19
+modified: 2025-11-15T11:33:28
 title: 消费不是答案，但祛魅得先消费
 type: writing
 ---
+
 # 消费不是答案，但祛魅得先消费
 
 最近不是把大馒头退了吗，但物欲没有减退，我还想要买一个 Windows 掌机，即使我已经有了 Steam Deck，因为我在玩 Galgame 的时候，总是非常麻烦：

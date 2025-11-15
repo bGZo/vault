@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [湿疹复发]
+aliases:
+  - 湿疹复发
 created: 2024-05-25T12:00:00
-modified: 2025-06-29T23:51:45
-tags: [self-healing, weekly/1189]
+modified: 2025-11-15T11:33:28
+tags:
+  - self-healing
+  - weekly/1189
 title: 湿疹复发
 type: writing
 ---
+
 # 湿疹复发
 
 <iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

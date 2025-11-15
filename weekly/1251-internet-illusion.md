@@ -1,12 +1,14 @@
 ---
+comments: true
 draft: false
 aliases:
   - 互联网幻觉
 created: 2025-08-02T19:22:34
-modified: 2025-08-02T19:33:25
+modified: 2025-11-15T11:33:28
 title: 互联网幻觉
 type: writing
 ---
+
 # 互联网幻觉
 
 前几年看过一句话，具体讲什么忘记了，大致意思就是如果不是互联网，很多人一辈子也不可能认识，也不可能说上话。

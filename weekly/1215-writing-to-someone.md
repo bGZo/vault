@@ -1,13 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [致某某]
+aliases:
+  - 致某某
 created: 2024-11-23T12:00:00
 description: 我给她写信的意思是，我们能不能不要这样，但显然，我失败了，我们只能这样。
-modified: 2025-06-29T23:51:45
-tags: [love/letter, weekly/1215]
+modified: 2025-11-15T11:33:28
+tags:
+  - love/letter
+  - weekly/1215
 title: 致某某
 type: writing
 ---
+
 # 致某某
 
 你好啊，好久不见，我是 X。

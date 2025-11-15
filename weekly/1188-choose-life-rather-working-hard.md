@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [生活大于工作]
+aliases:
+  - 生活大于工作
 created: 2024-05-18T12:00:00
-modified: 2025-06-29T23:58:33
-tags: [life, weekly/1188]
+modified: 2025-11-15T11:33:28
+tags:
+  - life
+  - weekly/1188
 title: 生活大于工作
 type: writing
 ---
+
 # 生活大于工作
 
 <iframe src="https://www.youtube.com/embed/UtF6Jej8yb4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

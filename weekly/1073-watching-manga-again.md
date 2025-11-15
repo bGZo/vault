@@ -1,12 +1,19 @@
 ---
+comments: true
 draft: false
-aliases: [重新开始看漫画]
+aliases:
+  - 重新开始看漫画
 created: 2022-03-04T10:45:31
-modified: 2025-06-29T23:51:44
-tags: [bilibili, copyright, manga, weekly/1073]
+modified: 2025-11-15T11:33:27
+tags:
+  - bilibili
+  - copyright
+  - manga
+  - weekly/1073
 title: 重新开始看漫画
 type: writing
 ---
+
 # 重新开始看漫画
 
 最近因为买了 [[samsung-tab-s4]]，常常用它来看电子书，当然漫画也算电子书的一种，加上上了大学有了零用钱，终于可以开始支持正版漫画了，所以一直在用 bilibili 家的漫画客户端。

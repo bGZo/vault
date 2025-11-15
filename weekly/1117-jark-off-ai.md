@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [自慰 AI]
+aliases:
+  - 自慰 AI
 created: 2023-01-04T11:00:30
-modified: 2025-06-29T23:51:44
-tags: [sex, weekly/1117]
+modified: 2025-11-15T11:33:28
+tags:
+  - sex
+  - weekly/1117
 title: 自慰 AI
 type: writing
 ---
+
 # 自慰 AI
 
 男孩父母带着他跑到城市打工，因为听说那里的教育很不一样，读过书的最后都能找个不错的营生，不必像在村里，整日就知道丢石头，长大了还得面朝黄土背朝天，再受一次这一辈的罪，一年到头挣几个幸苦钱.

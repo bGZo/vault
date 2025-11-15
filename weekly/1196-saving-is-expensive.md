@@ -1,15 +1,17 @@
 ---
+comments: true
 draft: false
 aliases:
   - 便宜的最贵
 created: 2024-07-13T12:00:00
-modified: 2025-07-26T14:51:46
+modified: 2025-11-15T11:33:28
 tags:
   - politics
   - weekly/1196
 title: 便宜的最贵
 type: writing
 ---
+
 # 便宜的最贵
 
 > 那时她还太年轻，不知道所有命运馈赠的礼物，早已在暗中*标好了价格*

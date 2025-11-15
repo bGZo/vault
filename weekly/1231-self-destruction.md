@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [1231-self-destruction, 求救信号之「自我毁灭」]
+aliases:
+  - 1231-self-destruction
+  - 求救信号之「自我毁灭」
 created: 2025-03-15T16:15:38
-modified: 2025-06-29T23:51:45
-tags: [weekly/1231]
+modified: 2025-11-15T11:33:28
+tags:
+  - weekly/1231
 title: 求救信号之「自我毁灭」
 type: writing
 ---
+
 # 求救信号之「自我毁灭」
 
 ## 来信

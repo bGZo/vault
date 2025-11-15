@@ -1,15 +1,17 @@
 ---
+comments: true
 draft: false
 aliases:
   - 1248-birthday-in-2025
   - 生日这一天
 created: 2025-07-12T20:30:43
-modified: 2025-07-16T21:01:50
+modified: 2025-11-15T11:33:28
 tags:
   - first-time
 title: 生日这一天
 type: writing
 ---
+
 # 生日这一天
 
 这两天是我 25 岁的生日，去看了人生第一场线下 [[talk-show|脱口秀]]。

@@ -1,14 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [遗憾是对自己的暴政, regret the past is fucking yourself]
+aliases:
+  - 遗憾是对自己的暴政
+  - regret the past is fucking yourself
 created: 2025-07-05T23:42:28
 description: 
-modified: 2025-07-06T00:59:24
+modified: 2025-11-15T11:33:28
 tags: []
 tags-link: 
 title: 遗憾是对自己的暴政
 type: writing
 ---
+
 # 遗憾是对自己的暴政
 
 人都有遗憾，对吧？

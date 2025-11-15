@@ -1,13 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [我的旧友，我爱你们]
+aliases:
+  - 我的旧友，我爱你们
 created: 2022-05-21T10:58:24
 description: 
-modified: 2025-06-29T23:51:44
-tags: [privacy, weekly/1085]
+modified: 2025-11-15T11:33:27
+tags:
+  - privacy
+  - weekly/1085
 title: 我的旧友，我爱你们
 type: writing
 ---
+
 # 我的旧友，我爱你们
 
 > 如果你想活得幸福，那就开始感谢和赞美他人吧.🥰

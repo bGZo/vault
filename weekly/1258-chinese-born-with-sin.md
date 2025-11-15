@@ -1,16 +1,16 @@
 ---
+comments: true
 draft: false
 aliases:
   - 天生有罪
 created: 2025-10-11T23:55:53
-description:
-modified: 2025-10-12T00:19:08
+modified: 2025-11-15T11:32:29
 tags:
   - politics
-tags-link:
 title: 天生有罪
 type: writing
 ---
+
 # 天生有罪
 
 西方宗教离不开一个概念——「原罪」，尽管各个宗教对人是否有原罪各持己见，但他们都有相信上帝，相信告解的力量，只要心诚，上帝愿意原谅世人的一切。[^same-zui]

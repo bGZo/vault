@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [吃人是会上瘾的]
+aliases:
+  - 吃人是会上瘾的
 created: 2025-06-06T23:24:49
-modified: 2025-06-29T23:51:45
-tags: [劳动异化, weekly/1243]
+modified: 2025-11-15T11:33:28
+tags:
+  - 劳动异化
+  - weekly/1243
 title: 吃人是会上瘾的
 type: writing
 ---
+
 # 吃人是会上瘾的
 
 又是一年高考周，小区楼对面的路口又会被警察封锁起来吧。[[1191-more-than-system|去年也是这样]]，中午、下午吃饭的时候就能看到熙熙攘攘的家长等待孩子的身影。

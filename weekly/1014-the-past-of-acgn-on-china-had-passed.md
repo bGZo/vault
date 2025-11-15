@@ -1,12 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [简中二次元圈已死]
+aliases:
+  - 简中二次元圈已死
 created: 2021-01-18T18:51:22
-modified: 2025-06-29T23:51:44
-tags: [bilibili, copyright, weekly/1014]
+modified: 2025-11-15T11:33:27
+tags:
+  - bilibili
+  - copyright
+  - weekly/1014
 title: 简中二次元圈已死
 type: writing
 ---
+
 # 简中二次元圈已死
 
 > 网络清扫，我痛恨这个词语，网盘不断的炸链，反复提醒您浏览的内容不存在，就像是去年的疫情，发出来的文章像喂了狗，用户一个个被封，我真的怀疑，明天会更好吗?

@@ -1,14 +1,18 @@
 ---
+comments: true
 draft: false
-aliases: [靠喜欢之人活着的男人]
+aliases:
+  - 混沌子：靠喜欢之人活着的男人
 bangumi: https://bgm.tv/blog/338114
 created: 2024-05-03T03:52:24
-modified: 2025-06-29T23:51:45
-tags: [weekly/1186]
-title: 靠喜欢之人活着的男人
-type: writing
+modified: 2025-11-15T11:34:29
+tags:
+  - weekly/1186
+  - weekly/review/game
+title: 混沌子：靠喜欢之人活着的男人
 ---
-# 靠喜欢之人活着的男人
+
+# 混沌子：靠喜欢之人活着的男人
 
 故事终于读完了，从清明假期读完共通线之后，一直沉迷在尾上的幻想中。小心翼翼保持着一个星期一条线的节奏，乃乃线留到了五一，就在昨晚，终于开启了 TRUE 线，很短，不到一个小时的时间就画上了句点。
 

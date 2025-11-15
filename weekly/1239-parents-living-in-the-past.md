@@ -1,12 +1,17 @@
 ---
+comments: true
 draft: false
-aliases: [活在时光里的父母, Parents living in the past]
+aliases:
+  - 活在时光里的父母
+  - Parents living in the past
 created: 2025-05-11T20:34:11
-modified: 2025-06-29T23:51:45
-tags: [weekly/1239]
+modified: 2025-11-15T11:33:28
+tags:
+  - weekly/1239
 title: 活在时光里的父母
 type: writing
 ---
+
 # 活在时光里的父母
 
 最近我发现，自己和父母电话的时间越来越短了，我们聊不到一块去了，我这边除了日常吃喝、天气情况没什么好分享的，大部分是听家里面发生了什么，最近遇到了什么顾客之类的，

@@ -1,12 +1,14 @@
 ---
+comments: true
 draft: false
 aliases:
   - 浏览器使用的心路历程
   - ChatGPT Atlas 发布了，但你真的需要吗？
 created: 2025-10-26T22:00:04
-modified: 2025-10-26T22:01:24
+modified: 2025-11-15T11:33:28
 title: ChatGPT Atlas 发布了，但你真的需要吗？
 ---
+
 # ChatGPT Atlas 发布了，但你真的需要吗？
 
 来写写浏览器使用的心路历程吧，我没有能力开发出属于自己的浏览器，只能在这些产品中徘徊，最终我回到了原点，Firefox(下称 FF，火狐)。

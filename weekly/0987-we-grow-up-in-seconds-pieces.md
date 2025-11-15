@@ -1,12 +1,18 @@
 ---
-draft: false
-aliases: [人都是突然就长大了, 长大只一瞬]
+comments: true
+draft: true
+aliases:
+  - 人都是突然就长大了
+  - 长大只一瞬
 created: 2020-07-13T03:36:15
-modified: 2025-06-29T23:51:44
-tags: [pointless, weekly/987]
+modified: 2025-11-15T11:33:27
+tags:
+  - pointless
+  - weekly/987
 title: 长大只一瞬
 type: writing
 ---
+
 # 长大只一瞬
 
 那时候我还小，还走在上学的路上，每天还能遇到些新的伙伴，我们把彼此上学时候的糗事诉说，嘲笑对方的荒诞和可笑，即使脑海为这位小伙伴默默地记上一笔，内心却在一次又一次记账中升温，渐渐地，我们成为了每天形影不离的好朋友。

@@ -1,12 +1,16 @@
 ---
+comments: true
 draft: false
-aliases: [超越系统]
+aliases:
+  - 超越系统
 created: 2024-06-08T12:00:00
-modified: 2025-06-29T23:51:45
-tags: [weekly/1191]
+modified: 2025-11-15T11:33:28
+tags:
+  - weekly/1191
 title: 超越系统
 type: writing
 ---
+
 # 超越系统
 
 <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

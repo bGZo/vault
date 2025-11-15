@@ -1,16 +1,18 @@
 ---
+comments: true
 draft: false
 aliases:
   - 诈骗广告机
 created: 2025-04-10T21:04:39
 description: 
-modified: 2025-10-03T23:39:10
+modified: 2025-11-15T11:33:28
 tags:
   - weekly/1235
 tags-link: 
 title: 诈骗广告机
 type: writing
 ---
+
 # 诈骗广告机
 
 最近很累，因为我又换手机了。
