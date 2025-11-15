@@ -1,87 +1,37 @@
 ---
-draft: true
+comments: true
+draft: false
 aliases:
-  - 用 ASTRO 重新做网站这件事
+  - 用 Astro 重做网站这件事
 created: 2025-10-12T00:39:37
-modified: 2025-10-25T15:11:12
+modified: 2025-11-15T13:00:31
 tags:
   - weekly/1260
-  - weekly/tech
-title: 用 ASTRO 重新做网站这件事
+title: 用 Astro 重做网站这件事
 ---
-# 用 ASTRO 重新做网站这件事
 
-受 [[ccbikai-BroadcastChannel|BroadcastChannel]] 和 https://www.pseudoyu.com 的启发，突然觉得 Astro 这个东西可以把自己过去好多玩具聚合：
+# 用 Astro 重做网站这件事
 
-- https://blog.bgzo.cc
-- https://cast.bgzo.cc
-- https://base64.bgzo.cc
-- https://404.bgzo.cc
-- https://where-is-my-web.vercel.app
-
-能做出一个更酷的缝合怪出来，我猜 😇
-
-## 架构选型
-
-- Tool
-	- Astro
-	- Bun
-	- VUE3
-- Tech Stack
-	- Github Pages
-	- Vercel
-
-## RoadMap
-
-- [x] #1260/功能 主页展示个人信息，社交媒体链接
-- [x] #1260/功能 博客展示
-- [x] #1260/功能 兼容 [[ccbikai-BroadcastChannel|BroadcastChannel]]
-- [x] #1260/功能 在线小工具
-- [x] #1260/功能 Playground / Labs 展示
-- [x] #1260/优化 Markdown 支持 Callout 语法
-- [ ] #1260/优化 博客目录显示
-	- [ ] https://daily-dev-tips.com/posts/adding-a-toc-in-astro/
-	- [ ] https://github.com/remarkjs/remark-toc
-	- [ ] https://dev.to/dailydevtips1/adding-a-toc-in-astro-4kehhttps://www.yuloveboyi.com/
-- [ ] #1260/功能 增加思维导图
-	- [ ] https://coderxi.com/posts/remark-markmap-doc
-- [ ] #1260/功能 增加 Projects 页，项目、地址手工维护
-- [ ] #1260/优化 每个索引页重新设计，题图 + 引用 + 格子背景
-- [ ] #1260/功能 黑暗模式
-- [ ] #1260/功能 博客评论，应该使用独立的仓库
-- [ ] #1260/功能 Tools 页面增加友情链接
-- [ ] #1260/功能 增加友情链接，互换链接地址
-	- [ ] https://www.pseudoyu.com/friends
-- [ ] #1260/优化 Blog 索引页的切换逻辑 + 样式
-- [ ] #1260/功能 探索 Vercel 的部署
-- [ ] #1260/功能 看下能不能潜入自己的 BGM、STEAM 数据进行展示
-	- [ ] SSR
-	- [ ] https://asyncx.top/
-- [ ] #1260/功能 多语言支持
-- [ ] #1260/优化 底部页签版权声明
-
-daily-dev-tips.com/posts/adding-a-toc-in-astro
-
-### Astro 是什么
+## Astro 是什么
 
 核心思想是群岛架构，不同与传统 VUE 的单页应用，而是对于不用页面按需加载，在网页加载速度和架构兼容性上来说是一流。
 
 模板的注入类似 Jekyll，但是比前者更加灵活。
 
-### Bun 是什么
+## Bun 是什么
 
 是用 Zig 语言实现的另一个 Javascript 运行时，目标是兼容 `Node.js`，提供更加快速的构建体验。
 
-## 开始动手
+# 开始动手
 
-### 初始化一个 Astro 项目
+## 初始化一个 Astro 项目
 
 ```shell
 mkdir astro-demo
 npm create astro@latest
 ```
 
-### 添加 Vue / TailwindCSS 等依赖
+## 添加 Vue / TailwindCSS 等依赖
 
 ```shell
 npm install @astrojs/vue
@@ -96,7 +46,7 @@ npm install @astrojs/tailwind
 
 via: https://tailwindcss.com/docs/installation/framework-guides/astro
 
-### 创建页面基本骨架、引入博客页面
+## 创建页面基本骨架、引入博客页面
 
 ```ts
 import { getCollection } from 'astro:content';
@@ -119,7 +69,7 @@ export async function getStaticPaths() {
 
 source via: https://github.com/bGZo/playground/commit/0545ea8c6122266cfe6249497136f1f9543559f5
 
-### 迁移 [[ccbikai-BroadcastChannel|BroadcastChannel]]
+## 迁移 [[ccbikai-BroadcastChannel|BroadcastChannel]]
 
 via: https://github.com/bGZo/playground/commit/cd7875a32ce00d3c5fb150dc5f4e346225a4b54
 
@@ -191,7 +141,7 @@ export async function getChannelInfo(Astro, { before = '', after = '', q = '', t
 - [ ] `prefetch.json.ts` 的作用是什么？
 	- [ ] 提醒浏览器预先加载页面。
 
-### 博客页面排序/分类切换
+## 博客页面排序/分类切换
 
 via: https://github.com/bGZo/playground/commit/11237705d03722c5e63c1a1168761cd7844b17d4
 
@@ -231,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 后续打算用 VUE 直接操作展示列表进行动态切换。
 
-### 设置创建时间和更新时间
+## 设置创建时间和更新时间
 
 via: https://github.com/bGZo/playground/commit/11511f4eaac9dbe27ce34ea1f545de79a63a63f7
 
@@ -244,7 +194,7 @@ import dayjs from 'dayjs';
 <p class="text-gray-600 text-sm">Created: {dayjs(post.data.created).format('YYYY-MM-DD')} | Updated: {dayjs(post.data.modified).format('YYYY-MM-DD')}</p>
 ```
 
-### 增加在线工具页面，引用 VUE
+## 增加在线工具页面，引用 VUE
 
 via: https://github.com/bGZo/playground/commit/44d085d111a33ceb87aaa6681aa16a696b97c0e2
 
@@ -282,13 +232,13 @@ export const description = '用于转义字符串中的特殊字符，如 HTML �
 
 - [ ] `<StringEscape client:load/>` 中 `client:load` 的作用是什么？
 
-### 合并 `playground` 项目到本博客中
+## 合并 `playground` 项目到本博客中
 
 via: https://github.com/bGZo/playground/commit/baa2b2904841639a7f3e3e21e7fbbda935ebc0ec
 
 之前的 playground 实际上只是一个单页应用，潜入进来也比较简单，直接引入 `vue`，然后像 `tool` 页面一样引入即可。
 
-### 主页引入 ICON 图标
+## 主页引入 ICON 图标
 
 via:
 
@@ -297,7 +247,7 @@ via:
 
 有几种引入方式：
 
-#### VUE 引入
+### VUE 引入
 
 ```vue
 <template>
@@ -320,7 +270,7 @@ via:
 
 参考： https://github.com/vuejs/docs/blob/31b4521ad0607a74e284fa7c62502b56a7710e86/src/about/team/TeamMember.vue#L7
 
-### Astro 原生引入
+## Astro 原生引入
 
 ```markdown
 ---
@@ -347,23 +297,23 @@ import bluesky from "../assets/icon/bluesky.svg";
 - [ ] 语法结构如何理解？
 - [ ] 官方动态批量引入？
 
-### 引入阅读时间
+## 引入阅读时间
 
 via: https://github.com/bGZo/playground/commit/019dfde5c80acf2423b42a2f9d6b509f8c27fa03
 
 官方教程: https://docs.astro.build/zh-cn/recipes/reading-time
 
-### 工具增加双拼解码
+## 工具增加双拼解码
 
 via: https://github.com/bGZo/playground/commit/c83d30d8dbbad315d457ab0a3e357ffeb2d838e2
 
 编码，参考： https://sspai.com/post/56134
 
-### Markdown 语法拓展
+## Markdown 语法拓展
 
 自带的语法当前不支持 Callout(admonition note)，不支持 mark 高亮。
 
-### Callout
+## Callout
 
 安装 https://github.com/myl7/remark-github-beta-blockquote-admonitions
 
@@ -371,14 +321,14 @@ via: https://github.com/bGZo/playground/commit/c83d30d8dbbad315d457ab0a3e357ffeb
 
 via: https://ssshooter.com/add-admonitions/, 博主的这个博客没有开源，只能借下它的 CSS 了。
 
-### Mark
+## Mark
 
 - https://github.com/twardoch/remark-mark-plus#usage-with-remark-cli
 	- 这个没有生效
 
-## 部署
+# 部署
 
-### Github Pages
+## Github Pages
 
 via: https://github.com/bGZo/playground/commit/900182f47e79a6fcfa61c8c58c73c93a0ff5ccf8
 
@@ -407,7 +357,7 @@ const SITE_URL_NO_SLASH = SITE_URL.endsWith('/') ? SITE_URL.slice(0, -1) : SITE_
 
 via: https://docs.astro.build/zh-cn/guides/deploy/github, https://docs.astro.build/zh-cn/reference/configuration-reference/#base
 
-### 区分本地和生产
+## 区分本地和生产
 
 via: https://github.com/bGZo/playground/commit/101009794f945cc97ca5962800d252d317497ea3
 
@@ -424,17 +374,17 @@ via: https://github.com/bGZo/playground/commit/101009794f945cc97ca5962800d252d31
 site: process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:4321' : 'https://bgzo.github.io',
 ```
 
-### 绑定域名
+## 绑定域名
 
 前几年绑定域名，我记得还需要将 IPv4 的地址写到 DNS 解析记录里，今天测试了下，用 CNAME 也可以。需要在根目录下增加一个 `CNAME` 文件，介入对应域名即可。
 
-### 通过局域网调试应用
+## 通过局域网调试应用
 
 ```shell
 bun run dev -- --host
 ```
 
-## 备忘
+# 备忘
 
 有一些不知道要写在哪里的点，就统一放在这里：
 

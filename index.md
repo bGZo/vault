@@ -1,14 +1,14 @@
 ---
+comments: false
 draft: false
 aliases:
-  - Home
-  - Notes of bGZo
-comments: false
+  - Evergreen Notes by bGZo
 created: 2024-08-14T12:00:00
-modified: 2025-10-03T21:31:51
-title: Notes of bGZo
+modified: 2025-11-15T13:17:31
+title: Evergreen Notes by bGZo
 ---
-# Notes of bGZo
+
+# Evergreen Notes by bGZo
 
 ## Preface
 
@@ -28,5 +28,7 @@ Before you review, you should know some tips about notes:
 Follow links below to view this website quickly.
 
 - [[weekly/index|Weekly]] is meanly long writing.
-- [[projects/index|Projects]] is what I focus on now.
-- If you also focus on productivity, maybe there [[tools/index|configurations]] are inspired.
+- [[review/index|Review]] is meanly comments.
+- [[newsletter/index|Newsletter]] is meanly sharing.
+- [[projects/index|Projects]] and [[projects/index|Lab]] is meanly making projects and some memos(long tutorials).
+- [[how-to|How to]] is meanly short tutorials.

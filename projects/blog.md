@@ -1,36 +1,22 @@
 ---
+comments: true
 draft: true
 aliases:
   - Blog
-created: 2024-07-20
-modified: 2025-07-02T23:03
-title: Blog
+created: 2024-07-20T00:00:00
+modified: 2025-11-15T13:09:27
 tags:
   - gtd/doing
+title: Blog
 ---
+
 # Blog
 
-## Why
-
-### Remember
-
-After I read [[~the-little-prince]], I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.
-
-Seem thing happened over and over again during those years, I'm always thunderstruck by my work before. I know, actually, I just put them down for a while, then they 're all gone.
-
-If you don't want to forget something, just do a mark, wherever you like, calendars, diaries, blogs, etc. And don't lost them. Never trust one's memory, just put them in paper, write down and try not to forget.
-
-![](https://raw.githack.com/bGZo/assets/dev/2024/image_1653621462242_0.png)
-
-### Save yourself
-
-Actually, when I read senior high school, I was always alone. Sometime I created a virtual people talking with myself, writing letter to myself. And when I write and write again, I write something I never thought before, seem like something happened naturally by logic. I never have a logic exercise and those was been called nothing matters about Chinese GaoKao....
-
-We know that the deep mind will show you only when you convert it to mind, (by a book???) And I like use this way to discover my deep mind and try to change my strange character.
+## [[1064-why-blog|Why blog today]]
 
 ## How
 
-### [[jekyll|Jekyll]] + GitHub Issue
+### 1. [[jekyll|Jekyll]] + GitHub Issue
 
 Inspired by
 
@@ -64,8 +50,7 @@ Then My blog is like Following:
 - [ ] #gtd/canceled/no-energy Add telegram article preview
 - [ ] #gtd/canceled/no-energy Fix twitter card image preview
 
-
-
+### 2. Astro + Obsidian
 
 ## What
 
@@ -75,4 +60,3 @@ Target website:
 
 <iframe src='https://canvas.hrcd.fr/en' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://canvas.hrcd.fr/en' target='_blank' class='external-link'>https://canvas.hrcd.fr/en</a></center>
-

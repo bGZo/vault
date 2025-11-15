@@ -1,16 +1,22 @@
 ---
+comments: false
 draft: true
 aliase: Projects
 aliases:
+  - 试验田
   - 项目
+  - Lab
   - Projects
-comments: false
 created: 2023-06-23T16:00:00
-modified: 2025-07-05T14:04:27
+modified: 2025-11-15T12:04:27
 tags: []
 title: Projects
 ---
 # Projects
+
+
+
+
 
 any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 
