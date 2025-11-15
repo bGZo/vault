@@ -53,8 +53,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans Simplified Chinese",
-        body: "Noto Serif Simplified Chinese",
+        header: "Noto Sans CJK SC",
+        body: "Noto Serif CJK SC",
         code: "JetBrains Mono",
       },
       colors: {

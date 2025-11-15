@@ -22,7 +22,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      "About": "/about",
+      // "About": "/about",
       // "GitHub": "https://github.com/bGZo/vault/",
       "CC-BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
     },
