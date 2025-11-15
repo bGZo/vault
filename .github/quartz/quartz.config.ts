@@ -118,6 +118,7 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
+        // 因为笔记变动较大，已不再适合开启RSS订阅
         enableRSS: false,
       }),
       Plugin.Assets(),

@@ -13,7 +13,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: 'giscus',
       options: {
-        repo: 'bGZo/notes',
+        repo: 'bGZo/vault',
         repoId: 'R_kgDOM-7h7w',
         category: 'comments',
         categoryId: 'DIC_kwDOM-7h784CmFf2',
