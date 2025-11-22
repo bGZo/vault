@@ -15,4 +15,11 @@
 
 最沙雕的是，無法批量拖動，只能一個個拖出來再拖進去
 
+### 其他
+
+別忘了還有很多應用的數據需要遷移，比如：
+
+- 隨手記裏面的小地圖
+- 地圖裏面的地點
+
 Source via: https://note.bgzo.cc/how-to/switch-apple-id-to-another

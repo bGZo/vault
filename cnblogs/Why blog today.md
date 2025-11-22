@@ -1,7 +1,9 @@
 
-## Remember
+## Remember[^memory-disappear]
 
-After I read 小王子, I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.
+[^memory-disappear]: 表達欲是有窗口期的，很多不願忘記的想法和感受，就得馬上寫下來，要不然過段時間回憶不起來會更加難受。但表達總是有成本的，各個記錄的媒介代價不一，文字，錄音，照片，影像，甚至是現在的 AI 每種媒介都有自己的分野，側重點不同。我比較古板，還是喜歡寫文章，因爲它幾乎是所有媒介剔骨去肉留下的最終產物。
+
+After I read The Little Prince, I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.
 
 Seem thing happened over and over again during those years, I'm always thunderstruck by my work before. I know, actually, I just put them down for a while, then they 're all gone.
 
@@ -17,6 +19,8 @@ We know that the deep mind will show you only when you convert it to mind, (by a
 
 ## Introduce yourself
 
-There' re lots of website today, showing theirselves using different tech stack and design. It's enjoy to browser them.
+There' re lots of website today, showing theirselves using different tech stack and design. It's enjoy to browser them, such as:
+
+- http://www.pseudoyu.com
 
 Source via: https://note.bgzo.cc/weekly/1064-why-blog
