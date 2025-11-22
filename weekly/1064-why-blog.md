@@ -3,16 +3,19 @@ comments: true
 draft: false
 aliases:
   - Why blog today
-created: 2025-11-15T13:08:00
-modified: 2025-11-15T13:12:13
+  - 为什么写博客
+created: 2022-01-01T13:08:00
+modified: 2025-11-15T19:23:53
 title: Why blog today
 ---
 
 # Why blog today
 
-## Remember
+## Remember[^memory-disappear]
 
-After I read [[~the-little-prince|小王子]], I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.
+[^memory-disappear]: 表达欲是有窗口期的，很多不愿忘记的想法和感受，就得马上写下来，要不然过段时间回忆不起来会更加难受。但表达总是有成本的，各个记录的媒介代价不一，文字，录音，照片，影像，甚至是现在的 AI 每种媒介都有自己的分野，侧重点不同。我比较古板，还是喜欢写文章，因为它几乎是所有媒介剔骨去肉留下的最终产物。
+
+After I read [[~the-little-prince|The Little Prince]], I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.
 
 Seem thing happened over and over again during those years, I'm always thunderstruck by my work before. I know, actually, I just put them down for a while, then they 're all gone.
 
@@ -28,4 +31,6 @@ We know that the deep mind will show you only when you convert it to mind, (by a
 
 ## Introduce yourself
 
-There' re lots of website today, showing theirselves using different tech stack and design. It's enjoy to browser them.
+There' re lots of website today, showing theirselves using different tech stack and design. It's enjoy to browser them, such as:
+
+- http://www.pseudoyu.com

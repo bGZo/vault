@@ -1,12 +1,14 @@
 ---
+comments: true
 draft: false
 aliases:
   - 迁移 AppleID
   - Switch-apple-id-to-another
 created: 2025-10-26T13:01:46
-modified: 2025-10-26T23:05:13
+modified: 2025-11-15T19:19:25
 title: 迁移 AppleID
 ---
+
 # 迁移 AppleID
 
 迁移：
@@ -24,3 +26,10 @@ title: 迁移 AppleID
 ## 录音机
 
 最沙雕的是，无法批量拖动，只能一个个拖出来再拖进去
+
+### 其他
+
+别忘了还有很多应用的数据需要迁移，比如：
+
+- 随手记里面的小地图
+- 地图里面的地点

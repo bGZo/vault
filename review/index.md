@@ -2,17 +2,16 @@
 comments: false
 draft: false
 aliases:
-  - "# 人类群星闪耀 [^title-meaning]"
-  - "# 人类群星闪耀"
+  - 人类群星闪耀
   - Review
 created: 2025-11-14T22:45:09
-modified: 2025-11-15T11:53:44
-title: "# 人类群星闪耀 [^title-meaning]"
+modified: 2025-11-15T17:23:11
+title: 人类群星闪耀
 ---
 
-# # 人类群星闪耀 [^title-meaning]
+# 人类群星闪耀
 
-「你有多久没写读后感啦～」
+「你有多久没写读后感啦～」[^title-meaning]
 
 这听起来像个蠢问题，听起来像是一种课后作业，对吗？那我换个问题：
 

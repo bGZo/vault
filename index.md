@@ -2,13 +2,13 @@
 comments: false
 draft: false
 aliases:
-  - Evergreen Notes by bGZo
+  - Hello World
 created: 2024-08-14T12:00:00
-modified: 2025-11-15T13:17:31
-title: Evergreen Notes by bGZo
+modified: 2025-11-15T17:25:33
+title: Hello World
 ---
 
-# Evergreen Notes by bGZo
+# Hello World
 
 ## Preface
 
@@ -30,5 +30,5 @@ Follow links below to view this website quickly.
 - [[weekly/index|Weekly]] is meanly long writing.
 - [[review/index|Review]] is meanly comments.
 - [[newsletter/index|Newsletter]] is meanly sharing.
-- [[projects/index|Projects]] and [[projects/index|Lab]] is meanly making projects and some memos(long tutorials).
+- [[projects/index|Projects]] and [[lab/index|Lab]] is meanly making projects and some memos(long tutorials).
 - [[how-to|How to]] is meanly short tutorials.
