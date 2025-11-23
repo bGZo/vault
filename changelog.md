@@ -1,6 +1,6 @@
 ---
-comments: true
-draft: true
+comments: false
+draft: false
 aliases:
   - 变更日志
   - Changelog
@@ -10,6 +10,16 @@ title: 变更日志
 ---
 
 # 变更日志
+
+## Roadmap
+
+> 我希望我所有的表达都可以从这个仓库出发。
+
+- [x] https://www.cnblogs.com
+	- [x] 转换为繁体中文
+- [ ] https://github.com/bgzo/blog
+- [ ] https://github.com/bgzo/bgzo.github.io
+- [ ] 微博客只能使用 [[telegramdesktop-tdesktop|telegram]]
 
 ## [[weekly/index|周报]]
 
