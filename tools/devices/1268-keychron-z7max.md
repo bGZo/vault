@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - Keychron Z7Max
 created: 2025-11-29T08:55:31
