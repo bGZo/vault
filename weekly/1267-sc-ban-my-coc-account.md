@@ -91,7 +91,7 @@ Sounds good, right?
 
 永封很少有解封的案例 [^ban-forever]，所以这辈子应该就这样了，浪费钱是小事，我无法原谅无数个花时间在这个上面的自己，无数个清晨，傍晚，深夜全都被官方这个傻逼操作废了，退群，取关，不会再碰这个傻逼游戏和傻逼 SC 了，不会再在这里打转了。
 
-[^ban-forever]: https://clashpost.com/p/6605, https://www.reddit.com/r/ClashOfClans/comments/1lzr9au/my_clash_of_clans_account_was_banned_for_account/, https://www.reddit.com/r/Brawlstars/comments/1ahfisr/my_account_was_permanently_banned_for_something_i/
+[^ban-forever]: https://clashpost.com/p/6605, https://www.reddit.com/r/ClashOfClans/comments/1lzr9au/my_clash_of_clans_account_was_banned_for_account/, https://www.reddit.com/r/Brawlstars/comments/1ahfisr/my_account_was_permanently_banned_for_something_i/, http://xhslink.com/o/2G3kzYbhlx5 
 
 ## 「4」
 

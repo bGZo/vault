@@ -1,15 +1,19 @@
 ---
+comments: true
 draft: true
 aliases:
   - 键盘
   - Keyboard
 created: 2024-08-23T00:00:00
-description:
-modified: 2025-07-19T11:28:09
+modified: 2025-11-29T08:56:48
 tags:
   - hobby
-title: Keyboard
+title: 键盘
 ---
-# Keyboard
+
+# 键盘
+
+
+
 
 ## [[nuphy|Nuphy]]
