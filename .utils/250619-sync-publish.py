@@ -100,18 +100,22 @@ def filter_not_plan_article(post, filename=None):
     2. 包含特定标签: SENSITIVE_TAGS
     3. 不存在指定 title
     """
+    # 1. 检查 draft 标签
+    draft = post.get('draft', True)
+    if isinstance(draft, bool) and draft:
+        return True
+    # 2. 检查 filename 是否是 index.md
     if filename is not None and filename.lower() == 'index.md':
         return True
-
+    # 3. 检查 title 是否存在且有效
     title = post.get('title', '')
     if not title or not isinstance(title, str) or title.strip() == '':
         return True
-
+    # 4. 检查是否包含敏感标签
     tags = post.get('tags', [])
     if not tags:
         return False
-
-    # tags可能是字符串或列表
+    # 兼容字符串 Tags，tags可能是字符串或列表
     if isinstance(tags, str):
         tags = [tags]
     elif not isinstance(tags, list):
