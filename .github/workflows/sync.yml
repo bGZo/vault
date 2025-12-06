@@ -27,24 +27,41 @@ jobs:
 
       - name: Run Script
         run: |
-          python3 .utils/250619-sync-publish.py --folder ./weekly --out ./dist
-          python3 .utils/250619-sync-publish.py --folder ./how-to --out ./dist
+          python3 .utils/250619-sync-publish.py --folder ./weekly --out ./release-cnblogs
+          python3 .utils/250619-sync-publish.py --folder ./how-to --out ./release-cnblogs
+          python3 .utils/250619-sync-publish.py --folder ./labs --out ./release-labs
 
       # 验证处理结果
       - name: Verify processed files
         run: |
-          if [ ! -d "dist" ]; then
-            echo "Error: dist directory not found"
+          if [ ! -d "release-cnblogs" ]; then
+            echo "Error: release-cnblogs directory not found"
             exit 1
           fi
-          echo "Files in dist:"
-          ls -la dist/
+          echo "Files in release-cnblogs:"
+          ls -la release-cnblogs/
+
+      # 验证处理结果
+      - name: Verify processed files
+        run: |
+          if [ ! -d "release-labs" ]; then
+            echo "Error: release-labs directory not found"
+            exit 1
+          fi
+          echo "Files in release-labs:"
+          ls -la release-labs/
 
       # 临时保存处理结果
-      - name: Save processed files
+      - name: Save cnblogs files
         run: |
-          mkdir -p /tmp/processed
-          cp -r dist/* /tmp/processed/ 2>/dev/null || echo "No files to copy"
+          mkdir -p /tmp/release-cnblogs
+          cp -r release-cnblogs/* /tmp/release-cnblogs/ 2>/dev/null || echo "No files to copy"
+
+      # 临时保存处理结果
+      - name: Save labs files
+        run: |
+          mkdir -p /tmp/release-labs
+          cp -r release-labs/* /tmp/release-labs/ 2>/dev/null || echo "No files to copy"
 
       # 检出 release 分支
       - name: Checkout branch:release
@@ -54,16 +71,31 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       # 同步处理结果到 release 分支
-      - name: Sync processed files
+      - name: Sync release-cnblogs files
         run: |
           mkdir -p cnblogs
           rm -rf cnblogs/*
           rm -rf cnblogs/.* 2>/dev/null || true 
           # 从临时目录复制文件
-          if [ -d "/tmp/processed" ] && [ "$(ls -A /tmp/processed 2>/dev/null)" ]; then
-            cp -a /tmp/processed/* cnblogs/
+          if [ -d "/tmp/release-cnblogs" ] && [ "$(ls -A /tmp/release-cnblogs 2>/dev/null)" ]; then
+            cp -a /tmp/release-cnblogs/* cnblogs/
           else
-            echo "No processed files found"
+            echo "No cnblogs files found"
+            exit 1
+          fi
+
+
+      # 同步处理结果到 release 分支
+      - name: Sync release-labs files
+        run: |
+          mkdir -p labs
+          rm -rf labs/*
+          rm -rf labs/.* 2>/dev/null || true 
+          # 从临时目录复制文件
+          if [ -d "/tmp/release-labs" ] && [ "$(ls -A /tmp/release-labs 2>/dev/null)" ]; then
+            cp -a /tmp/release-labs/* labs/
+          else
+            echo "No labs files found"
             exit 1
           fi
 
