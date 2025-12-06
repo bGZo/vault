@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - 如何批量标记 bangumi 往季新番
   - 如何批量标记往季新番

@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - 如何删除清空 bangumi 时间线
 created: 2025-11-15T12:24:32
