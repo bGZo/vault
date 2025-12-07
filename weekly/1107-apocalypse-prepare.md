@@ -2,9 +2,11 @@
 comments: true
 draft: false
 aliases:
+  - 末日启示录
   - 默示启示录
 created: 2024-12-15T21:37:30
-modified: 2025-11-15T11:33:27
+modified: 2025-12-06T19:53:12
+tags: []
 title: 默示启示录
 ---
 
@@ -73,3 +75,4 @@ title: 默示启示录
 - [非常时期囤货手册 - Google Docs](https://docs.google.com/document/d/1-c93ax4Uog_CHTOLBKpKLNCUtZYwacGbXm8OP3Fh810)
 - [2022隔离自救经验汇总（4月最新）](https://docs.qq.com/sheet/DZVZDVlpOYnNPWWJw)
 - https://docs.qq.com/sheet/DZUpJS0tQZm1YYWlt
+- [[~封锁前采购囤货的checklist-常用药品清单-进厨房tips和其他-只考虑固定居所的居家隔离-不适用于天灾场景]] https://gist.github.com/coldcodebeer/b6aa47a6e293f92c6567bf5b685587b9
