@@ -1,4 +1,4 @@
-name: Sync to publish
+name: Sync to cnblogs # https://www.cnblogs.com/bgzo
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
         run: |
           python3 .utils/250619-sync-publish.py --folder ./weekly --out ./release-cnblogs
           python3 .utils/250619-sync-publish.py --folder ./how-to --out ./release-cnblogs
-          python3 .utils/250619-sync-publish.py --folder ./labs --out ./release-labs
+          python3 .utils/250619-sync-publish.py --folder ./labs --out ./release-cnblogs
 
       # 验证处理结果
       - name: Verify processed files
@@ -41,27 +41,11 @@ jobs:
           echo "Files in release-cnblogs:"
           ls -la release-cnblogs/
 
-      # 验证处理结果
-      - name: Verify processed files
-        run: |
-          if [ ! -d "release-labs" ]; then
-            echo "Error: release-labs directory not found"
-            exit 1
-          fi
-          echo "Files in release-labs:"
-          ls -la release-labs/
-
       # 临时保存处理结果
       - name: Save cnblogs files
         run: |
           mkdir -p /tmp/release-cnblogs
           cp -r release-cnblogs/* /tmp/release-cnblogs/ 2>/dev/null || echo "No files to copy"
-
-      # 临时保存处理结果
-      - name: Save labs files
-        run: |
-          mkdir -p /tmp/release-labs
-          cp -r release-labs/* /tmp/release-labs/ 2>/dev/null || echo "No files to copy"
 
       # 检出 release 分支
       - name: Checkout branch:release
@@ -88,16 +72,7 @@ jobs:
       # 同步处理结果到 release 分支
       - name: Sync release-labs files
         run: |
-          mkdir -p labs
-          rm -rf labs/*
-          rm -rf labs/.* 2>/dev/null || true 
-          # 从临时目录复制文件
-          if [ -d "/tmp/release-labs" ] && [ "$(ls -A /tmp/release-labs 2>/dev/null)" ]; then
-            cp -a /tmp/release-labs/* labs/
-          else
-            echo "No labs files found"
-            exit 1
-          fi
+          rm -rf labs
 
       # 配置 Git
       - name: Configure Git
