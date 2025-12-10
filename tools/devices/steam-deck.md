@@ -1,33 +1,31 @@
 ---
-draft: true
+comments: true
+draft: false
 aliases:
-  - Steam-deck
+  - Steam Deck
   - Steam Deck OLED
-  - steam-deck-oled
 cover: https://upload.wikimedia.org/wikipedia/commons/5/5d/Steam_Deck_%28front%29.png
 cpu: AMD Zen 2 w/ 4-cores/8-threads, variable frequency @ 2.4 – 3.5 GHz
 created: 2023-06-24T12:00:00
-description:
 gpu: AMD RDNA 2 w/ 8x CUs, variable frequency @ 1.0 – 1.6 GHz (Up to 1.6 TFLOPS FP32)
-hdd:
-modified: 2025-09-14T23:36:57
+modified: 2025-12-10T21:40:29
 price: 4800
 ram: 16 GB LPDDR5 @ 5500 MT/s over 4x 32-bit memory channels = 88GB/s total bandwidth
 ssd: 512G
 tags:
-  - consume/using
-title: Steam-deck
+  - consume/sailed
+title: Steam Deck
 type: 3c
 wikipedia: https://en.wikipedia.org/wiki/Steam_Deck
 ---
-# Steam-deck
+
+# Steam Deck
 
 <iframe src='https://www.steamdeck.com' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.steamdeck.com' target='_blank' class='external-link'>https://www.steamdeck.com</a></center>
 
-
-```
-~ > neofetch                                                                                                                      
+```shell
+~ > neofetch
               .,,,,.                  deck@steamdeck 
         .,'onNMMMMMNNnn',.            -------------- 
      .'oNMANKMMMMMMMMMMMNNn'.         OS: SteamOS Holo x86_64 
@@ -47,116 +45,42 @@ wikipedia: https://en.wikipedia.org/wiki/Steam_Deck
          ''*##########*''
               ''''''
 ```
-## Why
 
-### [[macbook-pro-m2pro-16inch|Macbook Pro 祛魅]]
+## Quick check
 
-在对 MacOS 失望之后，对笔记本的渴望，变成了对轻薄本的渴望。如果还要兼顾一些游戏需求，那就剩掌机了。
+- 维修手册： https://help.steampowered.com/zh-cn/faqs/view/69E3-14AF-9764-4C28
+- Windows 驱动： https://help.steampowered.com/zh-cn/faqs/view/6121-ECCD-D643-BAA8
+- [[fix-steam-deck-stuck-on-logo-when-startup|如何修复 Steam Deck OLED 开机卡 Logo]]
 
-### [[ipad-pro-6-m2-11inch]]
+## 缘起
 
-### [[hp-starbook|HP 星Book 14 2024]]
+首先，我对 [[ipad-pro-6-m2-11inch|iPad Pro 2022]] 感到非常失望，因为它完全无法编程，无法玩模拟器，只能在 Apple 允许的范围内玩耍，最后我把它卖掉了。
 
-最开始纠结 SD，发觉 $549 折合人民币差不多 3900 的样子，含税差不多是 4400 左右的样子，现在的价格水分很高，没过一个月就已经降价近 500 块了，不保值是第一点，再者就是 Steam 去年大刀阔斧地把阿区、土区干没了
+然后，我又对 [[macbook-pro-m2pro-16inch|Macbook Pro]] 再次祛魅后，对笔记本的渴望，变成了对轻薄本的渴望。如果还要兼顾一些游戏需求，这就那就剩掌机了。
 
-<iframe src="https://www.youtube.com/embed/m7FPXLuOY3A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<center>via: <a href='https://www.youtube.com/watch?v=m7FPXLuOY3A' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m7FPXLuOY3A</a></center>
-6:40 ：我知道，我不是 SD 的目标用户，我在意这几百美元的差价，我也在意升级换代的时间，这些别人口中不那么在意的点，并不会真正成为我的需求，他们是他们，我是我，我在意，所以我不买。
+后来，迫于自己受不了自己的游戏本（暗影精灵 5）了，下定决心后买了第二台电脑—— [[hp-starbook|HP 星Book 14 2024]]。但是它玩游戏不太好使，正好，Steam Deck OLED 几个月前发布，我开始纠结 SD。
 
-### ROG Ally
+$549 的定价折合人民币差不多 3900，加上含税也只是 4400 左右的样子，现在的价格水分很高，差不多 4800，在纠结 OLED 和 LED 的差距之后 [^lcd-or-oled]，我还是如手了 OLED 版本，它升级了很多配件，我也把它当作送给自己的一份礼物。
 
-- ROG Ally 和 SD 的拓展性都只留有一个 10 Gbps 的接口，细想确实鸡肋；
-    - [ROG掌機首發評測：愚人節玩笑成真 | 笔吧评测室 - YouTube](https://www.youtube.com/watch?v=IqEAFDyk2gg&t=334s)
-    - [【ROG Ally】真是最强掌机？我劝你想好再买。 - YouTube](https://www.youtube.com/watch?v=jBPkilDNwdc&t=4s)
-    - [我真的需要一台PC掌机吗？ROG Ally【值不值得买第610期】 - YouTube](https://www.youtube.com/watch?v=FiiV1HNYDPQ&t=562s)
-    - [ROG掌机性能分析：最强掌机来啦！ - YouTube](https://www.youtube.com/watch?v=y3-4FgTmGIQ&t=498s)
-    - [ROG掌機上手體驗：目前最好用的win掌機?!｜大狸子切切裡 - YouTube](https://www.youtube.com/watch?v=mQK5NSnxIVU&t=105s)
-- [(1) 【問題】Rog ally跟Steam deck怎麼選 @電腦應用綜合討論 哈啦板 - 巴哈姆特 (gamer.com.tw)](https://forum.gamer.com.tw/C.php?bsn=60030&snA=627969)
-- [在 Steam Deck 和 ROG ALLY 中纠结，有没有买过的进来说说看法？ - V2EX](https://v2ex.com/t/966485)
+[^lcd-or-oled]:: https://www.youtube.com/watch?v=m7FPXLuOY3A 6:40 ：我知道，我不是 SD 的目标用户，我在意这几百美元的差价，我也在意升级换代的时间，这些别人口中不那么在意的点，并不会真正成为我的需求，他们是他们，我是我，我在意，所以我不买。
 
-### 拯救者
+在入手后一个月不久，价格就已经降了近 500 块，虚高的首发不保值是第一点，再者就是 Steam 去年大刀阔斧地把阿区、土区干没了，我买游戏的东西大大降低。
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1nh4y1i7pi&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://www.bilibili.com/video/BV1nh4y1i7pi' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1nh4y1i7pi</a></center>
+## 聊聊 SD 的竞品
 
-无论对拯救者心动多少次，用过一次前端之后，就直接劝退了。还是算了
+- ROG Ally：首先我对 ROG 这个品牌比较陌生，然后 Ally 这个掌机续航没有 SD 好，前端打造完全不如 Steam，单单看玩 steam 的游戏的话，肯定不如 SD [^ally]。而且 Ally 把自己外置 PCIE 的接口留给了自家的显卡，只保留一个 10 Gbps 的接口，这对我来说是不够的。
 
-### Ayaneo
+[^ally]: 看了很多视频，如： [ROG掌機首發評測：愚人節玩笑成真 | 笔吧评测室 - YouTube](https://www.youtube.com/watch?v=IqEAFDyk2gg&t=334s)，[【ROG Ally】真是最强掌机？我劝你想好再买。 - YouTube](https://www.youtube.com/watch?v=jBPkilDNwdc&t=4s)， [我真的需要一台PC掌机吗？ROG Ally【值不值得买第610期】 - YouTube](https://www.youtube.com/watch?v=FiiV1HNYDPQ&t=562s)， [ROG掌机性能分析：最强掌机来啦！ - YouTube](https://www.youtube.com/watch?v=y3-4FgTmGIQ&t=498s)，[ROG掌機上手體驗：目前最好用的win掌機?!｜大狸子切切裡 - YouTube](https://www.youtube.com/watch?v=mQK5NSnxIVU&t=105s)，[【問題】Rog ally跟Steam deck怎麼選 @電腦應用綜合討論 哈啦板 - 巴哈姆特 (gamer.com.tw)](https://forum.gamer.com.tw/C.php?bsn=60030&snA=627969)，[在 Steam Deck 和 ROG ALLY 中纠结，有没有买过的进来说说看法？ - V2EX](https://v2ex.com/t/966485)
 
-Ayaneo Air 1s，7840U 定价 5k，比 SD 还贵，很自信，不愿意尝试；
+- 拯救者：这一位就更搞笑了，尺寸比 Ally 和 SD 更大，而且适配同样垃圾，连 Ally 都不如，无论你是不是联想的黑胶黑粉，只要你看过他们家的前端之后，就直接可以劝退了，还是算了 [^lenv]。
 
-- [AYANEO AIR全網首測！第一台OLED屏幕的Win掌機，價格僅為Steam Deck的20%！ ｜大狸子切切裡 - YouTube](https://www.youtube.com/watch?v=URzZdf4-Q4s)
+[^lenv]: https://www.bilibili.com/video/BV1nh4y1i7pi
 
-#### 掌机：拓展卡
+- Ayaneo：如果不是接触掌机这个领域，完全不知道原来有一个深耕多年的国产厂商也在做这方面的工作，当然，它搭载的还是 Windows 问题，依然有上面的问题；加上本来就不是什么大厂，售后质保不放心；最重要的，它的定价跟 SD 一样自信，Ayaneo Air 1s，7840U 定价 5k，比 SD 还贵，自然不愿意尝试 [^Ayaneo]；
 
-#### 三星 蓝卡 / 白卡 存在掉速的问题
+[^Ayaneo]:: [AYANEO AIR全網首測！第一台OLED屏幕的Win掌機，價格僅為Steam Deck的20%！ ｜大狸子切切裡 - YouTube](https://www.youtube.com/watch?v=URzZdf4-Q4s)
 
-> 我一张刚买了不到三个月的三星 512 白卡也也从 80+ 的写入速度掉到 30 了 今天研究了半天说是标准格式化可以拯救，我打算试试看，从进度条来看，可能格一张卡需要 5 小时 之前用过好几年的闪迪 extreme pro 的卡和三星红卡，都没遇到过这种情况
-
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1MS4y1F7Ba&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://www.bilibili.com/video/BV1MS4y1F7Ba' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1MS4y1F7Ba</a></center>
-
-#### WD SN740 是 OEM 产品，不如上 WD SN770M 1T
-
-- [[~什么是OEM产品-OME固态硬盘为什么这么便宜-OEM固态硬盘有什么优劣势]]
-
-> OEM，渠道不同价格也不同，是不是翻新没法识别的，不过这东西主要看店铺是不是老店，给的店保多不多，一般给 3 年或者以上的基本可以放心购买，说是全新但是就给 1 年的就要看价格了，特别便宜有性价比的也不是不可以买，啥按月算的就别去买了
-> ——[\[硬件求助\]为什么sn740价格差这么多？ NGA玩家社区 (ngabbs.com)](https://ngabbs.com/read.php?tid=35687004&rand=494)
-
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV12N4y1S7AK&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://www.bilibili.com/video/BV12N4y1S7AK' target='_blank' class='external-link'>https://www.bilibili.com/video/BV12N4y1S7AK</a></center>
-
-  - 看了他的视频才发现，原来最便宜的 SN740 是 OEM 产品；
-
-## How
-
-### [[proxy|科学上网]]
-
-代理作为服务启动， https://github.com/bGZo/proxies
-
-参考： https://github.com/Sitoi/SystemdClash
-
-### 打补丁
-
-https://www.reddit.com/r/visualnovels/comments/ujpjiz/installing_patches_on_steam_deck/
-
-### 美化
-
-[[SteamDeckHomebrew-decky-loader]]
-
-### 输入法 #gtd/todo
-
-待解决
-
-[如何实现SteamDeck3.4.4系统桌面模式实体键盘中英文输入切换_哔哩哔哩bilibili](https://www.bilibili.com/video/BV1MY411y7Aw/)
-
-## 遇到的问题
-
-### 存档覆盖
-
-第一次下载游戏玩的时候，没有开代理，steam 云同步错误之后就不要开启游戏，否则就会像我一样，把好不容易打的存档给丢了；
-
-### 指示灯的含义不同
-
-橙色说明充电攻略不够，白色才是快速充电，这一点很反直觉
-
-via: https://www.reddit.com/r/SteamDeck/comments/183xcex/steam_deck_oled_charging_led_light_is_different/
-
-### 传输游戏
-
-收费驱动
-
-![[20240810#paragon linuxfs for steam-deck]]
-
-### 挂机下载游戏
-
-deck 模式下需要熄屏就需要进入桌面模式，关掉 steam，挂后台，这样才是真正的熄屏，注意不能显示 steam 应用，因为电源管理那里会显示，steam 组织休眠，这里也有一个 bug，就是等到改熄屏的时候，如果还显示 steam 页面，那么显示器就会变成最大亮度，一度以为买到坏的了。实际上并非如此；
-
-https://steamcommunity.com/app/1675200/discussions/0/3757725715243231540/
-
-
-
-## References
+当然还有非常多其他竞品，我这里没有列，引用一段别人的总结，深以为然：
 
 > 这几天研究了一下迷你笔电，做个总结，大致可以分为如下几类：
 >
@@ -168,23 +92,126 @@ https://steamcommunity.com/app/1675200/discussions/0/3757725715243231540/
 >
 > https://www.coolapk.com/feed/49916198?shareKey=ZmE0MjMwYWVlNjA5NjViZDllZjU~
 
-> **Our best estimate on the Steam Deck 2 release date is 2025, as Valve designer Lawrence Yang recently said “a true next-gen Deck with a significant bump in horsepower wouldn’t be for a few years.” That said, we may see a refresh of the original Steam Deck featuring improved battery life and a better display in the interim.**
-> — [Steam Deck 2 release date speculation | PCGamesN](https://www.pcgamesn.com/steam-deck/2-release-date-price-specs-performance)
+## 聊聊 SD 内存拓展
 
-- [Desktop Mode primer on Steam Deck, and why you SHOULDN'T turn off read-only filesystem - YouTube](https://www.youtube.com/watch?v=fb_365AOESc)
-- Spotify cannot uses proxy
+因为我资金有限，所以买的是丐版，想要更大的存储，就两条路：
+
+1. TF 卡
+2. 自己换硬盘
+
+虽然都能为 SD 提供更多存储空间，但两者都不完美，而且都有个共性，
+
+### TF 拓展卡
+
+首先看看拓展卡，市面上比较常见的三星 蓝卡 / 白卡 存在掉速的问题，如：
+
+> 我一张刚买了不到三个月的三星 512 白卡也也从 80+ 的写入速度掉到 30 了 今天研究了半天说是标准格式化可以拯救，我打算试试看，从进度条来看，可能格一张卡需要 5 小时 之前用过好几年的闪迪 extreme pro 的卡和三星红卡，都没遇到过这种情况
+> https://www.bilibili.com/video/BV1MS4y1F7Ba
+
+这是 TF 卡的通病，你不知道这块硬盘什么时候会坏。所以唯一的建议就是不要频繁的写入。
+
+TF 卡不是一点有点没有，它灵活，对你的机器侵害小，支持热插拔，这意味什么呢？假设你有 2 块 TF 卡，并且你是一个拥有非常多游戏库存的人，然后，你想对这些游戏做分类，这段时间我想玩 A 类的游戏，你就插第一张卡，然后某一段时间你想玩 B 类型的游戏，那么你就插入第二张卡，切换很快，读卡很快。简直就像 Switch。
+
+选购意见可以参考：
+
+- [2024年SD存储卡/内存卡/TF卡选购攻略，教你轻松避坑选对存储卡 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/339102415)
+- [关于 TF 卡的价格 - V2EX](https://v2ex.com/t/906655)
+- [近期买卡哪个性价比最高？几款热门TF卡与SD卡速度实测与建议_存储卡_什么值得买 (smzdm.com)](https://post.smzdm.com/p/aev73qgk/#:~:text=%E5%AE%9E%E9%99%85%E6%B5%8B%E4%B8%89%E6%98%9F512G%E7%99%BD,%E5%8D%A1%E7%9A%84%E6%A0%87%E7%A7%B0%E9%80%9F%E5%BA%A6%E3%80%82)
+- [U 盘是有使用寿命的，但我好像从来没有用坏过。大家谁的 U 盘用坏过？用了多久坏的？ - V2EX](https://www.v2ex.com/t/348867)
+- [求推荐稳点的硬盘，两块希捷酷鱼 4T 同时挂了 - V2EX](https://www.v2ex.com/t/830555
+
+### 换固态
+
+这算是最多人的选择，但是选择仍然有坑，比如市面上最便宜的 SN740 虽然非常便宜，但其实都是 OEM 产品 [^oem-ssd]，实际使用寿命可能远远不如零售的 SN770M。
+
+> OEM，渠道不同价格也不同，是不是翻新没法识别的，不过这东西主要看店铺是不是老店，给的店保多不多，一般给 3 年或者以上的基本可以放心购买，说是全新但是就给 1 年的就要看价格了，特别便宜有性价比的也不是不可以买，啥按月算的就别去买了
+> ——[\[硬件求助\]为什么sn740价格差这么多？ NGA玩家社区 (ngabbs.com)](https://ngabbs.com/read.php?tid=35687004&rand=494)
+
+[^oem-ssd]: [[~什么是OEM产品-OME固态硬盘为什么这么便宜-OEM固态硬盘有什么优劣势]] https://www.bilibili.com/opus/244863730592811564, https://www.bilibili.com/video/BV12N4y1S7AK
+
+## 个人使用心得
+
+> [!NOTE]
+> 所有需要你解除 Read-only 模式的操作都需要谨慎，因为下次更新系统一切都会恢复原样。
+
+### [[proxy|科学上网]]
+
+见 [[enable-user-proxy-on-steam-deck|如何在 Steam Deck 上开启一个默认代理]]
+
+### 传输游戏 / 打补丁
+
+见 [[enable-user-smb-on-steam-deck|在 Steam Deck 上开启用户级别的 SMB]]
+
+另一个路子是 Windows 的收费驱动 Paragon linuxfs，不推荐，因为实际体验实际体验不好，并且拷贝大量小文件的时候容易丢数据 （[[20240810#paragon linuxfs for steam-deck]]）；
+
+参考 https://www.reddit.com/r/visualnovels/comments/ujpjiz/installing_patches_on_steam_deck
+
+### 定制化/美化 Steam Deck
+
+见 [[SteamDeckHomebrew-decky-loader|decky-loader]] https://github.com/SteamDeckHomebrew/decky-loader
+
+### 存档覆盖
+
+保证自己的网络没有问题。
+
+第一次下载游戏玩的时候，没有开代理，steam 云同步错误之后就不要开启游戏，否则就会像我一样，把好不容易打死亡细胞的存档给丢了；
+
+并且，steam 云存档里面没有历史备份，全靠厂商兜底！
+
+### 指示灯的含义不同
+
+橙色说明充电攻略不够，白色才是快速充电，这一点很反直觉，via: https://www.reddit.com/r/SteamDeck/comments/183xcex/steam_deck_oled_charging_led_light_is_different
+
+### 挂机下载游戏
+
+deck 模式下需要熄屏就需要进入桌面模式，关掉 steam，挂后台，这样才是真正的熄屏，注意不能显示 steam 应用，因为电源管理那里会显示，steam 组织休眠，这里也有一个 bug，就是等到改熄屏的时候，如果还显示 steam 页面，那么显示器就会变成最大亮度，一度以为买到坏的了。实际上并非如此；
+
+https://steamcommunity.com/app/1675200/discussions/0/3757725715243231540/
+
+### 导出 Steam 的剪辑
+
+默认 SteamDeck 的录制是专有格式，需要自行去设置页面导出才能在 Videos 页面找到，并且耗时一般都比较旧；
+
+https://www.reddit.com/r/SteamDeck/comments/1hnmeyj/where_do_i_find_the_recorded_videos_on_desktop/?tl=zh-hans
+
+## 待解决的问题
+
+- [ ] 中文输入法：还没有思路，SD 的输入法完全依赖 Steam，如果 steam 不启动，键盘是无法呼出的，折腾第三方键盘可以参考： https://www.bilibili.com/video/BV1MY411y7Aw
+- [ ] Windows 蓝牙驱动：我在切换 Windows 系统之后，蓝牙无论如何都无法启动，不知道为什；
+- [ ] Spotify cannot uses proxy
     - https://github.com/flathub/com.spotify.Client/issues/87
     - https://www.headphonesty.com/2023/12/firewall-blocking-spotify/
     - https://forums.linuxmint.com/viewtopic.php?t=401420
+
+## 后话：为什么卖掉，以及下一代
+
+首先，卖掉这个想法早就有了，我在 [[1269-giving-up-the-offical-version-on-steam-use-cheat-version-again|放弃正版执念，拥抱盗版游戏]] 里面说的比较清楚，我就不赘述了，总之，SD 对我而言留下来肯定是吃灰产品，已经懒得再折腾手上这几台机器了。
+
+然后，第二个问题，下一代还会不会买，我们来看看 SD 发布的时候 Value 怎么说：
+
+> **Our best estimate on the Steam Deck 2 release date is 2025, as Valve designer Lawrence Yang recently said “a true next-gen Deck with a significant bump in horsepower wouldn’t be for a few years.” That said, we may see a refresh of the original Steam Deck featuring improved battery life and a better display in the interim.**
+> — [Steam Deck 2 release date speculation | PCGamesN](https://www.pcgamesn.com/steam-deck/2-release-date-price-specs-performance)
+
+我更新这篇文章的时候，已经是 2025 年末了，虽然发布了 Steam Mechine，但是它的显存只有 8G，够不够用完全是另一码事，但这可是主机呀，会不会给的太少了？
+
+我可以确认的是：
+
+1. SM 可能会是一代失败的产品，我不看好他，尤其是全球硬件成本飙升的 2026 年；
+2. SD2 不会是一个堆料的机器，而应该是一个差不多刚刚好的甜点区间；
+3. SD2 也不会在 2026 年发布，甚至是未来 1～2 年，SDO 还会统治这个市场一段时间；
+
+然后，未来我应该还会再次入手 SD，几点原因：
+
+1. 左右两块灵魂般的触控板，这样体验让 SD 即使在 Windows 也比其他掌机体验要强，别的 OEM 厂商给不了，也不会给；
+2. 入手的时机，我是在发布 3 个月后入手，那时国内刚刚开始卖 OLED 的机器，价格就比较高，下一次，我可能会发布半年、一年之后，价格回归正常区间再说
+3. 下一次，我希望自己可以加装一个 1/2T 的硬盘，然后 2/3 留给 windows 下载盗版游戏（插电），1/3 留给 SteamOS 玩独立游戏（离电），然后用 TF 卡，给自己的 SteamOS 续命；
+
+## 参考
+
 - [【心得】在Linux玩遊戲24天的一點心得 @Steam 綜合討論板 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=60599&snA=34679)
 - [【爱折腾】SteamDeck完全折腾指南-C2-系统修复 - 哔哩哔哩](https://www.bilibili.com/read/cv20955230/)
 - [关于使用Steam Deck（SteamOS）游玩Galgame（或其他第三方游戏）的一些心得——踩坑篇 - 哔哩哔哩](https://www.bilibili.com/read/cv19258395/)
 - [【密技】在 Steam Deck 上玩黃油 @Steam 綜合討論板 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=60599&snA=39878)
 - [steam deck科普、上手教程及模拟器配置指南_steamdeck如何添加游戏-CSDN博客](https://blog.csdn.net/cjs1534717040/article/details/128125940)
-- [Desktop Mode primer on Steam Deck, and why you SHOULDN'T turn off read-only filesystem - YouTube](https://www.youtube.com/watch?v=fb_365AOESc)
 - [steamdeck  使用体验/奇怪的教程 – 复读机的记事本](https://www.cx03.space/2022/08/21/steamdeck-kde%E4%B8%8D%E8%B4%9F%E8%B4%A3%E4%BB%BB%E6%95%99%E7%A8%8B/)
-- [求推荐稳点的硬盘，两块希捷酷鱼 4T 同时挂了 - V2EX](https://www.v2ex.com/t/830555)
-- [2024年SD存储卡/内存卡/TF卡选购攻略，教你轻松避坑选对存储卡 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/339102415)
-- [关于 TF 卡的价格 - V2EX](https://v2ex.com/t/906655)
-- [近期买卡哪个性价比最高？几款热门TF卡与SD卡速度实测与建议_存储卡_什么值得买 (smzdm.com)](https://post.smzdm.com/p/aev73qgk/#:~:text=%E5%AE%9E%E9%99%85%E6%B5%8B%E4%B8%89%E6%98%9F512G%E7%99%BD,%E5%8D%A1%E7%9A%84%E6%A0%87%E7%A7%B0%E9%80%9F%E5%BA%A6%E3%80%82)
-- [U 盘是有使用寿命的，但我好像从来没有用坏过。大家谁的 U 盘用坏过？用了多久坏的？ - V2EX](https://www.v2ex.com/t/348867)
+- [Desktop Mode primer on Steam Deck, and why you SHOULDN'T turn off read-only filesystem - YouTube](https://www.youtube.com/watch?v=fb_365AOESc))

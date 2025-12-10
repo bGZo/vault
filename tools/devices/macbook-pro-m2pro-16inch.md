@@ -1,21 +1,26 @@
 ---
+comments: true
 draft: true
-title: Macbook Pro 祛魅
 aliases:
   - Macbook Pro 祛魅
+  - macbook-pro-m2pro-16inch
 cover: 
-created: 2024-01-13T13:41:04
-modified: 2025-03-22T13:42:20
-description: 
 cpu: M2Pro
+created: 2024-01-13T13:41:04
+description: 
+modified: 2025-12-10T20:17:55
+price: 20000
 ram: 32G
 ssd: 512G
-price: 20000
-tags: 
-- consume/refund
+tags:
+  - consume/refund
+title: macbook-pro-m2pro-16inch
 type: 3c
 wikipedia:
 ---
+
+# macbook-pro-m2pro-16inch
+
 > [!note]
 > 乔布斯最大的成就就是让一帮连 vi 都用不利索的人自以为是 geek
   https://www.v2ex.com/t/166440

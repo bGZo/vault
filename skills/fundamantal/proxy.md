@@ -1,4 +1,5 @@
 ---
+comments: true
 draft: true
 aliases:
   - 代理
@@ -8,11 +9,12 @@ aliases:
 cost: 240
 created: 2023-06-02T07:29:17
 description: 
-modified: 2025-09-14T09:59:49
+modified: 2025-12-07T21:33:41
 tags: []
 title: 代理
 type:
 ---
+
 # 代理
 
 > [!tip]
@@ -694,3 +696,7 @@ iOS 设备上使用 SS 客户端也会显示 VPN 图标: 是因为使用了 iOS 
 
 [^convert-subs]: [如何在 Linux 上优雅的使用 Clash？ · Zs's Blog](https://blog.zzsqwq.cn/posts/how-to-use-clash-on-linux/), [node.js What is the difference between npm install and npm run build?Stack Overflow](https://stackoverflow.com/questions/43664200/what-is-the-difference-between-npm-install-and-npm-run-build)
 [^wiki-ss]:https://zh.wikipedia.org/wiki/Shadowsocks
+
+## References
+
+1. 一个不错的教程，已经删掉 https://web.archive.org/web/20241117023138/https://help.happynothings031.xyz/

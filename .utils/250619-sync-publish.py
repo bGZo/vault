@@ -23,6 +23,7 @@ SENSITIVE_TAGS = {
     'private',          # 私人内容
     'relationship',     # 关系相关
     'privacy',          # 隐私相关
+    'nsfw',             # NSFW
 }
 
 BASE_URL = 'https://note.bgzo.cc'

@@ -1,22 +1,26 @@
 ---
+comments: true
 draft: true
-title: HP 星Book 14 2024
 aliases:
   - HP 星Book 14 2024
-cover: 
-created: 2024-07-14T14:09:13
-modified: 2025-03-22T14:57:33
-description: 硬盘是后换的，800
+  - Hp-starbook
+cover:
 cpu: R7-7840H
+created: 2024-07-14T14:09:13
+description: 硬盘是后换的，800
 gpu: 780M
+modified: 2025-12-10T20:28:47
+price: 5986
 ram: 32G
 ssd: 2T
-price: 5986
-tags: 
-- consume/give-for-free
+tags: []
+title: Hp-starbook
 type: 3c
 wikipedia:
 ---
+
+# Hp-starbook
+
 跟大多数人一样，高考之后，手机和电脑都是人生第一次真正拥有，此前回顾都是捡长辈不用的垃圾当宝。加上平日辗转各大补习班的功夫，虽然曾经暗自下了好几次决心要精通电脑，但都一直都没能静下心来贯彻到底。那个时候只是匆匆地比较了一下 CPU，挑了一张入门显卡，第二天电脑就到手了。想来已经过去四年，内存和硬盘在过去的日子不断加码，总是感觉焦虑，双双翻了四倍，
 
 现在我毕业了，第一次把手里的 Windows11 Insider Version 抹掉，换了 Archlinux，虽然不及 Ubuntu，但好在初见良好，但剧烈的阵痛还是把我拉回了 Windows，我已经不能再能忍受我手上这台笔记本和 Linux 不相容的驱动。浪费在这些层面的每分每秒都让我无比想念 Win 的开箱即用，这简直是在谋财害命。傻瓜式的开箱即用，很难不说是一件美事。尤其是重装系统的时候，Winodws Update 好像真的很好用。
@@ -31,7 +35,7 @@ wikipedia:
 
 碍于家境贫寒，人生中第二台电脑承载了我太多幻想，这幻想是如此沉重，我几乎看遍了 2024 年发售的所有机器，却只想静静地当一位座上宾，静静等待能让我为之动心，闭眼交上所有积蓄的机器。至少不会是苹果。
 
-### [[windows]] 调教
+## [[windows]] 调教
 
 - [x] [[~为什么 windows 是用 c 语言编写的，却默认对文件大小写不敏感]]
 - [x] [Windows 开启 Hibernate](https://zhuanlan.zhihu.com/p/527318720)
@@ -44,7 +48,7 @@ wikipedia:
     - https://devicechecker.org/blog/how-to-reset-a-magic-trackpad/
     - https://discussions.apple.com/thread/2720347?sortBy=best
 
-## ==HP StarBook Pink Color==
+# ==HP StarBook Pink Color==
 
 收到电脑，跳过联网登录，检验完外观、硬盘、屏幕，解锁硬盘 BitLocker，就用 PE 开始迁移系统，随后拆机，拔电池，放静电，换固态，上电测试，没问题后合上卡扣。
 
@@ -66,7 +70,7 @@ wikipedia:
 
 所以现在最大的问题就是拓展 API 和市场的差异，包括 Unlimited History 等我非常喜欢的拓展。
 
-## AMD rather then INTEL
+# AMD rather then INTEL
 
 1. 没有用过 AMD 所以想试试
 2. AMD 价格更加便宜
@@ -79,8 +83,9 @@ wikipedia:
 > 然后要买 7840hs 或者 7940hs 的迷你主机，不要买 7840h ，这个中国特供的，驱动并不友好。
   https://www.v2ex.com/t/991646
 
-## Why
-### Macbook
+# Why
+
+## Macbook
 
 苹果的高价变相拉长了产品的生命周期，这也意味着，生产商能为了保准利润和价格，不必参与到其他厂商的低价促销中去。就算旧机器压在仓库也没有关系，消费浪潮褪去后，投给三方渠道去销售即可。
 
@@ -109,7 +114,7 @@ wikipedia:
 > 又是老生常谈，高配 mac 应该由公司出钱购买，哪里有自己出钱给资本家购买设备的道理
 > [m2 air 还是 14 寸 pro? Java 后端 - V2EX](https://v2ex.com/t/871690)
 
-### 联想
+## 联想
 
 1. 黑胶
 2. 低温锡
@@ -121,7 +126,7 @@ wikipedia:
 > [!NOTE]
 > 显卡吧不让说联想的坏话
 
-### Yoga
+## Yoga
 
 偏贵
 
@@ -129,7 +134,7 @@ wikipedia:
 
 - [联想yoga14s 翻车指北 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/351879268)
 
-### 小新
+## 小新
 
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1N64y1E7nE&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.bilibili.com/video/BV1N64y1E7nE' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1N64y1E7nE</a></center>
@@ -143,19 +148,19 @@ wikipedia:
 - [入了联想小新 14pro 7840hs，想退货了 - V2EX](https://www.v2ex.com/t/963772)
 - [新买联想笔记本，如何防止厂商流氓？ - V2EX](https://www.v2ex.com/t/846379)
 
-### 戴尔
+## 戴尔
 
-#### XPS Ultra 9 二合一 INTEL
+### XPS Ultra 9 二合一 INTEL
 
 前一代，性能保守护暂不考虑 https://item.jd.com/10059055970873.html
 
-### XPS Plus 定价
+## XPS Plus 定价
 
 看了 DELL 支持 64GB 的电脑，还是选 Macbook 更有性价比
 
 https://www.dell.com/zh-cn/shop/%E7%AC%94%E8%AE%B0%E6%9C%AC/sr/laptops/64-gb?appliedRefinements=37698
 
-### 华硕灵耀
+## 华硕灵耀
 
 看了这个视频，直接快递都没有拆，直接退回去了，太容易撞功耗墙，U5 足够，U7 浪费；
 
@@ -167,14 +172,14 @@ https://www.dell.com/zh-cn/shop/%E7%AC%94%E8%AE%B0%E6%9C%AC/sr/laptops/64-gb?app
     - Intel Core i9-13900H vs Intel Core Ultra 7 165H Benchmark, comparison and differences
       https://www.cpu-monkey.com/en/compare_cpu-intel_core_i9_13900h-vs-intel_core_ultra_7_165h
 
-### 华硕幻 14
+## 华硕幻 14
 
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1YP411q7rL&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.bilibili.com/video/BV1YP411q7rL' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1YP411q7rL</a></center>
 
 真的受不了华硕家祖传的叠叠乐；
 
-### 微星绝影
+## 微星绝影
 
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1kK411b75u&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.bilibili.com/video/BV1kK411b75u' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1kK411b75u</a></center>
@@ -183,26 +188,26 @@ https://www.dell.com/zh-cn/shop/%E7%AC%94%E8%AE%B0%E6%9C%AC/sr/laptops/64-gb?app
 > 不是每个人上图吧的，买二线的都是钱少的
 > ![[~BV1N64y1E7nE-中正评测-3999元-小新Air14-R7-7840U-笔记本电脑推荐2024-装机-笔记本-电脑#Source]]
 
-### 机械革命
+## 机械革命
 
 > 我以前以为这种品牌到手没问题就算上车成功，没想到实际是只要在手上，就是在车上，车况稳不稳全看命，为了一个电子产品，每次开机会提心吊胆的生怕点不亮。
 > https://v2ex.com/t/990112
 
-### 火影众颜
+## 火影众颜
 
 火影售后得去木叶 via https://www.coolapk.com/feed/52590148?shareKey=Nzk3MjAxNjQxNzE5NjViNjBmY2M~
 
-### 吾空
+## 吾空
 
 内存 DDR5，硬盘垃圾；
 
 https://www.youtube.com/watch?v=CdzctCUxnTE&t=6s
 
-### 无界
+## 无界
 
 板载 16G，不支持拓展；
 
-### SD X Elite for PC
+## SD X Elite for PC
 
 Is there a version for android? I really cannot leave away android, such as tachiyomi, termux and a lot of emulators.
 
@@ -210,7 +215,7 @@ Is there a version for android? I really cannot leave away android, such as tach
 >
 > [来来来，我来补充一下高通 X Elite 的 ppt](https://v2ex.com/t/987831)
 
-## 主机？
+# 主机？
 
 好想配台式机啊，但是损坏率太高，移动太不方便了啊
 
@@ -218,7 +223,7 @@ Is there a version for android? I really cannot leave away android, such as tach
 - https://zhuanlan.zhihu.com/p/103493966
 - https://www.v2ex.com/t/653417
 
-## References
+# References
 
 - [2024 年想换台笔记本，老哥们有什么推荐？ - V2EX](https://www.v2ex.com/t/1012374#reply60)
 - [求帮忙推荐一款适合装 Linux 的笔记本电脑 - V2EX](https://v2ex.com/t/1013900#reply6)
