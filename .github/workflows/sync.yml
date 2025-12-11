@@ -1,4 +1,4 @@
-name: Sync to cnblogs # https://www.cnblogs.com/bgzo
+name: Sync to release branch
 
 on:
   push:
@@ -27,25 +27,25 @@ jobs:
 
       - name: Run Script
         run: |
-          python3 .utils/250619-sync-publish.py --folder ./weekly --out ./release-cnblogs
-          python3 .utils/250619-sync-publish.py --folder ./how-to --out ./release-cnblogs
-          python3 .utils/250619-sync-publish.py --folder ./labs --out ./release-cnblogs
+          python3 .utils/250619-sync-publish.py --folder ./weekly --out ./public
+          python3 .utils/250619-sync-publish.py --folder ./how-to --out ./public
+          python3 .utils/250619-sync-publish.py --folder ./labs --out ./public
 
       # 验证处理结果
       - name: Verify processed files
         run: |
-          if [ ! -d "release-cnblogs" ]; then
-            echo "Error: release-cnblogs directory not found"
+          if [ ! -d "public" ]; then
+            echo "Error: public directory not found"
             exit 1
           fi
-          echo "Files in release-cnblogs:"
-          ls -la release-cnblogs/
+          echo "Files in public:"
+          ls -la public/
 
       # 临时保存处理结果
-      - name: Save cnblogs files
+      - name: Save public files
         run: |
-          mkdir -p /tmp/release-cnblogs
-          cp -r release-cnblogs/* /tmp/release-cnblogs/ 2>/dev/null || echo "No files to copy"
+          mkdir -p /tmp/public
+          cp -r public/* /tmp/public/ 2>/dev/null || echo "No files to copy"
 
       # 检出 release 分支
       - name: Checkout branch:release
@@ -55,24 +55,24 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       # 同步处理结果到 release 分支
-      - name: Sync release-cnblogs files
+      - name: Sync public files
         run: |
-          mkdir -p cnblogs
-          rm -rf cnblogs/*
-          rm -rf cnblogs/.* 2>/dev/null || true 
+          mkdir -p public
+          rm -rf public/*
+          rm -rf public/.* 2>/dev/null || true 
           # 从临时目录复制文件
-          if [ -d "/tmp/release-cnblogs" ] && [ "$(ls -A /tmp/release-cnblogs 2>/dev/null)" ]; then
-            cp -a /tmp/release-cnblogs/* cnblogs/
+          if [ -d "/tmp/public" ] && [ "$(ls -A /tmp/public 2>/dev/null)" ]; then
+            cp -a /tmp/public/* public/
           else
-            echo "No cnblogs files found"
+            echo "No public files found"
             exit 1
           fi
 
 
       # 同步处理结果到 release 分支
-      - name: Sync release-labs files
+      - name: Temp action
         run: |
-          rm -rf labs
+          rm -rf cnblogs
 
       # 配置 Git
       - name: Configure Git

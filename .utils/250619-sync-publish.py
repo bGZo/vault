@@ -191,6 +191,15 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
 
         # 写入输出文件
         with open(output_path, 'w', encoding='utf-8') as f:
+            f.write('---\n')
+            for key, value in post.metadata.items():
+                # 转换metadata中的字符串为繁体中文
+                if isinstance(value, str):
+                    value = convert_to_traditional(value)
+                elif isinstance(value, list):
+                    value = [convert_to_traditional(str(v)) for v in value]
+                f.write(f"{key}: {value}\n")
+            f.write('---\n\n')
             f.write(traditional_content)
         
         print(f"处理完成: {input_path} -> {output_path}")
@@ -278,10 +287,10 @@ def main():
                 print(f"跳过文件: {file_path}")
                 continue
             # 提取文章标题
-            filename = post.get('title', os.path.basename(file_path))
-            process_markdown_file(file_path, file_path, filename, args.out)
+            # filename = post.get('title', os.path.basename(file_path))
+            process_markdown_file(file_path, file_path, os.path.basename(file_path), args.out)
             processed_count += 1
-            
+
         except Exception as e:
             print(f"处理文件 {file_path} 时出错: {str(e)}")
     
