@@ -1,15 +1,17 @@
 ---
+comments: True
 draft: False
-title: How to start a local http server
+aliases: ['如何啓動一個本地服務']
 created: 2024-04-20 21:26:22
-modified: 2025-04-25 20:16:55
+modified: 2025-12-11 22:55:53
+tags: []
+title: 如何啓動一個本地服務
 type: how-to
 ---
 
-## 服務器
 
-- gohttpserver
-- simple-http-server
-- http-server
+- gohttpserver https://github.com/codeskyblue/gohttpserver
+- simple-http-server https://github.com/TheWaWaR/simple-http-server
+- http-server https://github.com/http-party/http-server
 
 Source via: https://note.bgzo.cc/how-to/start-a-local-http-server
