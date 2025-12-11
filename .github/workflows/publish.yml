@@ -2,11 +2,11 @@ name: Deploy quartz website
 
 on: 
   workflow_dispatch:
-  schedule: # 东八区每天凌晨1点
-    - cron: '0 17 * * *'
   push:
      branches:
        - main
+  schedule: # 东八区每天凌晨1点
+    - cron: '0 17 * * *'
 
 permissions:
   contents: read

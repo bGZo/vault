@@ -1,9 +1,10 @@
 name: Sync to release branch
 
 on:
+  workflow_dispatch:
   push:
-    branches: [main]  # 在 main 分支 push 时触发
-  workflow_dispatch:   # 允许手动触发
+    branches: 
+      - main 
 
 jobs:
   process-and-publish:
