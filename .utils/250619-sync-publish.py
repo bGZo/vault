@@ -187,7 +187,7 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
         traditional_content = convert_to_traditional(content_format_without_wikilink)
 
         # 准备输出文件路径
-        output_path = os.path.join(output_dir, convert_to_traditional(filename) + '.md')
+        output_path = os.path.join(output_dir, convert_to_traditional(filename))
 
         # 写入输出文件
         with open(output_path, 'w', encoding='utf-8') as f:
