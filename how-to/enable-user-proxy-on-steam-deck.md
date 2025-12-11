@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - 如何在 Steam Deck 上开启一个默认代理
 created: 2025-12-08T22:28:59

@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - 如何在 Steam Deck 上备份截图
 created: 2025-12-08T22:18:09

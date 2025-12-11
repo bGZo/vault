@@ -1,6 +1,6 @@
 ---
 comments: true
-draft: true
+draft: false
 aliases:
   - 在 Steam Deck 上开启用户级别的 SMB
 created: 2025-09-16T21:21:32
