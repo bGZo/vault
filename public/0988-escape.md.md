@@ -1,10 +1,4 @@
 ---
-comments: True
-draft: False
-aliases: ['逃離', 'escape']
-created: 2020-07-15 10:45:23
-modified: 2025-11-15 11:33:27
-tags: ['weekly/988']
 title: 逃離
 type: writing
 ---
