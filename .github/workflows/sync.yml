@@ -71,9 +71,9 @@ jobs:
 
 
       # 同步处理结果到 release 分支
-      - name: Temp action
-        run: |
-          rm -rf cnblogs
+      # - name: Temp action
+      #   run: |
+      #     rm -rf cnblogs
 
       # 配置 Git
       - name: Configure Git
