@@ -34,10 +34,10 @@ Before you review, you should know some tips about notes:
 Follow links below to view this website quickly.
 
 - [[weekly/index|Weekly]] is meanly long writing.
-- [[review/index|Review]] is meanly comments.
-- [[newsletter/index|Newsletter]] is meanly sharing.
-- [[projects/index|Projects]] and [[lab/index|Lab]] is meanly making projects and some memos(long tutorials).
-- [[how-to|How to]] is meanly short tutorials.
+- [[reviews/index|Review]] is meanly comments.
+- [[newsletters/index|Newsletter]] is meanly sharing.
+- [[projects/index|Projects]] and [[labs/index|Labs]] is meanly making projects and some memos(long tutorials).
+- [[how-to/index|How to]] is meanly short tutorials.
 
 ## Notes Structure / Design
 
