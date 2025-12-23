@@ -39,7 +39,7 @@ In broad strokes, I devided it into two categories now, althougt they have more 
 
 ### [[unpack-game|How to unpack game]]
 
-### [[play-simulator-games-in-android|How to play galgame anytime anywhere]]
+### [[play-games-in-simulator-on-android|How to play galgame anytime anywhere]]
 
 ### [[compress-video-size|How to compress video size]]
 

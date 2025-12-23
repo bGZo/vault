@@ -504,6 +504,8 @@ SS/SSR 客户端，在连接 SS/SSR 服务器的同时也会在本机开启 SOCK
 
 #### macOS
 
+- https://github.com/MetaCubeX/ClashX.Meta
+- https://github.com/666OS/ClashMac （等开源
 - [Surge for Mac](http://nssurge.com/) $49.99/$69.99/$99.99 (支持 SS/Snell/Vmess)
 - [ClashX](https://github.com/yichengchen/clashX/releases) Clash 的 Mac 图形客户端 (支持 SS/Snell/Vmess) [教程](https://docs.nameless13.com/clashr)
 - [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) 支持开启”增强模式的”ClashX
