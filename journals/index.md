@@ -1,10 +1,16 @@
 ---
-draft: true
-title: journals
-created: 2025-03-30T09:09:12
-modified: 2025-03-31T21:48:38
 comments: false
+draft: true
+aliases:
+  - 年份索引
+created: 2025-03-30T09:09:12
+modified: 2025-12-28T15:02:38
+tags: []
+title: 年份索引
 ---
+
+# 年份索引
+
 ## [[journals/2015/index|2015]]
 
 ## [[journals/2016/index|2016]]
@@ -26,4 +32,3 @@ comments: false
 ## [[journals/2024/index|2024]]
 
 ## [[journals/2025/index|2025]]
-
