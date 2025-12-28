@@ -3,7 +3,7 @@ comments: True
 draft: False
 aliases: ['電子陽痿治療指南']
 created: 2024-07-20 10:17:40
-modified: 2025-11-15 11:33:28
+modified: 2025-12-26 23:53:47
 tags: ['steam', 'weekly/1197']
 title: 電子陽痿治療指南
 type: writing
@@ -74,9 +74,16 @@ G 胖殺死阿區和土區後，更不想買遊戲了 [^steam-kill-cheaper-area]
 
 如果有的遊戲真的需要刪除/退款，請不要猶豫。
 
-## Links: depression with gaming
+## 最終解法：脫產躺平
 
-- https://www.reddit.com/r/gaming/comments/11i19m9/deleted_by_user/
+這個視頻裏面已經講了很多了，我就不贅述了，簡而言之，工作不止是在買你的時間，還在買你的心力、你對其他事物的興趣，最後讓你變成一個除了工作什麼都不想做的空虛人。
+
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1cGUaBLEry&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/BV1cGUaBLEry' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1cGUaBLEry</a></center>
+
+## 參考鏈接
+
+- 對遊戲的焦慮： https://www.reddit.com/r/gaming/comments/11i19m9/deleted_by_user/
 
 [^steam-kill-cheaper-area]: https://steamdb.info/blog/steam-turkey-argentina-usd/
 
