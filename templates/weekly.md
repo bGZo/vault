@@ -2,11 +2,11 @@
 comments: true
 draft: true
 aliases:
-  - Weekly
-created: Invalid date
-modified: 2025-11-29T21:25:15
+  - {{date:YYYYMMDD}}
+created: {{date:YYYY-MM-DDTHH:mm:ss}}
+modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 tags: []
-title: Weekly
+title: {{date:YYYYMMDD}}
 type: weekly
 ---
 
@@ -16,10 +16,10 @@ type: weekly
 +-----------------------------------------+
 |       Your current life progress is     |
 |-----------------------------------------+
-|       Days  : 8530                      |
-|       Weeks : 1218                      |
-|       Months: 280                       |
-|       Age   : 23 years and 4 months     |
+|       Days  :                           |
+|       Weeks :                           |
+|       Months:                           |
+|       Age   :  years and  months        |
 +-----------------------------------------+
 ```
 
