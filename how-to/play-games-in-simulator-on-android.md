@@ -53,6 +53,8 @@ title: 如何在安卓模拟器上玩游戏
 	- https://joiplay.cyou
 - [Tyranor模拟器正式发布|个人日记 - 绯月ScarletMoon](https://bbs.kfmax.com/read.php?tid=912800&sf=233)
 	- https://wwa.lanzoui.com/i3138upab7i
+	- https://www.kungal.com/topic/150
+	- https://www.bilibili.com/opus/576235167744858799?jump_opus=1
 - [Studio O.G.A.](https://onscripter.osdn.jp/)
 	- [onsshare/onscripter: onscripter clootection](https://github.com/onsshare/onscripter)
 - [xupefei/Locale-Emulator: Yet Another System Region and Language Simulator](https://github.com/xupefei/Locale-Emulator)

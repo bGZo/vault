@@ -1,23 +1,30 @@
 ---
+comments: true
 draft: false
-title: How to sideload on iOS
 aliases:
-  - How to sideload on iOS
-  - "Make it like Android Sideload"
   - 侧载
+  - 测载
   - 巨魔
+  - How to sideload on iOS
+  - Make it like Android Sideload
+  - Sideload-on-ios
 created: 2025-06-02T11:50:24
-modified: 2025-06-02T12:03:17
+modified: 2026-01-02T23:41:18
+tags: []
+title: Sideload-on-ios
 type: how-to
 ---
-## Troll Store 
 
-#### How it works?
+# Sideload-on-ios
+
+## Troll Store
+
+### How it works?
 
 > The latest releases of TrollStore (specifically 2.0 and later) work through the use of a CoreTrust bug in which code signatures are not correctly verified under certain circumstances.
 > https://ios.cfw.guide/installing-trollstore/
 
-#### Check version
+### Check version
 
 | From             | To          | arm64 (A8 – A11)                                                                                | arm64e (A12 – A17 / M1 – M2)                                                                |
 | ---------------- | ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -130,6 +137,7 @@ type: how-to
 - [ ] 简朴
 
 ### Wishlist
+
 - [苹果ios系统有哪些免费好用的阅读app？ - 知乎](https://www.zhihu.com/question/265181314)
 - [Reddit - Dive into anything](https://www.reddit.com/r/EmulationOnAndroid/comments/1f8mr51/which_is_better_citra_or_dolphin/)
 - [实用工具 | J.F's BLOG](https://blog.zzbd.org/about/sam/)
@@ -146,6 +154,6 @@ type: how-to
 - [Free Sideloading Guide for iPhone Users [Any IOS] : r/Piracy](https://www.reddit.com/u/PuReEnVyUs/s/Qr8HO7KVcN)
 - [开源 ios 软件分享，自签/巨魔使用](https://www.v2ex.com/t/1085401#reply0)
 - [iOS 越狱后插件推荐 | 始终](https://liam.page/2023/01/19/Tweaks-that-I-ve-installed-on-my-iPhone/)
-
+- 利用 DNS 证书测载 https://docs.google.com/document/d/1QseJR-ZTGJO0q99l9eh1-wsR-tldtbsM6rbsti08EDQ/mobilebasic
 
 [^runing-with-live-container]: https://github.com/Predidit/Kazumi/issues/819, 一个更简单的方法是用 https://github.com/LiveContainer/LiveContainer 直接运行无签名的 IPA 文件，并且不额外占用 App IDs 和 3 个激活 App 的名额。

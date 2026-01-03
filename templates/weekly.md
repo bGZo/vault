@@ -2,25 +2,18 @@
 comments: true
 draft: true
 aliases:
-  - {{date:YYYYMMDD}}
+  - {{title}}
 created: {{date:YYYY-MM-DDTHH:mm:ss}}
 modified: {{date:YYYY-MM-DDTHH:mm:ss}}
 tags: []
-title: {{date:YYYYMMDD}}
+title: {{title}}
 type: weekly
 ---
 
-# Weekly
+# {{title}}
 
 ```shell
-+-----------------------------------------+
-|       Your current life progress is     |
-|-----------------------------------------+
-|       Days  :                           |
-|       Weeks :                           |
-|       Months:                           |
-|       Age   :  years and  months        |
-+-----------------------------------------+
+life-progress {{title}}
 ```
 
 ## 📰 这周发生了啥？

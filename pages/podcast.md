@@ -110,3 +110,4 @@ https://www.youtube.com/channel/UCIUYqpXe7yok4x3VkK67B3Q
 - [马来西亚中文Podcast - 马来西亚中文播客专属频道 | Podcasting.my](https://podcasting.my/channel/1/malaysia-chinese-podcasts)
 - [播客 RSS Feed](https://getpodcast.xyz/)
 - [alaskasquirrel/Chinese-Podcasts: 播客 🎧 科技、编程、设计、Vlog、音乐、访谈...](https://github.com/alaskasquirrel/Chinese-Podcasts) ![](https://img.shields.io/github/stars/alaskasquirrel/Chinese-Podcasts)
+- https://earsonme.com/podcasts?sort=subscription_count&page=2
