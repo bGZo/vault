@@ -52,7 +52,7 @@ jobs:
       - name: Checkout branch:release-weread
         uses: actions/checkout@v4
         with:
-          ref: release
+          ref: release-weread
           token: ${{ secrets.GH_TOKEN }}
 
       # 同步处理结果到 release 分支
