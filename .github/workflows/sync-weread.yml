@@ -32,55 +32,41 @@ jobs:
         run: |
           python3 .utils/251206-sync-weread-publish.py ./clippers/weread/ ./weread-public/
 
-      # 验证处理结果
-      - name: Verify processed files
-        run: |
-          if [ ! -d "weread-public" ]; then
-            echo "Error: weread-public directory not found"
-            exit 1
-          fi
-          echo "Files in weread-public:"
-          ls -la weread-public/
-
-      # 临时保存处理结果
-      - name: Save public files
-        run: |
-          mkdir -p /tmp/weread-public
-          cp -r weread-public/* /tmp/weread-public/ 2>/dev/null || echo "No files to copy"
-
-      # 检出 release 分支
-      - name: Checkout branch:release-weread
+      # 检出目标外部仓库
+      - name: Checkout target repo (one-wisdom)
         uses: actions/checkout@v4
         with:
-          ref: release-weread
+          repository: bGZo/one-wisdom
+          path: one-wisdom
           token: ${{ secrets.GH_TOKEN }}
 
-      # 同步处理结果到 release 分支
-      - name: Sync public files
+      # 同步文件到目标仓库并提交
+      - name: Sync and Push to External Repo
         run: |
-          mkdir -p weread-public
-          rm -rf weread-public/*
-          rm -rf weread-public/.* 2>/dev/null || true 
-          # 从临时目录复制文件
-          if [ -d "/tmp/weread-public" ] && [ "$(ls -A /tmp/weread-public 2>/dev/null)" ]; then 
-            cp -a /tmp/weread-public/* .
+          # 确保目标存放目录存在
+          TARGET_DIR="one-wisdom/data/weread"
+          mkdir -p $TARGET_DIR
+          
+          # 清空目标目录（确保删除已归档或移除的旧文件）
+          rm -rf $TARGET_DIR/*
+
+          # 将生成的 weread-public 文档复制到目标目录
+          # 确保源目录有内容才复制，避免报错
+          if [ -d "weread-public" ] && [ "$(ls -A weread-public)" ]; then
+            cp -r weread-public/* $TARGET_DIR/
           else
-            echo "No weread-public files found"
-            exit 1
+             echo "Warning: No source files generated in weread-public/"
           fi
 
-      # 配置 Git
-      - name: Configure Git
-        run: |
+          # 进入目标仓库目录进行提交操作
+          cd one-wisdom
+          
           git config user.name "GitHub Actions"
           git config user.email "im@bgzo.cc"
 
-      # 提交到 release 分支
-      - name: Commit to release-weread
-        run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add .
-            git commit -m "docs(bot): sync to release-weread branch"
+            git commit -m "docs(bot): sync weread notes from vault"
             git push
           else
             echo "No changes to commit"
