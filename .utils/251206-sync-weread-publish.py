@@ -266,7 +266,6 @@ def save_note(note, meta, output_dir):
     f_note_link = meta.get('weread', '')
 
     output_content = f"""---
-layout: post
 title: "{f_title}"
 author: "{f_author}"
 source: "{f_source}"

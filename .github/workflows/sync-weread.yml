@@ -1,4 +1,4 @@
-name: Sync to weread branch
+name: Sync to one-wisdom weread repo
 
 on:
   workflow_dispatch:
@@ -44,7 +44,7 @@ jobs:
       - name: Sync and Push to External Repo
         run: |
           # 确保目标存放目录存在
-          TARGET_DIR="one-wisdom/data/weread"
+          TARGET_DIR="one-wisdom/src/content/quotes/weread"
           mkdir -p $TARGET_DIR
           
           # 清空目标目录（确保删除已归档或移除的旧文件）
