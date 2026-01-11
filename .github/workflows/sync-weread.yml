@@ -1,0 +1,87 @@
+name: Sync to weread branch
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - main 
+
+jobs:
+  process-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          submodules: true  # 只初始化 `.gitmodules` 里配置的子模块（默认不递归 recursive）
+          fetch-depth: 1  # 仅拉取最新提交，避免获取完整历史
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13.2
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .utils/requirements.txt
+
+      - name: Run Script
+        run: |
+          python3 .utils/251206-sync-weread-publish.py ./clippers/weread/ ./weread-public/
+
+      # 验证处理结果
+      - name: Verify processed files
+        run: |
+          if [ ! -d "weread-public" ]; then
+            echo "Error: weread-public directory not found"
+            exit 1
+          fi
+          echo "Files in weread-public:"
+          ls -la weread-public/
+
+      # 临时保存处理结果
+      - name: Save public files
+        run: |
+          mkdir -p /tmp/weread-public
+          cp -r weread-public/* /tmp/weread-public/ 2>/dev/null || echo "No files to copy"
+
+      # 检出 release 分支
+      - name: Checkout branch:release-weread
+        uses: actions/checkout@v4
+        with:
+          ref: release
+          token: ${{ secrets.GH_TOKEN }}
+
+      # 同步处理结果到 release 分支
+      - name: Sync public files
+        run: |
+          mkdir -p weread-public
+          rm -rf weread-public/*
+          rm -rf weread-public/.* 2>/dev/null || true 
+          # 从临时目录复制文件
+          if [ -d "/tmp/weread-public" ] && [ "$(ls -A /tmp/weread-public 2>/dev/null)" ]; then 
+            cp -a /tmp/weread-public/* .
+          else
+            echo "No weread-public files found"
+            exit 1
+          fi
+
+      # 配置 Git
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "im@bgzo.cc"
+
+      # 提交到 release 分支
+      - name: Commit to release-weread
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "docs(bot): sync to release-weread branch"
+            git push
+          else
+            echo "No changes to commit"
+          fi
