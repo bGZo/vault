@@ -260,12 +260,10 @@ def save_note(note, meta, output_dir):
             break
         counter += 1
         
-    # Title: first 30 chars of note
+    # Title: full content used as title
     # Clean newlines for title
     flat_content = note['content'].replace('\n', ' ')
-    title_text = flat_content[:30]
-    if len(flat_content) > 30:
-         title_text += "..."
+    title_text = flat_content
          
     # Escape quotes in strings for YAML
     def escape_yaml_field(s):
@@ -286,8 +284,6 @@ source: "{f_source}"
 chapter: "{f_chapter}"
 note: {f_note_link}
 ---
-
-{note['content']}
 """
 
     with open(filepath, 'w', encoding='utf-8') as f:
