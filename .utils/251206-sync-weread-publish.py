@@ -203,6 +203,7 @@ def process_note(notes, note_lines, chapter, meta):
     
     content_lines = []
     date_str = None
+    quote_id = None
     
     # Regex for date: YYYY-MM-DD HH:MM:SS
     date_pattern = re.compile(r'(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})')
@@ -216,6 +217,12 @@ def process_note(notes, note_lines, chapter, meta):
         match = date_pattern.search(line)
         if match:
             date_str = match.group(1)
+            
+            # Extract quote_id (block id)
+            m_quote = re.search(r'\^([a-zA-Z0-9-]+)', line)
+            if m_quote:
+                quote_id = m_quote.group(1)
+
             # Content is everything up to this line
             content_lines = note_lines[:i]
             found_date = True
@@ -241,6 +248,7 @@ def process_note(notes, note_lines, chapter, meta):
         'content': text_content,
         'date': date_str,
         'chapter': chapter,
+        'quote_id': quote_id
     })
 
 def save_note(note, meta, output_dir):
@@ -251,14 +259,20 @@ def save_note(note, meta, output_dir):
     except ValueError:
         date_prefix = datetime.datetime.now().strftime('%Y-%m-%d')
 
-    # Find unique number
-    counter = 1
-    while True:
-        filename = f"{date_prefix}-{counter}.md"
+    # Find unique filename
+    quote_id = note.get('quote_id')
+    if quote_id:
+        filename = f"{date_prefix}-{quote_id}.md"
         filepath = os.path.join(output_dir, filename)
-        if not os.path.exists(filepath):
-            break
-        counter += 1
+    else:
+        # Fallback to counter
+        counter = 1
+        while True:
+            filename = f"{date_prefix}-{counter}.md"
+            filepath = os.path.join(output_dir, filename)
+            if not os.path.exists(filepath):
+                break
+            counter += 1
         
     # Title: full content used as title
     # Clean newlines for title
