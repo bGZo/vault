@@ -21,7 +21,8 @@ def parse_frontmatter(text):
     metadata = {
         'title': '',
         'author': '',
-        'weread': ''
+        'weread': '',
+        'onewisdom': None
     }
     
     lines = text.strip().split('\n')
@@ -43,6 +44,19 @@ def parse_frontmatter(text):
             i += 1
             continue
             
+        # Match onewisdom
+        m_onewisdom = re.match(r'^onewisdom:\s*(.*)', line)
+        if m_onewisdom:
+            val = m_onewisdom.group(1).strip().strip('"\'')
+            if val.lower() == 'false':
+                metadata['onewisdom'] = False
+            elif val.lower() == 'true':
+                metadata['onewisdom'] = True
+            else:
+                metadata['onewisdom'] = val
+            i += 1
+            continue
+
         # Match author
         m_author = re.match(r'^author:\s*(.*)', line)
         if m_author:
@@ -312,6 +326,11 @@ def main():
         print(f"Processing {fw}...")
         notes, meta = parse_weread_file(fw)
         
+        # Filter by onewisdom property
+        if meta.get('onewisdom') is False:
+            print(f"Skipping {fw}: onewisdom is false")
+            continue
+
         for note in notes:
             save_note(note, meta, output_dir)
             total_processed += 1
