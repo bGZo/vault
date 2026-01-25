@@ -6,7 +6,8 @@ aliases:
   - 周报
   - Weekly
 created: 2025-01-06T09:19:10
-modified: 2025-11-15T11:33:18
+modified: 2026-01-24T19:49:57
+tags: []
 title: 表达之心不死
 ---
 
@@ -19,3 +20,5 @@ title: 表达之心不死
 不断有人宣扬要克制自己的表达欲，但**中国人最不缺的就是讳莫如深**，相反，我希望每个中国人都能自在的表达，而不是蜷缩在屏幕面前等待一个出头鸟，我希望每个人都能说出属于自己的声音，正确和错误都无所谓，总好过对主旋律和陈词滥调的转评赞。
 
 总之，跟排泄一样，写点东西的初心是不变的，索性开辟出一个文件夹，管他政治正确不正确，定期放里面放些 BullShit 😊 弯弯绕绕也没关系，重要的事写下去，所以时间久了，像我这样不会写东西的人，也有了这些内容：
+
+<center><img src="https://raw.githack.com/bGZo/assets/dev/2024/Written-By-Human-Not-By-AI-Badge-white.svg" alt="https://notbyai.fyi"/></center>
