@@ -1,12 +1,13 @@
 ---
-comments: true
-draft: true
+title: "2026"
 aliases:
   - "2026"
 created: 2026-01-10T22:55:17
-modified: 2026-01-10T23:11:05
+modified: 2026-01-29T22:58:47
+comments: true
+draft: true
+description: 
 tags: []
-title: "2026"
 ---
 
 # 2026
@@ -15,11 +16,54 @@ title: "2026"
 
 因为我认为每天创建一个日记实在是有点浪费，所以决定使用 `utils/`
 
+```button
+name New writing V3
+action
+<%*
+const templatePath = "templaters/writing.md";
+const targetFolder = "weekly";
+const filename = tp.date.now("YYYYMMDD");
+const targetPath = `${targetFolder}/${filename}.md`;
+
+// 如果目标文件已存在：直接打开，结束
+const existedFile = app.vault.getAbstractFileByPath(targetPath);
+if (existedFile) {
+  await app.workspace.getLeaf(true).openFile(existedFile);
+  return;
+}
+
+// 确保模板存在
+const templateFile = tp.file.find_tfile(templatePath);
+if (!templateFile) {
+  new Notice(`Template not found: ${templatePath}`);
+  return;
+}
+
+// 先创建（在哪都行）
+const newFile = await tp.file.create_new(templateFile, filename, false);
+
+// 再移动到目标目录
+try {
+  await tp.file.move(`${targetFolder}/${filename}`, newFile);
+} catch (err) {
+  new Notice("Failed to move file to weekly folder");
+  return;
+}
+
+// 打开新文件
+const finalFile = app.vault.getAbstractFileByPath(targetPath);
+if (finalFile) {
+  await app.workspace.getLeaf(true).openFile(finalFile);
+}
+%>
+templater open true
+```
+
 - [x] W01: [[journals/2026/20260103|20260103]]
 - [x] W02: [[journals/2026/20260110|20260110]]
 - [x] W03: [[journals/2026/20260117|20260117]]
 - [x] W04: [[journals/2026/20260124|20260124]]
-- [ ] W05: [[journals/2026/20260131|20260131]]
+- [x] W05: [[journals/2026/20260131|20260131]]
 - [ ] W06: [[journals/2026/20260207|20260207]]
 - [ ] W07: [[journals/2026/20260214|20260214]]
 - [ ] W08: [[journals/2026/20260221|20260221]]
