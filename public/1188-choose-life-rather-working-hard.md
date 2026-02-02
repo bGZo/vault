@@ -7,6 +7,7 @@ modified: 2025-11-15 11:33:28
 tags: ['life', 'weekly/1188']
 title: 生活大於工作
 type: writing
+description: via: https://www.youtube.com/watch?v=UtF6Jej8yb4 [!note] When I was sixteen, my father said "You can do anything you want with your life, you just need the will to work hard and get it." ==That's when...
 ---
 
 

@@ -4,6 +4,7 @@ aliases: ['How to manage app in debian', 'Manage-app-in-debian']
 created: 2025-07-16 20:45:43
 modified: 2025-07-16 20:46:16
 title: How to manage app in debian
+description: Ubuntu 和 Debian 通喫是因爲 Debian 系的 APT 包管理器。 \#1 Install From mirror source: From deb package: Use another tool after run sudo apt install gdebi From source code (after tar zxf xxx.tgz): 有些軟件沒有被收錄進軟件鏡像源，...
 ---
 
 

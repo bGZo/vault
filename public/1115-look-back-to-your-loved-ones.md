@@ -7,6 +7,7 @@ modified: 2025-11-15 11:33:27
 tags: ['weekly/1115']
 title: Look back to your loved ones
 type: writing
+description: Last tonight I read a tweet thread written by SahilBloom, which really sparked me. Since Covid-19, little by little, I realized the precious nature of time with people I care most deeply about. When I...
 ---
 
 

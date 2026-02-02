@@ -5,6 +5,7 @@ aliases: How to found rss
 created: 2025-06-12 22:28:05
 modified: 2025-06-12 22:28:31
 type: how-to
+description: Some websites will include element whose type is application/atom+xml or application/rss+xml. They would include RSS link. And following are some address they mostly used: Source via: https://note.bgz...
 ---
 
 Some websites will include element whose type is `application/atom+xml` or `application/rss+xml`. They would include RSS link.

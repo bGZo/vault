@@ -5,6 +5,7 @@ aliases: ['How to make clipboard across devices', '剪切板同步']
 created: 2025-06-02 11:04:33
 modified: 2025-06-02 11:52:27
 type: how-to
+description: Apple Native Support Wi-Fi communication Kde Connect Localsend Others https://syncboard.framer.website https://www.altcopy.net Bluetooth communication (Progress) send message via bluetooth (between iO...
 ---
 
 ## Apple Native Support

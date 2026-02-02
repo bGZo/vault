@@ -4,6 +4,7 @@ aliases: ['How to choose package management', 'Package-management']
 created: 2025-04-06 15:30:19
 modified: 2025-07-16 20:44:21
 title: How to choose package management
+description: 跨平臺 | | Windows | Debian | archlinux | MacOS | Mark | | --------------------------- | :-----: | :----: | :-----------: | :---: | ------------------------------- | | winget | ✅ | ❌ | ❌ | ❌ | | | scoop ...
 ---
 
 

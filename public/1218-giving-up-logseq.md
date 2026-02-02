@@ -7,6 +7,7 @@ modified: 2025-11-15 11:33:28
 tags: ['weekly/1218']
 title: Giving up Logseq
 type: writing
+description: Okey, I know it's ridiculous and hard to say: I give up logseq-logseq. I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released ve...
 ---
 
 

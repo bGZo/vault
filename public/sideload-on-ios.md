@@ -7,6 +7,7 @@ modified: 2026-01-02 23:41:18
 tags: []
 title: Sideload-on-ios
 type: how-to
+description: Troll Store How it works? The latest releases of TrollStore (specifically 2.0 and later) work through the use of a CoreTrust bug in which code signatures are not correctly verified under certain circu...
 ---
 
 

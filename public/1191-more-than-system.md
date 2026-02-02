@@ -7,6 +7,7 @@ modified: 2025-11-15 11:33:28
 tags: ['weekly/1191']
 title: 超越系統
 type: writing
+description: via: https://www.youtube.com/watch?v=2vjPBrBU-TM via: https://www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, ...
 ---
 
 

@@ -7,6 +7,7 @@ modified: 2025-11-15 11:33:28
 tags: ['self-healing', 'weekly/1189']
 title: 溼疹復發
 type: writing
+description: via: https://www.youtube.com/watch?v=zABLecsR5UE I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I w...
 ---
 
 

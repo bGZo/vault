@@ -4,6 +4,7 @@ aliases: ['How to run program in background', 'Run-program-in-background']
 created: 2025-07-19 12:08:14
 modified: 2025-07-19 12:09:09
 title: How to run program in background
+description: Windows index tmux nohup bg References What's the nohup on Windows? - Stack Overflow What is the equivalent of 'nohup' in linux PowerShell? - Stack Overflow Start-Process (Microsoft.PowerShell.Managem...
 ---
 
 

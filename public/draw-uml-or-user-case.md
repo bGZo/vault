@@ -5,6 +5,7 @@ aliases: How to draw uml or user-case
 created: 2025-06-14 22:07:16
 modified: 2025-06-14 22:17:38
 type: how-to
+description: drawio-desktop via: https://app.diagrams.net excalidraw via: https://excalidraw.com/ Source via: https://note.bgzo.cc/how-to/draw-uml-or-user-case
 ---
 
 ## drawio-desktop

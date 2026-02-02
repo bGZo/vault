@@ -4,6 +4,7 @@ aliases: ['如何構建命令行程序', 'How to build commnd-line program']
 created: 2025-08-30 15:19:36
 modified: 2025-08-30 15:20:49
 title: How to build commnd-line program
+description: python3 argparse document via: https://docs.python.org/3/library/argparse.html#module-argparse, https://docs.python.org/3/howto/argparse.html click via: https://www.youtube.com/watch?v=FWacanslfFM get...
 ---
 
 
