@@ -24,6 +24,7 @@ const config: QuartzConfig = {
       ".utils",
       ".idea",
       "templates",
+      "templaters",
       "dashboard",
     ],
     defaultDateType: "created",
