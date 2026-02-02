@@ -149,6 +149,53 @@ def remove_h1_headers(markdown_text):
     # 重新组合为字符串
     return '\n'.join(filtered_lines)
 
+def extract_summary(text, length=200):
+    """
+    从 Markdown 文本中提取纯文本摘要
+    1. 移除代码块、图片、HTML
+    2. 将标题、列表、链接等转换为纯文本
+    3. 压缩连续空白
+    """
+    if not text:
+        return ""
+
+    # 1. 移除代码块 (```...```)
+    text = re.sub(r'```[\s\S]*?```', '', text)
+    
+    # 2. 移除图片 ![]()
+    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)
+    
+    # 3. 移除 HTML 标签
+    text = re.sub(r'<[^>]+>', '', text)
+    
+    # 4. 移除 H1-H6 标题符号，只保留文本
+    text = re.sub(r'^\s*#{1,6}\s+', '', text, flags=re.MULTILINE)
+
+    # 5. 移除链接格式 [text](url) -> text
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+
+    # 6. 移除粗体/斜体
+    text = re.sub(r'(\*\*|__)(.*?)\1', r'\2', text)
+    text = re.sub(r'(\*|_)(.*?)\1', r'\2', text)
+
+    # 7. 移除行内代码 `code`
+    text = re.sub(r'`([^`]+)`', r'\1', text)
+
+    # 8. 移除引用符号 >
+    text = re.sub(r'^\s*>\s+', '', text, flags=re.MULTILINE)
+
+    # 9. 移除列表符号
+    text = re.sub(r'^\s*[-*+]\s+', '', text, flags=re.MULTILINE)
+
+    # 10. 替换所有空白字符（包括换行）为单个空格
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    # 截取长度
+    if len(text) > length:
+        return text[:length] + '...'
+    
+    return text
+
 def process_markdown_file(input_path, file_path, filename, output_dir):
     """
     处理单个Markdown文件
@@ -199,6 +246,14 @@ def process_markdown_file(input_path, file_path, filename, output_dir):
                 elif isinstance(value, list):
                     value = [convert_to_traditional(str(v)) for v in value]
                 f.write(f"{key}: {value}\n")
+
+            # 特殊处理 description 字段
+            description = post.get('description', '')
+            if not description or not isinstance(description, str) or description.strip() == '':
+                # 在 Python 3.12 之前的版本中，f-string 的表达式部分（即 {} 内部）不允许使用反斜杠 \。
+                summary = extract_summary(traditional_content)
+                f.write(f"description: {summary}\n")
+
             f.write('---\n\n')
             f.write(traditional_content)
         
