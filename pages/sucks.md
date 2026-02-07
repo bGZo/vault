@@ -38,7 +38,7 @@ title: Sucks
 	- 微信小程序付费
 	- ......
 5. Account cannot be deleted, cannot be exported | 无法删除, 无法导
-6. Product never has [[changelog|changelog]]
+6. Product never has [[20260204-before|changelog]]
 	1. 我不需要看你的文档 (Intro Articles), 拜托, 只需要告诉我和上个版本有什么变化就可以 (有一点点傲慢), 摆脱对他人搬运的依赖. 就像是处理内容农场一样
 
 ## 2dFans
